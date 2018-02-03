@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_coalizioni"
+            android:icon="@drawable/ic_menu_coalizioni"
+            android:title="Coalizioni" />
+        <item
+            android:id="@+id/nav_partiti"
+            android:icon="@drawable/ic_menu_partiti"
+            android:title="Partiti" />
+        <item
+            android:id="@+id/nav_candidati"
+            android:icon="@drawable/ic_menu_candidati"
+            android:title="Candidati" />
+        <item
+            android:id="@+id/nav_programmi"
+            android:icon="@drawable/ic_menu_programmi"
+            android:title="Programmi" />
+    </group>
+
+</menu>
