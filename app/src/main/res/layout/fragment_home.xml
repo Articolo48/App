@@ -9,12 +9,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_gravity="center"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:drawableTop="@drawable/ic_menu_coalizioni"
             android:text="coalizioni" />
 
@@ -22,6 +24,7 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:drawableTop="@drawable/ic_menu_partiti"
             android:text="partiti" />
 
@@ -29,6 +32,7 @@
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:drawableTop="@drawable/ic_menu_programmi"
             android:text="programmi" />
 
@@ -36,6 +40,7 @@
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:drawableTop="@drawable/ic_menu_candidati"
             android:text="candidati" />
 
@@ -43,6 +48,7 @@
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_menu_comesivota"
             android:text="come si vota" />
     </LinearLayout>
 </FrameLayout>

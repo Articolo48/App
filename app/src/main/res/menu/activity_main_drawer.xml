@@ -25,6 +25,11 @@
             android:id="@+id/nav_programmi"
             android:icon="@drawable/ic_menu_programmi"
             android:title="Programmi" />
+        android:title="Come si vota" />
+        <item
+            android:id="@+id/nav_comesivota"
+            android:icon="@drawable/ic_menu_comesivota"
+            android:title="Come si vota" />
     </group>
 
 </menu>

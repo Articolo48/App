@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
         Fragment fragment = null;
+
         Class fragmentClass = null;
 
         switch (id){
@@ -106,6 +107,9 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.nav_programmi:
                 fragmentClass = Programmi.class;
+                break;
+            case R.id.nav_comesivota:
+                fragmentClass = ComeSiVota.class;
                 break;
             default:
                 fragmentClass = Home.class;
