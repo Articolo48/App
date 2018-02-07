@@ -24,21 +24,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@drawable/pd" />
+                    android:src="@drawable/pd"
+                    android:scaleType="fitCenter"/>
 
                 <ImageButton
                     android:id="@+id/forzaitalia"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
                     android:layout_weight="1"
-                    android:src="@drawable/forza_italia" />
+                    android:src="@drawable/forza_italia"
+                    android:scaleType="fitCenter"/>
 
                 <ImageButton
                     android:id="@+id/fratelliditalia"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
                     android:layout_weight="1"
-                    android:src="@drawable/fratelli_d_italia" />
+                    android:src="@drawable/fratelli_d_italia"
+                    android:scaleType="fitCenter"/>
 
             </TableRow>
 
@@ -49,24 +52,27 @@
 
                 <ImageButton
                     android:id="@+id/piueuropa"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
                     android:layout_weight="1"
-                    android:src="@drawable/piu_europa" />
+                    android:src="@drawable/piu_europa"
+                    android:scaleType="fitCenter"/>
 
                 <ImageButton
                     android:id="@+id/lega"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
                     android:layout_weight="1"
-                    android:src="@drawable/lega" />
+                    android:src="@drawable/lega"
+                    android:scaleType="fitCenter"/>
 
                 <ImageButton
                     android:id="@+id/insieme"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
                     android:layout_weight="1"
-                    android:src="@drawable/insieme" />
+                    android:src="@drawable/insieme"
+                    android:scaleType="fitCenter"/>
             </TableRow>
 
             <TableRow
@@ -76,24 +82,27 @@
 
                 <ImageButton
                     android:id="@+id/casapound"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
                     android:layout_weight="1"
-                    android:src="@drawable/casa_pound" />
+                    android:src="@drawable/casa_pound"
+                    android:scaleType="fitCenter"/>
 
                 <ImageButton
                     android:id="@+id/udeur"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
                     android:layout_weight="1"
-                    android:src="@drawable/udeur" />
+                    android:src="@drawable/udeur"
+                    android:scaleType="fitCenter"/>
 
                 <ImageButton
                     android:id="@+id/noiconlitalia"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
                     android:layout_weight="1"
-                    android:src="@drawable/noi_con_l_italia" />
+                    android:src="@drawable/noi_con_l_italia"
+                    android:scaleType="fitCenter"/>
             </TableRow>
 
             <TableRow
@@ -103,24 +112,27 @@
 
                 <ImageButton
                     android:id="@+id/liberiuguali"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
                     android:layout_weight="1"
-                    android:src="@drawable/liberi_uguali" />
+                    android:src="@drawable/liberi_uguali"
+                    android:scaleType="fitCenter"/>
 
                 <ImageButton
                     android:id="@+id/movimento5stelle"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
                     android:layout_weight="1"
-                    android:src="@drawable/movimento_5_stelle" />
+                    android:src="@drawable/movimento_5_stelle"
+                    android:scaleType="fitCenter"/>
 
                 <ImageButton
                     android:id="@+id/poterealpopolo"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
                     android:layout_weight="1"
-                    android:src="@drawable/potere_al_popolo" />
+                    android:src="@drawable/potere_al_popolo"
+                    android:scaleType="fitCenter"/>
             </TableRow>
 
             <TableRow
@@ -130,10 +142,11 @@
 
                 <ImageButton
                     android:id="@+id/rinascimento"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
                     android:layout_weight="1"
-                    android:src="@drawable/rinascimento" />
+                    android:src="@drawable/rinascimento"
+                    android:scaleType="fitCenter"/>
             </TableRow>
 
 

@@ -4,9 +4,12 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -66,7 +69,66 @@ public class Home extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         getActivity().setTitle("Articolo48");
-        return inflater.inflate(R.layout.fragment_home, container, false);
+
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+
+        final Button coalizioni = (Button) view.findViewById(R.id.but_coalizioni);
+        final Button partiti    = (Button) view.findViewById(R.id.but_partiti);
+        final Button programmi  = (Button) view.findViewById(R.id.but_programmi);
+        final Button candidati  = (Button) view.findViewById(R.id.but_candidati);
+        final Button comesivota = (Button) view.findViewById(R.id.but_comesivota);
+
+        coalizioni.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag_colazioni = new Coalizioni();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag_colazioni).addToBackStack(null) .commit();
+            }
+        });
+
+        partiti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag_partiti = new Partiti();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag_partiti).addToBackStack(null).commit();
+            }
+        });
+
+        programmi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag_programmi = new Programmi();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag_programmi).addToBackStack(null).commit();
+            }
+        });
+
+        candidati.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag_candidati = new Candidati();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag_candidati).addToBackStack(null).commit();
+            }
+        });
+
+        comesivota.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag_comesivota = new ComeSiVota();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag_comesivota).addToBackStack(null).commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
