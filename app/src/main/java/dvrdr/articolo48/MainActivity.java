@@ -17,7 +17,8 @@ import android.support.v4.app.FragmentManager;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, Home.OnFragmentInteractionListener,
         Coalizioni.OnFragmentInteractionListener, Partiti.OnFragmentInteractionListener, Programmi.OnFragmentInteractionListener,
-        Candidati.OnFragmentInteractionListener, ComeSiVota.OnFragmentInteractionListener {
+        Candidati.OnFragmentInteractionListener, ComeSiVota.OnFragmentInteractionListener, Pd.OnFragmentInteractionListener,
+        Lega.OnFragmentInteractionListener, ForzaItalia.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -71,7 +71,11 @@ public class Partiti extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_partiti, container, false);
 
-        final ImageButton pd = (ImageButton) view.findViewById(R.id.pd);
+        final ImageButton pd   = (ImageButton) view.findViewById(R.id.pd);
+        final ImageButton lega = (ImageButton) view.findViewById(R.id.lega);
+        final ImageButton forzaitalia = (ImageButton) view.findViewById(R.id.forzaitalia);
+
+
         pd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -81,6 +85,27 @@ public class Partiti extends Fragment {
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag_pd).addToBackStack(null) .commit();
             }
         });
+
+        lega.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag_lega = new Lega();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag_lega).addToBackStack(null) .commit();
+            }
+        });
+
+        forzaitalia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag_forzaitalia = new ForzaItalia();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag_forzaitalia).addToBackStack(null) .commit();
+            }
+        });
+
         return view;
     }
 
