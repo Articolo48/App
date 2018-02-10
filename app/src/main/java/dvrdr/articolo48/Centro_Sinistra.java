@@ -12,14 +12,14 @@ import android.widget.ImageButton;
 
 
 /**
- * A fragment with a Google +1 button.
+ * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Coalizioni.OnFragmentInteractionListener} interface
+ * {@link Centro_Sinistra.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link Coalizioni#newInstance} factory method to
+ * Use the {@link Centro_Sinistra#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Coalizioni extends Fragment {
+public class Centro_Sinistra extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -31,7 +31,7 @@ public class Coalizioni extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public Coalizioni() {
+    public Centro_Sinistra() {
         // Required empty public constructor
     }
 
@@ -41,11 +41,11 @@ public class Coalizioni extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Coalizioni.
+     * @return A new instance of fragment Centro_Sinistra.
      */
     // TODO: Rename and change types and number of parameters
-    public static Coalizioni newInstance(String param1, String param2) {
-        Coalizioni fragment = new Coalizioni();
+    public static Centro_Sinistra newInstance(String param1, String param2) {
+        Centro_Sinistra fragment = new Centro_Sinistra();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -66,27 +66,49 @@ public class Coalizioni extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("Coalizioni");
+        getActivity().setTitle("Centro Sinistra");
 
-        View view = inflater.inflate(R.layout.fragment_coalizioni, container, false);
+        View view = inflater.inflate(R.layout.fragment_centro__sinistra, container, false);
 
-        final ImageButton destra   = (ImageButton) view.findViewById(R.id.But_CentroDestra);
-        final ImageButton sinistra = (ImageButton) view.findViewById(R.id.But_CentroSinistra);
+        final ImageButton europa  = (ImageButton) view.findViewById(R.id.piu_europa);
+        final ImageButton pd      = (ImageButton) view.findViewById(R.id.pd);
+        final ImageButton insieme = (ImageButton) view.findViewById(R.id.insieme);
+        final ImageButton civica  = (ImageButton) view.findViewById(R.id.civica_popolare_lorenzin);
 
-        sinistra.setOnClickListener(new View.OnClickListener() {
+        europa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Centro_Sinistra();
+                Fragment frag = new PiuEuropa();
 
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
 
-        destra.setOnClickListener(new View.OnClickListener() {
+        insieme.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Centro_Destra();
+                Fragment frag = new Insieme();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        pd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Pd();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        civica.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Civica_Lorenzin();
 
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();

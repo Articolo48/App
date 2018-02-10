@@ -71,38 +71,60 @@ public class Partiti extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_partiti, container, false);
 
+        final ImageButton autodeterminazione   = (ImageButton) view.findViewById(R.id.autodeterminazione);
+        final ImageButton blocco_nazionale     = (ImageButton) view.findViewById(R.id.blocco_nazionale_per_la_liberta);
+
         final ImageButton pd   = (ImageButton) view.findViewById(R.id.pd);
         final ImageButton lega = (ImageButton) view.findViewById(R.id.lega);
         final ImageButton forzaitalia = (ImageButton) view.findViewById(R.id.forzaitalia);
 
+        autodeterminazione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Autodeterminazione();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        blocco_nazionale.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Blocco_Nazionale();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
 
         pd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag_pd = new Pd();
+                Fragment frag = new Pd();
 
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag_pd).addToBackStack(null) .commit();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
 
         lega.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag_lega = new Lega();
+                Fragment frag = new Lega();
 
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag_lega).addToBackStack(null) .commit();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
 
         forzaitalia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag_forzaitalia = new ForzaItalia();
+                Fragment frag = new ForzaItalia();
 
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag_forzaitalia).addToBackStack(null) .commit();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
 

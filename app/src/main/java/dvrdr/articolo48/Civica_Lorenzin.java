@@ -4,22 +4,20 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 
 
 /**
- * A fragment with a Google +1 button.
+ * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Coalizioni.OnFragmentInteractionListener} interface
+ * {@link Civica_Lorenzin.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link Coalizioni#newInstance} factory method to
+ * Use the {@link Civica_Lorenzin#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Coalizioni extends Fragment {
+public class Civica_Lorenzin extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -31,7 +29,7 @@ public class Coalizioni extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public Coalizioni() {
+    public Civica_Lorenzin() {
         // Required empty public constructor
     }
 
@@ -41,11 +39,11 @@ public class Coalizioni extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Coalizioni.
+     * @return A new instance of fragment Civica_Lorenzin.
      */
     // TODO: Rename and change types and number of parameters
-    public static Coalizioni newInstance(String param1, String param2) {
-        Coalizioni fragment = new Coalizioni();
+    public static Civica_Lorenzin newInstance(String param1, String param2) {
+        Civica_Lorenzin fragment = new Civica_Lorenzin();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -66,34 +64,7 @@ public class Coalizioni extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("Coalizioni");
-
-        View view = inflater.inflate(R.layout.fragment_coalizioni, container, false);
-
-        final ImageButton destra   = (ImageButton) view.findViewById(R.id.But_CentroDestra);
-        final ImageButton sinistra = (ImageButton) view.findViewById(R.id.But_CentroSinistra);
-
-        sinistra.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag = new Centro_Sinistra();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
-
-        destra.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag = new Centro_Destra();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
-
-        return view;
+        return inflater.inflate(R.layout.fragment_civica__lorenzin, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event

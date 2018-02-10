@@ -17,8 +17,12 @@ import android.support.v4.app.FragmentManager;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, Home.OnFragmentInteractionListener,
         Coalizioni.OnFragmentInteractionListener, Partiti.OnFragmentInteractionListener, Programmi.OnFragmentInteractionListener,
-        Candidati.OnFragmentInteractionListener, ComeSiVota.OnFragmentInteractionListener, Pd.OnFragmentInteractionListener,
-        Lega.OnFragmentInteractionListener, ForzaItalia.OnFragmentInteractionListener{
+        Candidati.OnFragmentInteractionListener, ComeSiVota.OnFragmentInteractionListener,
+        Centro_Destra.OnFragmentInteractionListener, Centro_Sinistra.OnFragmentInteractionListener,
+        PiuEuropa.OnFragmentInteractionListener, Pd.OnFragmentInteractionListener, Insieme.OnFragmentInteractionListener, Civica_Lorenzin.OnFragmentInteractionListener,
+        Lega.OnFragmentInteractionListener, ForzaItalia.OnFragmentInteractionListener, Fratelli_Italia.OnFragmentInteractionListener, Noi.OnFragmentInteractionListener,
+        Autodeterminazione.OnFragmentInteractionListener,
+        Blocco_Nazionale.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

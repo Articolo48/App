@@ -1,6 +1,7 @@
 package dvrdr.articolo48;
 
 import android.content.Context;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -12,14 +13,14 @@ import android.widget.ImageButton;
 
 
 /**
- * A fragment with a Google +1 button.
+ * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Coalizioni.OnFragmentInteractionListener} interface
+ * {@link Centro_Destra.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link Coalizioni#newInstance} factory method to
+ * Use the {@link Centro_Destra#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Coalizioni extends Fragment {
+public class Centro_Destra extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -31,7 +32,7 @@ public class Coalizioni extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public Coalizioni() {
+    public Centro_Destra() {
         // Required empty public constructor
     }
 
@@ -41,11 +42,11 @@ public class Coalizioni extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Coalizioni.
+     * @return A new instance of fragment Centro_Destra.
      */
     // TODO: Rename and change types and number of parameters
-    public static Coalizioni newInstance(String param1, String param2) {
-        Coalizioni fragment = new Coalizioni();
+    public static Centro_Destra newInstance(String param1, String param2) {
+        Centro_Destra fragment = new Centro_Destra();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -66,27 +67,49 @@ public class Coalizioni extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("Coalizioni");
+        getActivity().setTitle("Centro Destra");
 
-        View view = inflater.inflate(R.layout.fragment_coalizioni, container, false);
+        View view = inflater.inflate(R.layout.fragment_centro__destra, container, false);
 
-        final ImageButton destra   = (ImageButton) view.findViewById(R.id.But_CentroDestra);
-        final ImageButton sinistra = (ImageButton) view.findViewById(R.id.But_CentroSinistra);
+        final ImageButton forza_italia    = (ImageButton) view.findViewById(R.id.forza_italia);
+        final ImageButton fratelli_italia = (ImageButton) view.findViewById(R.id.fratelli_d_italia);
+        final ImageButton lega            = (ImageButton) view.findViewById(R.id.lega);
+        final ImageButton noi            = (ImageButton) view.findViewById(R.id.noi_con_l_italia);
 
-        sinistra.setOnClickListener(new View.OnClickListener() {
+        forza_italia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Centro_Sinistra();
+                Fragment frag = new ForzaItalia();
 
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
 
-        destra.setOnClickListener(new View.OnClickListener() {
+        fratelli_italia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Centro_Destra();
+                Fragment frag = new Fratelli_Italia();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        lega.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Lega();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        noi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Noi();
 
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
