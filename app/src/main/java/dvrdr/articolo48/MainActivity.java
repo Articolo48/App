@@ -17,12 +17,40 @@ import android.support.v4.app.FragmentManager;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, Home.OnFragmentInteractionListener,
         Coalizioni.OnFragmentInteractionListener, Partiti.OnFragmentInteractionListener, Programmi.OnFragmentInteractionListener,
-        Candidati.OnFragmentInteractionListener, ComeSiVota.OnFragmentInteractionListener,
+        ComeSiVota.OnFragmentInteractionListener,
         Centro_Destra.OnFragmentInteractionListener, Centro_Sinistra.OnFragmentInteractionListener,
-        PiuEuropa.OnFragmentInteractionListener, Pd.OnFragmentInteractionListener, Insieme.OnFragmentInteractionListener, Civica_Lorenzin.OnFragmentInteractionListener,
-        Lega.OnFragmentInteractionListener, ForzaItalia.OnFragmentInteractionListener, Fratelli_Italia.OnFragmentInteractionListener, Noi.OnFragmentInteractionListener,
+        PiuEuropa.OnFragmentInteractionListener, Pd.OnFragmentInteractionListener, Insieme.OnFragmentInteractionListener, CivicaPopolareLorenzin.OnFragmentInteractionListener,
+        Lega.OnFragmentInteractionListener, ForzaItalia.OnFragmentInteractionListener, FratelliDItalia.OnFragmentInteractionListener, NoiConLItalia.OnFragmentInteractionListener,
         Autodeterminazione.OnFragmentInteractionListener,
-        Blocco_Nazionale.OnFragmentInteractionListener{
+        Blocco_Nazionale.OnFragmentInteractionListener,
+        CasaPound.OnFragmentInteractionListener,
+        DemocraziaCristiana.OnFragmentInteractionListener,
+        DestreUnite.OnFragmentInteractionListener,
+        DieciVolteMeglio.OnFragmentInteractionListener,
+        FreeFlightsToItaly.OnFragmentInteractionListener,
+        FronteFriuliano.OnFragmentInteractionListener,
+        GrandeNord.OnFragmentInteractionListener,
+        IlPopoloDellaFamiglia.OnFragmentInteractionListener,
+        ItaliaAgliItaliani.OnFragmentInteractionListener,
+        LiberiUguali.OnFragmentInteractionListener,
+        ListaDelPopoloDellaCostituzione.OnFragmentInteractionListener,
+        Maie.OnFragmentInteractionListener,
+        Mic.OnFragmentInteractionListener,
+        Movimento5Stelle.OnFragmentInteractionListener,
+        MovimentoDellaLiberta.OnFragmentInteractionListener,
+        PartitoComunista.OnFragmentInteractionListener,
+        PartitoRepubblicanoItaliano.OnFragmentInteractionListener,
+        PartitoValoreUmano.OnFragmentInteractionListener,
+        PattoPerLAutonomia.OnFragmentInteractionListener,
+        PotereAlPopolo.OnFragmentInteractionListener,
+        Ppa.OnFragmentInteractionListener,
+        Rinascimento.OnFragmentInteractionListener,
+        Siamo.OnFragmentInteractionListener,
+        SinistraRivoluzionaria.OnFragmentInteractionListener,
+        Sms.OnFragmentInteractionListener,
+        Svp.OnFragmentInteractionListener,
+        Unital.OnFragmentInteractionListener,
+        Usei.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -106,9 +134,6 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.nav_partiti:
                 fragmentClass = Partiti.class;
-                break;
-            case R.id.nav_candidati:
-                fragmentClass = Candidati.class;
                 break;
             case R.id.nav_programmi:
                 fragmentClass = Programmi.class;

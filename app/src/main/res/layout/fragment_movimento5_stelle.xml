@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="dvrdr.articolo48.Movimento5Stelle">
+
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -12,12 +13,40 @@
             android:layout_height="match_parent" >
 
             <ImageView
-                android:id="@+id/Movimento5Stelle"
+                android:id="@+id/movimento_5_stelle"
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 android:layout_weight="1"
                 android:src="@drawable/movimento_5_stelle" />
         </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/Candidato_Premier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Capo forza politica: Luigi Di Maio"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sito web: www.movimento5stelle.it"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="18sp"
+                android:autoLink="web"/>
+        </TableRow>
+
 
         <TableRow
             android:layout_width="match_parent"
@@ -227,11 +256,17 @@
                             android:layout_weight="1"
                             android:drawableTop="@drawable/ic_button_turismo"
                             android:text="Turismo" />
+
+                        <Button
+                            android:id="@+id/empty"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="" />
                     </TableRow>
                 </TableLayout>
             </ScrollView>
         </TableRow>
 
     </TableLayout>
-
 </FrameLayout>

@@ -74,7 +74,7 @@ public class Centro_Destra extends Fragment {
         final ImageButton forza_italia    = (ImageButton) view.findViewById(R.id.forza_italia);
         final ImageButton fratelli_italia = (ImageButton) view.findViewById(R.id.fratelli_d_italia);
         final ImageButton lega            = (ImageButton) view.findViewById(R.id.lega);
-        final ImageButton noi            = (ImageButton) view.findViewById(R.id.noi_con_l_italia);
+        final ImageButton noi             = (ImageButton) view.findViewById(R.id.noi_con_l_italia);
 
         forza_italia.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -89,7 +89,7 @@ public class Centro_Destra extends Fragment {
         fratelli_italia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Fratelli_Italia();
+                Fragment frag = new FratelliDItalia();
 
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -109,7 +109,7 @@ public class Centro_Destra extends Fragment {
         noi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Noi();
+                Fragment frag = new NoiConLItalia();
 
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();

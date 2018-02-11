@@ -13,12 +13,40 @@
             android:layout_height="match_parent" >
 
             <ImageView
-                android:id="@+id/NoiConLItalia"
+                android:id="@+id/noi_con_l_italia"
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 android:layout_weight="1"
                 android:src="@drawable/noi_con_l_italia" />
         </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/Candidato_Premier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Capo forza politica: Raffaele Fitto"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sito web: non presente"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="18sp"
+                android:autoLink="web"/>
+        </TableRow>
+
 
         <TableRow
             android:layout_width="match_parent"
@@ -228,10 +256,18 @@
                             android:layout_weight="1"
                             android:drawableTop="@drawable/ic_button_turismo"
                             android:text="Turismo" />
+
+                        <Button
+                            android:id="@+id/empty"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="" />
                     </TableRow>
                 </TableLayout>
             </ScrollView>
         </TableRow>
 
     </TableLayout>
+
 </FrameLayout>

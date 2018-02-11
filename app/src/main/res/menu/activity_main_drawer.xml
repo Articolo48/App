@@ -18,10 +18,6 @@
             android:icon="@drawable/ic_menu_partiti"
             android:title="Partiti" />
         <item
-            android:id="@+id/nav_candidati"
-            android:icon="@drawable/ic_menu_candidati"
-            android:title="Candidati Leader" />
-        <item
             android:id="@+id/nav_programmi"
             android:icon="@drawable/ic_menu_programmi"
             android:title="Programmi" />

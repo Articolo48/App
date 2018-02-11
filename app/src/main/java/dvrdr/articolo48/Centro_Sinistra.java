@@ -108,7 +108,7 @@ public class Centro_Sinistra extends Fragment {
         civica.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Civica_Lorenzin();
+                Fragment frag = new CivicaPopolareLorenzin();
 
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();

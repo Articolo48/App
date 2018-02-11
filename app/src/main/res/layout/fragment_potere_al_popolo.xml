@@ -13,12 +13,40 @@
             android:layout_height="match_parent" >
 
             <ImageView
-                android:id="@+id/PotereAlPopolo"
+                android:id="@+id/potere_al_popolo"
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 android:layout_weight="1"
                 android:src="@drawable/potere_al_popolo" />
         </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/Candidato_Premier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Capo forza politica: Viola Carofalo"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sito web: www.poterealpopolo.org"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="18sp"
+                android:autoLink="web"/>
+        </TableRow>
+
 
         <TableRow
             android:layout_width="match_parent"
@@ -228,6 +256,13 @@
                             android:layout_weight="1"
                             android:drawableTop="@drawable/ic_button_turismo"
                             android:text="Turismo" />
+
+                        <Button
+                            android:id="@+id/empty"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="" />
                     </TableRow>
                 </TableLayout>
             </ScrollView>
