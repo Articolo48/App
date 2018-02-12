@@ -64,7 +64,7 @@ public class Blocco_Nazionale extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("Blocco nazionale");
+        getActivity().setTitle("Blocco Nazionale Per Le Libertà");
 
         return inflater.inflate(R.layout.fragment_blocco__nazionale, container, false);
     }

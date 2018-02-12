@@ -13,11 +13,11 @@
             android:layout_height="match_parent" >
 
             <ImageView
-                android:id="@+id/autodeterminazione"
+                android:id="@+id/free_flights_to_italy"
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 android:layout_weight="1"
-                android:src="@drawable/autodeterminazione"
+                android:src="@drawable/free_flights_to_italy"
                 android:contentDescription="@string/action_settings"/>
         </TableRow>
 
@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Capo forza politica: Anthony Muroni"
+                android:text="Capo forza politica: Giuseppe Macario"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:textSize="18sp" />
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Sito web: non presente"
+                android:text="Sito web: www.freeflightstoitaly.ngo"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:textSize="18sp"

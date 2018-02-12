@@ -64,6 +64,8 @@ public class ItaliaAgliItaliani extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("Italia Agli Italiani");
+
         return inflater.inflate(R.layout.fragment_italia_agli_italiani, container, false);
     }
 

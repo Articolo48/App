@@ -64,7 +64,7 @@ public class Pd extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        //getActivity().setTitle("PD - Partito Democratico");
+        getActivity().setTitle("PD - Partito Democratico");
 
         return inflater.inflate(R.layout.fragment_pd, container, false);
     }

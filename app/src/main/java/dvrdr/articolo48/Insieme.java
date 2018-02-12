@@ -64,6 +64,8 @@ public class Insieme extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("Italia Europa Insieme");
+
         return inflater.inflate(R.layout.fragment_insieme, container, false);
     }
 

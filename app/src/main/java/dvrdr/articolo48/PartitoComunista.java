@@ -64,6 +64,7 @@ public class PartitoComunista extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("Partito Comunista");
         return inflater.inflate(R.layout.fragment_partito_comunista, container, false);
     }
 

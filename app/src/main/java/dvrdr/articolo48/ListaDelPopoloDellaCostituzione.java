@@ -64,6 +64,8 @@ public class ListaDelPopoloDellaCostituzione extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("Lista Del Popolo Per La Costituzione");
+
         return inflater.inflate(R.layout.fragment_lista_del_popolo_della_costituzione, container, false);
     }
 

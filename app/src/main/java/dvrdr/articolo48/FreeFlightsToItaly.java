@@ -64,6 +64,8 @@ public class FreeFlightsToItaly extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("Free Flights To Italy");
+
         return inflater.inflate(R.layout.fragment_free_flights_to_italy, container, false);
     }
 

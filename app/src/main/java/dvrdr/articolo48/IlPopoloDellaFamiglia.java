@@ -64,6 +64,8 @@ public class IlPopoloDellaFamiglia extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("Il Popolo Della Famiglia");
+
         return inflater.inflate(R.layout.fragment_il_popolo_della_famiglia, container, false);
     }
 

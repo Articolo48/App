@@ -64,6 +64,8 @@ public class Movimento5Stelle extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("Movimento 5 Stelle");
+
         return inflater.inflate(R.layout.fragment_movimento5_stelle, container, false);
     }
 

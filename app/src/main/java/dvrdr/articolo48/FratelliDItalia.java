@@ -64,6 +64,8 @@ public class FratelliDItalia extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("Fratelli D'Italia Con Giorgia Meloni");
+
         return inflater.inflate(R.layout.fragment_fratelli_ditalia, container, false);
     }
 

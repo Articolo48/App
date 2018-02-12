@@ -75,7 +75,6 @@ public class Home extends Fragment {
         final Button coalizioni = (Button) view.findViewById(R.id.but_coalizioni);
         final Button partiti    = (Button) view.findViewById(R.id.but_partiti);
         final Button programmi  = (Button) view.findViewById(R.id.but_programmi);
-        final Button candidati  = (Button) view.findViewById(R.id.but_candidati);
         final Button comesivota = (Button) view.findViewById(R.id.but_comesivota);
 
         coalizioni.setOnClickListener(new View.OnClickListener() {
@@ -105,16 +104,6 @@ public class Home extends Fragment {
 
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag_programmi).addToBackStack(null).commit();
-            }
-        });
-
-        candidati.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag_candidati = new Candidati();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag_candidati).addToBackStack(null).commit();
             }
         });
 

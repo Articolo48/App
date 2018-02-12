@@ -64,6 +64,8 @@ public class Svp extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("SVP - Sudtiroler Volkspartei");
+
         return inflater.inflate(R.layout.fragment_svp, container, false);
     }
 

@@ -64,6 +64,8 @@ public class PattoPerLAutonomia extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("Movimento Politico Patto Per L'Autonomia");
+
         return inflater.inflate(R.layout.fragment_patto_per_lautonomia, container, false);
     }
 

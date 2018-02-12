@@ -64,6 +64,8 @@ public class PartitoValoreUmano extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("Partito Valore Umano");
+
         return inflater.inflate(R.layout.fragment_partito_valore_umano, container, false);
     }
 

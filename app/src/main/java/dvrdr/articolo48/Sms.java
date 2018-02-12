@@ -64,6 +64,8 @@ public class Sms extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("SMS - Stato Moderno Solidale");
+
         return inflater.inflate(R.layout.fragment_sms, container, false);
     }
 
