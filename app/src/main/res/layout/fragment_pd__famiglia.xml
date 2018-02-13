@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dvrdr.articolo48.Pd_Famiglia">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/pd"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:src="@drawable/pd" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/Pd_Famiglia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=
+                        "* Vogliamo introdurre un assegno universale da 400 euro al mese per ogni figlio (fino ai 3 anni) che può essere speso per la retta dell’asilo nido o per il rimborso delle spese di baby sitter.\n\n
+* Negli scorsi cinque anni abbiamo esteso il congedo di paternità da 2 a 4 giorni. Ora vogliamo estenderlo a 10 giorni, per sempre. Vogliamo aiutare i genitori a condividere insieme le gioie e le sfide.\n\n
+* Finanzieremo un piano nazionale da 100 milioni di euro l’anno, per tutta la legislatura, per aumentare le possibilità di accesso agli asili nido."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textStyle="bold" />
+
+            </ScrollView>
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>

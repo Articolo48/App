@@ -48,14 +48,6 @@
             android:text="programmi" />
 
         <Button
-            android:id="@+id/but_candidati"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:drawableTop="@drawable/ic_menu_candidati"
-            android:text="candidati" />
-
-        <Button
             android:id="@+id/but_comesivota"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

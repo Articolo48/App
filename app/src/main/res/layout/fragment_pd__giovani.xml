@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dvrdr.articolo48.Pd_Giovani">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/pd"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:src="@drawable/pd" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/Pd_Giovani"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=
+"* Amplieremo il riconoscimento ufficiale di titoli, lauree, master, dottorati, specializzazioni post-laurea, abilitazioni e specializzazioni mediche per gli italiani all'estero.\n\n
+* Nei prossimi 5 anni si verificherà un picco di pensionamenti nella Pubblica Amministrazione, circa 450 mila persone. Sarà così possibile assumere centinaia di migliaia di giovani con nuove competenze.\n\n
+* Proponiamo una detrazione fiscale di 150 euro al mese per chi ha meno di 30 anni e firma un contratto d’affitto. Vogliamo dare una mano a chi vuole essere autonomo, e alle loro famiglie\n\n"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textStyle="bold" />
+
+            </ScrollView>
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>
