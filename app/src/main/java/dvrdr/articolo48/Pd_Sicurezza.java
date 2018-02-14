@@ -64,7 +64,7 @@ public class Pd_Sicurezza extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("PD - Sicurezza");
+        getActivity().setTitle("Sicurezza");
         return inflater.inflate(R.layout.fragment_pd__sicurezza, container, false);
     }
 

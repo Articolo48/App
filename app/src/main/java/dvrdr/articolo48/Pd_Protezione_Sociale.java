@@ -64,7 +64,7 @@ public class Pd_Protezione_Sociale extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("PD - Protezione Sociale");
+        getActivity().setTitle("Protezione Sociale");
         return inflater.inflate(R.layout.fragment_pd__protezione__sociale, container, false);
     }
 

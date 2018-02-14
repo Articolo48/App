@@ -58,8 +58,9 @@ public class MainActivity extends AppCompatActivity
         Sms.OnFragmentInteractionListener,
         Svp.OnFragmentInteractionListener,
         Unital.OnFragmentInteractionListener,
-        Usei.OnFragmentInteractionListener{
-
+        Usei.OnFragmentInteractionListener,
+        Movimento5Stelle_Agroalimentare.OnFragmentInteractionListener, Movimento5Stelle_Ambiente.OnFragmentInteractionListener, Movimento5Stelle_Banche.OnFragmentInteractionListener, Movimento5Stelle_Cultura.OnFragmentInteractionListener, Movimento5Stelle_Diritti.OnFragmentInteractionListener, Movimento5Stelle_Estero.OnFragmentInteractionListener, Movimento5Stelle_Famiglia.OnFragmentInteractionListener, Movimento5Stelle_Fisco.OnFragmentInteractionListener, Movimento5Stelle_Giustizia.OnFragmentInteractionListener, Movimento5Stelle_Governo.OnFragmentInteractionListener, Movimento5Stelle_Immigrazione.OnFragmentInteractionListener, Movimento5Stelle_Impresa.OnFragmentInteractionListener, Movimento5Stelle_Infrastruttura.OnFragmentInteractionListener, Movimento5Stelle_Istruzione.OnFragmentInteractionListener, Movimento5Stelle_Lavoro.OnFragmentInteractionListener, Movimento5Stelle_Previdenza.OnFragmentInteractionListener, Movimento5Stelle_Protezione_Sociale.OnFragmentInteractionListener, Movimento5Stelle_Salute.OnFragmentInteractionListener, Movimento5Stelle_Sicurezza.OnFragmentInteractionListener, Movimento5Stelle_Tecnologia.OnFragmentInteractionListener, Movimento5Stelle_Unione_Europa.OnFragmentInteractionListener
+{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

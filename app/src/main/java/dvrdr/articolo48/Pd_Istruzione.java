@@ -64,7 +64,7 @@ public class Pd_Istruzione extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("PD - Istruzione");
+        getActivity().setTitle("Istruzione");
         return inflater.inflate(R.layout.fragment_pd__istruzione, container, false);
     }
 
