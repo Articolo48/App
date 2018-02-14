@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="dvrdr.articolo48.Pd_Infrastruttura">
+    tools:context="dvrdr.articolo48.Pd_Previdenza">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -34,11 +34,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text=
-"* Finanzieremo l'acquisto di nuovo materiale rotabile e bus per dimezzare l’età media della flotta entro la fine della legislatura.\n\n
-* Realizzeremo quattro ciclovie nazionali: la Veneto/Torino (Vento), il Grande Raccordo Anulare delle Bici a Roma (Grab), la ciclovia del Sole e quella Pugliese.\n\n
-* Abbiamo inaugurato Variante di Valico, Salerno-Reggio e Quadrilatero. Nei prossimi 5 anni completeremo la 106 Ionica, i cantieri siciliani, la Tirrenica, la Cispadana, la Asti-Cuneo, la Gronda.\n\n
-* Occorre continuare l’investimento già fatto per 1.500 km di piste ciclabili prevedendo bandi di finanziamento di percorsi ciclabili casa-scuola in ambito urbano e di collegamenti tra paesi e città.\n\n
-* Potenziando le linee esistenti, completando quelle in esecuzione ed estendendo la rete di trasporto. In particolare, vogliamo completare l’alta velocità ferroviaria."
+"* Proponiamo una pensione di garanzia con un livello di reddito pensionistico minimo di 750 euro mensili, garantito alle persone che sono nel sistema contributivo al compimento dell’età di vecchiaia.\n\n
+* Ridurremo drasticamente tutte le forme di privilegio ingiustificate nei trattamenti finanziati dallo Stato.\n\n
+* Vogliamo che chi ha compiuto 63 anni di età e vuole anticipare l’uscita dal mercato del lavoro possa farlo, con soluzioni adeguate alle proprie esigenze (anticipi pensionistici o redditi-ponte)."
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textStyle="bold" />
 

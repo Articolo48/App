@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="dvrdr.articolo48.Pd_Infrastruttura">
+    tools:context="dvrdr.articolo48.Pd_Lavoro">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -34,11 +34,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text=
-"* Finanzieremo l'acquisto di nuovo materiale rotabile e bus per dimezzare l’età media della flotta entro la fine della legislatura.\n\n
-* Realizzeremo quattro ciclovie nazionali: la Veneto/Torino (Vento), il Grande Raccordo Anulare delle Bici a Roma (Grab), la ciclovia del Sole e quella Pugliese.\n\n
-* Abbiamo inaugurato Variante di Valico, Salerno-Reggio e Quadrilatero. Nei prossimi 5 anni completeremo la 106 Ionica, i cantieri siciliani, la Tirrenica, la Cispadana, la Asti-Cuneo, la Gronda.\n\n
-* Occorre continuare l’investimento già fatto per 1.500 km di piste ciclabili prevedendo bandi di finanziamento di percorsi ciclabili casa-scuola in ambito urbano e di collegamenti tra paesi e città.\n\n
-* Potenziando le linee esistenti, completando quelle in esecuzione ed estendendo la rete di trasporto. In particolare, vogliamo completare l’alta velocità ferroviaria."
+"* Proponiamo una legge sulla rappresentanza sindacale per evitare che microsigle sindacali condizionino la vita di tutti i cittadini con scioperi selvaggi.\n\n
+* I lavoratori precari per lungo tempo e che non sono stabilizzati da chi li assume avranno diritto a una buonuscita proporzionale alla durata dei loro contratti.\n\n
+* Meno tasse a chi assume a tempo indeterminato: i contributi per le imprese caleranno dal 33% al 29% nei prossimi quattro anni, l’IRES scende al 22% Il lavoro che vale di più deve costare di meno.\n\n
+* Salario minimo garantito: nessun lavoratore potrà guadagnare meno di 9 euro all’ora, nessun contratto a tempo pieno potrà più comportare stipendi da fame. Per legge, senza eccezione, per tutti."
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textStyle="bold" />
 

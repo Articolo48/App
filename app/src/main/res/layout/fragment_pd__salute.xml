@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="dvrdr.articolo48.Pd_Infrastruttura">
+    tools:context="dvrdr.articolo48.Pd_Salute">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -34,11 +34,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text=
-"* Finanzieremo l'acquisto di nuovo materiale rotabile e bus per dimezzare l’età media della flotta entro la fine della legislatura.\n\n
-* Realizzeremo quattro ciclovie nazionali: la Veneto/Torino (Vento), il Grande Raccordo Anulare delle Bici a Roma (Grab), la ciclovia del Sole e quella Pugliese.\n\n
-* Abbiamo inaugurato Variante di Valico, Salerno-Reggio e Quadrilatero. Nei prossimi 5 anni completeremo la 106 Ionica, i cantieri siciliani, la Tirrenica, la Cispadana, la Asti-Cuneo, la Gronda.\n\n
-* Occorre continuare l’investimento già fatto per 1.500 km di piste ciclabili prevedendo bandi di finanziamento di percorsi ciclabili casa-scuola in ambito urbano e di collegamenti tra paesi e città.\n\n
-* Potenziando le linee esistenti, completando quelle in esecuzione ed estendendo la rete di trasporto. In particolare, vogliamo completare l’alta velocità ferroviaria."
+"* Aumentare i fondi nazionali per i farmaci innovativi, specie nel settore oncologico e nella ricerca contro le malattie rare, agevolando gli investimenti sulla ricerca farmaceutica in Italia.\n\n
+* Dopo aver voluto una indispensabile legge sull'obbligatorietà sui vaccini, ci impegneremo in una costante campagna contro le false notizie, antiscientifiche, che generano terrore e disinformazione.\n\n
+* Puntiamo sulla medicina territoriale per ridurre ospedalizzazioni evitabili e abbassare i costi per il sistema sanitario. Investiremo nell’utilizzo di nuove tecnologie per monitoraggio e prevenzione.\n\n
+* Liste d'attesa: promuoveremo in tutta Italia le migliori esperienze di alcune regioni in questi anni, al fine di garantire ai cittadini il pieno accesso ai servizi in tempi certi e ragionevoli."
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textStyle="bold" />
 

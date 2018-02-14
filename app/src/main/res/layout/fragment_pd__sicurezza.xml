@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="dvrdr.articolo48.Pd_Infrastruttura">
+    tools:context="dvrdr.articolo48.Pd_Sicurezza">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -34,11 +34,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text=
-"* Finanzieremo l'acquisto di nuovo materiale rotabile e bus per dimezzare l’età media della flotta entro la fine della legislatura.\n\n
-* Realizzeremo quattro ciclovie nazionali: la Veneto/Torino (Vento), il Grande Raccordo Anulare delle Bici a Roma (Grab), la ciclovia del Sole e quella Pugliese.\n\n
-* Abbiamo inaugurato Variante di Valico, Salerno-Reggio e Quadrilatero. Nei prossimi 5 anni completeremo la 106 Ionica, i cantieri siciliani, la Tirrenica, la Cispadana, la Asti-Cuneo, la Gronda.\n\n
-* Occorre continuare l’investimento già fatto per 1.500 km di piste ciclabili prevedendo bandi di finanziamento di percorsi ciclabili casa-scuola in ambito urbano e di collegamenti tra paesi e città.\n\n
-* Potenziando le linee esistenti, completando quelle in esecuzione ed estendendo la rete di trasporto. In particolare, vogliamo completare l’alta velocità ferroviaria."
+"* Valorizzeremo l’Agenzia per i Beni Confiscati per permettere una migliore gestione dei beni strappati alla mafia.\n\n
+* Stanzieremo fondi su nuove carceri e su ristrutturazione delle carceri esistenti, valorizzando la funzione rieducativa e garantendo la certezza della pena.\n\n
+* Investiremo nella cybersecurity, adottando tecnologie per proteggere chi naviga online. La sfida dei prossimi anni è rendere la Rete un luogo sempre più sicuro.\n\n
+* Finanzieremo l'installazione di 50.000 nuove videocamere per la sorveglianza su tutto il territorio nazionale, in modo da scoraggiare alcuni reati (a partire da furti ed estorsioni).\n\n
+* 10mila assunzioni l'anno di carabinieri, poliziotti, finanzieri, agenti penitenziari e vigili del fuoco per aumentare la presenza capillare sul territorio e la percezione effettiva della sicurezza."
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textStyle="bold" />
 

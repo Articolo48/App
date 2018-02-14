@@ -30,7 +30,7 @@
                 android:layout_weight="1">
 
                 <TextView
-                    android:id="@+id/Pd_Infrastruttura"
+                    android:id="@+id/Pd_Tema"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text=

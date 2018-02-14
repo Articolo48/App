@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="dvrdr.articolo48.Pd_Infrastruttura">
+    tools:context="dvrdr.articolo48.Pd_Unione_Europa">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -34,11 +34,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text=
-"* Finanzieremo l'acquisto di nuovo materiale rotabile e bus per dimezzare l’età media della flotta entro la fine della legislatura.\n\n
-* Realizzeremo quattro ciclovie nazionali: la Veneto/Torino (Vento), il Grande Raccordo Anulare delle Bici a Roma (Grab), la ciclovia del Sole e quella Pugliese.\n\n
-* Abbiamo inaugurato Variante di Valico, Salerno-Reggio e Quadrilatero. Nei prossimi 5 anni completeremo la 106 Ionica, i cantieri siciliani, la Tirrenica, la Cispadana, la Asti-Cuneo, la Gronda.\n\n
-* Occorre continuare l’investimento già fatto per 1.500 km di piste ciclabili prevedendo bandi di finanziamento di percorsi ciclabili casa-scuola in ambito urbano e di collegamenti tra paesi e città.\n\n
-* Potenziando le linee esistenti, completando quelle in esecuzione ed estendendo la rete di trasporto. In particolare, vogliamo completare l’alta velocità ferroviaria."
+"* L'Europa dovrà regolare la globalizzazione, punendo chi fa concorrenza sleale e sfrutta i lavoratori. Crediamo nel rispetto delle regole e non dei dazi che penalizzerebbero le esportazioni italiane.\n\n
+* Proponiamo finanziamenti europei (Eurobond) per finanziare progetti su capitale umano, ricerca e infrastrutture. È possibile investire il 5% del PIL dell'Eurozona per complessivi 540 miliardi di Euro.\n\n
+* Vogliamo l’elezione diretta del Presidente della Commissione Europea. È giusto che chi prende le decisioni a Bruxelles per conto di tutti gli europei sia scelto democraticamente dai cittadini."
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textStyle="bold" />
 
