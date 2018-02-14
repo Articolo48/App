@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity
         Pd.OnFragmentInteractionListener, Pd_Agroalimentare.OnFragmentInteractionListener, Pd_Ambiente.OnFragmentInteractionListener,
         Pd_Cultura.OnFragmentInteractionListener, Pd_Diritti.OnFragmentInteractionListener, Pd_Donne.OnFragmentInteractionListener,
         Pd_Famiglia.OnFragmentInteractionListener,Pd_Fisco.OnFragmentInteractionListener,Pd_Giovani.OnFragmentInteractionListener,
+        Pd_Giustizia.OnFragmentInteractionListener, Pd_Governo.OnFragmentInteractionListener, Pd_Immigrazione.OnFragmentInteractionListener,
+        Pd_Impresa.OnFragmentInteractionListener,Pd_Infrastruttura.OnFragmentInteractionListener, Pd_Istruzione.OnFragmentInteractionListener,
         PiuEuropa.OnFragmentInteractionListener,  Insieme.OnFragmentInteractionListener, CivicaPopolareLorenzin.OnFragmentInteractionListener,
         Lega.OnFragmentInteractionListener, ForzaItalia.OnFragmentInteractionListener, FratelliDItalia.OnFragmentInteractionListener, NoiConLItalia.OnFragmentInteractionListener,
         Autodeterminazione.OnFragmentInteractionListener,

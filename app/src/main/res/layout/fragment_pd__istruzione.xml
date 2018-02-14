@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dvrdr.articolo48.Pd_Istruzione">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/pd"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:src="@drawable/pd" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/Pd_Infrastruttura"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=
+"* Negli ultimi 5 abbiamo stanziato 10 miliardi di euro sull'edilizia scolastica (più sicurezza), per complessivi 11mila interventi. Intendiamo stanziare una cifra analoga per la prossima legislatura.\n\n
+* Porteremo a centomila gli studenti degli ITS (istituti tecnici superiori): nel tempo dell’intelligenza artificiale e della robotica, il futuro dell’Italia parte dalla formazione e dalle competenze.\n\n
+* Vogliamo potenziare l’offerta di tempo pieno nelle scuole elementari, portando in particolare i livelli del Mezzogiorno a quelli medi del Centro-Nord.\n\n
+* Vogliamo liberare la scuola e i dirigenti scolastici da compiti e funzioni non strettamente connessi al “fare scuola”, in modo che possano concentrarsi sulle attività didattiche e formative.\n\n
+* Proponiamo l'assunzione di 10 mila ricercatori nei prossimi 5 anni. Una misura che è fondamentale per affrontare i punti di crisi dell’università (divari territoriali e offerta formativa)."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textStyle="bold" />
+
+            </ScrollView>
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>

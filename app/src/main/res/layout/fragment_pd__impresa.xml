@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dvrdr.articolo48.Pd_Impresa">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/pd"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:src="@drawable/pd" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/Pd_Impresa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=
+"* Garantiremo il diritto dei lavoratori a ricevere formazione gratuita e di qualità per tutta la vita. Per questo proponiamo un conto personale di formazione: 150 ore a 18 anni, che crescono con l'età."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textStyle="bold" />
+
+            </ScrollView>
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>

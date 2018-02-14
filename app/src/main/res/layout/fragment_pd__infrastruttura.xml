@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dvrdr.articolo48.Pd_Infrastruttura">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/pd"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:src="@drawable/pd" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/Pd_Infrastruttura"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=
+"* Finanzieremo l'acquisto di nuovo materiale rotabile e bus per dimezzare l’età media della flotta entro la fine della legislatura.\n\n
+* Realizzeremo quattro ciclovie nazionali: la Veneto/Torino (Vento), il Grande Raccordo Anulare delle Bici a Roma (Grab), la ciclovia del Sole e quella Pugliese.\n\n
+* Abbiamo inaugurato Variante di Valico, Salerno-Reggio e Quadrilatero. Nei prossimi 5 anni completeremo la 106 Ionica, i cantieri siciliani, la Tirrenica, la Cispadana, la Asti-Cuneo, la Gronda.\n\n
+* Occorre continuare l’investimento già fatto per 1.500 km di piste ciclabili prevedendo bandi di finanziamento di percorsi ciclabili casa-scuola in ambito urbano e di collegamenti tra paesi e città.\n\n
+* Potenziando le linee esistenti, completando quelle in esecuzione ed estendendo la rete di trasporto. In particolare, vogliamo completare l’alta velocità ferroviaria."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textStyle="bold" />
+
+            </ScrollView>
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>

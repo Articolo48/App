@@ -70,14 +70,20 @@ public class Pd extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_pd, container, false);
 
-        final Button agroalimentare = (Button) view.findViewById(R.id.But_Agroalimentare);
-        final Button ambiente       = (Button) view.findViewById(R.id.But_Ambiente);
-        final Button cultura        = (Button) view.findViewById(R.id.But_Cultura);
-        final Button diritti        = (Button) view.findViewById(R.id.But_Diritti);
-        final Button donne          = (Button) view.findViewById(R.id.But_Donne);
-        final Button famiglia       = (Button) view.findViewById(R.id.But_Famiglia);
-        final Button fisco          = (Button) view.findViewById(R.id.But_Fisco);
-        final Button giovani        = (Button) view.findViewById(R.id.But_Giovani);
+        final Button agroalimentare  = (Button) view.findViewById(R.id.But_Agroalimentare);
+        final Button ambiente        = (Button) view.findViewById(R.id.But_Ambiente);
+        final Button cultura         = (Button) view.findViewById(R.id.But_Cultura);
+        final Button diritti         = (Button) view.findViewById(R.id.But_Diritti);
+        final Button donne           = (Button) view.findViewById(R.id.But_Donne);
+        final Button famiglia        = (Button) view.findViewById(R.id.But_Famiglia);
+        final Button fisco           = (Button) view.findViewById(R.id.But_Fisco);
+        final Button giovani         = (Button) view.findViewById(R.id.But_Giovani);
+        final Button giustizia       = (Button) view.findViewById(R.id.But_Giustizia);
+        final Button governo         = (Button) view.findViewById(R.id.But_Governo);
+        final Button immigrazione    = (Button) view.findViewById(R.id.But_Immigrazione);
+        final Button impresa         = (Button) view.findViewById(R.id.But_Impresa);
+        final Button infrastruttura  = (Button) view.findViewById(R.id.But_Instrastruttura);
+        final Button istruzione      = (Button) view.findViewById(R.id.But_Istruzione);
 
         agroalimentare.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -153,6 +159,66 @@ public class Pd extends Fragment {
             @Override
             public void onClick(View view) {
                 Fragment frag = new Pd_Giovani();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        giustizia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Pd_Giustizia();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        governo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Pd_Governo();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        immigrazione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Pd_Immigrazione();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        impresa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Pd_Impresa();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        infrastruttura.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Pd_Infrastruttura();
+
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        istruzione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Pd_Istruzione();
 
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();

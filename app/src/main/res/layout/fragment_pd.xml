@@ -143,13 +143,61 @@
                     </TableRow>
                     <TableRow
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
+                        android:layout_height="match_parent" >
+                        <Button
+                            android:id="@+id/But_Giustizia"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_giustizia"
+                            android:text="giustizia" />
+
+                        <Button
+                            android:id="@+id/But_Governo"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_governo"
+                            android:text="governo" />
+                    </TableRow>
                     <TableRow
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
+                        android:layout_height="match_parent" >
+                        <Button
+                            android:id="@+id/But_Immigrazione"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_giustizia"
+                            android:text="immigrazione" />
+
+                        <Button
+                            android:id="@+id/But_Impresa"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_governo"
+                            android:text="impresa" />
+                    </TableRow>
                     <TableRow
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
+                        android:layout_height="match_parent" >
+                    <Button
+                        android:id="@+id/But_Instrastruttura"
+                        android:layout_width="96dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/ic_button_infrastruttura"
+                        android:text="Instrastruttura" />
+
+                    <Button
+                        android:id="@+id/But_Istruzione"
+                        android:layout_width="96dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/ic_button_istruzione"
+                        android:text="istruzione" />
+                    </TableRow>
                     <TableRow
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" />
