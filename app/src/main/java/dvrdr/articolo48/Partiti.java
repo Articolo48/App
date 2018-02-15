@@ -86,7 +86,6 @@ public class Partiti extends Fragment {
         final ImageButton popolofamiglia         = (ImageButton) view.findViewById(R.id.il_popolo_della_famiglia);
         final ImageButton insieme                = (ImageButton) view.findViewById(R.id.insieme);
         final ImageButton italiaagliitaliani     = (ImageButton) view.findViewById(R.id.italia_agli_italiani);
-        final ImageButton forza_italia           = (ImageButton) view.findViewById(R.id.forzaitalia);
         final ImageButton lega                   = (ImageButton) view.findViewById(R.id.lega);
         final ImageButton liberiuguali           = (ImageButton) view.findViewById(R.id.liberi_uguali);
         final ImageButton popolocostituzione     = (ImageButton) view.findViewById(R.id.lista_del_popolo_della_costituzione);

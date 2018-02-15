@@ -5,7 +5,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
-import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -14,12 +13,12 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link ForzaItalia_Tema.OnFragmentInteractionListener} interface
+ * {@link CivicaPopolareLorenzin_Tema.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link ForzaItalia_Tema#newInstance} factory method to
+ * Use the {@link CivicaPopolareLorenzin_Tema#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ForzaItalia_Tema extends Fragment {
+public class CivicaPopolareLorenzin_Tema extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -31,7 +30,7 @@ public class ForzaItalia_Tema extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public ForzaItalia_Tema() {
+    public CivicaPopolareLorenzin_Tema() {
         // Required empty public constructor
     }
 
@@ -41,11 +40,11 @@ public class ForzaItalia_Tema extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment ForzaItalia_Tema.
+     * @return A new instance of fragment CivicaPopolareLorenzin_Tema.
      */
     // TODO: Rename and change types and number of parameters
-    public static ForzaItalia_Tema newInstance(String param1, String param2) {
-        ForzaItalia_Tema fragment = new ForzaItalia_Tema();
+    public static CivicaPopolareLorenzin_Tema newInstance(String param1, String param2) {
+        CivicaPopolareLorenzin_Tema fragment = new CivicaPopolareLorenzin_Tema();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -66,53 +65,44 @@ public class ForzaItalia_Tema extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_forza_italia__tema, container, false);
+        View view = inflater.inflate(R.layout.fragment_civica_popolare_lorenzin__tema, container, false);
         Bundle args = getArguments();
         String tema = args.getString("tema");
         String titolo = args.getString("titolo");
 
         getActivity().setTitle(titolo.toString());
 
-        final TextView testo_tema = (TextView) view.findViewById(R.id.ForzaItalia_Tema);
+        final TextView testo_tema = (TextView) view.findViewById(R.id.CivicaPopolareLorenzin_Tema);
 
-        if(tema.equals("ForzaItalia_Agroalimentare"))
-            testo_tema.setText(R.string.ForzaItalia_Agroalimentare);
-        else if (tema.equals("ForzaItalia_Ambiente"))
-            testo_tema.setText(R.string.ForzaItalia_Ambiente);
-        else if (tema.equals("ForzaItalia_Cultura"))
-            testo_tema.setText(R.string.ForzaItalia_Cultura);
-        else if (tema.equals("ForzaItalia_Diritti"))
-            testo_tema.setText(R.string.ForzaItalia_Diritti);
-        else if (tema.equals("ForzaItalia_Estero"))
-            testo_tema.setText(R.string.ForzaItalia_Estero);
-        else if (tema.equals("ForzaItalia_Famiglia"))
-            testo_tema.setText(R.string.ForzaItalia_Famiglia);
-        else if (tema.equals("ForzaItalia_Fisco"))
-            testo_tema.setText(R.string.ForzaItalia_Fisco);
-        else if (tema.equals("ForzaItalia_Giovani"))
-            testo_tema.setText(R.string.ForzaItalia_Giovani);
-        else if (tema.equals("ForzaItalia_Giustizia"))
-            testo_tema.setText(R.string.ForzaItalia_Giustizia);
-        else if (tema.equals("ForzaItalia_Governo"))
-            testo_tema.setText(R.string.ForzaItalia_Governo);
-        else if (tema.equals("ForzaItalia_Immigrazione"))
-            testo_tema.setText(R.string.ForzaItalia_Immigrazione);
-        else if (tema.equals("ForzaItalia_Impresa"))
-            testo_tema.setText(R.string.ForzaItalia_Impresa);
-        else if (tema.equals("ForzaItalia_Lavoro"))
-            testo_tema.setText(R.string.ForzaItalia_Lavoro);
-        else if (tema.equals("ForzaItalia_Previdenza"))
-            testo_tema.setText(R.string.ForzaItalia_Previdenza);
-        else if (tema.equals("ForzaItalia_Protezione_Sociale"))
-            testo_tema.setText(R.string.ForzaItalia_Protezione_Sociale);
-        else if (tema.equals("ForzaItalia_Sicurezza"))
-            testo_tema.setText(R.string.ForzaItalia_Sicurezza);
-        else if (tema.equals("ForzaItalia_Sud"))
-            testo_tema.setText(R.string.ForzaItalia_Sud);
-        else if (tema.equals("ForzaItalia_Europa"))
-            testo_tema.setText(R.string.ForzaItalia_Europa);
+        if(tema.equals("CivicaPopolareLorenzin_Ambiente"))
+            testo_tema.setText(R.string.CivicaPopolareLorenzin_Ambiente);
+        else if (tema.equals("CivicaPopolareLorenzin_Estero"))
+            testo_tema.setText(R.string.CivicaPopolareLorenzin_Estero);
+        else if (tema.equals("CivicaPopolareLorenzin_Cultura"))
+            testo_tema.setText(R.string.CivicaPopolareLorenzin_Cultura);
+        else if (tema.equals("CivicaPopolareLorenzin_Famiglia"))
+            testo_tema.setText(R.string.CivicaPopolareLorenzin_Famiglia);
+        else if (tema.equals("CivicaPopolareLorenzin_Fisco"))
+            testo_tema.setText(R.string.CivicaPopolareLorenzin_Fisco);
+        else if (tema.equals("CivicaPopolareLorenzin_Sicurezza"))
+            testo_tema.setText(R.string.CivicaPopolareLorenzin_Sicurezza);
+        else if (tema.equals("CivicaPopolareLorenzin_Immigrazione"))
+            testo_tema.setText(R.string.CivicaPopolareLorenzin_Immigrazione);
+        else if (tema.equals("CivicaPopolareLorenzin_Impresa"))
+            testo_tema.setText(R.string.CivicaPopolareLorenzin_Impresa);
+        else if (tema.equals("CivicaPopolareLorenzin_Istruzione"))
+            testo_tema.setText(R.string.CivicaPopolareLorenzin_Istruzione);
+        else if (tema.equals("CivicaPopolareLorenzin_Lavoro"))
+            testo_tema.setText(R.string.CivicaPopolareLorenzin_Lavoro);
+        else if (tema.equals("CivicaPopolareLorenzin_Salute"))
+            testo_tema.setText(R.string.CivicaPopolareLorenzin_Salute);
+        else if (tema.equals("CivicaPopolareLorenzin_Sud"))
+            testo_tema.setText(R.string.CivicaPopolareLorenzin_Sud);
+        else if (tema.equals("CivicaPopolareLorenzin_Europa"))
+            testo_tema.setText(R.string.CivicaPopolareLorenzin_Europa);
         else
             testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+
 
         return view;
     }

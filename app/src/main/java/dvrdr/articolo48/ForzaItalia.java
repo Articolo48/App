@@ -70,21 +70,223 @@ public class ForzaItalia extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_forza_italia, container, false);
 
-        final Button button  = (Button) view.findViewById(R.id.button2);
+        final Button estero         = (Button) view.findViewById(R.id.But_Estero);
+        final Button agroalimentare = (Button) view.findViewById(R.id.But_Agroalimentare);
+        final Button ambiente       = (Button) view.findViewById(R.id.But_Ambiente);
+        final Button cultura        = (Button) view.findViewById(R.id.But_Cultura);
+        final Button diritti        = (Button) view.findViewById(R.id.But_Diritti);
+        final Button famiglia       = (Button) view.findViewById(R.id.But_Famiglia);
+        final Button fisco          = (Button) view.findViewById(R.id.But_Fisco);
+        final Button giovani        = (Button) view.findViewById(R.id.But_Giovani);
+        final Button giustizia      = (Button) view.findViewById(R.id.But_Giustizia);
+        final Button governo        = (Button) view.findViewById(R.id.But_Governo);
+        final Button immigrazione   = (Button) view.findViewById(R.id.But_Immigrazione);
+        final Button impresa        = (Button) view.findViewById(R.id.But_Impresa);
+        final Button lavoro         = (Button) view.findViewById(R.id.But_Lavoro);
+        final Button previdenza     = (Button) view.findViewById(R.id.But_Previdenza);
+        final Button sociale        = (Button) view.findViewById(R.id.But_Sociale);
+        final Button sicurezza      = (Button) view.findViewById(R.id.But_Sicurezza);
+        final Button sud            = (Button) view.findViewById(R.id.But_Sud);
+        final Button europa         = (Button) view.findViewById(R.id.But_Europa);
+        final Fragment frag          = new ForzaItalia_Tema();
+        final Bundle args            = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
 
-        button.setOnClickListener(new View.OnClickListener() {
+        estero.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new ForzaItalia_Tema();
-                Bundle args = new Bundle();
-                args.putString("tema", "Pd_Agroalimentare");
+                args.putString("tema", "ForzaItalia_Estero");
+                args.putString("titolo", "Estero");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        agroalimentare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Agroalimentare");
                 args.putString("titolo", "Agroalimentare");
                 frag.setArguments(args);
 
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
 
+        ambiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Ambiente");
+                args.putString("titolo", "Ambiente");
+                frag.setArguments(args);
 
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        cultura.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Cultura");
+                args.putString("titolo", "Cultura");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        diritti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Diritti");
+                args.putString("titolo", "Diritti");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        famiglia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Famiglia");
+                args.putString("titolo", "Famiglia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        fisco.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Fisco");
+                args.putString("titolo", "Fisco");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        giovani.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Giovani");
+                args.putString("titolo", "Giovani");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        giustizia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Giustizia");
+                args.putString("titolo", "Giustizia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        governo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Governo");
+                args.putString("titolo", "Governo");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        immigrazione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Immigrazione");
+                args.putString("titolo", "Immigrazione");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        impresa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Impresa");
+                args.putString("titolo", "Impresa");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        lavoro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Lavoro");
+                args.putString("titolo", "Lavoro");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        previdenza.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Previdenza");
+                args.putString("titolo", "Previdenza");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sociale.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Sociale");
+                args.putString("titolo", "Protezione Sociale");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sicurezza.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Sicurezza");
+                args.putString("titolo", "Sicurezza");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sud.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Sud");
+                args.putString("titolo", "Sud");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        europa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ForzaItalia_Europa");
+                args.putString("titolo", "Europa");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
 

@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity
         Pd.OnFragmentInteractionListener, Pd_Tema.OnFragmentInteractionListener,
         PiuEuropa.OnFragmentInteractionListener,
         Insieme.OnFragmentInteractionListener,
-        CivicaPopolareLorenzin.OnFragmentInteractionListener,
+        CivicaPopolareLorenzin.OnFragmentInteractionListener,CivicaPopolareLorenzin_Tema.OnFragmentInteractionListener,
         Lega.OnFragmentInteractionListener,
         ForzaItalia.OnFragmentInteractionListener,ForzaItalia_Tema.OnFragmentInteractionListener,
         FratelliDItalia.OnFragmentInteractionListener,

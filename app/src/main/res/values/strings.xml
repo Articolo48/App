@@ -186,4 +186,37 @@
     <string name="CasaPound_Salute"> TODO </string>
     <string name="CasaPound_Europa"> TODO </string>
 
+    <string name="CivicaPopolareLorenzin_Estero"> TODO estero </string>
+    <string name="CivicaPopolareLorenzin_Ambiente"> TODO ambiente </string>
+    <string name="CivicaPopolareLorenzin_Cultura"> TODO cultura </string>
+    <string name="CivicaPopolareLorenzin_Famiglia"> TODO famiglia </string>
+    <string name="CivicaPopolareLorenzin_Fisco"> TODO fisco</string>
+    <string name="CivicaPopolareLorenzin_Immigrazione"> TODO immigrazione </string>
+    <string name="CivicaPopolareLorenzin_Impresa"> TODO impresa</string>
+    <string name="CivicaPopolareLorenzin_Istruzione"> TODO istruzione</string>
+    <string name="CivicaPopolareLorenzin_Lavoro"> TODO lavoro</string>
+    <string name="CivicaPopolareLorenzin_Salute"> TODO salute</string>
+    <string name="CivicaPopolareLorenzin_Sicurezza"> TODO sicurezza</string>
+    <string name="CivicaPopolareLorenzin_Sud"> TODO sud</string>
+    <string name="CivicaPopolareLorenzin_Europa"> TODO europa</string>
+
+    <string name="ForzaItalia_Agroalimentare"> TODO agroalimentare </string>
+    <string name="ForzaItalia_Ambiente"> TODO ambiente </string>
+    <string name="ForzaItalia_Cultura"> TODO cultura</string>
+    <string name="ForzaItalia_Diritti"> TODO diritti</string>
+    <string name="ForzaItalia_Estero"> TODO estero</string>
+    <string name="ForzaItalia_Famiglia"> TODO famiglia</string>
+    <string name="ForzaItalia_Fisco"> TODO fisco</string>
+    <string name="ForzaItalia_Giovani"> TODO giovani</string>
+    <string name="ForzaItalia_Giustizia"> TODO giustizia</string>
+    <string name="ForzaItalia_Governo"> TODO governo</string>
+    <string name="ForzaItalia_Immigrazione"> TODO immigrazione</string>
+    <string name="ForzaItalia_Impresa"> TODO impresa </string>
+    <string name="ForzaItalia_Lavoro"> TODO lavoro</string>
+    <string name="ForzaItalia_Previdenza"> TODO previdenza</string>
+    <string name="ForzaItalia_Protezione_Sociale"> TODO protezione sociale</string>
+    <string name="ForzaItalia_Sicurezza"> TODO sicurezza</string>
+    <string name="ForzaItalia_Sud"> TODO sud</string>
+    <string name="ForzaItalia_Europa"> TODO europa</string>
+
 </resources>

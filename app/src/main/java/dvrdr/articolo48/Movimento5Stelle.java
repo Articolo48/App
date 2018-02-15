@@ -259,7 +259,7 @@ public class Movimento5Stelle extends Fragment {
             @Override
             public void onClick(View view) {
                 args.putString("tema", "Movimento5Stelle_Societa");
-                args.putString("titolo", "Società");
+                args.putString("titolo", "Protezione Sociale");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
