@@ -92,14 +92,17 @@ public class Pd extends Fragment {
         final Button sud             = (Button) view.findViewById(R.id.But_Sud);
         final Button tecnologia      = (Button) view.findViewById(R.id.But_Tecnologia);
         final Button europa          = (Button) view.findViewById(R.id.But_Europa);
-
+        final Fragment frag          = new Pd_Tema();
+        final Bundle args            = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
 
         agroalimentare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Agroalimentare();
+                args.putString("tema", "Pd_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
 
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -107,9 +110,9 @@ public class Pd extends Fragment {
         ambiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Ambiente();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Ambiente");
+                args.putString("titolo", "Ambiente");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -117,9 +120,9 @@ public class Pd extends Fragment {
         cultura.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Cultura();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Cultura");
+                args.putString("titolo", "Cultura");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -127,9 +130,9 @@ public class Pd extends Fragment {
         diritti.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Diritti();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Diritti");
+                args.putString("titolo", "Diritti");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -137,9 +140,9 @@ public class Pd extends Fragment {
         donne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Donne();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Donne");
+                args.putString("titolo", "Donne");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -147,9 +150,9 @@ public class Pd extends Fragment {
         famiglia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Famiglia();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Famiglia");
+                args.putString("titolo", "Famiglia");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -157,9 +160,9 @@ public class Pd extends Fragment {
         fisco.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Fisco();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Fisco");
+                args.putString("titolo", "Fisco");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -167,9 +170,9 @@ public class Pd extends Fragment {
         giovani.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Giovani();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Giovani");
+                args.putString("titolo", "Giovani");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -177,9 +180,9 @@ public class Pd extends Fragment {
         giustizia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Giustizia();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Giustizia");
+                args.putString("titolo", "Giustizia");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -187,9 +190,9 @@ public class Pd extends Fragment {
         governo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Governo();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Governo");
+                args.putString("titolo", "Governo");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -197,9 +200,9 @@ public class Pd extends Fragment {
         immigrazione.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Immigrazione();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Immigrazione");
+                args.putString("titolo", "Immigrazione");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -207,9 +210,9 @@ public class Pd extends Fragment {
         impresa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Impresa();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Impresa");
+                args.putString("titolo", "Impresa");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -217,9 +220,9 @@ public class Pd extends Fragment {
         infrastruttura.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Infrastruttura();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Infrastruttura");
+                args.putString("titolo", "Infrastruttura");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -227,9 +230,9 @@ public class Pd extends Fragment {
         istruzione.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Istruzione();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Istruzione");
+                args.putString("titolo", "Istruzione");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -237,9 +240,9 @@ public class Pd extends Fragment {
         lavoro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Lavoro();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Lavoro");
+                args.putString("titolo", "Lavoro");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -247,9 +250,9 @@ public class Pd extends Fragment {
         previdenza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Previdenza();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Previdenza");
+                args.putString("titolo", "Previdenza");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -257,9 +260,9 @@ public class Pd extends Fragment {
         societa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Protezione_Sociale();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Societa");
+                args.putString("titolo", "Società");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -267,9 +270,9 @@ public class Pd extends Fragment {
         salute.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Salute();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Salute");
+                args.putString("titolo", "Salute");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -277,9 +280,9 @@ public class Pd extends Fragment {
         sicurezza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Sicurezza();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Sicurezza");
+                args.putString("titolo", "Sicurezza");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -287,9 +290,9 @@ public class Pd extends Fragment {
         sud.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Sud();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Sud");
+                args.putString("titolo", "Sud");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -297,9 +300,9 @@ public class Pd extends Fragment {
         tecnologia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Tecnologia();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Tecnologia");
+                args.putString("titolo", "Tecnologia");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -307,9 +310,9 @@ public class Pd extends Fragment {
         europa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Unione_Europa();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Pd_Europa");
+                args.putString("titolo", "Europa");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });

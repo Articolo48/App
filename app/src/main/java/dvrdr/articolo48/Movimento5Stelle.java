@@ -91,14 +91,16 @@ public class Movimento5Stelle extends Fragment {
         final Button sicurezza       = (Button) view.findViewById(R.id.But_Sicurezza);
         final Button tecnologia      = (Button) view.findViewById(R.id.But_Tecnologia);
         final Button europa          = (Button) view.findViewById(R.id.But_Europa);
-
+        final Fragment frag          = new Movimento5Stelle_Tema();
+        final Bundle args            = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
 
         agroalimentare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Agroalimentare();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -106,9 +108,9 @@ public class Movimento5Stelle extends Fragment {
         ambiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Ambiente();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Ambiente");
+                args.putString("titolo", "Ambiente");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -116,9 +118,9 @@ public class Movimento5Stelle extends Fragment {
         cultura.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Cultura();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Cultura");
+                args.putString("titolo", "Cultura");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -126,9 +128,9 @@ public class Movimento5Stelle extends Fragment {
         diritti.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Diritti();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Diritti");
+                args.putString("titolo", "Diritti");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -136,9 +138,9 @@ public class Movimento5Stelle extends Fragment {
         estero.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Estero();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Estero");
+                args.putString("titolo", "Estero");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -146,9 +148,9 @@ public class Movimento5Stelle extends Fragment {
         famiglia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Famiglia();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Famiglia");
+                args.putString("titolo", "Famiglia");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -156,9 +158,9 @@ public class Movimento5Stelle extends Fragment {
         fisco.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Fisco();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Fisco");
+                args.putString("titolo", "Fisco");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -166,9 +168,9 @@ public class Movimento5Stelle extends Fragment {
         banche.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Banche();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Banche");
+                args.putString("titolo", "Banche");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -176,9 +178,9 @@ public class Movimento5Stelle extends Fragment {
         giustizia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Giustizia();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Giustizia");
+                args.putString("titolo", "Giustizia");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -186,9 +188,9 @@ public class Movimento5Stelle extends Fragment {
         governo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Governo();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Governo");
+                args.putString("titolo", "Governo");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -196,9 +198,9 @@ public class Movimento5Stelle extends Fragment {
         immigrazione.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Immigrazione();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Immigrazione");
+                args.putString("titolo", "Immigrazione");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -206,9 +208,9 @@ public class Movimento5Stelle extends Fragment {
         impresa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Impresa();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Impresa");
+                args.putString("titolo", "Impresa");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -216,9 +218,9 @@ public class Movimento5Stelle extends Fragment {
         infrastruttura.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Infrastruttura();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Infrastruttura");
+                args.putString("titolo", "Infrastruttura");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -226,9 +228,9 @@ public class Movimento5Stelle extends Fragment {
         istruzione.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Istruzione();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Istruzione");
+                args.putString("titolo", "Istruzione");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -236,9 +238,9 @@ public class Movimento5Stelle extends Fragment {
         lavoro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Lavoro();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Lavoro");
+                args.putString("titolo", "Lavoro");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -246,9 +248,9 @@ public class Movimento5Stelle extends Fragment {
         previdenza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Previdenza();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Previdenza");
+                args.putString("titolo", "Previdenza");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -256,9 +258,9 @@ public class Movimento5Stelle extends Fragment {
         societa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Protezione_Sociale();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Societa");
+                args.putString("titolo", "Società");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -266,9 +268,9 @@ public class Movimento5Stelle extends Fragment {
         salute.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Salute();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Salute");
+                args.putString("titolo", "Salute");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -276,9 +278,9 @@ public class Movimento5Stelle extends Fragment {
         sicurezza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Sicurezza();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Sicurezza");
+                args.putString("titolo", "Sicurezza");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -286,9 +288,9 @@ public class Movimento5Stelle extends Fragment {
         tecnologia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Tecnologia();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Tecnologia");
+                args.putString("titolo", "Tecnologia");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
@@ -296,9 +298,9 @@ public class Movimento5Stelle extends Fragment {
         europa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Movimento5Stelle_Unione_Europa();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                args.putString("tema", "Movimento5Stelle_Europa");
+                args.putString("titolo", "Europa");
+                frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });

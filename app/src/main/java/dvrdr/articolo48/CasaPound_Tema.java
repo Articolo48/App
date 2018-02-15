@@ -7,17 +7,18 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Pd_Diritti.OnFragmentInteractionListener} interface
+ * {@link CasaPound_Tema.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link Pd_Diritti#newInstance} factory method to
+ * Use the {@link CasaPound_Tema#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Pd_Diritti extends Fragment {
+public class CasaPound_Tema extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -29,7 +30,7 @@ public class Pd_Diritti extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public Pd_Diritti() {
+    public CasaPound_Tema() {
         // Required empty public constructor
     }
 
@@ -39,11 +40,11 @@ public class Pd_Diritti extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Pd_Diritti.
+     * @return A new instance of fragment CasaPound_Tema.
      */
     // TODO: Rename and change types and number of parameters
-    public static Pd_Diritti newInstance(String param1, String param2) {
-        Pd_Diritti fragment = new Pd_Diritti();
+    public static CasaPound_Tema newInstance(String param1, String param2) {
+        CasaPound_Tema fragment = new CasaPound_Tema();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -64,8 +65,45 @@ public class Pd_Diritti extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("PD - Diritti");
-        return inflater.inflate(R.layout.fragment_pd__diritti, container, false);
+        View view = inflater.inflate(R.layout.fragment_casa_pound__tema, container, false);
+        Bundle args = getArguments();
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.CasaPound_Tema);
+
+        if(tema.equals("CasaPound_Ambiente"))
+            testo_tema.setText(R.string.CasaPound_Ambiente);
+        else if (tema.equals("CasaPound_Cultura"))
+            testo_tema.setText(R.string.CasaPound_Cultura);
+        else if (tema.equals("CasaPound_Diritti"))
+            testo_tema.setText(R.string.CasaPound_Diritti);
+        else if (tema.equals("CasaPound_Energia"))
+            testo_tema.setText(R.string.CasaPound_Energia);
+        else if (tema.equals("CasaPound_Famiglia"))
+            testo_tema.setText(R.string.CasaPound_Famiglia);
+        else if (tema.equals("CasaPound_Fisco"))
+            testo_tema.setText(R.string.CasaPound_Fisco);
+        else if (tema.equals("CasaPound_Giustizia"))
+            testo_tema.setText(R.string.CasaPound_Giustizia);
+        else if (tema.equals("CasaPound_Sicurezza"))
+            testo_tema.setText(R.string.CasaPound_Sicurezza);
+        else if (tema.equals("CasaPound_Immigrazione"))
+            testo_tema.setText(R.string.CasaPound_Immigrazione);
+        else if (tema.equals("CasaPound_Istruzione"))
+            testo_tema.setText(R.string.CasaPound_Istruzione);
+        else if (tema.equals("CasaPound_Lavoro"))
+            testo_tema.setText(R.string.CasaPound_Lavoro);
+        else if (tema.equals("CasaPound_Salute"))
+            testo_tema.setText(R.string.CasaPound_Salute);
+        else if (tema.equals("CasaPound_Europa"))
+            testo_tema.setText(R.string.CasaPound_Europa);
+        else
+            testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

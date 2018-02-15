@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="dvrdr.articolo48.Movimento5Stelle_Lavoro">
+    tools:context="dvrdr.articolo48.CasaPound_Tema">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -13,11 +13,11 @@
             android:layout_height="match_parent" >
 
             <ImageView
-                android:id="@+id/movimento_5_stelle"
+                android:id="@+id/casa_pound"
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 android:layout_weight="1"
-                android:src="@drawable/movimento_5_stelle" />
+                android:src="@drawable/casa_pound" />
         </TableRow>
 
         <TableRow
@@ -30,11 +30,10 @@
                 android:layout_weight="1">
 
                 <TextView
-                    android:id="@+id/Movimento5Stelle_Tema"
+                    android:id="@+id/CasaPound_Tema"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=
-                        "TODO"
+                    android:text=""
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textStyle="bold" />
 

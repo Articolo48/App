@@ -7,17 +7,18 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Movimento5Stelle_Famiglia.OnFragmentInteractionListener} interface
+ * {@link Pd_Tema.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link Movimento5Stelle_Famiglia#newInstance} factory method to
+ * Use the {@link Pd_Tema#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Movimento5Stelle_Famiglia extends Fragment {
+public class Pd_Tema extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -29,7 +30,7 @@ public class Movimento5Stelle_Famiglia extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public Movimento5Stelle_Famiglia() {
+    public Pd_Tema() {
         // Required empty public constructor
     }
 
@@ -39,11 +40,11 @@ public class Movimento5Stelle_Famiglia extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Movimento5Stelle_Famiglia.
+     * @return A new instance of fragment Pd_Tema.
      */
     // TODO: Rename and change types and number of parameters
-    public static Movimento5Stelle_Famiglia newInstance(String param1, String param2) {
-        Movimento5Stelle_Famiglia fragment = new Movimento5Stelle_Famiglia();
+    public static Pd_Tema newInstance(String param1, String param2) {
+        Pd_Tema fragment = new Pd_Tema();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -64,8 +65,63 @@ public class Movimento5Stelle_Famiglia extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("Famiglia");
-        return inflater.inflate(R.layout.fragment_movimento5_stelle__famiglia, container, false);
+        View view = inflater.inflate(R.layout.fragment_pd__tema, container, false);
+        Bundle args = getArguments();
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.Pd_Tema);
+
+        if(tema.equals("Pd_Agroalimentare"))
+            testo_tema.setText(R.string.Pd_Agroalimentare);
+        else if (tema.equals("Pd_Ambiente"))
+            testo_tema.setText(R.string.Pd_Ambiente);
+        else if (tema.equals("Pd_Cultura"))
+            testo_tema.setText(R.string.Pd_Cultura);
+         else if (tema.equals("Pd_Diritti"))
+            testo_tema.setText(R.string.Pd_Diritti);
+       else if (tema.equals("Pd_Donne"))
+            testo_tema.setText(R.string.Pd_Donne);
+        else if (tema.equals("Pd_Famiglia"))
+            testo_tema.setText(R.string.Pd_Famiglia);
+        else if (tema.equals("Pd_Fisco"))
+            testo_tema.setText(R.string.Pd_Fisco);
+        else if (tema.equals("Pd_Giovani"))
+            testo_tema.setText(R.string.Pd_Giovani);
+        else if (tema.equals("Pd_Giustizia"))
+            testo_tema.setText(R.string.Pd_Giustizia);
+        else if (tema.equals("Pd_Governo"))
+            testo_tema.setText(R.string.Pd_Governo);
+        else if (tema.equals("Pd_Immigrazione"))
+            testo_tema.setText(R.string.Pd_Immigrazione);
+        else if (tema.equals("Pd_Impresa"))
+            testo_tema.setText(R.string.Pd_Impresa);
+        else if (tema.equals("Pd_Infrastruttura"))
+            testo_tema.setText(R.string.Pd_Infrastruttura);
+        else if (tema.equals("Pd_Istruzione"))
+            testo_tema.setText(R.string.Pd_Istruzione);
+        else if (tema.equals("Pd_Lavoro"))
+            testo_tema.setText(R.string.Pd_Lavoro);
+        else if (tema.equals("Pd_Previdenza"))
+            testo_tema.setText(R.string.Pd_Previdenza);
+        else if (tema.equals("Pd_Protezione_Sociale"))
+            testo_tema.setText(R.string.Pd_Protezione_Sociale);
+        else if (tema.equals("Pd_Salute"))
+            testo_tema.setText(R.string.Pd_Salute);
+        else if (tema.equals("Pd_Sicurezza"))
+            testo_tema.setText(R.string.Pd_Sicurezza);
+        else if (tema.equals("Pd_Sud"))
+            testo_tema.setText(R.string.Pd_Sud);
+        else if (tema.equals("Pd_Tecnologia"))
+            testo_tema.setText(R.string.Pd_Tecnologia);
+        else if (tema.equals("Pd_Europa"))
+            testo_tema.setText(R.string.Pd_Europa);
+        else
+            testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

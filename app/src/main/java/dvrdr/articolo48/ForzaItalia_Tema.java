@@ -5,19 +5,21 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Movimento5Stelle_Diritti.OnFragmentInteractionListener} interface
+ * {@link ForzaItalia_Tema.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link Movimento5Stelle_Diritti#newInstance} factory method to
+ * Use the {@link ForzaItalia_Tema#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Movimento5Stelle_Diritti extends Fragment {
+public class ForzaItalia_Tema extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -29,7 +31,7 @@ public class Movimento5Stelle_Diritti extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public Movimento5Stelle_Diritti() {
+    public ForzaItalia_Tema() {
         // Required empty public constructor
     }
 
@@ -39,11 +41,11 @@ public class Movimento5Stelle_Diritti extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Movimento5Stelle_Diritti.
+     * @return A new instance of fragment ForzaItalia_Tema.
      */
     // TODO: Rename and change types and number of parameters
-    public static Movimento5Stelle_Diritti newInstance(String param1, String param2) {
-        Movimento5Stelle_Diritti fragment = new Movimento5Stelle_Diritti();
+    public static ForzaItalia_Tema newInstance(String param1, String param2) {
+        ForzaItalia_Tema fragment = new ForzaItalia_Tema();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -64,8 +66,24 @@ public class Movimento5Stelle_Diritti extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("Diritti");
-        return inflater.inflate(R.layout.fragment_movimento5_stelle__diritti, container, false);
+
+        Bundle args = getArguments();
+
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        View view = inflater.inflate(R.layout.fragment_forza_italia__tema, container, false);
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.prova);
+
+        if(tema.equals("Pd_Agroalimentare"))
+            testo_tema.setText(R.string.Pd_Agroalimentare);
+        else
+            testo_tema.setText("errore");
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
