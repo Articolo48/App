@@ -66,7 +66,7 @@ public class ForzaItalia extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("Movimento Politico Forza Italia");
+        getActivity().setTitle("Forza Italia");
 
         View view = inflater.inflate(R.layout.fragment_forza_italia, container, false);
 

@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -65,8 +67,217 @@ public class Lega extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         getActivity().setTitle("Lega Nord");
+        View view = inflater.inflate(R.layout.fragment_lega, container, false);
 
-        return inflater.inflate(R.layout.fragment_lega, container, false);
+        final Button agroalimentare = (Button) view.findViewById(R.id.But_Agroalimentare);
+        final Button ambiente       = (Button) view.findViewById(R.id.But_Ambiente);
+        final Button cultura        = (Button) view.findViewById(R.id.But_Cultura);
+        final Button diritti        = (Button) view.findViewById(R.id.But_Diritti);
+        final Button fisco          = (Button) view.findViewById(R.id.But_Fisco);
+        final Button giustizia      = (Button) view.findViewById(R.id.But_Giustizia);
+        final Button governo        = (Button) view.findViewById(R.id.But_Governo);
+        final Button immigrazione   = (Button) view.findViewById(R.id.But_Immigrazione);
+        final Button impresa        = (Button) view.findViewById(R.id.But_Impresa);
+        final Button infrastruttura = (Button) view.findViewById(R.id.But_Instrastruttura);
+        final Button istruzione     = (Button) view.findViewById(R.id.But_Istruzione);
+        final Button lavoro         = (Button) view.findViewById(R.id.But_Lavoro);
+        final Button previdenza     = (Button) view.findViewById(R.id.But_Previdenza);
+        final Button salute         = (Button) view.findViewById(R.id.But_Salute);
+        final Button sicurezza      = (Button) view.findViewById(R.id.But_Sicurezza);
+        final Button tecnologia     = (Button) view.findViewById(R.id.But_Tecnologia);
+        final Button europa         = (Button) view.findViewById(R.id.But_Europa);
+        final Fragment frag          = new Lega_Tema();
+        final Bundle args            = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        agroalimentare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        ambiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Ambiente");
+                args.putString("titolo", "Ambiente");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        cultura.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Cultura");
+                args.putString("titolo", "Cultura");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        diritti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Diritti");
+                args.putString("titolo", "Diritti");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        fisco.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Fisco");
+                args.putString("titolo", "Fisco");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        giustizia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Giustizia");
+                args.putString("titolo", "Giustizia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        governo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Governo");
+                args.putString("titolo", "Governo");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        immigrazione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Immigrazione");
+                args.putString("titolo", "Immigrazione");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        impresa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Impresa");
+                args.putString("titolo", "Impresa");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        infrastruttura.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Infrastruttura");
+                args.putString("titolo", "Infrastruttura");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        istruzione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Istruzione");
+                args.putString("titolo", "Istruzione");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        lavoro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Lavoro");
+                args.putString("titolo", "Lavoro");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        previdenza.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Previdenza");
+                args.putString("titolo", "Previdenza");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        salute.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Salute");
+                args.putString("titolo", "Salute");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sicurezza.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Sicurezza");
+                args.putString("titolo", "Sicurezza");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        tecnologia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Tecnologia");
+                args.putString("titolo", "Tecnologia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        europa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Lega_Europa");
+                args.putString("titolo", "Europa");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

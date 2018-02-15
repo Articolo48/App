@@ -220,23 +220,23 @@
     <string name="FratelliDItalia_Tecnologia"> TODO tecnologia</string>
     <string name="FratelliDItalia_Europa"> TODO europa</string>
 
-    <string name="LegaNord_Agroalimentare"> TODO agroalimentare </string>
-    <string name="LegaNord_Ambiente"> TODO ambiente </string>
-    <string name="LegaNord_Cultura"> TODO cultura</string>
-    <string name="LegaNord_Diritti"> TODO diritti</string>
-    <string name="LegaNord_Fisco"> TODO fisco</string>
-    <string name="LegaNord_Giustizia"> TODO giustizia</string>
-    <string name="LegaNord_Governo"> TODO governo</string>
-    <string name="LegaNord_Immigrazione"> TODO immigrazione</string>
-    <string name="LegaNord_Impresa"> TODO impresa </string>
-    <string name="LegaNord_Infrastruttura"> TODO infrastruttura </string>
-    <string name="LegaNord_Istruzione"> TODO istruzione </string>
-    <string name="LegaNord_Lavoro"> TODO lavoro</string>
-    <string name="LegaNord_Previdenza"> TODO previdenza</string>
-    <string name="LegaNord_Salute"> TODO salute </string>
-    <string name="LegaNord_Sicurezza"> TODO sicurezza</string>
-    <string name="LegaNord_Tecnologia"> TODO tecnologia</string>
-    <string name="LegaNord_Europa"> TODO europa</string>
+    <string name="Lega_Agroalimentare"> TODO agroalimentare </string>
+    <string name="Lega_Ambiente"> TODO ambiente </string>
+    <string name="Lega_Cultura"> TODO cultura</string>
+    <string name="Lega_Diritti"> TODO diritti</string>
+    <string name="Lega_Fisco"> TODO fisco</string>
+    <string name="Lega_Giustizia"> TODO giustizia</string>
+    <string name="Lega_Governo"> TODO governo</string>
+    <string name="Lega_Immigrazione"> TODO immigrazione</string>
+    <string name="Lega_Impresa"> TODO impresa </string>
+    <string name="Lega_Infrastruttura"> TODO infrastruttura </string>
+    <string name="Lega_Istruzione"> TODO istruzione </string>
+    <string name="Lega_Lavoro"> TODO lavoro</string>
+    <string name="Lega_Previdenza"> TODO previdenza</string>
+    <string name="Lega_Salute"> TODO salute </string>
+    <string name="Lega_Sicurezza"> TODO sicurezza</string>
+    <string name="Lega_Tecnologia"> TODO tecnologia</string>
+    <string name="Lega_Europa"> TODO europa</string>
 
     <string name="LiberiUguali_Agroalimentare"> TODO agroalimentare </string>
     <string name="LiberiUguali_Ambiente"> TODO ambiente </string>
@@ -297,6 +297,25 @@
     <string name="Autodeterminazione_Infrastruttura"> TODO infrastruttura</string>
     <string name="Autodeterminazione_Salute"> TODO salute </string>
     <string name="Autodeterminazione_Sicurezza"> TODO sicurezza</string>
+
+    <string name="ForzaItalia_Agroalimentare"> TODO agroalimentare </string>
+    <string name="ForzaItalia_Ambiente"> TODO ambiente </string>
+    <string name="ForzaItalia_Cultura"> TODO cultura</string>
+    <string name="ForzaItalia_Diritti"> TODO diritti</string>
+    <string name="ForzaItalia_Estero"> TODO estero</string>
+    <string name="ForzaItalia_Famiglia"> TODO famiglia</string>
+    <string name="ForzaItalia_Fisco"> TODO fisco</string>
+    <string name="ForzaItalia_Giovani"> TODO giovani</string>
+    <string name="ForzaItalia_Giustizia"> TODO giustizia</string>
+    <string name="ForzaItalia_Governo"> TODO governo</string>
+    <string name="ForzaItalia_Immigrazione"> TODO immigrazione</string>
+    <string name="ForzaItalia_Impresa"> TODO impresa </string>
+    <string name="ForzaItalia_Lavoro"> TODO lavoro</string>
+    <string name="ForzaItalia_Previdenza"> TODO previdenza</string>
+    <string name="ForzaItalia_Protezione_Sociale"> TODO protezione sociale</string>
+    <string name="ForzaItalia_Sicurezza"> TODO sicurezza</string>
+    <string name="ForzaItalia_Sud"> TODO sud</string>
+    <string name="ForzaItalia_Europa"> TODO europa</string>
 
     <string name="Noi_Ambiente"> TODO </string>
     <string name="Noi_Cultura"> TODO </string>
