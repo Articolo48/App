@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity
         GrandeNord.OnFragmentInteractionListener,
         IlPopoloDellaFamiglia.OnFragmentInteractionListener,
         ItaliaAgliItaliani.OnFragmentInteractionListener,
-        LiberiUguali.OnFragmentInteractionListener,
+        LiberiUguali.OnFragmentInteractionListener, LiberiUguali_Tema.OnFragmentInteractionListener,
         ListaDelPopoloDellaCostituzione.OnFragmentInteractionListener,
         Maie.OnFragmentInteractionListener,
         Mic.OnFragmentInteractionListener,
