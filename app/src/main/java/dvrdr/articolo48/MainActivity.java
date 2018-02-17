@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity
         CasaPound.OnFragmentInteractionListener,CasaPound_Tema.OnFragmentInteractionListener,
         DemocraziaCristiana.OnFragmentInteractionListener,
         DestreUnite.OnFragmentInteractionListener,
-        DieciVolteMeglio.OnFragmentInteractionListener,
+        DieciVolteMeglio.OnFragmentInteractionListener, DieciVolteMeglio_Tema.OnFragmentInteractionListener,
         FreeFlightsToItaly.OnFragmentInteractionListener,
         FronteFriuliano.OnFragmentInteractionListener,
         GrandeNord.OnFragmentInteractionListener,

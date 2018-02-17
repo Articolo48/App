@@ -332,4 +332,15 @@
     <string name="Noi_Sicurezza"> TODO </string>
     <string name="Noi_Europa"> TODO </string>
 
+    <string name="DieciVolteMeglio_Ambiente"> TODO ambiente </string>
+    <string name="DieciVolteMeglio_Diritti"> TODO diritti</string>
+    <string name="DieciVolteMeglio_Lavoro"> TODO lavoro</string>
+    <string name="DieciVolteMeglio_Istruzione"> TODO istruzione</string>
+    <string name="DieciVolteMeglio_Sud"> TODO sud</string>
+    <string name="DieciVolteMeglio_Salute"> TODO salute</string>
+    <string name="DieciVolteMeglio_Tecnologia"> TODO tecnologia</string>
+    <string name="DieciVolteMeglio_Turismo"> TODO turismo</string>
+    <string name="DieciVolteMeglio_Europa"> TODO europa</string>
+
+
 </resources>
