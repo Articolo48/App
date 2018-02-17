@@ -342,5 +342,29 @@
     <string name="DieciVolteMeglio_Turismo"> TODO turismo</string>
     <string name="DieciVolteMeglio_Europa"> TODO europa</string>
 
+    <string name="BloccoNazionale_Diritti"> TODO diritti</string>
+    <string name="BloccoNazionale_Famiglia"> TODO famiglia</string>
+    <string name="BloccoNazionale_Fisco"> TODO fisco</string>
+    <string name="BloccoNazionale_Governo"> TODO governo</string>
+    <string name="BloccoNazionale_Lavoro"> TODO lavoro</string>
+    <string name="BloccoNazionale_Sicurezza"> TODO sicurezza</string>
+
+    <string name="DemocraziaCristiana_Ambiente"> TODO ambiente</string>
+    <string name="DemocraziaCristiana_Famiglia"> TODO famiglia</string>
+    <string name="DemocraziaCristiana_Fisco"> TODO fisco</string>
+    <string name="DemocraziaCristiana_Giustizia"> TODO giustizia</string>
+    <string name="DemocraziaCristiana_Governo"> TODO governo</string>
+    <string name="DemocraziaCristiana_Lavoro"> TODO lavoro</string>
+    <string name="DemocraziaCristiana_Previdenza"> TODO previdenza</string>
+    <string name="DemocraziaCristiana_Salute"> TODO salute</string>
+    <string name="DemocraziaCristiana_Sicurezza"> TODO sicurezza</string>
+
+    <string name="DestreUnite_Cultura"> TODO cultura</string>
+    <string name="DestreUnite_Governo"> TODO governo</string>
+    <string name="DestreUnite_Istruzione"> TODO istruzione</string>
+    <string name="DestreUnite_Previdenza"> TODO previdenza</string>
+    <string name="DestreUnite_Turismo"> TODO turismo</string>
+    <string name="DestreUnite_Salute"> TODO salute</string>
+    <string name="DestreUnite_Europa"> TODO europa</string>
 
 </resources>

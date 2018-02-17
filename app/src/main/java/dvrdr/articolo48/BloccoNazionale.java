@@ -14,12 +14,12 @@ import android.widget.Button;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link DestreUnite.OnFragmentInteractionListener} interface
+ * {@link BloccoNazionale.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link DestreUnite#newInstance} factory method to
+ * Use the {@link BloccoNazionale#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class DestreUnite extends Fragment {
+public class BloccoNazionale extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -31,7 +31,7 @@ public class DestreUnite extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public DestreUnite() {
+    public BloccoNazionale() {
         // Required empty public constructor
     }
 
@@ -41,11 +41,11 @@ public class DestreUnite extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment DestreUnite.
+     * @return A new instance of fragment BloccoNazionale.
      */
     // TODO: Rename and change types and number of parameters
-    public static DestreUnite newInstance(String param1, String param2) {
-        DestreUnite fragment = new DestreUnite();
+    public static BloccoNazionale newInstance(String param1, String param2) {
+        BloccoNazionale fragment = new BloccoNazionale();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -66,25 +66,45 @@ public class DestreUnite extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("Destre Unite - AEMN");
-        View view = inflater.inflate(R.layout.fragment_destre_unite, container, false);
+        getActivity().setTitle("Blocco Nazionale Per Le Libertà");
 
-        final Button cultura    = (Button) view.findViewById(R.id.But_Cultura);
-        final Button governo    = (Button) view.findViewById(R.id.But_Governo);
-        final Button istruzione = (Button) view.findViewById(R.id.But_Istruzione);
-        final Button previdenza = (Button) view.findViewById(R.id.But_Previdenza);
-        final Button turismo    = (Button) view.findViewById(R.id.But_Turismo);
-        final Button salute     = (Button) view.findViewById(R.id.But_Salute);
-        final Button europa     = (Button) view.findViewById(R.id.But_Europa);
-        final Fragment frag     = new DestreUnite_Tema();
-        final Bundle args       = new Bundle();
+        View view = inflater.inflate(R.layout.fragment_blocco_nazionale, container, false);
+
+        final Button diritti   = (Button) view.findViewById(R.id.But_Diritti);
+        final Button famiglia  = (Button) view.findViewById(R.id.But_Famiglia);
+        final Button fisco     = (Button) view.findViewById(R.id.But_Fisco);
+        final Button governo   = (Button) view.findViewById(R.id.But_Governo);
+        final Button lavoro    = (Button) view.findViewById(R.id.But_Lavoro);
+        final Button sicurezza = (Button) view.findViewById(R.id.But_Sicurezza);
+        final Fragment frag    = new BloccoNazionale_Tema();
+        final Bundle args      = new Bundle();
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
 
-        cultura.setOnClickListener(new View.OnClickListener() {
+        diritti.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "DestreUnite_Cultura");
-                args.putString("titolo", "Cultura");
+                args.putString("tema", "BloccoNazionale_Diritti");
+                args.putString("titolo", "Diritti");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        famiglia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "BloccoNazionale_Famiglia");
+                args.putString("titolo", "Famiglia");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        fisco.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "BloccoNazionale_Fisco");
+                args.putString("titolo", "Fisco");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
@@ -93,64 +113,34 @@ public class DestreUnite extends Fragment {
         governo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "DestreUnite_Governo");
+                args.putString("tema", "BloccoNazionale_Governo");
                 args.putString("titolo", "Governo");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
 
-        istruzione.setOnClickListener(new View.OnClickListener() {
+        lavoro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "DestreUnite_Istruzione");
-                args.putString("titolo", "Istruzione");
+                args.putString("tema", "BloccoNazionale_Lavoro");
+                args.putString("titolo", "Lavoro");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
 
-        previdenza.setOnClickListener(new View.OnClickListener() {
+        sicurezza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "DestreUnite_Previdenza");
-                args.putString("titolo", "Previdenza");
+                args.putString("tema", "BloccoNazionale_Sicurezza");
+                args.putString("titolo", "Sicurezza");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
 
-        turismo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                args.putString("tema", "DestreUnite_Turismo");
-                args.putString("titolo", "Turismo");
-                frag.setArguments(args);
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
-
-        salute.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                args.putString("tema", "DestreUnite_Salute");
-                args.putString("titolo", "Salute");
-                frag.setArguments(args);
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
-
-        europa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                args.putString("tema", "DestreUnite_Europa");
-                args.putString("titolo", "Europa");
-                frag.setArguments(args);
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
-
-        return  view;
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

@@ -64,15 +64,94 @@
 
                     <TableRow
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center">
+                        android:layout_height="match_parent" >
+                        <Button
+                            android:id="@+id/But_Cultura"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_cultura"
+                            android:text="cultura" />
+
+                        <Button
+                            android:id="@+id/But_Governo"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_governo"
+                            android:text="governo" />
+
 
                     </TableRow>
 
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+                        <Button
+                            android:id="@+id/But_Istruzione"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_istruzione"
+                            android:text="istruzione" />
+
+                        <Button
+                            android:id="@+id/But_Previdenza"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_previdenza"
+                            android:text="previdenza" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/But_Turismo"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_turismo"
+                            android:text="turismo" />
+
+                        <Button
+                            android:id="@+id/But_Salute"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_salute"
+                            android:text="salute" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/But_Europa"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_europa"
+                            android:text="europa" />
+
+                        <Button
+                            android:id="@+id/empty"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="" />
+
+
+                    </TableRow>
 
                 </TableLayout>
             </ScrollView>
         </TableRow>
 
     </TableLayout>
+
 </FrameLayout>

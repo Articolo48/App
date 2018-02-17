@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -65,8 +67,112 @@ public class DemocraziaCristiana extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         getActivity().setTitle("Democrazia Cristiana");
+        View view = inflater.inflate(R.layout.fragment_democrazia_cristiana, container, false);
 
-        return inflater.inflate(R.layout.fragment_democrazia_cristiana, container, false);
+        final Button ambiente   = (Button) view.findViewById(R.id.But_Ambiente);
+        final Button famiglia   = (Button) view.findViewById(R.id.But_Famiglia);
+        final Button fisco      = (Button) view.findViewById(R.id.But_Fisco);
+        final Button giustizia  = (Button) view.findViewById(R.id.But_Giustizia);
+        final Button governo    = (Button) view.findViewById(R.id.But_Governo);
+        final Button lavoro     = (Button) view.findViewById(R.id.But_Lavoro);
+        final Button previdenza = (Button) view.findViewById(R.id.But_Previdenza);
+        final Button salute     = (Button) view.findViewById(R.id.But_Salute);
+        final Button sicurezza  = (Button) view.findViewById(R.id.But_Sicurezza);
+        final Fragment frag     = new DemocraziaCristiana_Tema();
+        final Bundle args       = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        ambiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "DemocraziaCristiana_Ambiente");
+                args.putString("titolo", "Ambiente");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        famiglia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "DemocraziaCristiana_Famiglia");
+                args.putString("titolo", "Famiglia");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        fisco.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "DemocraziaCristiana_Fisco");
+                args.putString("titolo", "Fisco");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        giustizia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "DemocraziaCristiana_Giustizia");
+                args.putString("titolo", "Giustizia");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        governo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "DemocraziaCristiana_Governo");
+                args.putString("titolo", "Governo");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        lavoro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "DemocraziaCristiana_Lavoro");
+                args.putString("titolo", "Lavoro");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        previdenza.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "DemocraziaCristiana_Previdenza");
+                args.putString("titolo", "Previdenza");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        salute.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "DemocraziaCristiana_Salute");
+                args.putString("titolo", "Salute");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sicurezza.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "DemocraziaCristiana_Sicurezza");
+                args.putString("titolo", "Sicurezza");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

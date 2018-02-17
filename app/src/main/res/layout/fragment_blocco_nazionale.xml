@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="dvrdr.articolo48.DemocraziaCristiana">
+    tools:context="dvrdr.articolo48.BloccoNazionale">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -13,11 +13,11 @@
             android:layout_height="match_parent" >
 
             <ImageView
-                android:id="@+id/democrazia_cristiana"
+                android:id="@+id/blocco_nazionale_per_la_liberta"
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 android:layout_weight="1"
-                android:src="@drawable/democrazia_cristiana" />
+                android:src="@drawable/blocco_nazionale_per_la_liberta" />
         </TableRow>
 
         <TableRow>
@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Capo forza politica: Giovanni Fontana"
+                android:text="Capo forza politica: Massimo Renato Lorenzo"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:textSize="18sp" />
@@ -40,7 +40,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Sito web: www.democraziacristianaonline.info"
+                android:text="Sito web: non presente"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:textSize="18sp"
@@ -66,12 +66,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" >
                         <Button
-                            android:id="@+id/But_Ambiente"
+                            android:id="@+id/But_Diritti"
                             android:layout_width="96dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:drawableTop="@drawable/ic_button_ambiente"
-                            android:text="ambiente" />
+                            android:drawableTop="@drawable/ic_button_diritti"
+                            android:text="diritti" />
 
                         <Button
                             android:id="@+id/But_Famiglia"
@@ -96,25 +96,17 @@
                             android:text="fisco" />
 
                         <Button
-                            android:id="@+id/But_Giustizia"
-                            android:layout_width="96dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:drawableTop="@drawable/ic_button_giustizia"
-                            android:text="giustizia" />
-                    </TableRow>
-
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
-
-                        <Button
                             android:id="@+id/But_Governo"
                             android:layout_width="96dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:drawableTop="@drawable/ic_button_governo"
                             android:text="governo" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
 
                         <Button
                             android:id="@+id/But_Lavoro"
@@ -124,34 +116,6 @@
                             android:drawableTop="@drawable/ic_button_lavoro"
                             android:text="lavoro" />
 
-                    </TableRow>
-
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
-
-                        <Button
-                            android:id="@+id/But_Previdenza"
-                            android:layout_width="96dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:drawableTop="@drawable/ic_button_previdenza"
-                            android:text="previdenza" />
-
-                        <Button
-                            android:id="@+id/But_Salute"
-                            android:layout_width="96dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:drawableTop="@drawable/ic_button_salute"
-                            android:text="salute" />
-
-                    </TableRow>
-
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
-
                         <Button
                             android:id="@+id/But_Sicurezza"
                             android:layout_width="96dp"
@@ -159,13 +123,6 @@
                             android:layout_weight="1"
                             android:drawableTop="@drawable/ic_button_sicurezza"
                             android:text="sicurezza" />
-
-                        <Button
-                            android:id="@+id/empty"
-                            android:layout_width="96dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:text="" />
 
                     </TableRow>
 

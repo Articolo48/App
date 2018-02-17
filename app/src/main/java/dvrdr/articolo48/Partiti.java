@@ -123,7 +123,7 @@ public class Partiti extends Fragment {
         blocconazionale.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Blocco_Nazionale();
+                Fragment frag = new BloccoNazionale();
 
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
