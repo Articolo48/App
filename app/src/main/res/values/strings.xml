@@ -9,143 +9,143 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="Pd_Agroalimentare">"* Rilanceremo la battaglia sull’etichettatura dei prodotti per affermare idea del consumo consapevole e della tracciabilità e chiarezza della filiera.\n\n
-* Dopo aver investito in un piano strategico per potenziare i prodotti italiani (Made In), puntiamo a raggiungere l’obiettivo di 50 miliardi di export nell’agroalimentare.\n\n
-* Nel nostro programma abbiamo inserito una legge per l’azzeramento dell’uso dei pesticidi entro il 2025, anche per consolidare il primato europeo dell'Italia nell'agroalimentare biologico.\n\n
-* Ci impegniamo per la riforma dei reati agroalimentari e l’introduzione del reato di agropirateria. Proseguiremo con la lotta al falso cibo italiano e la tutela delle nostre indicazioni geografiche\n\n
+    <string name="Pd_Agroalimentare">"\n* Rilanceremo la battaglia sull’etichettatura dei prodotti per affermare idea del consumo consapevole e della tracciabilità e chiarezza della filiera.\n
+* Dopo aver investito in un piano strategico per potenziare i prodotti italiani (Made In), puntiamo a raggiungere l’obiettivo di 50 miliardi di export nell’agroalimentare.\n
+* Nel nostro programma abbiamo inserito una legge per l’azzeramento dell’uso dei pesticidi entro il 2025, anche per consolidare il primato europeo dell'Italia nell'agroalimentare biologico.\n
+* Ci impegniamo per la riforma dei reati agroalimentari e l’introduzione del reato di agropirateria. Proseguiremo con la lotta al falso cibo italiano e la tutela delle nostre indicazioni geografiche\n
 * Puntiamo sul ricambio generazionale col potenziamento dei mutui a tasso zero per i giovani imprenditori agricoli e attraverso una corsia preferenziale per riportare all’agricoltura terre pubbliche."
     </string>
 
-    <string name="Pd_Ambiente">"* Vogliamo ridurre le emissioni inquinanti e l'inquinamento da plastiche, ponendo l’Italia in anticipo sugli altri Paesi nella lotta contro i rischi del cambiamento climatico.\n\n
-* Sono stati sbloccati finanziamenti sul dissesto idrogeologico per 9 miliardi di euro. Ora ci metteremo al lavoro per concludere i cantieri aperti, a cominciare da quelli del Bisogno.\n\n
-* Negli ultimi 5 anni abbiamo ampliato l'ecobonus per le abitazioni private, nei prossimi 5 installeremo 33 milioni di contatori digitali per migliorare l’efficienza energetica in ogni edificio.\n\n
-* Negli ultimi 5 anni sono state installate 1000 colonnine per auto elettriche. Vogliamo arrivare a quota 15.000 colonnine nell’arco dei prossimi cinque anni.\n\n
-* Nella prossima legislatura approveremo la legge nazionale sullo stop al consumo di suolo, prevedendo incentivi per il recupero dell’esistente e disincentivi per le costruzioni su suolo inedificato.\n\n
-* L’impegno per la prossima legislatura è quello di dimezzare il conferimento in discarica e di arrivare al 65% di riciclo, promuovendo i principi dell’economia circolare.\n\n
+    <string name="Pd_Ambiente">"\n* Vogliamo ridurre le emissioni inquinanti e l'inquinamento da plastiche, ponendo l’Italia in anticipo sugli altri Paesi nella lotta contro i rischi del cambiamento climatico.\n\n
+* Sono stati sbloccati finanziamenti sul dissesto idrogeologico per 9 miliardi di euro. Ora ci metteremo al lavoro per concludere i cantieri aperti, a cominciare da quelli del Bisogno.\n
+* Negli ultimi 5 anni abbiamo ampliato l'ecobonus per le abitazioni private, nei prossimi 5 installeremo 33 milioni di contatori digitali per migliorare l’efficienza energetica in ogni edificio.\n
+* Negli ultimi 5 anni sono state installate 1000 colonnine per auto elettriche. Vogliamo arrivare a quota 15.000 colonnine nell’arco dei prossimi cinque anni.\n
+* Nella prossima legislatura approveremo la legge nazionale sullo stop al consumo di suolo, prevedendo incentivi per il recupero dell’esistente e disincentivi per le costruzioni su suolo inedificato.\n
+* L’impegno per la prossima legislatura è quello di dimezzare il conferimento in discarica e di arrivare al 65% di riciclo, promuovendo i principi dell’economia circolare.\n
 * Lo sviluppo della produzione di energia rinnovabile (55% del fabbisogno totale entro il 2030) andrà di pari passo con la cessazione della produzione di energia elettrica da carbone entro il 2025."
     </string>
 
-    <string name="Pd_Cultura">"* Promuoveremo una nuova legge sull’editoria, come abbiamo fatto con cinema e spettacolo, con misure di sostegno per tutte le filiere del libro.\n\n
-* Un fondo strutturale sarà destinato alla rigenerazione delle aree dismesse, sottoutilizzate, periferiche, segnalate da enti locali, reti locali di operatori, artisti o semplici cittadini.\n\n
-* Il contributo da 500 euro per i 18enni per l’acquisto di prodotti culturali diventerà stabile nel tempo.\n\n
-* Cultura e turismo possono essere alleati. Per questo introdurremo incentivi fiscali sul modello dell’iper ammortamento per chi riqualifica alberghi e strutture ricettive.\n\n
-* Terremo aperti i musei principali fino a mezzanotte, tutti i giorni, per consentire alle città di ampliare la propria offerta culturale.\n\n
-* Vogliamo istituire un fondo “Patrimonio al sicuro” per piccoli interventi di messa in sicurezza dei beni culturali in aree a rischio sismico, con più attenzione alle periferie e all'arte contemporanea.\n\n
-* Vogliamo promuovere la tutela e la valorizzazione dei beni culturali sul territorio, potenziando ArtBonus con nuovi meccanismi, incentivando e semplificando micro-donazioni di cittadini e turisti. \n\n
+    <string name="Pd_Cultura">"\n* Promuoveremo una nuova legge sull’editoria, come abbiamo fatto con cinema e spettacolo, con misure di sostegno per tutte le filiere del libro.\n+
+* Un fondo strutturale sarà destinato alla rigenerazione delle aree dismesse, sottoutilizzate, periferiche, segnalate da enti locali, reti locali di operatori, artisti o semplici cittadini.\n
+* Il contributo da 500 euro per i 18enni per l’acquisto di prodotti culturali diventerà stabile nel tempo.\n
+* Cultura e turismo possono essere alleati. Per questo introdurremo incentivi fiscali sul modello dell’iper ammortamento per chi riqualifica alberghi e strutture ricettive.\n
+* Terremo aperti i musei principali fino a mezzanotte, tutti i giorni, per consentire alle città di ampliare la propria offerta culturale.\n
+* Vogliamo istituire un fondo “Patrimonio al sicuro” per piccoli interventi di messa in sicurezza dei beni culturali in aree a rischio sismico, con più attenzione alle periferie e all'arte contemporanea.\n
+* Vogliamo promuovere la tutela e la valorizzazione dei beni culturali sul territorio, potenziando ArtBonus con nuovi meccanismi, incentivando e semplificando micro-donazioni di cittadini e turisti. \n
 * Proponiamo un Piano cultura 4.0 per le imprese culturali e creative che investono in innovazione tecnologica, con particolare attenzione alle aree ad alto tasso di abbandono scolastico e al Sud."
     </string>
 
-    <string name="Pd_Diritti">"* Vogliamo sostenere forme di aiuto concreto per i padri separati, in particolare per garantire il diritto alla casa.\n\n
-* Contrasto a discriminazioni omofobiche e transfobiche e alla violenza di genere: nella valutazione di reati sarà tenuto conto dell’orientamento sessuale o dell’identità di genere della vittima.\n\n
-* Occorre modificare la legge sulle adozioni ferma al 1983. Tutti i bambini sono uguali, hanno pari diritti dinanzi alla legge a prescindere dalle famiglie nelle quali sono nati.\n\n
+    <string name="Pd_Diritti">"\n* Vogliamo sostenere forme di aiuto concreto per i padri separati, in particolare per garantire il diritto alla casa.\n
+* Contrasto a discriminazioni omofobiche e transfobiche e alla violenza di genere: nella valutazione di reati sarà tenuto conto dell’orientamento sessuale o dell’identità di genere della vittima.\n
+* Occorre modificare la legge sulle adozioni ferma al 1983. Tutti i bambini sono uguali, hanno pari diritti dinanzi alla legge a prescindere dalle famiglie nelle quali sono nati.\n
 * Ius culturae: i bambini nati in Italia da genitori stranieri possono ottenere la cittadinanza dopo aver completato un ciclo di studi di cinque anni."
     </string>
 
-    <string name="Pd_Donne">"* Rifinanzieremo i centri antiviolenza. Sosterremo il reinserimento nel mondo del lavoro delle donne vittime e la formazione delle Forze dell’Ordine e del personale sanitario sulla violenza di genere.\n\n
-* Le mamme che tornano al lavoro dopo la fine della maternità obbligatoria riceveranno un 30% in più di stipendio per i primi sei mesi, sotto forma di bonus da destinare alle spese di cura.\n\n
+    <string name="Pd_Donne">"\n* Rifinanzieremo i centri antiviolenza. Sosterremo il reinserimento nel mondo del lavoro delle donne vittime e la formazione delle Forze dell’Ordine e del personale sanitario sulla violenza di genere.\n
+* Le mamme che tornano al lavoro dopo la fine della maternità obbligatoria riceveranno un 30% in più di stipendio per i primi sei mesi, sotto forma di bonus da destinare alle spese di cura.\n
 * Sosterremo una legge sulla parità di genere nelle retribuzioni a parità di mansione lavorativa: troppo spesso esiste ancora un divario ingiustificato tra uomini e donne che vogliamo colmare."
     </string>
 
-    <string name="Pd_Famiglia">"* Vogliamo introdurre un assegno universale da 400 euro al mese per ogni figlio (fino ai 3 anni) che può essere speso per la retta dell’asilo nido o per il rimborso delle spese di baby sitter.\n\n
-* Negli scorsi cinque anni abbiamo esteso il congedo di paternità da 2 a 4 giorni. Ora vogliamo estenderlo a 10 giorni, per sempre. Vogliamo aiutare i genitori a condividere insieme le gioie e le sfide.\n\n
+    <string name="Pd_Famiglia">"\n* Vogliamo introdurre un assegno universale da 400 euro al mese per ogni figlio (fino ai 3 anni) che può essere speso per la retta dell’asilo nido o per il rimborso delle spese di baby sitter.\n
+* Negli scorsi cinque anni abbiamo esteso il congedo di paternità da 2 a 4 giorni. Ora vogliamo estenderlo a 10 giorni, per sempre. Vogliamo aiutare i genitori a condividere insieme le gioie e le sfide.\n
 * Finanzieremo un piano nazionale da 100 milioni di euro l’anno, per tutta la legislatura, per aumentare le possibilità di accesso agli asili nido."
     </string>
 
-    <string name="Pd_Fisco">"* È giusto far pagare le tasse alle aziende online che lavorano in Italia, con le condizioni delle aziende offline: stesse condizioni, uguali tasse.\n\n
-* Più forte deducibilità fiscale a chi investe nel sociale, nella ricerca, nell’associazionismo.\n\n
-* Il canone RAI sarà ulteriormente ridotto, e sarà azzerato per le categorie meno abbienti, garantendo la qualità del servizio pubblico.\n\n
-* I lavoratori autonomi e le partite IVA sono stati considerati spesso lavoratori di serie B. Noi non siamo d'accordo: per questo estenderemo gli 80 euro e gli ammortizzatori sociali anche a loro.\n\n
-* Introdurremo una “patente fiscale” a punti con una serie di vantaggi, tributari e non, per i contribuenti che pagano correttamente le tasse. Chi è leale con la comunità va premiato.\n\n
+    <string name="Pd_Fisco">"\n* È giusto far pagare le tasse alle aziende online che lavorano in Italia, con le condizioni delle aziende offline: stesse condizioni, uguali tasse.\n
+* Più forte deducibilità fiscale a chi investe nel sociale, nella ricerca, nell’associazionismo.\n
+* Il canone RAI sarà ulteriormente ridotto, e sarà azzerato per le categorie meno abbienti, garantendo la qualità del servizio pubblico.\n
+* I lavoratori autonomi e le partite IVA sono stati considerati spesso lavoratori di serie B. Noi non siamo d'accordo: per questo estenderemo gli 80 euro e gli ammortizzatori sociali anche a loro.\n
+* Introdurremo una “patente fiscale” a punti con una serie di vantaggi, tributari e non, per i contribuenti che pagano correttamente le tasse. Chi è leale con la comunità va premiato.\n
 * La nostra proposta principale è semplice e riguarda milioni di famiglie italiane: 80 euro in più al mese per ogni figlio, fino all'età di 18 anni. Diamo più soldi a chi ne ha bisogno, non ai ricchi."
     </string>
 
-    <string name="Pd_Giovani">"* Amplieremo il riconoscimento ufficiale di titoli, lauree, master, dottorati, specializzazioni post-laurea, abilitazioni e specializzazioni mediche per gli italiani all'estero.\n\n
-* Nei prossimi 5 anni si verificherà un picco di pensionamenti nella Pubblica Amministrazione, circa 450 mila persone. Sarà così possibile assumere centinaia di migliaia di giovani con nuove competenze.\n\n
-* Proponiamo una detrazione fiscale di 150 euro al mese per chi ha meno di 30 anni e firma un contratto d’affitto. Vogliamo dare una mano a chi vuole essere autonomo, e alle loro famiglie\n\n"
+    <string name="Pd_Giovani">"\n* Amplieremo il riconoscimento ufficiale di titoli, lauree, master, dottorati, specializzazioni post-laurea, abilitazioni e specializzazioni mediche per gli italiani all'estero.\n
+* Nei prossimi 5 anni si verificherà un picco di pensionamenti nella Pubblica Amministrazione, circa 450 mila persone. Sarà così possibile assumere centinaia di migliaia di giovani con nuove competenze.\n
+* Proponiamo una detrazione fiscale di 150 euro al mese per chi ha meno di 30 anni e firma un contratto d’affitto. Vogliamo dare una mano a chi vuole essere autonomo, e alle loro famiglie."
     </string>
 
-    <string name="Pd_Giustizia">"* Inaspriremo le pene e le sanzioni per i manager e gli amministratori colpevoli dei dissesti bancari e per i responsabili di omessa vigilanza.\n\n
-* In prima linea nella lotta alla mafia: metteremo in campo meccanismi sempre più efficaci per prevenire le infiltrazioni, individuare le zone grigie di corruzione e pressione su privati e PA.\n\n
-* Siamo gli unici in Europa ad aver digitalizzato integralmente il processo civile. Ora vogliamo digitalizzare il processo penale. In parallelo renderemo più convenienti le risoluzioni stragiudiziali.\n\n
+    <string name="Pd_Giustizia">"\n* Inaspriremo le pene e le sanzioni per i manager e gli amministratori colpevoli dei dissesti bancari e per i responsabili di omessa vigilanza.\n
+* In prima linea nella lotta alla mafia: metteremo in campo meccanismi sempre più efficaci per prevenire le infiltrazioni, individuare le zone grigie di corruzione e pressione su privati e PA.\n
+* Siamo gli unici in Europa ad aver digitalizzato integralmente il processo civile. Ora vogliamo digitalizzare il processo penale. In parallelo renderemo più convenienti le risoluzioni stragiudiziali.\n
 * Dopo 20 anni abbiamo bandito un concorso per l'assunzione di personale nel comparto. Nuove competenze, processi più rapidi, meno multe, più efficienza anche agli occhi degli investitori internazionali."
     </string>
 
-    <string name="Pd_Governo">"* La co-programmazione tra le istituzioni pubbliche e il privato sociale deve diventare la modalità ordinaria di attuazione delle iniziative nelle aree di interesse generale, come nel resto d'Europa.\n\n
-* Meno tasse per tutte le nuove assunzioni e per le stabilizzazioni anche per tutti gli enti del Terzo settore regolarmente iscritti nel registro unico nazionale (come per lo sport dilettantistico).\n\n
-* Proponiamo un mese di Servizio civile obbligatorio in sinergia tra scuola e Terzo settore, a fianco dell'attuazione del Servizio civile universale. Un mese di vita al servizio.\n\n
-* Recupereremo un punto di PIL nell’arco della prossima legislatura attraverso la digitalizzazione della Pubblica Amministrazione. della collettività.\n\n
-* Dopo aver approvato la legge sull'abolizione del finanziamento pubblico ai partiti, vogliamo una legge sulla democrazia interna e sulla trasparenza di tutti i movimenti politici.\n\n
-* Il tetto di 240mila euro di stipendio per i manager pubblici sarà esteso a tutti gli organi istituzionali che oggi possono derogare a questo principio, a cominciare da Camera e Senato.\n\n
-* Proponiamo di trasferire la gestione della fiscalità sui temi della mobilità alle Città Metropolitane, che godrebbero così di un'autonomia coerente ai reali bisogni della propria comunità.\n\n
+    <string name="Pd_Governo">"\n* La co-programmazione tra le istituzioni pubbliche e il privato sociale deve diventare la modalità ordinaria di attuazione delle iniziative nelle aree di interesse generale, come nel resto d'Europa.\n
+* Meno tasse per tutte le nuove assunzioni e per le stabilizzazioni anche per tutti gli enti del Terzo settore regolarmente iscritti nel registro unico nazionale (come per lo sport dilettantistico).\n
+* Proponiamo un mese di Servizio civile obbligatorio in sinergia tra scuola e Terzo settore, a fianco dell'attuazione del Servizio civile universale. Un mese di vita al servizio.\n
+* Recupereremo un punto di PIL nell’arco della prossima legislatura attraverso la digitalizzazione della Pubblica Amministrazione. della collettività.\n
+* Dopo aver approvato la legge sull'abolizione del finanziamento pubblico ai partiti, vogliamo una legge sulla democrazia interna e sulla trasparenza di tutti i movimenti politici.\n
+* Il tetto di 240mila euro di stipendio per i manager pubblici sarà esteso a tutti gli organi istituzionali che oggi possono derogare a questo principio, a cominciare da Camera e Senato.\n
+* Proponiamo di trasferire la gestione della fiscalità sui temi della mobilità alle Città Metropolitane, che godrebbero così di un'autonomia coerente ai reali bisogni della propria comunità.\n
 * Il nostro obiettivo è ridurre gradualmente ma stabilmente il rapporto tra debito pubblico e Pil: vogliamo ridurlo del 32% in 10 anni. Per ottenere questo risultato basta mantenere la crescita attuale."
     </string>
 
-    <string name="Pd_Immigrazione">"* Più risorse da dare ai paesi di origine dei migranti, per permettere loro di battere la povertà: i fondi per la cooperazione cresceranno fino allo 0.3% del PIL entro il 2020 e allo 0.7% entro il 2030.\n\n
-* Proponiamo la creazione di un Fondo europeo della difesa che possa gradualmente portare all’istituzione di una guardia costiera e di frontiera comune, e anche un'unica regia europea per l'inteligence.\n\n
-* Vogliamo condizionare i fondi europei della prossima programmazione al principio di solidarietà: chi non aiuta gli altri Stati nella gestione dell’immigrazione deve rinunciare ai nostri fondi europei.\n\n
+    <string name="Pd_Immigrazione">"\n* Più risorse da dare ai paesi di origine dei migranti, per permettere loro di battere la povertà: i fondi per la cooperazione cresceranno fino allo 0.3% del PIL entro il 2020 e allo 0.7% entro il 2030.\n
+* Proponiamo la creazione di un Fondo europeo della difesa che possa gradualmente portare all’istituzione di una guardia costiera e di frontiera comune, e anche un'unica regia europea per l'inteligence.\n
+* Vogliamo condizionare i fondi europei della prossima programmazione al principio di solidarietà: chi non aiuta gli altri Stati nella gestione dell’immigrazione deve rinunciare ai nostri fondi europei.\n
 * Superiamo gli accordi di Dublino, approvati dal Governo Berlusconi nel 2003, che prevedono l'accoglienza per i Paesi di prima assistenza. La gestione dell'immigrazione va fatta dall’Europa."
     </string>
 
-    <string name="Pd_Impresa">"* Garantiremo il diritto dei lavoratori a ricevere formazione gratuita e di qualità per tutta la vita. Per questo proponiamo un conto personale di formazione: 150 ore a 18 anni, che crescono con l'età."
+    <string name="Pd_Impresa">"\n* Garantiremo il diritto dei lavoratori a ricevere formazione gratuita e di qualità per tutta la vita. Per questo proponiamo un conto personale di formazione: 150 ore a 18 anni, che crescono con l'età."
     </string>
 
-    <string name="Pd_Infrastruttura">"* Finanzieremo l'acquisto di nuovo materiale rotabile e bus per dimezzare l’età media della flotta entro la fine della legislatura.\n\n
-* Realizzeremo quattro ciclovie nazionali: la Veneto/Torino (Vento), il Grande Raccordo Anulare delle Bici a Roma (Grab), la ciclovia del Sole e quella Pugliese.\n\n
-* Abbiamo inaugurato Variante di Valico, Salerno-Reggio e Quadrilatero. Nei prossimi 5 anni completeremo la 106 Ionica, i cantieri siciliani, la Tirrenica, la Cispadana, la Asti-Cuneo, la Gronda.\n\n
-* Occorre continuare l’investimento già fatto per 1.500 km di piste ciclabili prevedendo bandi di finanziamento di percorsi ciclabili casa-scuola in ambito urbano e di collegamenti tra paesi e città.\n\n
+    <string name="Pd_Infrastruttura">"\n* Finanzieremo l'acquisto di nuovo materiale rotabile e bus per dimezzare l’età media della flotta entro la fine della legislatura.\n
+* Realizzeremo quattro ciclovie nazionali: la Veneto/Torino (Vento), il Grande Raccordo Anulare delle Bici a Roma (Grab), la ciclovia del Sole e quella Pugliese.\n
+* Abbiamo inaugurato Variante di Valico, Salerno-Reggio e Quadrilatero. Nei prossimi 5 anni completeremo la 106 Ionica, i cantieri siciliani, la Tirrenica, la Cispadana, la Asti-Cuneo, la Gronda.\n
+* Occorre continuare l’investimento già fatto per 1.500 km di piste ciclabili prevedendo bandi di finanziamento di percorsi ciclabili casa-scuola in ambito urbano e di collegamenti tra paesi e città.\n
 * Potenziando le linee esistenti, completando quelle in esecuzione ed estendendo la rete di trasporto. In particolare, vogliamo completare l’alta velocità ferroviaria."
     </string>
 
-    <string name="Pd_Istruzione">"* Negli ultimi 5 abbiamo stanziato 10 miliardi di euro sull'edilizia scolastica (più sicurezza), per complessivi 11mila interventi. Intendiamo stanziare una cifra analoga per la prossima legislatura.\n\n
-* Porteremo a centomila gli studenti degli ITS (istituti tecnici superiori): nel tempo dell’intelligenza artificiale e della robotica, il futuro dell’Italia parte dalla formazione e dalle competenze.\n\n
-* Vogliamo potenziare l’offerta di tempo pieno nelle scuole elementari, portando in particolare i livelli del Mezzogiorno a quelli medi del Centro-Nord.\n\n
-* Vogliamo liberare la scuola e i dirigenti scolastici da compiti e funzioni non strettamente connessi al “fare scuola”, in modo che possano concentrarsi sulle attività didattiche e formative.\n\n
+    <string name="Pd_Istruzione">"\n* Negli ultimi 5 abbiamo stanziato 10 miliardi di euro sull'edilizia scolastica (più sicurezza), per complessivi 11mila interventi. Intendiamo stanziare una cifra analoga per la prossima legislatura.\n
+* Porteremo a centomila gli studenti degli ITS (istituti tecnici superiori): nel tempo dell’intelligenza artificiale e della robotica, il futuro dell’Italia parte dalla formazione e dalle competenze.\n
+* Vogliamo potenziare l’offerta di tempo pieno nelle scuole elementari, portando in particolare i livelli del Mezzogiorno a quelli medi del Centro-Nord.\n
+* Vogliamo liberare la scuola e i dirigenti scolastici da compiti e funzioni non strettamente connessi al “fare scuola”, in modo che possano concentrarsi sulle attività didattiche e formative.\n
 * Proponiamo l'assunzione di 10 mila ricercatori nei prossimi 5 anni. Una misura che è fondamentale per affrontare i punti di crisi dell’università (divari territoriali e offerta formativa)."
     </string>
 
-    <string name="Pd_Lavoro">"* Proponiamo una legge sulla rappresentanza sindacale per evitare che microsigle sindacali condizionino la vita di tutti i cittadini con scioperi selvaggi.\n\n
-* I lavoratori precari per lungo tempo e che non sono stabilizzati da chi li assume avranno diritto a una buonuscita proporzionale alla durata dei loro contratti.\n\n
-* Meno tasse a chi assume a tempo indeterminato: i contributi per le imprese caleranno dal 33% al 29% nei prossimi quattro anni, l’IRES scende al 22% Il lavoro che vale di più deve costare di meno.\n\n
+    <string name="Pd_Lavoro">"\n* Proponiamo una legge sulla rappresentanza sindacale per evitare che microsigle sindacali condizionino la vita di tutti i cittadini con scioperi selvaggi.\n
+* I lavoratori precari per lungo tempo e che non sono stabilizzati da chi li assume avranno diritto a una buonuscita proporzionale alla durata dei loro contratti.\n
+* Meno tasse a chi assume a tempo indeterminato: i contributi per le imprese caleranno dal 33% al 29% nei prossimi quattro anni, l’IRES scende al 22% Il lavoro che vale di più deve costare di meno.\n
 * Salario minimo garantito: nessun lavoratore potrà guadagnare meno di 9 euro all’ora, nessun contratto a tempo pieno potrà più comportare stipendi da fame. Per legge, senza eccezione, per tutti."
     </string>
 
-    <string name="Pd_Previdenza">"* Proponiamo una pensione di garanzia con un livello di reddito pensionistico minimo di 750 euro mensili, garantito alle persone che sono nel sistema contributivo al compimento dell’età di vecchiaia.\n\n
-* Ridurremo drasticamente tutte le forme di privilegio ingiustificate nei trattamenti finanziati dallo Stato.\n\n
+    <string name="Pd_Previdenza">"\n* Proponiamo una pensione di garanzia con un livello di reddito pensionistico minimo di 750 euro mensili, garantito alle persone che sono nel sistema contributivo al compimento dell’età di vecchiaia.\n
+* Ridurremo drasticamente tutte le forme di privilegio ingiustificate nei trattamenti finanziati dallo Stato.\n
 * Vogliamo che chi ha compiuto 63 anni di età e vuole anticipare l’uscita dal mercato del lavoro possa farlo, con soluzioni adeguate alle proprie esigenze (anticipi pensionistici o redditi-ponte)."
     </string>
 
-    <string name="Pd_Protezione_Sociale">"* Introdurremo incentivi fiscali alle famiglie che necessitano del sostegno di badanti o di ricovero in case di cura per migliorare la qualità della vita.\n\n
-* Investiremo in tutti i nuovi strumenti tecnologici e informatici che possono consentire il potenziamento della partecipazione scolastica e l'inserimento professionale ai disabili.\n\n
-* Aumenteremo l’indennità in base ai bisogni delle persone non autosufficienti, dando libertà di scelta tra un assegno di cura e un budget e favorendo così il riconoscimento degli assistenti familiari.\n\n
+    <string name="Pd_Protezione_Sociale">"\n* Introdurremo incentivi fiscali alle famiglie che necessitano del sostegno di badanti o di ricovero in case di cura per migliorare la qualità della vita.\n
+* Investiremo in tutti i nuovi strumenti tecnologici e informatici che possono consentire il potenziamento della partecipazione scolastica e l'inserimento professionale ai disabili.\n
+* Aumenteremo l’indennità in base ai bisogni delle persone non autosufficienti, dando libertà di scelta tra un assegno di cura e un budget e favorendo così il riconoscimento degli assistenti familiari.\n
 * Con la legge sul reddito d'inclusione abbiamo introdotto il primo strumento per la lotta alla povertà. Nei prossimi cinque anni raddoppieremo i fondi per raggiungere il 100% delle famiglie bisognose."
     </string>
 
-    <string name="Pd_Salute">"* Aumentare i fondi nazionali per i farmaci innovativi, specie nel settore oncologico e nella ricerca contro le malattie rare, agevolando gli investimenti sulla ricerca farmaceutica in Italia.\n\n
-* Dopo aver voluto una indispensabile legge sull'obbligatorietà sui vaccini, ci impegneremo in una costante campagna contro le false notizie, antiscientifiche, che generano terrore e disinformazione.\n\n
-* Puntiamo sulla medicina territoriale per ridurre ospedalizzazioni evitabili e abbassare i costi per il sistema sanitario. Investiremo nell’utilizzo di nuove tecnologie per monitoraggio e prevenzione.\n\n
+    <string name="Pd_Salute">"\n* Aumentare i fondi nazionali per i farmaci innovativi, specie nel settore oncologico e nella ricerca contro le malattie rare, agevolando gli investimenti sulla ricerca farmaceutica in Italia.\n
+* Dopo aver voluto una indispensabile legge sull'obbligatorietà sui vaccini, ci impegneremo in una costante campagna contro le false notizie, antiscientifiche, che generano terrore e disinformazione.\n
+* Puntiamo sulla medicina territoriale per ridurre ospedalizzazioni evitabili e abbassare i costi per il sistema sanitario. Investiremo nell’utilizzo di nuove tecnologie per monitoraggio e prevenzione.\n
 * Liste d'attesa: promuoveremo in tutta Italia le migliori esperienze di alcune regioni in questi anni, al fine di garantire ai cittadini il pieno accesso ai servizi in tempi certi e ragionevoli."
     </string>
 
-    <string name="Pd_Sicurezza">"* Valorizzeremo l’Agenzia per i Beni Confiscati per permettere una migliore gestione dei beni strappati alla mafia.\n\n
-* Stanzieremo fondi su nuove carceri e su ristrutturazione delle carceri esistenti, valorizzando la funzione rieducativa e garantendo la certezza della pena.\n\n
-* Investiremo nella cybersecurity, adottando tecnologie per proteggere chi naviga online. La sfida dei prossimi anni è rendere la Rete un luogo sempre più sicuro.\n\n
-* Finanzieremo l'installazione di 50.000 nuove videocamere per la sorveglianza su tutto il territorio nazionale, in modo da scoraggiare alcuni reati (a partire da furti ed estorsioni).\n\n
+    <string name="Pd_Sicurezza">"\n* Valorizzeremo l’Agenzia per i Beni Confiscati per permettere una migliore gestione dei beni strappati alla mafia.\n
+* Stanzieremo fondi su nuove carceri e su ristrutturazione delle carceri esistenti, valorizzando la funzione rieducativa e garantendo la certezza della pena.\n
+* Investiremo nella cybersecurity, adottando tecnologie per proteggere chi naviga online. La sfida dei prossimi anni è rendere la Rete un luogo sempre più sicuro.\n
+* Finanzieremo l'installazione di 50.000 nuove videocamere per la sorveglianza su tutto il territorio nazionale, in modo da scoraggiare alcuni reati (a partire da furti ed estorsioni).\n
 * 10mila assunzioni l'anno di carabinieri, poliziotti, finanzieri, agenti penitenziari e vigili del fuoco per aumentare la presenza capillare sul territorio e la percezione effettiva della sicurezza."
     </string>
 
-    <string name="Pd_Sud">"* Nascita delle Zone Economiche Speciali in porti e retroporti: facilitazioni fiscali e semplificazioni amministrative per attrarre investimenti, anche internazionali.\n\n
-* Progetto Resto al Sud: finanziamenti agevolati fino a 200mila euro per chi crea impresa innovativa al Sud, con il 30% dell'investimento a fondo perduto.\n\n
+    <string name="Pd_Sud">"\n* Nascita delle Zone Economiche Speciali in porti e retroporti: facilitazioni fiscali e semplificazioni amministrative per attrarre investimenti, anche internazionali.\n
+* Progetto Resto al Sud: finanziamenti agevolati fino a 200mila euro per chi crea impresa innovativa al Sud, con il 30% dell'investimento a fondo perduto.\n
 * Nei prossimi anni saranno evidenti i risultati dei Patti per il Sud: oltre un terzo degli interventi sono già in esecuzione (8,8 miliardi di euro) o in corso di affidamento (5,2 miliardi)."
     </string>
 
-    <string name="Pd_Tecnologia">"* Proponiamo regole più chiare e al contempo garantiamo incentivi alla creazione di piattaforme per bike sharing, car sharing e scooter sharing: tenere insieme innovazione, ambiente e mobilità si può.\n\n
-* Vogliamo accelerare il piano Banda ultra larga sulle cosiddette aree bianche e grigie dove ancora il 70% delle nostre imprese non trova un'adeguata copertura di rete ad alta velocità di connessione.\n\n
-* Rafforzeremo il Piano Industria 4.0 (30 miliardi di investimenti su innovazione e digitalizzazione negli ultimi tre anni) rendendo stabile e strutturale il credito di imposta alla ricerca e sviluppo.\n\n
+    <string name="Pd_Tecnologia">"\n* Proponiamo regole più chiare e al contempo garantiamo incentivi alla creazione di piattaforme per bike sharing, car sharing e scooter sharing: tenere insieme innovazione, ambiente e mobilità si può.\n
+* Vogliamo accelerare il piano Banda ultra larga sulle cosiddette aree bianche e grigie dove ancora il 70% delle nostre imprese non trova un'adeguata copertura di rete ad alta velocità di connessione.\n
+* Rafforzeremo il Piano Industria 4.0 (30 miliardi di investimenti su innovazione e digitalizzazione negli ultimi tre anni) rendendo stabile e strutturale il credito di imposta alla ricerca e sviluppo.\n
 * Vogliamo incentivare i canali alternativi al finanziamento bancario: accesso alla Borsa, ricorso ai mini bond, piattaforme di crowdfunding, prestito tra privati attraverso piattaforme fintech."
     </string>
 
-    <string name="Pd_Europa">"* L'Europa dovrà regolare la globalizzazione, punendo chi fa concorrenza sleale e sfrutta i lavoratori. Crediamo nel rispetto delle regole e non dei dazi che penalizzerebbero le esportazioni italiane.\n\n
-* Proponiamo finanziamenti europei (Eurobond) per finanziare progetti su capitale umano, ricerca e infrastrutture. È possibile investire il 5% del PIL dell'Eurozona per complessivi 540 miliardi di Euro.\n\n
+    <string name="Pd_Europa">"\n* L'Europa dovrà regolare la globalizzazione, punendo chi fa concorrenza sleale e sfrutta i lavoratori. Crediamo nel rispetto delle regole e non dei dazi che penalizzerebbero le esportazioni italiane.\n
+* Proponiamo finanziamenti europei (Eurobond) per finanziare progetti su capitale umano, ricerca e infrastrutture. È possibile investire il 5% del PIL dell'Eurozona per complessivi 540 miliardi di Euro.\n
 * Vogliamo l’elezione diretta del Presidente della Commissione Europea. È giusto che chi prende le decisioni a Bruxelles per conto di tutti gli europei sia scelto democraticamente dai cittadini."
     </string>
 
@@ -366,5 +366,8 @@
     <string name="DestreUnite_Turismo"> TODO turismo</string>
     <string name="DestreUnite_Salute"> TODO salute</string>
     <string name="DestreUnite_Europa"> TODO europa</string>
+
+    <string name="NoTema">
+"\nProgramma non disponibile sul sito del ministero degli interni.\n Per maggiori informazioni si rimanda al sito ufficiale."</string>
 
 </resources>

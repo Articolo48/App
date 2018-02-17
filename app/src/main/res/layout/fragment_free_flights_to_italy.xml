@@ -58,20 +58,15 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
 
-                <TableLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center">
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center">
+            <TextView
+                android:id="@+id/freeFlightsToItaly_Tema"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NoTema"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
 
-                    </TableRow>
-
-
-                </TableLayout>
             </ScrollView>
         </TableRow>
 
