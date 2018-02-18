@@ -51,7 +51,7 @@
 * Finanzieremo un piano nazionale da 100 milioni di euro l’anno, per tutta la legislatura, per aumentare le possibilità di accesso agli asili nido."
     </string>
 
-    <string name="Pd_Fisco">"\n* È giusto far pagare le tasse alle aziende online che lavorano in Italia, con le condizioni delle aziende offline: stesse condizioni, uguali tasse.\n
+    <string name="Pd_FiscoEconomia">"\n* È giusto far pagare le tasse alle aziende online che lavorano in Italia, con le condizioni delle aziende offline: stesse condizioni, uguali tasse.\n
 * Più forte deducibilità fiscale a chi investe nel sociale, nella ricerca, nell’associazionismo.\n
 * Il canone RAI sarà ulteriormente ridotto, e sarà azzerato per le categorie meno abbienti, garantendo la qualità del servizio pubblico.\n
 * I lavoratori autonomi e le partite IVA sono stati considerati spesso lavoratori di serie B. Noi non siamo d'accordo: per questo estenderemo gli 80 euro e gli ammortizzatori sociali anche a loro.\n
@@ -89,7 +89,7 @@
     <string name="Pd_Impresa">"\n* Garantiremo il diritto dei lavoratori a ricevere formazione gratuita e di qualità per tutta la vita. Per questo proponiamo un conto personale di formazione: 150 ore a 18 anni, che crescono con l'età."
     </string>
 
-    <string name="Pd_Infrastruttura">"\n* Finanzieremo l'acquisto di nuovo materiale rotabile e bus per dimezzare l’età media della flotta entro la fine della legislatura.\n
+    <string name="Pd_Infrastrutture">"\n* Finanzieremo l'acquisto di nuovo materiale rotabile e bus per dimezzare l’età media della flotta entro la fine della legislatura.\n
 * Realizzeremo quattro ciclovie nazionali: la Veneto/Torino (Vento), il Grande Raccordo Anulare delle Bici a Roma (Grab), la ciclovia del Sole e quella Pugliese.\n
 * Abbiamo inaugurato Variante di Valico, Salerno-Reggio e Quadrilatero. Nei prossimi 5 anni completeremo la 106 Ionica, i cantieri siciliani, la Tirrenica, la Cispadana, la Asti-Cuneo, la Gronda.\n
 * Occorre continuare l’investimento già fatto per 1.500 km di piste ciclabili prevedendo bandi di finanziamento di percorsi ciclabili casa-scuola in ambito urbano e di collegamenti tra paesi e città.\n
@@ -120,7 +120,7 @@
 * Con la legge sul reddito d'inclusione abbiamo introdotto il primo strumento per la lotta alla povertà. Nei prossimi cinque anni raddoppieremo i fondi per raggiungere il 100% delle famiglie bisognose."
     </string>
 
-    <string name="Pd_Salute">"\n* Aumentare i fondi nazionali per i farmaci innovativi, specie nel settore oncologico e nella ricerca contro le malattie rare, agevolando gli investimenti sulla ricerca farmaceutica in Italia.\n
+    <string name="Pd_Sanita">"\n* Aumentare i fondi nazionali per i farmaci innovativi, specie nel settore oncologico e nella ricerca contro le malattie rare, agevolando gli investimenti sulla ricerca farmaceutica in Italia.\n
 * Dopo aver voluto una indispensabile legge sull'obbligatorietà sui vaccini, ci impegneremo in una costante campagna contro le false notizie, antiscientifiche, che generano terrore e disinformazione.\n
 * Puntiamo sulla medicina territoriale per ridurre ospedalizzazioni evitabili e abbassare i costi per il sistema sanitario. Investiremo nell’utilizzo di nuove tecnologie per monitoraggio e prevenzione.\n
 * Liste d'attesa: promuoveremo in tutta Italia le migliori esperienze di alcune regioni in questi anni, al fine di garantire ai cittadini il pieno accesso ai servizi in tempi certi e ragionevoli."
@@ -155,18 +155,18 @@
     <string name="Movimento5Stelle_Diritti"> TODO </string>
     <string name="Movimento5Stelle_Estero"> TODO </string>
     <string name="Movimento5Stelle_Famiglia"> TODO </string>
-    <string name="Movimento5Stelle_Fisco"> TODO </string>
+    <string name="Movimento5Stelle_FiscoEconomia"> TODO </string>
     <string name="Movimento5Stelle_Banche"> TODO </string>
     <string name="Movimento5Stelle_Giustizia"> TODO </string>
     <string name="Movimento5Stelle_Governo"> TODO </string>
     <string name="Movimento5Stelle_Immigrazione"> TODO </string>
     <string name="Movimento5Stelle_Impresa"> TODO </string>
-    <string name="Movimento5Stelle_Infrastruttura"> TODO </string>
+    <string name="Movimento5Stelle_Infrastrutture"> TODO </string>
     <string name="Movimento5Stelle_Istruzione"> TODO </string>
     <string name="Movimento5Stelle_Lavoro"> TODO </string>
     <string name="Movimento5Stelle_Previdenza"> TODO </string>
     <string name="Movimento5Stelle_Protezione_Sociale"> TODO </string>
-    <string name="Movimento5Stelle_Salute"> TODO </string>
+    <string name="Movimento5Stelle_Sanita"> TODO </string>
     <string name="Movimento5Stelle_Sicurezza"> TODO </string>
     <string name="Movimento5Stelle_Tecnologia"> TODO </string>
     <string name="Movimento5Stelle_Europa"> TODO </string>
@@ -176,25 +176,25 @@
     <string name="CasaPound_Diritti"> TODO </string>
     <string name="CasaPound_Energia"> TODO </string>
     <string name="CasaPound_Famiglia"> TODO </string>
-    <string name="CasaPound_Fisco"> TODO </string>
+    <string name="CasaPound_FiscoEconomia"> TODO </string>
     <string name="CasaPound_Giustizia"> TODO </string>
     <string name="CasaPound_Sicurezza"> TODO </string>
     <string name="CasaPound_Immigrazione"> TODO </string>
     <string name="CasaPound_Istruzione"> TODO </string>
     <string name="CasaPound_Lavoro"> TODO </string>
-    <string name="CasaPound_Salute"> TODO </string>
+    <string name="CasaPound_Sanita"> TODO </string>
     <string name="CasaPound_Europa"> TODO </string>
 
     <string name="CivicaPopolareLorenzin_Estero"> TODO estero </string>
     <string name="CivicaPopolareLorenzin_Ambiente"> TODO ambiente </string>
     <string name="CivicaPopolareLorenzin_Cultura"> TODO cultura </string>
     <string name="CivicaPopolareLorenzin_Famiglia"> TODO famiglia </string>
-    <string name="CivicaPopolareLorenzin_Fisco"> TODO fisco</string>
+    <string name="CivicaPopolareLorenzin_FiscoEconomia"> TODO fiscoEconomia</string>
     <string name="CivicaPopolareLorenzin_Immigrazione"> TODO immigrazione </string>
     <string name="CivicaPopolareLorenzin_Impresa"> TODO impresa</string>
     <string name="CivicaPopolareLorenzin_Istruzione"> TODO istruzione</string>
     <string name="CivicaPopolareLorenzin_Lavoro"> TODO lavoro</string>
-    <string name="CivicaPopolareLorenzin_Salute"> TODO salute</string>
+    <string name="CivicaPopolareLorenzin_Sanita"> TODO sanità</string>
     <string name="CivicaPopolareLorenzin_Sicurezza"> TODO sicurezza</string>
     <string name="CivicaPopolareLorenzin_Sud"> TODO sud</string>
     <string name="CivicaPopolareLorenzin_Europa"> TODO europa</string>
@@ -205,17 +205,17 @@
     <string name="FratelliDItalia_Diritti"> TODO diritti</string>
     <string name="FratelliDItalia_Estero"> TODO estero</string>
     <string name="FratelliDItalia_Famiglia"> TODO famiglia</string>
-    <string name="FratelliDItalia_Fisco"> TODO fisco</string>
+    <string name="FratelliDItalia_FiscoEconomia"> TODO fiscoEconomia</string>
     <string name="FratelliDItalia_Giustizia"> TODO giustizia</string>
     <string name="FratelliDItalia_Governo"> TODO governo</string>
     <string name="FratelliDItalia_Immigrazione"> TODO immigrazione</string>
     <string name="FratelliDItalia_Impresa"> TODO impresa </string>
-    <string name="FratelliDItalia_Infrastruttura"> TODO infrastruttura </string>
+    <string name="FratelliDItalia_Infrastrutture"> TODO infrastrutture </string>
     <string name="FratelliDItalia_Istruzione"> TODO istruzione </string>
     <string name="FratelliDItalia_Lavoro"> TODO lavoro</string>
     <string name="FratelliDItalia_Previdenza"> TODO previdenza</string>
     <string name="FratelliDItalia_Protezione_Sociale"> TODO protezione sociale</string>
-    <string name="FratelliDItalia_Salute"> TODO salute </string>
+    <string name="FratelliDItalia_Sanita"> TODO sanità </string>
     <string name="FratelliDItalia_Sicurezza"> TODO sicurezza</string>
     <string name="FratelliDItalia_Tecnologia"> TODO tecnologia</string>
     <string name="FratelliDItalia_Europa"> TODO europa</string>
@@ -224,16 +224,16 @@
     <string name="Lega_Ambiente"> TODO ambiente </string>
     <string name="Lega_Cultura"> TODO cultura</string>
     <string name="Lega_Diritti"> TODO diritti</string>
-    <string name="Lega_Fisco"> TODO fisco</string>
+    <string name="Lega_FiscoEconomia"> TODO fiscoEconomia</string>
     <string name="Lega_Giustizia"> TODO giustizia</string>
     <string name="Lega_Governo"> TODO governo</string>
     <string name="Lega_Immigrazione"> TODO immigrazione</string>
     <string name="Lega_Impresa"> TODO impresa </string>
-    <string name="Lega_Infrastruttura"> TODO infrastruttura </string>
+    <string name="Lega_Infrastrutture"> TODO infrastrutture </string>
     <string name="Lega_Istruzione"> TODO istruzione </string>
     <string name="Lega_Lavoro"> TODO lavoro</string>
     <string name="Lega_Previdenza"> TODO previdenza</string>
-    <string name="Lega_Salute"> TODO salute </string>
+    <string name="Lega_Sanita"> TODO sanità </string>
     <string name="Lega_Sicurezza"> TODO sicurezza</string>
     <string name="Lega_Tecnologia"> TODO tecnologia</string>
     <string name="Lega_Europa"> TODO europa</string>
@@ -241,13 +241,13 @@
     <string name="LiberiUguali_Agroalimentare"> TODO agroalimentare </string>
     <string name="LiberiUguali_Ambiente"> TODO ambiente </string>
     <string name="LiberiUguali_Diritti"> TODO diritti</string>
-    <string name="LiberiUguali_Fisco"> TODO fisco</string>
+    <string name="LiberiUguali_FiscoEconomia"> TODO fiscoEconomia</string>
     <string name="LiberiUguali_Immigrazione"> TODO immigrazione</string>
     <string name="LiberiUguali_Istruzione"> TODO istruzione </string>
     <string name="LiberiUguali_Lavoro"> TODO lavoro</string>
     <string name="LiberiUguali_Previdenza"> TODO previdenza</string>
     <string name="LiberiUguali_Protezione_Sociale"> TODO protezione sociale</string>
-    <string name="LiberiUguali_Salute"> TODO salute </string>
+    <string name="LiberiUguali_Sanita"> TODO sanità </string>
     <string name="LiberiUguali_Sicurezza"> TODO sicurezza</string>
     <string name="LiberiUguali_Europa"> TODO europa</string>
 
@@ -257,16 +257,16 @@
     <string name="PartitoComunista_Donne"> TODO donne </string>
     <string name="PartitoComunista_Estero"> TODO </string>
     <string name="PartitoComunista_Energia"> TODO energia </string>
-    <string name="PartitoComunista_Fisco"> TODO </string>
+    <string name="PartitoComunista_FiscoEconomia"> TODO </string>
     <string name="PartitoComunista_Giustizia"> TODO </string>
     <string name="PartitoComunista_Giovani"> TODO </string>
     <string name="PartitoComunista_Immigrazione"> TODO </string>
-    <string name="PartitoComunista_Infrastruttura"> TODO </string>
+    <string name="PartitoComunista_Infrastrutture"> TODO </string>
     <string name="PartitoComunista_Istruzione"> TODO </string>
     <string name="PartitoComunista_Lavoro"> TODO </string>
     <string name="PartitoComunista_Previdenza"> TODO </string>
     <string name="PartitoComunista_Protezione_Sociale"> TODO </string>
-    <string name="PartitoComunista_Salute"> TODO </string>
+    <string name="PartitoComunista_Sanita"> TODO </string>
     <string name="PartitoComunista_Sud"> TODO sud </string>
     <string name="PartitoComunista_Europa"> TODO </string>
 
@@ -276,7 +276,7 @@
     <string name="PiuEuropa_Diritti"> TODO </string>
     <string name="PiuEuropa_Estero"> TODO </string>
     <string name="PiuEuropa_Famiglia"> TODO </string>
-    <string name="PiuEuropa_Fisco"> TODO </string>
+    <string name="PiuEuropa_FiscoEconomia"> TODO </string>
     <string name="PiuEuropa_Giustizia"> TODO </string>
     <string name="PiuEuropa_Governo"> TODO </string>
     <string name="PiuEuropa_Immigrazione"> TODO </string>
@@ -284,7 +284,7 @@
     <string name="PiuEuropa_Lavoro"> TODO </string>
     <string name="PiuEuropa_Previdenza"> TODO </string>
     <string name="PiuEuropa_Protezione_Sociale"> TODO </string>
-    <string name="PiuEuropa_Salute"> TODO </string>
+    <string name="PiuEuropa_Sanita"> TODO </string>
     <string name="PiuEuropa_Sicurezza"> TODO </string>
     <string name="PiuEuropa_Tecnologia"> TODO </string>
     <string name="PiuEuropa_Europa"> TODO </string>
@@ -294,8 +294,8 @@
     <string name="Autodeterminazione_Diritti"> TODO diritti</string>
     <string name="Autodeterminazione_Governo"> TODO governo</string>
     <string name="Autodeterminazione_Istruzione"> TODO istruzione </string>
-    <string name="Autodeterminazione_Infrastruttura"> TODO infrastruttura</string>
-    <string name="Autodeterminazione_Salute"> TODO salute </string>
+    <string name="Autodeterminazione_Infrastrutture"> TODO infrastrutture</string>
+    <string name="Autodeterminazione_Sanita"> TODO sanita </string>
     <string name="Autodeterminazione_Sicurezza"> TODO sicurezza</string>
 
     <string name="ForzaItalia_Agroalimentare"> TODO agroalimentare </string>
@@ -304,7 +304,7 @@
     <string name="ForzaItalia_Diritti"> TODO diritti</string>
     <string name="ForzaItalia_Estero"> TODO estero</string>
     <string name="ForzaItalia_Famiglia"> TODO famiglia</string>
-    <string name="ForzaItalia_Fisco"> TODO fisco</string>
+    <string name="ForzaItalia_FiscoEconomia"> TODO fiscoEconomia</string>
     <string name="ForzaItalia_Giovani"> TODO giovani</string>
     <string name="ForzaItalia_Giustizia"> TODO giustizia</string>
     <string name="ForzaItalia_Governo"> TODO governo</string>
@@ -320,15 +320,15 @@
     <string name="Noi_Ambiente"> TODO </string>
     <string name="Noi_Cultura"> TODO </string>
     <string name="Noi_Famiglia"> TODO </string>
-    <string name="Noi_Fisco"> TODO </string>
+    <string name="Noi_FiscoEconomia"> TODO </string>
     <string name="Noi_Giustizia"> TODO </string>
     <string name="Noi_Governo"> TODO </string>
     <string name="Noi_Istruzione"> TODO </string>
-    <string name="Noi_Infrastruttura"> TODO </string>
+    <string name="Noi_Infrastrutture"> TODO </string>
     <string name="Noi_Impresa"> TODO </string>
     <string name="Noi_Lavoro"> TODO </string>
     <string name="Noi_Previdenza"> TODO </string>
-    <string name="Noi_Salute"> TODO </string>
+    <string name="Noi_Sanita"> TODO </string>
     <string name="Noi_Sicurezza"> TODO </string>
     <string name="Noi_Europa"> TODO </string>
 
@@ -337,26 +337,26 @@
     <string name="DieciVolteMeglio_Lavoro"> TODO lavoro</string>
     <string name="DieciVolteMeglio_Istruzione"> TODO istruzione</string>
     <string name="DieciVolteMeglio_Sud"> TODO sud</string>
-    <string name="DieciVolteMeglio_Salute"> TODO salute</string>
+    <string name="DieciVolteMeglio_Sanita"> TODO sanità</string>
     <string name="DieciVolteMeglio_Tecnologia"> TODO tecnologia</string>
     <string name="DieciVolteMeglio_Turismo"> TODO turismo</string>
     <string name="DieciVolteMeglio_Europa"> TODO europa</string>
 
     <string name="BloccoNazionale_Diritti"> TODO diritti</string>
     <string name="BloccoNazionale_Famiglia"> TODO famiglia</string>
-    <string name="BloccoNazionale_Fisco"> TODO fisco</string>
+    <string name="BloccoNazionale_FiscoEconomia"> TODO fiscoEconomia</string>
     <string name="BloccoNazionale_Governo"> TODO governo</string>
     <string name="BloccoNazionale_Lavoro"> TODO lavoro</string>
     <string name="BloccoNazionale_Sicurezza"> TODO sicurezza</string>
 
     <string name="DemocraziaCristiana_Ambiente"> TODO ambiente</string>
     <string name="DemocraziaCristiana_Famiglia"> TODO famiglia</string>
-    <string name="DemocraziaCristiana_Fisco"> TODO fisco</string>
+    <string name="DemocraziaCristiana_FiscoEconomia"> TODO fiscoEconomia</string>
     <string name="DemocraziaCristiana_Giustizia"> TODO giustizia</string>
     <string name="DemocraziaCristiana_Governo"> TODO governo</string>
     <string name="DemocraziaCristiana_Lavoro"> TODO lavoro</string>
     <string name="DemocraziaCristiana_Previdenza"> TODO previdenza</string>
-    <string name="DemocraziaCristiana_Salute"> TODO salute</string>
+    <string name="DemocraziaCristiana_Sanita"> TODO sanità</string>
     <string name="DemocraziaCristiana_Sicurezza"> TODO sicurezza</string>
 
     <string name="DestreUnite_Cultura"> TODO cultura</string>
@@ -364,8 +364,140 @@
     <string name="DestreUnite_Istruzione"> TODO istruzione</string>
     <string name="DestreUnite_Previdenza"> TODO previdenza</string>
     <string name="DestreUnite_Turismo"> TODO turismo</string>
-    <string name="DestreUnite_Salute"> TODO salute</string>
+    <string name="DestreUnite_Sanita"> TODO sanità</string>
     <string name="DestreUnite_Europa"> TODO europa</string>
+
+    <string name="ForzaNuova_Diritti"> TODO diritti</string>
+    <string name="ForzaNuova_Europa"> TODO europa</string>
+    <string name="ForzaNuova_Famiglia"> TODO famiglia</string>
+    <string name="ForzaNuova_Sanita"> TODO sanità</string>
+
+    <string name="GrandeNord_Banche"> TODO banche</string>
+    <string name="GrandeNord_FiscoEconomia"> TODO fiscoEconomia</string>
+    <string name="GrandeNord_Governo"> TODO governo</string>
+    <string name="GrandeNord_Immigrazione"> TODO immigrazione</string>
+    <string name="GrandeNord_Lavoro"> TODO lavoro</string>
+
+    <string name="IlPopoloDellaFamiglia_Diritti"> TODO diritti</string>
+    <string name="IlPopoloDellaFamiglia_Europa"> TODO europa</string>
+    <string name="IlPopoloDellaFamiglia_Famiglia"> TODO famiglia</string>
+    <string name="IlPopoloDellaFamiglia_FiscoEconomia"> TODO fiscoEconomia</string>
+    <string name="IlPopoloDellaFamiglia_Giovani"> TODO giovani</string>
+    <string name="IlPopoloDellaFamiglia_Immigrazione"> TODO immigrazione</string>
+    <string name="IlPopoloDellaFamiglia_Istruzione"> TODO istruzione</string>
+    <string name="IlPopoloDellaFamiglia_Lavoro"> TODO lavoro</string>
+    <string name="IlPopoloDellaFamiglia_Sanita"> TODO sanità</string>
+    <string name="IlPopoloDellaFamiglia_Sicurezza"> TODO sicurezza</string>
+
+    <string name="Insieme_Agroalimentare"> TODO agroalimentare</string>
+    <string name="Insieme_Ambiente"> TODO ambiente</string>
+    <string name="Insieme_Donne"> TODO donne</string>
+    <string name="Insieme_Europa"> TODO europa</string>
+    <string name="Insieme_Famiglia"> TODO famiglia</string>
+    <string name="Insieme_Istruzione"> TODO istruzione</string>
+    <string name="Insieme_Lavoro"> TODO lavoro</string>
+    <string name="Insieme_Sud"> TODO sud</string>
+
+    <string name="ListaDelPopoloDellaCostituzione_Ambiente"> TODO ambiente</string>
+    <string name="ListaDelPopoloDellaCostituzione_Europa"> TODO europa</string>
+    <string name="ListaDelPopoloDellaCostituzione_FiscoEconomia"> TODO fiscoEconomia</string>
+    <string name="ListaDelPopoloDellaCostituzione_Immigrazione"> TODO immigrazione</string>
+    <string name="ListaDelPopoloDellaCostituzione_Istruzione"> TODO istruzione</string>
+    <string name="ListaDelPopoloDellaCostituzione_Lavoro"> TODO lavoro</string>
+    <string name="ListaDelPopoloDellaCostituzione_Sanita"> TODO sanità</string>
+
+    <string name="Maie_Cultura"> TODO cultura</string>
+    <string name="Maie_Estero"> TODO estero</string>
+    <string name="Maie_Famiglia"> TODO famiglia</string>
+    <string name="Maie_Governo"> TODO governo</string>
+    <string name="Maie_Immigrazione"> TODO immigrazione</string>
+    <string name="Maie_Istruzione"> TODO istruzione</string>
+    <string name="Maie_Sanità"> TODO sanità</string>
+
+    <string name="Rinascimento_Cultura"> TODO cultura</string>
+    <string name="Rinascimento_Governo"> TODO governo</string>
+    <string name="Rinascimento_Lavoro"> TODO lavoro</string>
+
+    <string name="PartitoRepubblicano_Ambiente"> TODO ambiente</string>
+    <string name="PartitoRepubblicano_Diritti"> TODO diritti</string>
+    <string name="PartitoRepubblicano_FiscoEconomia"> TODO fisco_economia</string>
+    <string name="PartitoRepubblicano_Giustizia"> TODO giustizia</string>
+    <string name="PartitoRepubblicano_Governo"> TODO governo</string>
+    <string name="PartitoRepubblicano_Lavoro"> TODO lavoro</string>
+    <string name="PartitoRepubblicano_Infrastrutture"> TODO infrastrutture</string>
+    <string name="PartitoRepubblicano_Istruzione"> TODO istruzione</string>
+    <string name="PartitoRepubblicano_Sanita"> TODO sanità</string>
+    <string name="PartitoRepubblicano_Previdenza"> TODO previdenza</string>
+
+    <string name="PartitoValoreUmano_Agroalimentare"> TODO agroalimentare</string>
+    <string name="PartitoValoreUmano_Europa"> TODO europa</string>
+    <string name="PartitoValoreUmano_Governo"> TODO governo</string>
+    <string name="PartitoValoreUmano_Lavoro"> TODO lavoro</string>
+    <string name="PartitoValoreUmano_Sanita"> TODO sanità</string>
+
+    <string name="PattoPerLAutonomia_Governo"> TODO governo</string>
+    <string name="PattoPerLAutonomia_Europa"> TODO europa</string>
+
+    <string name="Ppa_Banche"> TODO banche</string>
+    <string name="Ppa_FiscoEconomia"> TODO fiscoEconomia</string>
+    <string name="Ppa_Governo"> TODO governo</string>
+
+    <string name="PotereAlPopolo_Ambiente"> TODO ambiente</string>
+    <string name="PotereAlPopolo_Cultura"> TODO cultura</string>
+    <string name="PotereAlPopolo_Donne"> TODO donne</string>
+    <string name="PotereAlPopolo_Europa"> TODO europa</string>
+    <string name="PotereAlPopolo_FiscoEconomaia"> TODO fiscoEconomia</string>
+    <string name="PotereAlPopolo_Giustizia"> TODO giustizia</string>
+    <string name="PotereAlPopolo_Lavoro"> TODO lavoro</string>
+    <string name="PotereAlPopolo_Immigrazione"> TODO immigrazione</string>
+    <string name="PotereAlPopolo_Infrastrutture"> TODO infrastrutture</string>
+    <string name="PotereAlPopolo_Istruzione"> TODO istruzione</string>
+    <string name="PotereAlPopolo_Previdenza"> TODO previdenza</string>
+    <string name="PotereAlPopolo_Sanità"> TODO sanità</string>
+    <string name="PotereAlPopolo_Sicurezza"> TODO sicurezza</string>
+    <string name="PotereAlPopolo_Sud"> TODO sud</string>
+
+    <string name="Siamo_Agroalimentare"> TODO agroalimentare</string>
+    <string name="Siamo_Ambiente"> TODO ambiente</string>
+    <string name="Siamo_Diritti"> TODO diritti</string>
+    <string name="Siamo_Donne"> TODO donne</string>
+    <string name="Siamo_Famiglia"> TODO famiglia</string>
+    <string name="Siamo_Giustizia"> TODO giustizia</string>
+    <string name="Siamo_Governo"> TODO governo</string>
+    <string name="Siamo_Lavoro"> TODO lavoro</string>
+    <string name="Siamo_Infrastrutture"> TODO infrastrutture</string>
+    <string name="Siamo_Istruzione"> TODO istruzione</string>
+    <string name="Siamo_Sanita"> TODO sanità</string>
+
+    <string name="SinistraRivoluzionaria_Ambiente"> TODO ambiente</string>
+    <string name="SinistraRivoluzionaria_Banche"> TODO banche</string>
+    <string name="SinistraRivoluzionaria_Diritti"> TODO diritti</string>
+    <string name="SinistraRivoluzionaria_Donne"> TODO donne</string>
+    <string name="SinistraRivoluzionaria_FiscoEconomia"> TODO fiscoeconomia</string>
+    <string name="SinistraRivoluzionaria_Governo"> TODO governo</string>
+    <string name="SinistraRivoluzionaria_Lavoro"> TODO lavoro</string>
+    <string name="SinistraRivoluzionaria_Immigrazione"> TODO immigrazione</string>
+    <string name="SinistraRivoluzionaria_Istruzione"> TODO istruzione</string>
+    <string name="SinistraRivoluzionaria_Previdenza"> TODO previdenza</string>
+    <string name="SinistraRivoluzionaria_Sanita"> TODO sanità</string>
+    <string name="SinistraRivoluzionaria_Sicurezza"> TODO sicurezza</string>
+    <string name="SinistraRivoluzionaria_Sud"> TODO sud</string>
+
+    <string name="SVP_Governo"> TODO governo</string>
+
+    <string name="NoiConLItalia_Ambiente"> TODO ambiente</string>
+    <string name="NoiConLItalia_Cultura"> TODO cultura</string>
+    <string name="NoiConLItalia_Europa"> TODO europa</string>
+    <string name="NoiConLItalia_Famiglia"> TODO famiglia</string>
+    <string name="NoiConLItalia_FiscoEconomia"> TODO FiscoEconomia</string>
+    <string name="NoiConLItalia_Giustizia"> TODO giustizia</string>
+    <string name="NoiConLItalia_Governo"> TODO governo</string>
+    <string name="NoiConLItalia_Lavoro"> TODO lavoro</string>
+    <string name="NoiConLItalia_Infrastrutture"> TODO infrastrutture</string>
+    <string name="NoiConLItalia_Istruzione"> TODO istruzione</string>
+    <string name="NoiConLItalia_Previdenza"> TODO previdenza</string>
+    <string name="NoiConLItalia_Sanita"> TODO sanità</string>
+    <string name="NoiConLItalia_Sicurezza"> TODO sicurezza</string>
 
     <string name="NoTema">
 "\nProgramma non disponibile sul sito del ministero degli interni.\n Per maggiori informazioni si rimanda al sito ufficiale."</string>

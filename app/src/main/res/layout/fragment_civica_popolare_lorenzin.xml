@@ -166,7 +166,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:drawableTop="@drawable/ic_button_salute"
-                            android:text="salute" />
+                            android:text="sanità" />
 
                     </TableRow>
 
