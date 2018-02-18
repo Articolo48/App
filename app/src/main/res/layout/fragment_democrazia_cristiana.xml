@@ -96,17 +96,26 @@
                             android:text="economia" />
 
                         <Button
+                            android:id="@+id/But_Europa"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_europa"
+                            android:text="europa" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <Button
                             android:id="@+id/But_Giustizia"
                             android:layout_width="96dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:drawableTop="@drawable/ic_button_giustizia"
                             android:text="giustizia" />
-                    </TableRow>
-
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
 
                         <Button
                             android:id="@+id/But_Governo"
@@ -116,6 +125,12 @@
                             android:drawableTop="@drawable/ic_button_governo"
                             android:text="governo" />
 
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
                         <Button
                             android:id="@+id/But_Lavoro"
                             android:layout_width="96dp"
@@ -123,12 +138,6 @@
                             android:layout_weight="1"
                             android:drawableTop="@drawable/ic_button_lavoro"
                             android:text="lavoro" />
-
-                    </TableRow>
-
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
 
                         <Button
                             android:id="@+id/But_Previdenza"
@@ -138,6 +147,12 @@
                             android:drawableTop="@drawable/ic_button_previdenza"
                             android:text="previdenza" />
 
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
                         <Button
                             android:id="@+id/But_Sanita"
                             android:layout_width="96dp"
@@ -146,27 +161,12 @@
                             android:drawableTop="@drawable/ic_button_sanita"
                             android:text="sanita" />
 
-                    </TableRow>
-
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
-
-                        <Button
-                            android:id="@+id/But_Sicurezza"
-                            android:layout_width="96dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:drawableTop="@drawable/ic_button_sicurezza"
-                            android:text="sicurezza" />
-
                         <Button
                             android:id="@+id/empty"
                             android:layout_width="96dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:text="" />
-
                     </TableRow>
 
                 </TableLayout>

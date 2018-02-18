@@ -91,8 +91,8 @@ public class DemocraziaCristiana_Tema extends Fragment {
             testo_tema.setText(R.string.DemocraziaCristiana_Previdenza);
         else if (tema.equals("DemocraziaCristiana_Sanita"))
             testo_tema.setText(R.string.DemocraziaCristiana_Sanita);
-        else if (tema.equals("DemocraziaCristiana_Sicurezza"))
-            testo_tema.setText(R.string.DemocraziaCristiana_Sicurezza);
+        else if (tema.equals("DemocraziaCristiana_Europa"))
+            testo_tema.setText(R.string.DemocraziaCristiana_Europa);
         else
             testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
         return  view;

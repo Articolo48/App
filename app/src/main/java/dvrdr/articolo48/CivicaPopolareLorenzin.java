@@ -134,8 +134,8 @@ public class CivicaPopolareLorenzin extends Fragment {
         economia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "CivicaPopolareLorenzin_Fisco");
-                args.putString("titolo", "Fisco");
+                args.putString("tema", "CivicaPopolareLorenzin_Economia");
+                args.putString("titolo", "Economia");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();

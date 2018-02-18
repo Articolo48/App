@@ -171,33 +171,180 @@
     <string name="Movimento5Stelle_Tecnologia"> TODO </string>
     <string name="Movimento5Stelle_Europa"> TODO </string>
 
-    <string name="CasaPound_Ambiente"> TODO </string>
-    <string name="CasaPound_Cultura"> TODO </string>
-    <string name="CasaPound_Diritti"> TODO </string>
-    <string name="CasaPound_Energia"> TODO </string>
-    <string name="CasaPound_Famiglia"> TODO </string>
-    <string name="CasaPound_Economia"> TODO </string>
-    <string name="CasaPound_Giustizia"> TODO </string>
-    <string name="CasaPound_Sicurezza"> TODO </string>
-    <string name="CasaPound_Immigrazione"> TODO </string>
-    <string name="CasaPound_Istruzione"> TODO </string>
-    <string name="CasaPound_Lavoro"> TODO </string>
-    <string name="CasaPound_Sanita"> TODO </string>
-    <string name="CasaPound_Europa"> TODO </string>
+    <string name="CasaPound_Ambiente">"\n* Sviluppo di tutte le culture biologiche.\n
+* Riqualificazione delle coste marittime e dei corsi fluviali (con contestuale divieto di privatizzazione del demanio).\n
+* Tutela e valorizzazione del territorio mediante studio e recupero della biodiversità italiana ed incentivazione delle colture tipiche locali.\n
+* Lotta al degrado ed al consumo indiscriminato del suolo mediante politiche di prevenzione e messa in sicurezza delle aree affette da dissesto idrogeologico e dal fenomeno della erosione del suolo.\n
+* Introduzione di obblighi di ripristino per le aree degradate e di recupero delle aree agricole.\n
+* Sviluppo del trasporto merci navale e via treno.\n
+Istituzione dell’informatizzazione totale per sopperire agli ostacoli burocratici che implicano una mole costante di spostamenti via motore del tutto evitabili.\n
+* Completamento di tutte le grandi opere che (contrariamente ai dogmi verdi), attraverso l’efficientamento dei trasporti, riducono l’inquinamento.\n
+* Potenziamento dei parchi e delle riserve naturali avviando l’educazione alla “parteci- pazione” al parco.
+* Ripopolamento delle faune a rischio.\n
+* Ricostituzione e potenziamento del Corpo Forestale dello Stato, soppresso con inesistenti motivazioni economiche, per essere assorbito dal corpo dei Carabinieri.\n
+* Sostegno, attraverso l’erogazione di fondi destinati allo sviluppo di attività svolte in simbiosi con gli elementi naturali ed utili alla loro preservazione, alle associazioni alpinistiche, subacquee, paracadutistiche e di ogni attività legata direttamente alla natura.\n
+* Rivalutazione, riqualifica e divulgazione del patrimonio artistico che renda partecipe ognuno nella sua quotidianità, in controtendenza rispetto alla cultura-museo.\n
+* Condanna e messa fuorilegge di qualsiasi tipo di pelliccia naturale.\n
+* Riacquisizione di ogni area sottratta all’uso pubblico dalla presenza di basi militari straniere in Italia.\n
+* Forte contrapposizione alla cultura degli allevamenti intensivi, che rappresentano un pericolo per la salute ed uno sfregio per la natura e le sue regole. Nella stessa direzione si inserisce la necessità di regolamentare, con nuove norme, la vivisezione, da limitarsi ai casi di sperimentazione farmacologica per la cura di malattie.\n
+Introduzione di leggi severissime per chi inquina, deturpa e avvelena il patrimonio na- turale della nazione."</string>
+    <string name="CasaPound_Cultura">"\n* Creazione di un Ente che coordini l’intera produzione culturale nazionale in ogni ambito e settore.\n
+* Creazione di un istituto statale di formazione della classe dirigente.\n
+* Creazione delle “Olimpiadi della cultura”, organizzate dallo Stato, che riguardino tutte le principali materie universitarie, con garanzia di ingresso diretto nel mondo del lavoro per i primi classificati.\n
+* Regolamentazione dell’invasione di campo della pubblicità sui programmi televisivi.\n
+* Rilancio della cinematografia italiana, attraverso il potenziamento dell’Istituto Luce Cinecittà spa, fino a proporre concorrenza culturale alla mitologia hollywoodiana.\n
+* Drastica revisione dei criteri per assegnare finanziamenti statali al cinema. Abolizione di ogni sostegno alle inutili pellicole autoreferenziali che dominano il nostro cinema e promozione di opere ispirate al patrimonio culturale ancestrale dei popoli europei.\n
+* Immediata abolizione della Legge Merlin per l’uscita da una delle più macroscopiche ipocrisie della nostra nazione e per una regolamentazione di un settore che non conosce “proibizionismo” in nessuna nazione europea."</string>
+    <string name="CasaPound_Governo">"\n* Ricostituzione di aziende di stato nei settori delle energie, delle telecomunicazioni e dei trasporti.\n
+* Ricostituzione di aziende di stato per la gestione di tutte le risorse naturali (acqua, gas ecc) e della loro distribuzione.\n
+* Ridefinizione della missione delle aziende pubbliche (Eni, Enel, Cassa Depositi e Prestiti, Finmeccanica, Poste, ex municipalizzate) in funzione non esclusivamente aziendalista ma anche sociale e a sostegno dello sviluppo nazionale.\n
+* Difesa della previdenza sociale pubblica (Inps).\n
+* Fissazione degli introiti delle pensioni automaticamente rivalutabili al passo del costo della vita."</string>
+    <string name="CasaPound_Energia">"\n* Ricostituzione dell’Azienda di Stato votata a produzione e distribuzione di energia elettrica.\n
+* Ritorno all’energia termonucleare.\n
+* Concreti e decisi finanziamenti delle fonti pulite e rinnovabili: biomasse, solare, eolico.\n
+* Concreti e decisi finanziamenti pubblici alla ricerca su: idrogeno, celle a combustibile, celle fotovoltaiche non silicee.\n
+* Studi di fattibilità per l’introduzione dei biocombustibili."</string>
+    <string name="CasaPound_Famiglia">"\n* Reddito Nazionale di Natalità.
+* Creare un ente Maternità e Infanzia strutturato in maniera capillare e locale che si occupi della salvaguardia della madre e dei nascituri, che assista in ogni sua fase la gravidanza, garantendo il giusto numero di ecografie, una assistenza ginecologica gratuita e di alta qualità.\n
+* Propaganda pubblica della cultura dell’allattamento al seno e distribuzione di latte in polvere prodotto dall’industria farmaceutica di Stato.\n
+* Difesa a oltranza dell’assistenza pediatrica gratuita per tutti.\n
+* Costruzione di asili nido pubblici presenti capillarmente sul territorio con preferenza nazionale d’accesso.\n
+* Incentivo economico per le famiglie numerose.\n
+* Sostegno fiscale attraverso un sistema di deduzione delle spese relative alla crescita e al mantenimento dei figli.
+* Sostegno per le madri nubili.\n
+* Sostegno ai padri separati e ridefinizione delle norme sull’affidamento della prole e sull’assegnazione degli alimenti in caso di separazione coniugale.\n
+* Accesso immediato alla casa di proprietà mediante l’Istituto del Mutuo Sociale per chi aspetta un bambino.\n
+* Riduzione, per uno dei due genitori con figli di età compresa tra 0 e 6 anni, del consueto orario lavorativo da 8 ore a 6 ore al giorno. La retribuzione resterà invariata: l’85% sarà garantito dal datore di lavoro, il restante 15% sarà a carico dello Stato.\n
+* Alle coppie non proprietarie ed ai genitori separati che ne facciano richiesta deve essere erogato il mutuo sociale. Non un prestito di denaro, ma l’acquisto diretto dell’immobile da parte dell’istituto di credito (privato o pubblico)."</string>
+    <string name="CasaPound_Economia">"\n* Dimezzare e semplificare il carico fiscale. Impensabile che le imprese debbano essere gravate da un prelievo fiscale vicino al 65% con decine di adempimenti diversi.\n
+* Lo Stato deve tassare le entrate reali, senza previsioni.\n
+* Mantenimento della progressività dell’Irpef.\n
+* Introduzione del cosiddetto “coefficiente familiare”: il coefficiente è fondamentale per favorire le donne che preferiscono restare a casa per prendersi cura della famiglia.\n
+* Detassazione completa dei redditi delle persone fisiche al di sotto dei 15.000 euro per assicurare un minimo vitale pari a 1.250 euro al mese netti a persona.\n
+* Riforma dell’IMU, con previsione di una super aliquota per i grandi proprietari (di almeno 4 abitazioni nello stesso comune) che non locano gli immobili posseduti.\n
+* Aumento della tassazione dei grandi patrimoni immobiliari posseduti dalle imprese.\n
+* Eliminazione dei privilegi fiscali a favore di Chiesa cattolica, con esclusione dei soli edifici destinati esclusivamente al culto, e grandi cooperative che del principio di mutualità non hanno più alcuna caratteristica.\n
+Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle grandi imprese, delle multinazionali e dei colossi di internet.\n
+* Lotta agli espropri legalizzati da parte di società di riscossione, talora anche private, che impongono per legge sanzioni usurarie e che spesso colpiscono chi ha poco da pagare ma qualche bene da pignorare, rispetto ai grandi evasori che hanno nascosto i propri beni.\n
+* Istituzione di una commissione di inchiesta finalizzata ad accertare quanta parte dei crediti in cartella “rottamati” siano stati, all’atto della riscossione, non più esigibili per intervenuta prescrizione."</string>
+    <string name="CasaPound_Giustizia">"\n* Responsabilità civile del magistrato per colpa grave.\n
+* Estirpazione del lobbismo e della politicizzazione interna alla magistratura.
+* Regolamentazione del presenzialismo mediatico delle toghe. Introduzione di una norma che ricalchi l’articolo 10 dello Statut de la magistrature francese.\n
+* Stretta regolamentazione delle intercettazioni telefoniche e ambientali, con immediato licenziamento per l’inquirente che dovesse trasgredirle e pene severe per chi dovesse diffonderne il contenuto. Riforma dei meccanismi che regolano l’avanzamento di carriera in direzione di una meritocrazia reale.\n
+* Razionalizzazione delle risorse destinate alla giustizia.\n
+* Depenalizzazione di tutti i reati ideologici, associativi e d’opinione.\n
+* Soluzione politica di tutte le questioni giudiziarie relative agli anni di piombo, amnistia per tutti i protagonisti di quella stagione.\n
+* Separazione netta della carriera tra magistratura inquirente e giudicante.\n
+* Soppressione della possibilità di ricorso in appello per i pubblici ministeri a seguito di assoluzione in primo grado di giudizio.\n
+* La legittima difesa è un diritto ed un dovere inalienabile del cittadino, che lo esercita nelle circostanze di estremo pericolo per se stesso e per i suoi cari in caso di violazione di domicilio e dell’esercizio lavorativo."</string>
+    <string name="CasaPound_Sicurezza">"\n* Uscita dell’Italia dallo N.A.T.O.\n
+* Graduale smobilitazione di tutte le basi militari straniere presenti sul nostro territorio.\n
+* Sviluppo e potenziamento dell’industria aerospaziale italiana, del settore armi e difesa.\n
+* Allargamento delle cooperazioni ad est.\n
+* Ripristino della geopolitica degli “anni Trenta” verso il Mediterraneo e l’Oceano Indiano.\n
+* Collaborazione attiva (culturale ed economica) con l’America Latina.\n
+* Potenziamento del nucleo di difesa nazionale (Esercito, Aeronautica, Marina) aumentando i punti di PIL destinati agli armamenti che devono principalmente essere forniti da aziende italiane.\n
+* Ripristino della leva obbligatoria per tutti, uomini e donne, al compimento del 18 anno di età. Il servizio può essere svolto nelle forze armate o nella protezione civile. Non devono essere previsti rinvii scolastici oltre il diploma. Il servizio militare deve essere un servizio operativo armato sul modello svizzero con richiami quinquennali di addestramento fino al compimento del 45° anno di età.\n
+* Permettere la creazione, tra gli operatori delle Forze Armate, di associazioni professionali.\n
+* L’Italia non deve avere limitazioni su nessun sistema d’arma: dalle portaerei alle armi nucleari."</string>
+    <string name="CasaPound_Immigrazione">"\n* Blocco totale dei flussi immigratori, regolari o irregolari fino all’avvenuto rimpatrio di tutti coloro che si trovano in Italia illegalmente.\n
+* Stabilire il principio dello IUS SANGUINIS in Costituzione, scongiurando qualsiasi automatismo nell’acquisizione della cittadinanza italiana.\n
+* Revocare, a seguito di reati gravissimi (terrorismo, omicidio, stupro), la cittadinanza per i neo italiani che siano di 1°, 2°, o 3° generazione.\n
+* Rimpatrio degli stranieri che si trovano in Italia e non hanno mezzi propri di sostentamento,casa e lavoro.\n
+* Cooperazione con le aree economiche extraeuropee atta al loro sviluppo e al riscatto dalla dipendenza dalle Multinazionali.\n
+* Accordi bilaterali con le nazioni di provenienza dei clandestini per la re-immigrazione.\n
+* Sostegno a tutti i movimenti identitari extra-europei che favoriscano il radicamento e la re-immigrazione delle popolazioni autoctone.\n
+* Lotta senza quartiere ai mercanti di schiavi e ai loro complici.\n
+* Blocco dei fondi destinati alle associazioni parassitarie che dietro alle “politiche d’accoglienza” mascherano i propri interessi economici, religiosi o ideologici.\n
+* Ritiro delle licenze e delle autorizzazioni per coloro che sfruttano gli immigrati assunti senza permesso di soggiorno, aumentando così indirettamente la miseria, la disoccupazione e la precarietà fra gli Italiani.\n
+* Esproprio immediato di beni immobili concessi in uso/affitto a immigrati senza valido titolo che ne giustifichi la presenza sul territorio nazionale.\n"</string>
+    <string name="CasaPound_Istruzione">"\n* Maggiore rappresentanza studentesca nei consigli d’istituto con creazione di una figura studentesca all’interno di ogni scuola, scelta dai rappresentanti eletti, con diritto di veto nei consigli d’istituto e di amministrazione.\n
+* L’adozione di un libro unico per ogni materia a livello regionale, scelto da una commissione fatta da studenti e docenti al fine di combattere la speculazione delle case editrici.\n
+* Sostegno incondizionato alla scuola pubblica. Le scuole private presenti sul territorio nazionale non devono ricevere fondi e finanziamenti.\n
+* Stop a qualsiasi intromissione dei privati nell’Università che non sia subordinata, legalmente ed economicamente al controllo diretto, in forma partecipativa, da parte dell’Ateneo.\n
+* Aumento delle ore di educazione fisica del 150%. Palestre e strutture sportive all’avanguardia e uguali in tutti gli istituti. Insegnanti qualificati come unici addetti ai corsi.\n
+* Escursioni naturalistiche organizzazione di campi montani e marittimi con cadenza stagionale e della durata di 10 giorni.\n
+* Introduzione, nelle ore di educazione fisiche, di discipline sportive che accrescano la consapevolezza di sé e la crescita equilibrata attraverso l’apprendimento di valori fondanti come rispetto, coraggio, autocontrollo."</string>
+    <string name="CasaPound_Lavoro">"\n* Abolizione delle leggi che favoriscono il precariato e la cosiddetta “flessibilità”.\n
+* Una nuova legge complessiva sul lavoro che ponga il contratto a tempo indeterminato come forma base di qualsiasi rapporto di lavoro, stabilendo il licenziamento del lavoratore come fatto assolutamente straordinario e comprovato da giusta causa, accertata rapidamente dalla magistratura del lavoro.\n
+* Mantenimento ed effettiva applicazione dell’art. 41 della Costituzione. Abrogare tale articolo, come richiesto da più parti, significherebbe assoggettarsi definitivamente ad una concezione turbocapitalistica dell’impresa.\n * Effettiva applicazione dell’art 39 che prevede l’obbligo di registrazione per i sindacati affinché possano, rappresentati in proporzione dei loro iscritti, stipulare contratti collettivi di lavoro con efficacia obbligatoria per tutti gli appartenenti alle categorie alle quali il contratto si riferisce.\n
+* Politiche di protezione dei lavoratori italiani che evitino la loro esposizione alla concorrenza di lavoratori/schiavi in paesi stranieri privi di tutele (giornata di 8 ore, pensione, maternità etc...) ed a quella di lavoratori immigrati costretti ad assoggettarsi a salari da fame, spesso elargiti in nero.\n
+* Rivalutazione culturale del lavoro manuale, verso il quale attuare una politica di rivisitazione dei salari, garantendo maggiore sicurezza sul lavoro, minore vita lavorativa e minor numero di ore lavorative settimanali.\n
+* Rifondazione culturale dell’Umanesimo del Lavoro, secondo l’ispirazione fondamentale di Giovanni Gentile.\n
+* Per le imprese che impieghino più di 50 dipendenti si propone, in caso di fallimento o di licenziamenti collettivi, il ricorso obbligatorio preventivo alla “socializzazione” della stessa, con conseguente interruzione delle procedure previste per legge e l’introduzione, nei casi citati, di sanzioni penali per il datore di lavoro che intenda delocalizzare in altri paesi l’impresa stessa.\n
+* Anche e soprattutto per restituire il giusto valore sociale al lavoro, oggi sottomesso alla logica della speculazione finanziaria, occorrerà prevedere un aumento delle aliquote impositive sui redditi da capitale che non siano afferenti al risparmio privato, ma alla speculazione di grandi fondi internazionali.\n
+* Salvaguardia di specifici settori dalla indebita influenza politica delle grandi multinazionali, attraverso la revisione dell’attuale normativa fiscale.\n
+* Immediata cancellazione della legge Fornero."</string>
+    <string name="CasaPound_Sanita">"\n* Forte controllo del ministero della Salute sulle politiche delle case farmaceutiche.\n
+* Ingenti investimenti pubblici in ricerca, al fine di impedire che gli interessi delle case farmaceutiche e degli investitori osteggino le cure di tante malattie.\n
+* Difesa dell’assistenza medica gratuita.\n
+* Abolizione dei ticket.\n
+* Riqualificazione e ammodernamento degli ospedali pubblici tramite la riconversione degli ingenti fondi pubblici oggi utilizzati per finanziare associazioni inutili e parassitarie.\n
+* Piano Nazionale di eliminazione delle barriere architettoniche e culturali e piena attuazione della Legge 104, anche attraverso l’uso di strumenti fiscali incentivanti e sanzionatori disincentivanti.\n
+* Valendo il principio dell’interazione tra famiglia e Stato, tra affetto, efficienza e controllo, in cui l’unico obiettivo è il benessere del diversamente abile, su cui non si possono attuare finte filantropie o politiche di bilancio, si prevede un riconoscimento previdenziale al familiare che offra assistenza al disabile."</string>
+    <string name="CasaPound_Europa">"\n *Creazione di una società capogruppo, sul modello IRI, con il compito di salvare o sviluppare aziende operanti in settori industriali di interesse strategico nazionale.\n
+* Abbandonare il vecchio Euro per una nuova moneta sovrana italiana funzionale alla nostra economia ed ai nostri interessi nazionali. Uscita dell’Italia dalla Unione Europea e dai suoi folli vincoli che soffocano le nostre libertà.\n
+* Nazionalizzazione della Banca d’Italia che verrà posta nuovamente sotto il controllo del Ministero Economia e Finanze.\n
+* Separazione netta fra banche commerciali e banche di investimento finanziario, tornando alla legge bancaria del 1936.\n
+* Trasformare Cassa Depositi e Prestiti in un istituto bancario di proprietà pubblica, con la funzione di finanziare le nostre piccole e medie imprese.\n
+* Cancellare il pareggio di bilancio dalla Costituzione.
+* Riacquisto progressivo del debito pubblico in mano estera.\n
+* Pagamento immediato dei debiti dello Stato nei confronti di aziende italiane e cittadini italiani nella nuova moneta nazionale.\n
+* Obbligo per banche commerciali e assicurazioni di investimento in titoli pubblici italiani.\n
+* Sostegno ai piccoli istituti di credito locale come le banche di credito cooperativo e il credito artigiano.\n
+* Rigido controllo del commercio di prodotti finanziari derivati, responsabili delle crisi.\n
+* Divieto per gli enti pubblici (comuni, regioni e provincie) di finanziarsi sul mercato con l’emissione di bond.
+* Divieto di effettuare vendite allo scoperto sui mercati finanziari.\n
+* Divieto per banche ed imprese di detenere partecipazioni incrociate e a cascata.\n
+* Uscita unilaterale dell’Italia dalla Unione Europa.\n
+* Immediata interruzione delle erogazioni miliardarie all’Unione Europea.\n
+* Conseguente cancellazione di tutti i trattati europei, di tutte le regole e regolamenti, di tutte le quote di produzione imposte alle nostre imprese.\n
+* Accordi bilaterali forti con le nazioni fuori dalla Unione Europea, con assoluto riguardo alla Russia (partner strategico per le risorse) e al Giappone (partner strategico tecnologico).\n
+* Protezione dei mercati nazionali dalla concorrenza sleale di chi sfrutta la forza-lavoro.\n
+* Concreto e deciso sostegno ai distretti industriali e alle reti di imprese, alla tutela delle piccole e medie imprese, nostro vero punto di forza e all’aumento delle loro dimensioni aziendali, all’imprenditoria giovanile, ai progetti e ai settori particolarmente innovativi.\n
+* Tassazione sui beni di consumo che sia direttamente proporzionale alla distanza dal suo luogo di produzione e alle differenti condizioni sociali e lavorative in cui questi beni sono prodotti."</string>
 
-    <string name="CivicaPopolareLorenzin_Estero"> TODO estero </string>
-    <string name="CivicaPopolareLorenzin_Ambiente"> TODO ambiente </string>
-    <string name="CivicaPopolareLorenzin_Cultura"> TODO cultura </string>
-    <string name="CivicaPopolareLorenzin_Famiglia"> TODO famiglia </string>
-    <string name="CivicaPopolareLorenzin_Economia"> TODO Economia</string>
-    <string name="CivicaPopolareLorenzin_Immigrazione"> TODO immigrazione </string>
-    <string name="CivicaPopolareLorenzin_Impresa"> TODO impresa</string>
-    <string name="CivicaPopolareLorenzin_Istruzione"> TODO istruzione</string>
-    <string name="CivicaPopolareLorenzin_Lavoro"> TODO lavoro</string>
-    <string name="CivicaPopolareLorenzin_Sanita"> TODO sanità</string>
-    <string name="CivicaPopolareLorenzin_Sicurezza"> TODO sicurezza</string>
-    <string name="CivicaPopolareLorenzin_Sud"> TODO sud</string>
-    <string name="CivicaPopolareLorenzin_Europa"> TODO europa</string>
+    <string name="CivicaPopolareLorenzin_Estero">"\n* A differenza dei populisti, crediamo nel libero commercio. Il protezionismo non è mai la risposta giusta. Soprattutto per un Paese esportatore come l’Italia, che conta dei mercati per la sua crescita.\n
+* Il multilateralismo è l’arena delle nostre battaglie più importanti a favore dei diritti umani, delle persone più fragili, dell’uguaglianza femminile, della protezione dei bambini.\n
+* In questi anni abbiamo avuto la capacità di combinare solidarietà e sicurezza. Solidarietà: salvando migliaia di vite nel Mare Mediterraneo. Sicurezza: agendo con fermezza contro il terrorismo."</string>
+    <string name="CivicaPopolareLorenzin_Ambiente">"\n* Lotta al Dissesto Idrogeologico. Lotta all’erosione costiera partendo dalla migliore gestione dei fiumi da parte delle autorità competenti; Prevenzione rischio sismico: Carta geologica d'Italia.\n
+* Chiudere tutte le discariche abusive per azzerare le multe Ue avviando un rapido percorso per l’attuazione di un sistema di smaltimento che trasformi i rifiuti da problema in risorsa.\n
+* La green economy è l'unica economia possibile per il futuro è dunque necessario inserire la transizione alla green economy fra le priorità dell’agenda parlamentare e di governo.\n
+* Gli Ecobonus sono uno strumento che ha funzionato e che merita nuovi investimenti soprattutto per promuovere maggiormente le misure legate al risparmio energetico.\n
+* La Strategia per lo Sviluppo Sostenibile approvata dal Governo è il documento attorno al quale edificare l'Italia dei prossimi decenni conforme gli obiettivi Onu e all'Accordo di Parigi sul clima."</string>
+    <string name="CivicaPopolareLorenzin_Cultura">"\n* Occorre una capillare digitalizzazione del patrimonio culturale al fine di diffonderlo in rete; accesso libero dei risultati di ricerca finanziata con risorse pubbliche.\n
+* Valorizzare il patrimonio culturale aprendo al terzo settore, semplificando l’assegnazione e rendendo deducibili i contributi per il mantenimento del patrimonio"</string>
+    <string name="CivicaPopolareLorenzin_Famiglia">"\n* Occorre realizzare una assistenza domiciliare efficace e capillare e un nuovo modello di organizzazione dei beni comuni. Pensiamo all’infermiere di condominio, a servizi alla persona messi in comune.\n
+* Raddoppio Bonus Bebè da 0 a 6 anni. Da 80 a 160 euro per tutti e da 160 a 320 euro chi è al di sotto dei 7000 euro annuo di reddito Sostegno alla nutrizione dei bambini.\n
+* Maternità: per ogni figlio un anno di contributi reali. Equiparazione dell’attività di assistenza in famiglia ad un’attività lavorativa (anche a fini previdenziali).\n
+* È necessario configurare un sistema fiscale che tenga conto dei figli e delle famiglie numerose.\n
+* Asili nido gratuiti come grandi infrastrutture a sostegno di chi ha un bisogno e di chi ha un merito, di chi è più debole, delle donne che lavorano e quindi a sostegno del lavoro e delle imprese."</string>
+    <string name="CivicaPopolareLorenzin_Economia">"\n* Le Regioni che sono finalmente uscite dal Commissariamento e rientrato nel piano di risanamento del bilancio devo anche abbattere le addizionali Irpef regionali che gravano sui cittadini.\n
+* La Flat Tax berlusconiana è un’idea affascinante ma impraticabile. Serve invece Flat tax per partite Iva e professionisti con tetto fino a 70 mila euro. Tassazione a 0 per i primi 3 anni di attività.\n
+* Una rivoluzione nel controllo fiscale grazie alla possibilità di detrarre le spese e dunque scontrini e fatture richieste per ottenere benefici in detrazione.\n"</string>
+    <string name="CivicaPopolareLorenzin_Immigrazione">"\n* È urgente l’approvazione di una nuova legge sulla libertà religiosa coerente con i cambiamenti e le trasformazioni del nostro Paese.\n
+* Occorre una riforma della cittadinanza come compimento di un percorso di integrazione e di condivisione dei principi costituzionali, in prospettiva europea."</string>
+    <string name="CivicaPopolareLorenzin_Impresa">"\n* Occorre allargare la platea e sostenere i soggetti privati che operano nel welfare con una rapida e compiuta attuazione della riforma sulle imprese sociali.\n
+* Con l'ampliamento di Impresa 4.0 al turismo, il settore può in cinque anni raddoppiare la sua incidenza sul PIL dal 10 al 20%.\n
+* Introdurre incentivi fiscali sugli utili dei primi tre anni di vita delle start-up innovative."</string>
+    <string name="CivicaPopolareLorenzin_Istruzione">"\n* Reintroduzione dell’insegnamento dell’educazione civica con voto all’interno del ciclo scolastico.\n
+* Innovazione didattica, scuola digitale, formazione obbligatoria dei docenti, scuola aperta al territorio, sostegno alla IeFP e ampliamento degli ITS per restituire fiducia nella scuola.\n
+* Occorre proseguire con gli investimenti in edilizia scolastica per rendere le scuole sicure e funzionali.\n
+* L’obiettivo è ridurre il numero dei ragazzi che abbandonano la scuola al 10% entro il 2020."</string>
+    <string name="CivicaPopolareLorenzin_Lavoro">"\n* Un ponte tra Università e Impresa è uno degli obiettivi che, con Civica Popolare, pensiamo di portare nel prossimo Governo. Serve anticipare l’ingresso dei giovani nel mondo del lavoro."</string>
+    <string name="CivicaPopolareLorenzin_Sanita">"\n* Tornare ad investire nella lotta alle tossicodipendenze. E’ inaccettabile lasciare le periferie delle città in mano allo spaccio e alla criminalità.\n 
+* Necessario il rinnovo del contratto dei medici e la possibilità di assumerne di nuovi.\n
+* È necessario che la ricerca sanitaria sia considerata come un vero e proprio investimento. Il ddl Lorenzin ha prodotto una forte potenzialità che produrrà investimenti nel settore.\n
+* È necessario incrementare l'assistenza domiciliare per gli anziani in tutta Italia anche attraverso la valorizzazione dell’attività privata.\n
+* Contrastare le lunghe liste di attesa, con un nuovo Piano nazionale di Governo e l’inserimento del rispetto dei tempi massimi tra i criteri di valutazione dei Direttori Generali.\n
+* Abolizione del superticket da 10 euro e revisione della intera normativa per garantire effettiva equità."</string>
+    <string name="CivicaPopolareLorenzin_Sicurezza">"\n* Sosteniamo la proposta di legge popolare per punire più severamente la violazione del domicilio attraverso il raddoppio delle pene. Chi vìola la nostra casa deve essere punito severamente.\n
+* Va potenziato e migliorato il “Piano d’azione straordinario contro la violenza sessuale e di genere” al fine di contrastare ogni forma di violenza esercitata sulle donne."</string>
+    <string name="CivicaPopolareLorenzin_Sud">"\n* Industria 4.0 per il Sud andrebbe reso strutturale per un periodo di almeno 10 anni per superare il gap quantitativo (quantità e dimensione delle imprese) con il Nord.\n
+* Occorre ricostruire la filiera dell’economia del mare come grande opportunità competitiva per il Sud, replicando iniziative passate quali Marebonus e Ferrobonus.\n
+* Valorizzazione del Piano Strategico per il Turismo presentato dal governo per il 2017/2022."</string>
+    <string name="CivicaPopolareLorenzin_Europa">"\n* Più Europa ma anche più autonomia ai territori alle comunità locali nelle quali si custodiscono tradizioni e identità preziose. È la rete delle comunità autonome e responsabili il nostro futuro."</string>
 
     <string name="FratelliDItalia_Agroalimentare"> TODO agroalimentare </string>
     <string name="FratelliDItalia_Ambiente"> TODO ambiente </string>
@@ -289,33 +436,79 @@
     <string name="PiuEuropa_Tecnologia"> TODO </string>
     <string name="PiuEuropa_Europa"> TODO </string>
 
-    <string name="Autodeterminazione_Ambiente"> TODO ambiente </string>
-    <string name="Autodeterminazione_Cultura"> TODO cultura</string>
-    <string name="Autodeterminazione_Diritti"> TODO diritti</string>
-    <string name="Autodeterminazione_Governo"> TODO governo</string>
-    <string name="Autodeterminazione_Istruzione"> TODO istruzione </string>
-    <string name="Autodeterminazione_Infrastrutture"> TODO infrastrutture</string>
-    <string name="Autodeterminazione_Sanita"> TODO sanita </string>
-    <string name="Autodeterminazione_Sicurezza"> TODO sicurezza</string>
+    <string name="Autodeterminazione_Ambiente">"\n* Analisi e mappatura delle emergenze ambientali provocate da presenze militari, da iniziative imprenditoriali, da produzioni di energia talmente inquinanti che compromettono la salute.\n
+* Elaborazione di un intervento a breve termine che ponga fine a tali emergenze, riconvertendo i posti di lavoro e attuando le necessarie misure di bonifica e ripristino delle caratteristiche ambientali originarie dei luoghi.\n
+* Elaborazione di un piano di protezione del territorio basato sulla prevenzione ambientale come modello di funzionamento e tutela paesaggistica che garantisca anche la sicurezza dei luoghi e delle persone."</string>
+    <string name="Autodeterminazione_Cultura">"\n* Bisogna applicare in Sardegna, la carta europea delle lingue regionali e minoritarie."</string>
+    <string name="Autodeterminazione_Diritti">"\n* Il progetto AutodetermiNazione si impegna per sostenere l’ampliamento dei diritti civili che riguardano le persone, la loro libertà,  la loro privacy, le loro uguali possibilità di accesso alle istituzioni.\n
+* Dovrà essere garantita l’uguaglianza di genere, dovrà essere contrastata la discriminazione per le persone disabili, e la discriminazione in base all’orientamento sessuale."</string>
+    <string name="Autodeterminazione_Governo">"\n* E’ necessario attribuire ai comuni la gestione delle risorse e l’attuazione delle politiche di sviluppo della regione all’interno di una forma di federalismo interno che assegni alle istituzioni regionali il ruolo legislativo, strategico e di indirizzo.\n
+* I comuni devono essere posti al centro delle politiche di sviluppo della Sardegna."</string>
+    <string name="Autodeterminazione_Istruzione">"\n* La cultura, l’istruzione e la lingua saranno parte integrante e strategica del nuovo modello di sviluppo.\n
+* La priorità della scuola pubblica non deve essere messa in discussione, e nell’insieme si deve garantire la qualità e il buon livello dell’istruzione, e garantire gli operatori scolastici.\n
+* Devono essere sviluppate politiche per limitare la dispersione scolastica, elevare il numero di studenti diplomati e laureati, e a favore di corsi di recupero o serali.\n
+* La scuola deve consentire agli studenti di esprimere le proprie potenzialità e, in particolare, deve garantire la trasmissione, lo studio e lo sviluppo della lingua sarda e delle altre lingue proprie dell’isola.\n
+* La scuola deve promuovere il lavoro dei docenti e vedere in loro i primi costruttori di comunità e di opportunità di crescita personale.\n
+* E’ necessario contrastare le riforme universitarie che hanno peggiorato l’Università negli ultimi decenni, e non le hanno adeguate ai tempi, con ricadute gravissime sul sistema delle professioni e sullo sviluppo complessivo.\n
+* Abolire l’ ANVUR (agenzia nazionale di valutazione del sistema universitario e della ricerca) e altri carrozzoni.\n
+* La  regione deve vedersi attribuita la podestà in materia per poter trasformare le università sarde in università di alto livello europeo medio, facendole uscire il più possibile dal sistema italiano, inadeguato a rispondere alle necessità della Sardegna."</string>
+    <string name="Autodeterminazione_Infrastrutture">"\n* Integrazione e completamento della pianificazione urbanistica non più interpretata in termini astratti o limitata da una inestricabile giungla normativa.\n
+* Nelle zone interne è importante la riqualificazione della viabilità extraurbana e rurale.\n
+* La mobilità interna deve essere rafforzata attraverso lo sviluppo del trasporto su rotaia."</string>
+    <string name="Autodeterminazione_Sanita">"\n* Revisione di tutti i sistemi socio-sanitari con una netta discontinuità rispetto a quelle vigenti.\n
+* Il nuovo modello dovrà rimettere in centro la persona e la sua dignità, la collaborazione tra tutti gli attori del sistema socio-sanitario, l’integrazione con le tecnologie, la ricerca, il miglioramento qualitativo delle cure e della prevenzione, l’attenzione verso i malati e i loro diritti, l’efficienza e la lotta agli sprechi.\n
+* Sostegno alle strutture sanitarie pubbliche di eccellenza sul piano della cura e della ricerca.\n
+* Sostegno ai registri dei tumori e altre forme di mappatura delle patologie legate all’inquinamento o endemiche."</string>
+    <string name="Autodeterminazione_Sicurezza">"\n* Progressivo smantellamento dei territori destinati alle esercitazioni militari e bonifiche immediate di tutti i siti compromessi a carico dello Stato.\n
+* Politiche di reinserimento lavorativo concreto verso chi è impiegato direttamente o indirettamente nel settore militare.\n
+* Netta opposizione alla localizzazione  nell’isola di depositi di scorie radioattive, al land grabbing e a altre forme di sfruttamento di tipo coloniale delle nostre risorse."</string>
 
-    <string name="ForzaItalia_Agroalimentare"> TODO agroalimentare </string>
-    <string name="ForzaItalia_Ambiente"> TODO ambiente </string>
-    <string name="ForzaItalia_Cultura"> TODO cultura</string>
-    <string name="ForzaItalia_Diritti"> TODO diritti</string>
-    <string name="ForzaItalia_Estero"> TODO estero</string>
-    <string name="ForzaItalia_Famiglia"> TODO famiglia</string>
-    <string name="ForzaItalia_Economia"> TODO Economia</string>
-    <string name="ForzaItalia_Giovani"> TODO giovani</string>
-    <string name="ForzaItalia_Giustizia"> TODO giustizia</string>
-    <string name="ForzaItalia_Governo"> TODO governo</string>
-    <string name="ForzaItalia_Immigrazione"> TODO immigrazione</string>
-    <string name="ForzaItalia_Impresa"> TODO impresa </string>
-    <string name="ForzaItalia_Lavoro"> TODO lavoro</string>
-    <string name="ForzaItalia_Previdenza"> TODO previdenza</string>
-    <string name="ForzaItalia_Protezione_Sociale"> TODO protezione sociale</string>
-    <string name="ForzaItalia_Sicurezza"> TODO sicurezza</string>
-    <string name="ForzaItalia_Sud"> TODO sud</string>
-    <string name="ForzaItalia_Europa"> TODO europa</string>
+    <string name="ForzaItalia_Agroalimentare">"\n* Tutela delle nostre produzioni e del Made in Italy, con particolare riguardo alle tipicità delle produzioni agricole e dell’agroalimentare,in Europa e nel mondo."</string>
+    <string name="ForzaItalia_Ambiente">"\n* L'uomo deve essere un alleato della natura. Per questo occorre valorizzare ogni forma di tutela dell'ambiente e di promozione di uno sviluppo che lo valorizzi.\n
+* Serve dare un nuovo impulso allo sviluppo alle energie rinnovabili, come già avvenuto col governo Berlusconi a partire dal 2008."</string>
+    <string name="ForzaItalia_Cultura">"\n* Correggeremo storture, eccessi e anomalie della riforma impropriamente detta della "buona scuola", intervenendo laddove serve.\n
+* Bisogna proseguire sulla via di una tutela del nostro immenso patrimonio culturale che sia anche in grado di valorizzarlo come elemento della cultura e della tradizione e anche come attività d'impresa."</string>
+    <string name="ForzaItalia_Diritti">"\n* A differenza di parte della sinistra e dei grillini, per noi lo Stato non viene prima dei cittadini. Al contrario, esso deve essere al servizio dei cittadini e della loro libertà."</string>
+    <string name="ForzaItalia_Estero">"\n* La lotta e il contrasto al terrorismo islamista e a chi lo fiancheggia deve continuare senza esitazioni, a fianco delle altre democrazie dell'Occidente.\n
+* Tutela in ogni sede degli interessi italiani, a partire dalla sicurezza del risparmio e del Made in Italy."</string>
+    <string name="ForzaItalia_Famiglia">"\n* Le giovani madri non devono essere costrette a scegliere tra la famiglia e il lavoro. Per questo vogliamo rendere ancora più conveniente per le imprese usare smart working e welfare aziendale.\n
+* I modelli culturali dominanti hanno messo in crisi il ruolo dei genitori: crescere ed educare i figli, valorizzare la loro personalità, è un atto d'amore e anche di responsabilità sociale.\n
+* Il crollo demografico va combattuto con un piano straordinario natalità, che comprenda: meno tasse con la Flat Tax, asili nido gratuiti, nuovi assegni familiari in base al numero dei figli."</string>
+    <string name="ForzaItalia_Economia">"\n* Equazione liberale dello sviluppo: meno tasse uguale più consumi, più profitti alle imprese, più posti di lavoro, migliori stipendi, e quindi una più ampia platea di contribuenti che pagano le tasse.\n
+* Chiusura effettiva di Equitalia con libertà per gli Enti locali di decidere i metodi di riscossione.\n
+* Tasse di successione e donazione. Sono due tasse odiose, che colpiscono beni sui quali il cittadino ha già pagato le tasse e limitano la libertà di usare le proprie sostanze come meglio si crede.\n
+* Abbiamo definito l’Irap, “Imposta RAPina”, perché colpisce il lavoro a prescindere dal fatto che esso produca reddito. La elimineremo del tutto, per dare un forte incoraggiamento alle imprese.\n
+* Nel 2008, abbiamo abolito l’Ici. Ora aboliremo ogni tassa sulla prima casa. Aboliremo la tassa sulla prima auto, poiché per molti italiani è uno strumento di lavoro.\n
+* FLAX TAX far pagare meno tasse, semplifica il fisco, abbatte l’evasione fiscale, genera nuovi consumi e nuovi posti di lavoro."</string>
+    <string name="ForzaItalia_Giovani">"\n* Decontribuzione totale per le aziende che assumono giovani di età inferiore ai 35 anni."</string>
+    <string name="ForzaItalia_Giustizia">"\n* Alcuni magistrati agiscono con troppa leggerezza, togliendo la libertà ai cittadini. Il carcere preventivo dovrebbe essere applicato solo per reati gravissimi.\n
+* Tempi dei processi nella media UE, piano straordinario di smaltimento delle cause arretrate, risarcimento agli innocenti, non appellabilità delle sentenze di assoluzione.\n
+* Nuova disciplina delle intercettazioni, della custodia preventiva, del diritto alla difesa. Stop alla pubblicazione di intercettazioni penalmente irrilevanti sui giornali.\n
+* Separazione delle carriere della magistratura inquirente e giudicante. Accusa e difesa devono essere sullo stesso piano e avere gli stessi diritti.\n
+* Riforma della giustizia per assicurare il diritto a un giusto processo, e in tempi certi, per ogni cittadino."</string>
+    <string name="ForzaItalia_Governo">"\n* Introduzione del vincolo di mandato per evitare i troppi cambi di campi e di casacca del passato. Chi viene eletto con un partito non può tradire la volontà popolare.\n
+* Riduzione del numero di parlamentari, come avevamo fatto nella nostra riforma Costituzionale del 2006 poi abolita dalle scelte sciagurate della sinistra.\n
+* Elezione diretta del Presidente della Repubblica con i cittadini che lo eleggono direttamente."</string>
+    <string name="ForzaItalia_Immigrazione">"\n* Blocco degli sbarchi con respingimenti assistiti e stipula di trattati e accordi con i Paesi di origine dei migranti economici.\n
+* Messa a punto di un grande piano Marshall per l’Africa per far nascere delle economie locali e creare lavoro per i cittadini di questi paesi.\n"</string>
+    <string name="ForzaItalia_Impresa">"\n* Nessuno vuole più acquistare oggetti di valore per paura del fisco. L'attuale limite dell'uso dei contanti ha penalizzato il settore dei beni di lusso. Portare il limite a 8.000 euro.\n
+* Lasciare vivere gli italiani senza soffocarli con tasse, multe e burocrazia. Abolizione autorizzazioni preventive con controlli ex post.\n
+* Pagamento immediato di tutti i debiti della Pubblica amministrazione nei confronti di cittadini e imprese anche con lo strumento innovativo dei Titoli di Stato di piccolo taglio."</string>
+    <string name="ForzaItalia_Lavoro">"\n* Le partite Iva devono essere tutelate al pari di tutti gli altri lavoratori. Serve introdurre una tassazione giusta, alleggerendo il peso degli acconti da versare e reintroducendo l'Iva di cassa.\n
+* La conciliazione lavoro-famiglia, per le donne quanto per gli uomini, deve trasformarsi in un diritto inesigibile. Riduzione costi per imprese che promuovono il part-time e il "lavoro agile"."</string>
+    <string name="ForzaItalia_Previdenza">"\n* Via le parte ingiuste della legge Fornero e nuova riforma previdenziale economicamente e socialmente sostenibile.\n
+* Le nostre mamme non hanno mai svolto un lavoro retribuito, ma per tutta la vita, senza sabati e domeniche hanno accudito la famiglia. Meritano una pensione di 1.000 euro per una vecchiaia serena.\n
+* Moltissimi anziani vivono in condizioni di povertà. Aumenteremo le pensioni minime a 1.000 euro,per tredici mensilità. Lo abbiamo già fatto nel 2001, aumentando le pensioni minime a 1.000.000 di lire."</string>
+    <string name="ForzaItalia_Protezione_Sociale">"\n* Con il "Reddito di dignità", lo Stato aggiunge all’introito mensile della famiglia la somma necessaria per vivere dignitosamente."</string>
+    <string name="ForzaItalia_Sicurezza">"\n* Solo chi è davvero un rifugiato ha diritto di rimanere in Italia. Per tutti gli altri occorre provvedere al rimpatrio immediato nei loro Paesi d’origine.\n
+* Grazie agli accordi fatti dal nostro governo con la Libia e gli altri Paesi del Mediterraneo, nel 2010 arrivarono solo 4.406 clandestini. Bisogna tornare a quegli accordi.\n
+* Come già avevamo fatto nel 2008 affiancheremo alle forze dell’ordine i militari, dislocandoli nelle vie e nelle periferie delle città.\n
+* Più poliziotti e carabinieri di quartiere. Istituiti dal nostro governo nel 2002, consentono alle forze dell’ordine di garantire la sicurezza dei cittadini e aumentano il controllo del territorio."</string>
+    <string name="ForzaItalia_Sud">"\n* Durante i nostri governi sono stati arrestati il maggior numero di mafiosi pericolosi e confiscati beni per 40 miliardi. Vogliamo sostenere ancora di più il lavoro di magistratura e forze dell'ordine.\n
+* Introduzione di agevolazioni fiscali per le aziende che vogliono investire nel Mezzogiorno e per quelle create da imprenditori locali, attraverso sgravi contributivi e abbattimento IRAP.\n
+* Aggredire con decisione il dualismo Nord-Sud, poiché penalizza l'economia italiana. I nostri governi sono quelli che hanno investito al Sud più di tutti gli altri nella storia della Repubblica."</string>
+    <string name="ForzaItalia_Europa">"\n* Attingere dai conti conti correnti, dalle azioni e dalle obbligazioni dei propri clienti è un vero e proprio prelievo forzoso contro le famiglie e contro le imprese.\n
+* No alle politiche di austerità - No alle regolamentazioni eccessive che ostacolano lo sviluppo - Revisione dei trattati europei"</string>
 
     <string name="Noi_Ambiente"> TODO </string>
     <string name="Noi_Cultura"> TODO </string>
@@ -332,40 +525,72 @@
     <string name="Noi_Sicurezza"> TODO </string>
     <string name="Noi_Europa"> TODO </string>
 
-    <string name="DieciVolteMeglio_Ambiente"> TODO ambiente </string>
-    <string name="DieciVolteMeglio_Diritti"> TODO diritti</string>
-    <string name="DieciVolteMeglio_Lavoro"> TODO lavoro</string>
-    <string name="DieciVolteMeglio_Istruzione"> TODO istruzione</string>
-    <string name="DieciVolteMeglio_Sud"> TODO sud</string>
-    <string name="DieciVolteMeglio_Sanita"> TODO sanità</string>
-    <string name="DieciVolteMeglio_Tecnologia"> TODO tecnologia</string>
-    <string name="DieciVolteMeglio_Turismo"> TODO turismo</string>
-    <string name="DieciVolteMeglio_Europa"> TODO europa</string>
+    <string name="DieciVolteMeglio_Ambiente">"\n* Fornitura energia - Accelerare la conversione già in atto dalla produzione di energia fossile a quella rinnovabile: idrico, fotovoltaico, eolico a terra e offshore, biomasse.\n
+* Utilizzo energia - Promuovere su qualsiasi fronte l'efficienza energetica essendo il modo meno costoso per ridurre l'inquinamento atmosferico da CO2. Per quanto riguarda le case, spingere su efficientamento energetico sia per quelle di nuova costruzione, ma anche per gli edifici già esistenti.\n
+* Bilanciamento sistema - Sviluppare tecnologie / acquistare tecnologie per rendere il sistema energetico il più bilanciato possibile tramite sia sistemi di stoccaggio energetico (batterie, biogas) come di bilanciamento del sistema attraverso il controllo della domanda. Sviluppare una rete di trasmissione energetica digitale e che possa soddisfare le esigenze di un sistema in profonda trasformazione."</string>
+    <string name="DieciVolteMeglio_Diritti">"\n* Metteremo al centro delle nostre azioni e delle nostre linee guida le persone. Ricercare la felicità significa - ma non solo - rivedere le politiche sociali: prima di tutto nei confronti delle donne, ma anche della persone della terza età, dei disabili, dei Millennials, della Generazione Z, di chiunque sia tenuto ai margini da una società e da una politica troppo disattenta e inefficiente.\n
+* I cittadini sono spesso vittime di ingiuste disparità e molti talenti vengono sprecati. C’è quindi l’immediata necessità di cambiamenti concreti: sia diffondendo una maggiore sensibilità che adottando azioni positive.\n
+* Il nostro obiettivo è ottenere sia nel breve termine sia in prospettiva significativi progressi per chiunque non sia incluso a pieno titolo nella società.\n"</string>
+    <string name="DieciVolteMeglio_Lavoro">"\n* Percorsi formativi su scala nazionale sia rivolti a chi perde l’impiego che diretti a chi non studia e non sta lavorando, per creare professionalità e riqualificare le competenze nei settori digitale, turismo e assistenza agli anziani, oltre che in quei mestieri, spesso di stampo artigianale, riconosciuti nel mondo come eccellenze italiane.\n
+* Piani industriali di investimenti e detassazioni in settori ad alto potenziale (ambiente, tecnologie emergenti, digitalizzazione). Richiameremo in Italia nuovi investimenti, che permetteranno la nascita di distretti tecnologici e di nuove aziende del settore in tutto il Paese.\n
+* Riduzione della tassazione per i macro settori industriali, che favorirà l’ingresso di nuovo personale nel mondo del lavoro."</string>
+    <string name="DieciVolteMeglio_Istruzione">"\n* Noi proponiamo una completa rivisitazione del nostro modello educativo, adattandolo alle nuove tecnologie che in apparenza spostano il focus sulle macchine, ma che in realtà richiedono più capacità critica, gusto dell'arte e del bello, approccio filosofico e spirito analitico, flessibilità, curiosità e resilienza.\n
+* Porteremo l'inglese rafforzato in modo da avere il bilinguismo in tutte le scuole, a partire dalla materna e l'esercizio della filosofia, intesa come capacità di porsi domande e trovare le proprie risposte, come materia dalla scuola primaria. Rafforzeremo lo studio della matematica e delle materie scientifiche e tecnologiche. Lo sport non sarà più solo un riempitivo, ma un completamento della formazione dell'individuo, così come le arti e la musica, perché esse rappresentano un'eccellenza italiana da valorizzare nel mondo e un esercizio utile all'allenamento di quelle caratteristiche che saranno centrali in un contesto in continuo cambiamento, come quello che ci aspettiamo nel futuro. L'insegnamento prevederà anche il lavoro di gruppo e la capacità di esporre le proprie idee in privato e in pubblico, e saranno introdotti sistemi di valutazione che supportino lo sviluppo del potenziale degli studenti."</string>
+    <string name="DieciVolteMeglio_Sud">"\n* La prima è creare le condizioni per cui il tessuto imprenditoriale del Mezzogiorno possa crescere in modo sostenibile, contribuire alla crescita del Paese e creare nuovi posti di lavoro stabili.\n
+* Il secondo punto è creare infrastrutture e servizi di qualità, per restituire a cittadini e imprese un territorio pieno di occasioni di crescita che contribuiscano a riaccendere la speranza.\n
+* Il terzo punto è creare gli strumenti che consentano di rendere la gestione della pubblica amministrazione, della giustizia e della sicurezza, più snella e trasparente e più vicina alle persone e all’economia, in un ambito di crescente legalità."</string>
+    <string name="DieciVolteMeglio_Sanita">"\nÈ indispensabile che sia garantito il diritto a una sanità efficiente e consapevole: lo dimostrano anche le tematiche all’ordine del giorno, come il dibattito sui vaccini e le gravi diseguaglianze sul piano dell’offerta dei servizi sanitari tra le diverse regioni. 10 Volte Meglio intende sviluppare nuove prospettive di salute sia a livello nazionale che internazionale e portare l’Italia essere il leader della politica sanitaria all'interno dell'Assemblea Mondiale della Sanità."</string>
+    <string name="DieciVolteMeglio_Tecnologia">"\n* Favoriremo lo sviluppo della nuova leadership industriale con la creazione di alcune zone "tax free", con l'obiettivo di facilitare l'insediamento e il rafforzamento nei settori strategici. Queste aree, collocate in tutto il Paese, richiameranno la presenza di aziende italiane e straniere (mantenendo quella delle imprese esistenti) grazie ad una serie di benefici, tra i quali un'aliquota delle imposte dirette al 5% per dieci anni e un'aliquota stabile al 20% per gli anni successivi.\n
+* Sarà definito un programma di incentivazione alla crescita nelle seguenti aree tecnologiche:nanotecnologie e nuovi materiali, genetica e biotecnologie, robotica, automazione e meccanica, mobilità elettrica intelligente, guida autonoma, chimica, cosmetica e farmaceutica, agritech, agrifood.\n
+* Favoriremo la creazione di ecosistemi digitali in settori in cui la Pubblica Amministrazione, e quindi il cittadino, soffrono ancora di un'arretratezza tecnologica che è la vera causa della disfunzionalità del nostro Paese. Utilizzeremo le tecnologie esponenziali per attivare nuovi processi, più efficienti, nei settori della Sanità, della Scuola, della Giustizia, nella Mobilità e Trasporti, nella Sicurezza.\n
+* Il nostro programma prevede di creare un processo di sviluppo del settore della sicurezza informatica attraverso incentivi e strategie di implementazione.\n
+* Seguendo quanto fatto nel programma di incentivazione per le start-up dal MISE fino ad oggi, il nostro programma prevede di mantenere attivi i piani di crescita e sviluppo di start up innovative, rinnovando gli attuali provvedimenti in materia di finanziamento alle imprese, per l'avviamento e l'acquisizione degli strumenti funzionali alla digitalizzazione.\n
+* La sfida da vincere è quella che sta in un cambio di approccio della Ricerca, dall'attuale maker-centric ad una prospettiva più consona ed efficace, orientata verso la domanda e centrata intorno all'utente (user-centric). Questo cambio di paradigma, che si deve combinare dall'altro lato con l'interesse dell'industria a recepirlo, è la chiave di successo per una futura società dell'Innovazione che sia collaborativa e aperta: la società dell'Open Innovation.\n
+* Le nuove tecnologie possono rappresentare un grande punto di svolta nel raggiungimento di questi risultati. Attraverso le tecnologie ad avanzamento esponenziale e le ricerche in molti settori, da quello energetico a quello alimentare, dall'intelligenza artificiale alla robotica, tutte le nuove e vecchie competenze in materia di tecnologie possono e devono concorrere e rendere lo sviluppo più sostenibile per il pianeta."</string>
+    <string name="DieciVolteMeglio_Turismo">"\n* Investire nel turismo è la strategia più immediata e sicura per aumentare lo sviluppo economico e creare nuova occupazione raddoppiando il giro d'affari in 10 anni."</string>
+    <string name="DieciVolteMeglio_Europa">"\n* L'Unione deve anche inserire tra le sue priorità lo sviluppo delle competenze e dei talenti, elemento fondamentale per mantenere la competitività e superare la crisi demografica ormai alle porte: solo uno straordinario recupero di produttività potrà consentire di non fare sprofondare il continente in un declino economico dovuto alla riduzione della domanda, sia esso determinato dalla riduzione numerica della popolazione o dalla sua ridotta capacità economica, per effetto di un'integrazione poco qualificata destinata a lavori "poveri" e scarsamente remunerata.\n
+* Crediamo che il sistema istituzionale italiano all'estero sia ormai antiquato e non più al passo con i tempi. Iniziando a considerare come è organizzata la rete delle nostre Ambasciate e il sistema Consolare (a cui è collegata l'AIRE- una istituzione divenuta assolutamente obsoleta) e passando per gli Istituti Italiani di Cultura e l'ENIT, ma soprattutto l'ICE, e Assocamerestero (che sono completamente inadeguate alle esigenze delle nostre PMI e che in tanti nel passato hanno cercato di riformare senza successo) il lavoro da fare appare essere davvero tanto.\n
+* Mantenere e rafforzare il ruolo indipendente della BCE nella politica monetaria dell'area Euro, nella crescita e nella vigilanza del sistema finanziario.\n
+* Creazione di campionati professionistici europei, al fine di favorire l'attrazione di risorse economiche importanti e di favorire l'integrazione.\n
+* Costituzione di un sistema di difesa militare europeo."</string>
 
-    <string name="BloccoNazionale_Diritti"> TODO diritti</string>
-    <string name="BloccoNazionale_Famiglia"> TODO famiglia</string>
-    <string name="BloccoNazionale_Economia"> TODO Economia</string>
-    <string name="BloccoNazionale_Governo"> TODO governo</string>
-    <string name="BloccoNazionale_Lavoro"> TODO lavoro</string>
-    <string name="BloccoNazionale_Sicurezza"> TODO sicurezza</string>
+    <string name="BloccoNazionale_Diritti">"\n* Ridare dignità alle professioni, ai commercianti e agli artigiani e alla classe media in genere.\n
+* Riesame norme sull’aborto (incentivi termine gravidanza e adozioni), unioni civili e fine vita.\n
+* Sostegno all’identità e all’orgoglio nazionale italiano."</string>
+    <string name="BloccoNazionale_Famiglia">"\n* Costruire una politica a difesa della famiglia con sgravi fiscali in proporzione al numero di figli fino a raggiungere un’aliquota IRPEF zero per 5 figli."</string>
+    <string name="BloccoNazionale_Economia">"\n * Avvio di un programma economico mirato al rientro dei giovani italiani nati all’estero.\n
+* Condono debiti tributari e INPS con saldo del 10% fino a 200mila euro e del 15% fino a 500mila euro."</string>
+    <string name="BloccoNazionale_Governo">"\n* Riforma dell’organizzazione statuale con l’eliminazione delle città metropolitane, delle regioni (fatte salve quelle a statuto speciale), delle prefetture, tornando alla piena funzionalità e centralità delle province con accorpamenti alla popolazione.\n
+* Elezione di una Assemblea Costituente ampiamente rappresentativa per restituire al popolo la politica e riavvicinare l’Italia agli italiani.\n
+* No allo ius soli, si all’acquisizione della cittadinanza italiana dopo 5 anni dal compimento del 18esimo anno, con comprovata condotta lavorativa e scolastica, e assenza di reati."</string>
+    <string name="BloccoNazionale_Lavoro">"\n* Restituire al lavoro ed al risparmio la dignità che meritano contro un capitalismo di conquista senza freno, strumento feroce del mondialismo che impone il potere dei forti sui deboli."</string>
+    <string name="BloccoNazionale_Sicurezza">"\n* Servizio militare minimo di 3 mesi da svolgersi nel periodo estivo a scelta tra i 16 e i 25 anni."</string>
 
-    <string name="DemocraziaCristiana_Ambiente"> TODO ambiente</string>
-    <string name="DemocraziaCristiana_Famiglia"> TODO famiglia</string>
-    <string name="DemocraziaCristiana_Economia"> TODO Economia</string>
-    <string name="DemocraziaCristiana_Giustizia"> TODO giustizia</string>
-    <string name="DemocraziaCristiana_Governo"> TODO governo</string>
-    <string name="DemocraziaCristiana_Lavoro"> TODO lavoro</string>
-    <string name="DemocraziaCristiana_Previdenza"> TODO previdenza</string>
-    <string name="DemocraziaCristiana_Sanita"> TODO sanità</string>
-    <string name="DemocraziaCristiana_Sicurezza"> TODO sicurezza</string>
+    <string name="DemocraziaCristiana_Ambiente">"\n* L'ambiente è un bene comune, non privatizzabile. La responsabilità di mantenerlo tale appartiene direttamente alla mano pubblica. La legge stabilisce la proporzione tassativa di superficie verde da salvaguardare in ogni opera manufatta, pubblica e privata.\n
+* L'acqua è un bene comune, non privatizzabile. La responsabilità di garantirne qualità e quantità sufficiente a prezzi sociali appartiene alla mano pubblica in senso diretto."</string>
+    <string name="DemocraziaCristiana_Famiglia">"\n* La persona è centro di imputazione di tutti i diritti e di tutti i doveri. Essa si sviluppa innanzitutto nella famiglia, che perciò deve essere protetta a sostenuta attraverso la tutela attiva della paternità e della maternità responsabile, attraverso servizi di assistenza, cura e formazione dei giovani, attraverso una organizzazione del lavoro che oltre ad assicurare il diritto a una occupazione produttiva, faciliti forme di telelavoro e flessibilità organizzativa tutte le volte che siano compatibili con le esigenze oggettive della normale produttività aziendale."</string>
+    <string name="DemocraziaCristiana_Economia">"\n* Il miglioramento verso semplicità, controllabilità e trasparenza delle leggi relative all’attività bancaria parte dal ripristino di una netta differenziazione fra banca ordinaria di risparmio e investimento, e banca d’affari o speculativa. La Adc vede con particolare favore il ripotenziamento di una cultura diffusiva delle forme bancarie popolari e cooperative, e la valorizzazione del risparmio collettivo in sede d’impresa.\n
+* Il controllo della evasione deve diventare più severo in parallelo con la semplificazione normativa e la riduzione della giungla delle differenziazioni impositive. All’autonomia impositiva di regioni e comuni va preferita una loro partecipazione pro-quota nella fiscalità generale. Un trattamento fiscalmente incentivante è giusto prevedere a livello di impresa per gli utili reinvestiti nell’impresa stessa rispetto a quelli distribuiti ad azionisti e lavoratori."</string>
+    <string name="DemocraziaCristiana_Giustizia">"\n* lo snellimento dei tempi processuali e la effettiva esecuzione delle sanzioni sono elemento essenziale per la credibilità e la giustizia amministrata dallo Stato nei confronti di tutit i cittadini,  ed hanno importanza fondativa pari a quella della chiarezza, semplicità ed equità delle normative di riferimento."</string>
+    <string name="DemocraziaCristiana_Governo">"\n* La Dc propone l’abolizione del finanziamento pubblico dei partiti, a favore di un finanziamento libero da parte di ciascun cittadino nei confronti del partito in cui si riconosca. Riconosce il valore politico-istituzionale dei partiti nei termini esplicitati dalla Costituzione, e il relativo sostegno, esclusivamente nella forma della fornitura, a ogni formazione politica che abbia rappresentanza in parlamento, di una sede operativa, unica per tutto il territorio nazionale, con spazi limitati alle esigenze di funzionalità essenziali, con corredo di linea telefonica, computer, stampante, collegamento internet. Escluso ogni altro supporto, che è da considerare strettamente riservato alla privata organizzazione della formazione medesima."</string>
+    <string name="DemocraziaCristiana_Lavoro">"\n* Il lavoro va sostenuto come bene di inestimabile valore per tutta la comunità; ne va perciò semplificato il processo burocratico di nascita, e facilitata la propensione allo sviluppo, soprattutto attraverso un tangibile snellimento delle normative riguardanti le autorizzazioni, i controlli ed il credito.\n
+* La Dc propone la riorganizzazione del sistema pubblico tradizionale di collocamento per trasformarlo in moderno istituto dell’accompagnamento attivo al lavoro."</string>
+    <string name="DemocraziaCristiana_Previdenza">"\n* Così come per la forbice delle retribuzioni all’interno delle imprese, adeguati rapporti di equità vanno costruiti nel campo delle prestazioni pensionistiche, senza eccezioni di categorie e con la universalizzazione del metodo contributivo."</string>
+    <string name="DemocraziaCristiana_Sanita">"\n* Il bene primario della sanità dei cittadini non è considerato dalla Adc come appartenente al campo del libero mercato privato bensì a quello del diretto intervento dello Stato attraverso un sistema sanitario nazionale unitario, che pur decentrandosi a livello di regioni e comuni non vanifichi la effettiva uguaglianza fra tutti i cittadini  di fronte a tale servizio."</string>
+    <string name="DemocraziaCristiana_Europa">"\n* Il ritorno ai padri fondatori, in particolare De Gasperi, Schumann, Adenauer, che anteponevano la messa in comune delle risorse e della solidarietà valoriale alla dominanza economica e finanziaria, è obiettivo esplicito della Associazione Democrazia Cristiana, particolarmente in sede di Partito Popolare Europeo."</string>
 
-    <string name="DestreUnite_Cultura"> TODO cultura</string>
-    <string name="DestreUnite_Governo"> TODO governo</string>
-    <string name="DestreUnite_Istruzione"> TODO istruzione</string>
-    <string name="DestreUnite_Previdenza"> TODO previdenza</string>
-    <string name="DestreUnite_Turismo"> TODO turismo</string>
-    <string name="DestreUnite_Sanita"> TODO sanità</string>
-    <string name="DestreUnite_Europa"> TODO europa</string>
+    <string name="DestreUnite_Cultura">"\n* Promuovere operazioni di salvaguardia e valorizzazione del patrimonio esistente e che stimoli nuove realizzazioni in tutti i campi, così come incoraggi l’associazionismo e le imprese culturali, soprattutto dove vi siano progetti di tutela del retaggio culturale nazionale, del paesaggio, delle tradizioni locali e nuove proposizioni."</string>
+    <string name="DestreUnite_Governo">"\n* L’introduzione dell’elezione diretta del Presidente della Repubblica.\n
+* Nuova e profonda riforma elettorale.\n
+* Riduzione del numero dei Parlamentari ed introdurre il limite del numero massimo di due mandati consecutivi.\n
+* Riduzione drastica delle retribuzioni per gli incarichi elettivi e per le nomine pubbliche.\n
+* L’abolizione di qualsiasi tassazione sulla proprietà o sul reddito derivante dalla proprietà della prima casa."</string>
+    <string name="DestreUnite_Istruzione">"\n* Università e ricerca devono essere elemento trainante della società e dell’economia, così come vanno avviati programmi di investimento che migliorino sensibilmente la qualità nelle scuole e incentivino la competizione tra pubblico e privato."</string>
+    <string name="DestreUnite_Previdenza">"\n* Riformare il sistema pensionistico.\n
+* L’erogazione di assistenza e pensioni deve divenire uguale tra tutti."</string>
+    <string name="DestreUnite_Turismo">"\n* L’Italia può fare di turismo, “made in Italy” ed eccellenza il proprio fiore all’occhiello, ma è necessario sburocratizzare e semplificare il funzionamento della macchina pubblica, incentivare l’innovazione tecnologica e stimolare creatività e meritocrazia."</string>
+    <string name="DestreUnite_Sanita">"\n* Bloccare immediatamente qualsiasi forma di taglio o riduzione dei servizi offerti, premiando comunque l’economicità e la funzionalità, e si ritiene determinante un rapido rilancio della ricerca e una curata promozione della prevenzione."</string>
+    <string name="DestreUnite_Europa">"\n* Siamo profondamente contrari al Trattato di Lisbona e ne proponiamo un’immediata e profonda riscrittura, ridando centralità ai “Valori” e non alla “Valuta”, ripartendo dal disegno di una Carta Costituzionale che coltivi la diversità delle culture, delle tradizioni e delle lingue autoctone in un’Europa di nazioni libere, indipendenti e paritarie, nel quadro di una confederazione di Stati nazione sovrani."</string>
 
     <string name="ForzaNuova_Diritti"> TODO diritti</string>
     <string name="ForzaNuova_Europa"> TODO europa</string>

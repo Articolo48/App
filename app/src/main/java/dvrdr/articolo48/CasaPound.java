@@ -72,7 +72,7 @@ public class CasaPound extends Fragment {
 
         final Button ambiente        = (Button) view.findViewById(R.id.But_Ambiente);
         final Button cultura         = (Button) view.findViewById(R.id.But_Cultura);
-        final Button diritti         = (Button) view.findViewById(R.id.But_Diritti);
+        final Button governo         = (Button) view.findViewById(R.id.But_Governo);
         final Button energia         = (Button) view.findViewById(R.id.But_Energia);
         final Button famiglia        = (Button) view.findViewById(R.id.But_Famiglia);
         final Button economia        = (Button) view.findViewById(R.id.But_Economia);
@@ -88,6 +88,15 @@ public class CasaPound extends Fragment {
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
 
 
+        ambiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "CasaPound_Ambiente");
+                args.putString("titolo", "Ambiente");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
 
         cultura.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -99,11 +108,11 @@ public class CasaPound extends Fragment {
             }
         });
 
-        diritti.setOnClickListener(new View.OnClickListener() {
+        governo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "CasaPound_Diritti");
-                args.putString("titolo", "Diritti");
+                args.putString("tema", "CasaPound_Governo");
+                args.putString("titolo", "Governo");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }

@@ -161,11 +161,6 @@ public class Autodeterminazione extends Fragment {
             }
         });
 
-
-
-
-
-
         return view;
     }
 

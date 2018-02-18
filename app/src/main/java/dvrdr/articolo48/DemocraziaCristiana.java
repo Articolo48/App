@@ -78,6 +78,7 @@ public class DemocraziaCristiana extends Fragment {
         final Button previdenza = (Button) view.findViewById(R.id.But_Previdenza);
         final Button sanita     = (Button) view.findViewById(R.id.But_Sanita);
         final Button sicurezza  = (Button) view.findViewById(R.id.But_Sicurezza);
+        final Button europa     = (Button) view.findViewById(R.id.But_Europa);
         final Fragment frag     = new DemocraziaCristiana_Tema();
         final Bundle args       = new Bundle();
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
@@ -162,11 +163,11 @@ public class DemocraziaCristiana extends Fragment {
             }
         });
 
-        sicurezza.setOnClickListener(new View.OnClickListener() {
+        europa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "DemocraziaCristiana_Sicurezza");
-                args.putString("titolo", "Sicurezza");
+                args.putString("tema", "DemocraziaCristiana_Europa");
+                args.putString("titolo", "Europa");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }

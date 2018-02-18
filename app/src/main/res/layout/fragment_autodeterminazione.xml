@@ -129,8 +129,9 @@
                     <TableRow
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" >
+
                         <Button
-                            android:id="@+id/But_Salute"
+                            android:id="@+id/But_Sanita"
                             android:layout_width="96dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"

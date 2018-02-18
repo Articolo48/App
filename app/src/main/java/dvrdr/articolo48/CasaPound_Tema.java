@@ -78,8 +78,8 @@ public class CasaPound_Tema extends Fragment {
             testo_tema.setText(R.string.CasaPound_Ambiente);
         else if (tema.equals("CasaPound_Cultura"))
             testo_tema.setText(R.string.CasaPound_Cultura);
-        else if (tema.equals("CasaPound_Diritti"))
-            testo_tema.setText(R.string.CasaPound_Diritti);
+        else if (tema.equals("CasaPound_Governo"))
+            testo_tema.setText(R.string.CasaPound_Governo);
         else if (tema.equals("CasaPound_Energia"))
             testo_tema.setText(R.string.CasaPound_Energia);
         else if (tema.equals("CasaPound_Famiglia"))
@@ -96,7 +96,7 @@ public class CasaPound_Tema extends Fragment {
             testo_tema.setText(R.string.CasaPound_Istruzione);
         else if (tema.equals("CasaPound_Lavoro"))
             testo_tema.setText(R.string.CasaPound_Lavoro);
-        else if (tema.equals("CasaPound_Salute"))
+        else if (tema.equals("CasaPound_Sanita"))
             testo_tema.setText(R.string.CasaPound_Sanita);
         else if (tema.equals("CasaPound_Europa"))
             testo_tema.setText(R.string.CasaPound_Europa);

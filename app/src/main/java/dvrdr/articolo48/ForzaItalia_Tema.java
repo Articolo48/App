@@ -103,7 +103,7 @@ public class ForzaItalia_Tema extends Fragment {
             testo_tema.setText(R.string.ForzaItalia_Lavoro);
         else if (tema.equals("ForzaItalia_Previdenza"))
             testo_tema.setText(R.string.ForzaItalia_Previdenza);
-        else if (tema.equals("ForzaItalia_Protezione_Sociale"))
+        else if (tema.equals("ForzaItalia_Sociale"))
             testo_tema.setText(R.string.ForzaItalia_Protezione_Sociale);
         else if (tema.equals("ForzaItalia_Sicurezza"))
             testo_tema.setText(R.string.ForzaItalia_Sicurezza);
