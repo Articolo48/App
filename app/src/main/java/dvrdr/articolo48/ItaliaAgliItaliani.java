@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -66,7 +68,61 @@ public class ItaliaAgliItaliani extends Fragment {
         // Inflate the layout for this fragment
         getActivity().setTitle("Italia Agli Italiani");
 
-        return inflater.inflate(R.layout.fragment_italia_agli_italiani, container, false);
+        View view = inflater.inflate(R.layout.fragment_italia_agli_italiani, container, false);
+
+        final Button diritti  = (Button) view.findViewById(R.id.But_Diritti);
+        final Button europa   = (Button) view.findViewById(R.id.But_Europa);
+        final Button famiglia = (Button) view.findViewById(R.id.But_Famiglia);
+        final Button sanita   = (Button) view.findViewById(R.id.But_Sanita);
+        final Fragment frag   = new ItaliaAgliItaliani_Tema();
+        final Bundle args     = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        diritti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ItaliaAgliItaliani_Diritti");
+                args.putString("titolo", "Diritti");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        europa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ItaliaAgliItaliani_Europa");
+                args.putString("titolo", "Europa");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        famiglia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ItaliaAgliItaliani_Famiglia");
+                args.putString("titolo", "Famiglia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sanita.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ItaliaAgliItaliani_Sanita");
+                args.putString("titolo", "Sanità");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

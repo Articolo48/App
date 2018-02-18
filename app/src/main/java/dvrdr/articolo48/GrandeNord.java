@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -65,8 +67,73 @@ public class GrandeNord extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         getActivity().setTitle("Confederazione Grande Nord");
+        View view = inflater.inflate(R.layout.fragment_grande_nord, container, false);
 
-        return inflater.inflate(R.layout.fragment_grande_nord, container, false);
+        final Button banche         = (Button) view.findViewById(R.id.But_Banche);
+        final Button economia       = (Button) view.findViewById(R.id.But_Economia);
+        final Button governo        = (Button) view.findViewById(R.id.But_Governo);
+        final Button immmigrazione  = (Button) view.findViewById(R.id.But_Immigrazione);
+        final Button lavoro         = (Button) view.findViewById(R.id.But_Lavoro);
+        final Fragment frag         = new GrandeNord_Tema();
+        final Bundle args           = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+
+        banche.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "GrandeNord_Banche");
+                args.putString("titolo", "Banche");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        economia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "GrandeNord_Economia");
+                args.putString("titolo", "Economia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        governo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "GrandeNord_Governo");
+                args.putString("titolo", "Governo");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        immmigrazione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "GrandeNord_Immigrazione");
+                args.putString("titolo", "Immigrazione");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        lavoro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "GrandeNord_Lavoro");
+                args.putString("titolo", "Lavoro");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

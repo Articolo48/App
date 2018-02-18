@@ -99,6 +99,8 @@ public class FratelliDItalia_Tema extends Fragment {
             testo_tema.setText(R.string.FratelliDItalia_Impresa);
         else if (tema.equals("FratelliDItalia_Infrastrutture"))
             testo_tema.setText(R.string.FratelliDItalia_Infrastrutture);
+        else if (tema.equals("FratelliDItalia_Istruzione"))
+            testo_tema.setText(R.string.FratelliDItalia_Istruzione);
         else if (tema.equals("FratelliDItalia_Lavoro"))
             testo_tema.setText(R.string.FratelliDItalia_Lavoro);
         else if (tema.equals("FratelliDItalia_Previdenza"))

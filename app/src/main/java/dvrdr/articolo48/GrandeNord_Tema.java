@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -64,7 +65,30 @@ public class GrandeNord_Tema extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_grande_nord__tema, container, false);
+        View view = inflater.inflate(R.layout.fragment_grande_nord__tema, container, false);
+
+        Bundle args = getArguments();
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.GrandeNord_Tema);
+
+        if(tema.equals("GrandeNord_Banche"))
+            testo_tema.setText(R.string.GrandeNord_Banche);
+        else if (tema.equals("GrandeNord_Economia"))
+            testo_tema.setText(R.string.GrandeNord_Economia);
+        else if (tema.equals("GrandeNord_Governo"))
+            testo_tema.setText(R.string.GrandeNord_Governo);
+        else if (tema.equals("GrandeNord_Immigrazione"))
+            testo_tema.setText(R.string.GrandeNord_Immigrazione);
+        else if (tema.equals("GrandeNord_Lavoro"))
+            testo_tema.setText(R.string.GrandeNord_Lavoro);
+        else
+            testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

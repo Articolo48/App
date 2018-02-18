@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -64,7 +65,60 @@ public class FronteFriuliano_Tema extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fronte_friuliano__tema, container, false);
+        View view = inflater.inflate(R.layout.fragment_fronte_friuliano__tema, container, false);
+
+        Bundle args = getArguments();
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.FronteFriuliano_Tema);
+
+    /*    if(tema.equals("FronteFriuliano_Banche"))
+            testo_tema.setText(R.string.FronteFriuliano_Banche);
+        else if (tema.equals("FronteFriuliano_Ambiente"))
+            testo_tema.setText(R.string.FronteFriuliano_Ambiente);
+        else if (tema.equals("FronteFriuliano_Cultura"))
+            testo_tema.setText(R.string.FronteFriuliano_Cultura);
+        else if (tema.equals("FronteFriuliano_Diritti"))
+            testo_tema.setText(R.string.FronteFriuliano_Diritti);
+        else if (tema.equals("FronteFriuliano_Estero"))
+            testo_tema.setText(R.string.FronteFriuliano_Estero);
+        else if (tema.equals("FronteFriuliano_Famiglia"))
+            testo_tema.setText(R.string.FronteFriuliano_Famiglia);
+        else if (tema.equals("FronteFriuliano_Economia"))
+            testo_tema.setText(R.string.FronteFriuliano_Economia);
+        else if (tema.equals("FronteFriuliano_Giustizia"))
+            testo_tema.setText(R.string.FronteFriuliano_Giustizia);
+        else if (tema.equals("FronteFriuliano_Governo"))
+            testo_tema.setText(R.string.FronteFriuliano_Governo);
+        else if (tema.equals("FronteFriuliano_Immigrazione"))
+            testo_tema.setText(R.string.FronteFriuliano_Immigrazione);
+        else if (tema.equals("FronteFriuliano_Impresa"))
+            testo_tema.setText(R.string.FronteFriuliano_Impresa);
+        else if (tema.equals("FronteFriuliano_Infrastrutture"))
+            testo_tema.setText(R.string.FronteFriuliano_Infrastrutture);
+        else if (tema.equals("FronteFriuliano_Istruzione"))
+            testo_tema.setText(R.string.FronteFriuliano_Istruzione);
+        else if (tema.equals("FronteFriuliano_Lavoro"))
+            testo_tema.setText(R.string.FronteFriuliano_Lavoro);
+        else if (tema.equals("FronteFriuliano_Previdenza"))
+            testo_tema.setText(R.string.FronteFriuliano_Previdenza);
+        else if (tema.equals("FronteFriuliano_Protezione_Sociale"))
+            testo_tema.setText(R.string.FronteFriuliano_Protezione_Sociale);
+        else if (tema.equals("FronteFriuliano_Sanita"))
+            testo_tema.setText(R.string.FronteFriuliano_Sanita);
+        else if (tema.equals("FronteFriuliano_Sicurezza"))
+            testo_tema.setText(R.string.FronteFriuliano_Sicurezza);
+        else if (tema.equals("FronteFriuliano_Tecnologia"))
+            testo_tema.setText(R.string.FronteFriuliano_Tecnologia);
+        else if (tema.equals("FronteFriuliano_Europa"))
+            testo_tema.setText(R.string.FronteFriuliano_Europa);
+        else
+            testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+*/
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

@@ -346,26 +346,26 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
 * Valorizzazione del Piano Strategico per il Turismo presentato dal governo per il 2017/2022."</string>
     <string name="CivicaPopolareLorenzin_Europa">"\n* Più Europa ma anche più autonomia ai territori alle comunità locali nelle quali si custodiscono tradizioni e identità preziose. È la rete delle comunità autonome e responsabili il nostro futuro."</string>
 
-    <string name="FratelliDItalia_Agroalimentare"> TODO agroalimentare </string>
-    <string name="FratelliDItalia_Ambiente"> TODO ambiente </string>
-    <string name="FratelliDItalia_Cultura"> TODO cultura</string>
-    <string name="FratelliDItalia_Diritti"> TODO diritti</string>
-    <string name="FratelliDItalia_Estero"> TODO estero</string>
-    <string name="FratelliDItalia_Famiglia"> TODO famiglia</string>
-    <string name="FratelliDItalia_Economia"> TODO Economia</string>
-    <string name="FratelliDItalia_Giustizia"> TODO giustizia</string>
-    <string name="FratelliDItalia_Governo"> TODO governo</string>
-    <string name="FratelliDItalia_Immigrazione"> TODO immigrazione</string>
-    <string name="FratelliDItalia_Impresa"> TODO impresa </string>
-    <string name="FratelliDItalia_Infrastrutture"> TODO infrastrutture </string>
-    <string name="FratelliDItalia_Istruzione"> TODO istruzione </string>
-    <string name="FratelliDItalia_Lavoro"> TODO lavoro</string>
-    <string name="FratelliDItalia_Previdenza"> TODO previdenza</string>
-    <string name="FratelliDItalia_Protezione_Sociale"> TODO protezione sociale</string>
-    <string name="FratelliDItalia_Sanita"> TODO sanità </string>
-    <string name="FratelliDItalia_Sicurezza"> TODO sicurezza</string>
-    <string name="FratelliDItalia_Tecnologia"> TODO tecnologia</string>
-    <string name="FratelliDItalia_Europa"> TODO europa</string>
+    <string name="FratelliDItalia_Agroalimentare">"\n* Sostegno alla produzione industriale e agricola riconoscibile come marchio Italia e graduale riconversione della produzione esposta alla concorrenza indiscriminata. Sostegno a chi non delocalizza."</string>
+    <string name="FratelliDItalia_Ambiente">"\n* Tassa sui rifiuti calcolata in base alla qualità e alla quantità dei rifiuti prodotti per rafforzare la raccolta differenziata. Obiettivo città a impatto zero. Tutela dei nostri mari."</string>
+    <string name="FratelliDItalia_Cultura">"\n* Valorizzare l’Italia del museo diffuso storico e archeologico, del teatro, della musica, delle tradizioni popolari anche attraverso la deducibilità delle spese per consumo culturale personale."</string>
+    <string name="FratelliDItalia_Diritti">"\n* Efficientamento del percorso formativo per rendere competitivi i giovani italiani rispetto ai loro coetanei europei; abolizione della “Buona Scuola” e superamento dell’alternanza scuola lavoro."</string>
+    <string name="FratelliDItalia_Estero">"\n* Più politica e meno burocrazia in Europa. Clausola di supremazia in Costituzione per bloccare accordi e direttive nocivi per l’Italia a cominciare dalla Bolkestein e dal Regolamento di Dublino."</string>
+    <string name="FratelliDItalia_Famiglia">"\n* Asili nido gratuiti e aperti fino all’orario di chiusura di negozi e uffici e con un sistema di apertura a rotazione nel periodo estivo per le madri lavoratrici. Difesa della famiglia naturale."</string>
+    <string name="FratelliDItalia_Economia">"\n* Lotta agli sprechi. Tetto alle tasse. Deficit dello Stato ammesso solo per finanziare investimenti pubblici. Abolizione del tetto all’uso del contante. Basta con l’oppressione fiscale."</string>
+    <string name="FratelliDItalia_Giustizia">"\n* Giustizia civile efficiente; burocrazia snella; adeguato sistema logistico e infrastrutturale; tassazione equa. Piano straordinario di potenziamento e ammodernamento del trasporto pendolare."</string>
+    <string name="FratelliDItalia_Governo">"\n* Riforma presidenziale della Repubblica con elezione diretta del capo dello Stato o del Governo. Federalismo responsabile. Rafforzamento e valorizzazione delle autonomie locali e dei poteri dei Sindaci."</string>
+    <string name="FratelliDItalia_Immigrazione">"\n* Controllo delle frontiere e blocco navale con rimpatrio immediato a seguito di accordi con gli Stati del nord Africa. Espulsione dei clandestini e stop al business dell’accoglienza."</string>
+    <string name="FratelliDItalia_Impresa">"\n* Flat tax ridotta solo alle imprese che producono in Italia con manodopera locale. Super deduzione del costo del lavoro per le imprese ad alta intensità di manodopera. Difesa del piccolo commercio."</string>
+    <string name="FratelliDItalia_Infrastrutture">"\n* Investire nell’ammodernamento della Nazione e sulla capacità digitale. Tutela di ENEL, ENI, FINCANTIERI, POSTE, così come delle reti e delle infrastrutture logistiche, tecnologiche e trasportistiche."</string>
+    <string name="FratelliDItalia_Istruzione">"\n* Abolizione della “Buona Scuola” e superamento dell’alternanza scuola lavoro; concreto sistema di orientamento universitario e lavorativo. Più rispetto e tutela del corpo docente, maggiori risorse..."</string>
+    <string name="FratelliDItalia_Lavoro">"\n* Difesa del lavoro e lotta alla disoccupazione. Tutela delle professioni e valorizzazione del lavoro autonomo. Difesa del piccolo commercio. Flat tax ridotta solo alle imprese che producono in Italia."</string>
+    <string name="FratelliDItalia_Previdenza">"\n* Garantire il diritto alla salute con il miglioramento e l’estensione delle prestazioni sanitarie. Modifica del sistema pensionistico: superamento della legge Fornero e nuova riforma previdenziale..."</string>
+    <string name="FratelliDItalia_Protezione_Sociale">"\n* Piano casa per affrontare l’emergenza abitativa con mutuo sociale e affitto a riscatto. Rafforzamento della sussidiarietà. Per un Terzo Settore qualificato. Stop al racket dei mendicanti."</string>
+    <string name="FratelliDItalia_Sanita">"\n* Aiuto economico concreto a chi è impossibilitato a lavorare per ragioni oggettive: bambini, disabili, ultra sessantenni no reddito. Aumento delle pensioni minime e raddoppio dell’assegno di invalidità."</string>
+    <string name="FratelliDItalia_Sicurezza">"\n*Sostegno alle forze dell’ordine e alle forze armate: stipendi e straordinari dignitosi, dotazioni adeguate di personale, mezzi e tecnologie utili al contrasto del crimine e del terrorismo."</string>
+    <string name="FratelliDItalia_Tecnologia">"\n* Investire nell’ ammodernamento della Nazione e sulla capacità digitale. Favorevoli a utilizzo degli strumenti tecnologici ultima generazione."</string>
+    <string name="FratelliDItalia_Europa">"\n* Difesa della nostra sovranità nazionale. Ridiscussione di tutti i trattati UE a partire dal fiscal compact e dall’euro. Più politica e meno burocrazia in Europa. Tutelare l’italianità nel mondo"</string>
 
     <string name="Lega_Agroalimentare"> TODO agroalimentare </string>
     <string name="Lega_Ambiente"> TODO ambiente </string>
@@ -597,11 +597,17 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
     <string name="ForzaNuova_Famiglia"> TODO famiglia</string>
     <string name="ForzaNuova_Sanita"> TODO sanità</string>
 
-    <string name="GrandeNord_Banche"> TODO banche</string>
-    <string name="GrandeNord_Economia"> TODO Economia</string>
-    <string name="GrandeNord_Governo"> TODO governo</string>
-    <string name="GrandeNord_Immigrazione"> TODO immigrazione</string>
-    <string name="GrandeNord_Lavoro"> TODO lavoro</string>
+    <string name="GrandeNord_Banche">"\n* Banche più piccole: ritorno alle casse di risparmio con principio autotutela."</string>
+    <string name="GrandeNord_Economia">"\n* Shock fiscale e semplificazione totale:\n
+    1. Due sole aliquote – eliminazione selva detrazioni\n
+    2. Semplicità dichiarazione – evasione reato penale\n
+    3. Iva 0% su prima casa – 15% sul resto\n
+    4. Partite Iva e Società: detraibile ogni spesa\n
+    5. Unica detrazione o assegno x le mamme: figli minori (100euro/mese)\n
+* Condono fiscale tombale (Fine terrore fiscale. Soppressione Equitalia e Agenzie, compiti affidati a GDF)."</string>
+    <string name="GrandeNord_Governo">"\n* Riduzione del numero dei parlamentari da 630 a 100 (Camera dei deputati) e da 315 a 40 (Senato della Repubblica)."</string>
+    <string name="GrandeNord_Immigrazione">"\n* Stop immigrazione irregolare: contratto di lavoro o accompagnamento alla frontiera; visto semplificato ma reato immigrazione."</string>
+    <string name="GrandeNord_Lavoro">"\n* Lavoro: un solo contratto, con incentivi per impresa al tempo indeterminato e al part-time, soprattutto per genitori."</string>
 
     <string name="IlPopoloDellaFamiglia_Diritti"> TODO diritti</string>
     <string name="IlPopoloDellaFamiglia_Europa"> TODO europa</string>
@@ -723,6 +729,16 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
     <string name="NoiConLItalia_Previdenza"> TODO previdenza</string>
     <string name="NoiConLItalia_Sanita"> TODO sanità</string>
     <string name="NoiConLItalia_Sicurezza"> TODO sicurezza</string>
+
+    <string name="ItaliaAgliItaliani_Diritti">"\n* Tutte le risorse oggi bruciate a favore degli invasori extracomunitari e della costruzione di moschee vanno immediatamente reindirizzate verso le nostre classi popolari con la creazione di un ente statale totalmente pubblico che garantisca a ogni famiglia italiana il diritto alla casa, riconosciuto come primario e fondamentale.\n
+* Chiediamo la edificazione di nuovi quartieri a misura d’uomo (costruzioni con fondi pubblici, case rivendute a prezzo di costo, spazi e verde a misura di famiglie, bioarchitettura tradizionale e bassa densità abitativa) e l’istituzione del Mutuo Popolare, senza banche, interessi e usura.\n
+* Chiediamo la cancellazione delle leggi antisociali come il jobs act e la riforma Fornero, l’aumento delle pensioni minime e l’abbassamento delle tasse che congelano la nostra economia, il ripristino delle garanzie a tutela dei lavoratori e delle piccole imprese, la nazionalizzazione di tutte le imprese strategiche, il ripristino della separazione tra banche di risparmio e banche d’affari, l’applicazione dell’art. 46 della Costituzione con particolare riferimento alla partecipazione agli utili da parte dei lavoratori. Una delle due camere deve divenire una rappresentanza delle categorie del lavoro."</string>
+    <string name="ItaliaAgliItaliani_Europa">"\n* Noi esigiamo l’uscita dell’Italia da UE, EURO e NATO e l’affermazione di una politica di amicizia e collaborazione con la Russia."</string>
+    <string name="ItaliaAgliItaliani_Famiglia">"\n* Chiediamo l’introduzione di un Reddito alle Madri, una riduzione progressiva delle tasse alle famiglie che crescono con l’aumento dei figli, una vera e propria politica statale di investimento sui figli, futuro del nostro popolo e sulla famiglia naturale, cellula base della società.\n
+* Chiediamo il sostegno alla maternità fino alla maggiore età del figlio, bonus per la nascita di figli di entrambi genitori italiani, asili nido gratuiti per madri a basso reddito, la concessione di libri e materiale didattico gratuiti agli studenti della scuola dell’obbligo."</string>
+    <string name="ItaliaAgliItaliani_Sanita">"\n* Respingiamo l’attuale politica statale che impone ai figli una raffica di vaccini – anche non necessari e pericolosi, indipendentemente dalla libera scelta dei genitori."</string>
+
+
 
     <string name="NoTema">
 "\nProgramma non disponibile sul sito del ministero degli interni.\n Per maggiori informazioni si rimanda al sito ufficiale."</string>
