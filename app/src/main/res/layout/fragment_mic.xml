@@ -64,12 +64,93 @@
 
                     <TableRow
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center">
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/But_Economia"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_economia"
+                            android:text="economia" />
+
+                        <Button
+                            android:id="@+id/But_Europa"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_europa"
+                            android:text="europa" />
 
                     </TableRow>
 
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
 
+                        <Button
+                            android:id="@+id/But_Giustizia"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_giustizia"
+                            android:text="giustizia" />
+
+                        <Button
+                            android:id="@+id/But_Immigrazione"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_immigrazione"
+                            android:text="immigrazione" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+
+                        <Button
+                            android:id="@+id/But_Lavoro"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_lavoro"
+                            android:text="lavoro" />
+
+                        <Button
+                            android:id="@+id/But_Previdenza"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_previdenza"
+                            android:text="previdenza" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/But_Sicurezza"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_sicurezza"
+                            android:text="sicurezza" />
+
+                        <Button
+                            android:id="@+id/empty"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="" />
+
+
+                    </TableRow>
                 </TableLayout>
             </ScrollView>
         </TableRow>

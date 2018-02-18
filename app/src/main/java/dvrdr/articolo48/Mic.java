@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -65,8 +67,97 @@ public class Mic extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         getActivity().setTitle("Movimento Politico Italia Nel Cuore");
+        View view = inflater.inflate(R.layout.fragment_mic, container, false);
 
-        return inflater.inflate(R.layout.fragment_mic, container, false);
+        final Button economia     = (Button) view.findViewById(R.id.But_Economia);
+        final Button europa       = (Button) view.findViewById(R.id.But_Europa);
+        final Button giustizia    = (Button) view.findViewById(R.id.But_Giustizia);
+        final Button immigrazione = (Button) view.findViewById(R.id.But_Immigrazione);
+        final Button lavoro       = (Button) view.findViewById(R.id.But_Lavoro);
+        final Button previdenza   = (Button) view.findViewById(R.id.But_Previdenza);
+        final Button sicurezza    = (Button) view.findViewById(R.id.But_Sicurezza);
+        final Fragment frag       = new Mic_Tema();
+        final Bundle args         = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        economia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Mic_Economia");
+                args.putString("titolo", "Economia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        europa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Mic_Europa");
+                args.putString("titolo", "Europa");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        giustizia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Mic_Giustizia");
+                args.putString("titolo", "Giustizia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        immigrazione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Mic_Immigrazione");
+                args.putString("titolo", "Immigrazione");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        lavoro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Mic_Lavoro");
+                args.putString("titolo", "Lavoro");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        previdenza.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Mic_Previdenza");
+                args.putString("titolo", "Previdenza");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sicurezza.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Mic_Sicurezza");
+                args.putString("titolo", "Sicurezza");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

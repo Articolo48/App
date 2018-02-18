@@ -127,27 +127,76 @@
 * Vogliamo l’elezione diretta del Presidente della Commissione Europea. È giusto che chi prende le decisioni a Bruxelles per conto di tutti gli europei sia scelto democraticamente dai cittadini."
     </string>
 
-    <string name="Movimento5Stelle_Agroalimentare"> TODO </string>
-    <string name="Movimento5Stelle_Ambiente"> TODO </string>
-    <string name="Movimento5Stelle_Cultura"> TODO </string>
-    <string name="Movimento5Stelle_Diritti"> TODO </string>
-    <string name="Movimento5Stelle_Estero"> TODO </string>
-    <string name="Movimento5Stelle_Famiglia"> TODO </string>
-    <string name="Movimento5Stelle_Economia"> TODO </string>
-    <string name="Movimento5Stelle_Banche"> TODO </string>
-    <string name="Movimento5Stelle_Giustizia"> TODO </string>
-    <string name="Movimento5Stelle_Governo"> TODO </string>
-    <string name="Movimento5Stelle_Immigrazione"> TODO </string>
-    <string name="Movimento5Stelle_Impresa"> TODO </string>
-    <string name="Movimento5Stelle_Infrastrutture"> TODO </string>
-    <string name="Movimento5Stelle_Istruzione"> TODO </string>
-    <string name="Movimento5Stelle_Lavoro"> TODO </string>
-    <string name="Movimento5Stelle_Previdenza"> TODO </string>
-    <string name="Movimento5Stelle_Protezione_Sociale"> TODO </string>
-    <string name="Movimento5Stelle_Sanita"> TODO </string>
-    <string name="Movimento5Stelle_Sicurezza"> TODO </string>
-    <string name="Movimento5Stelle_Tecnologia"> TODO </string>
-    <string name="Movimento5Stelle_Europa"> TODO </string>
+    <string name="Movimento5Stelle_Agroalimentare">"\n* Vogliamo una stretta sui pesticidi, per regolamentare l’uso della chimica e sostenere tutte le forme produttive responsabili; agricoltura biologica, bio-dinamica, agro-ecologia e reimpiego di scarti.
+\n* Promuovere filiere trasparenti, valorizzare le eccellenze che forniscono tutte le informazioni al consumatore, valorizzando anche il ruolo dell’Autorità Garante della Concorrenza e del Mercato.
+\n* Il nostro Made in Italy non deve essere inquinato dal caporalato e dallo sfruttamento del lavoro, né dall’uso di sostanze nocive per ambiente e salute o metodi cruenti per gli animali “da reddito”.
+\n* Gli imprenditori agricoli sono schiacciati dalla burocrazia. Vogliamo semplificare le procedure, l’accesso al credito e ridurre la pressione fiscale sulle Pmi agricole.
+\n* Tuteliamo Made in Italy, sovranità alimentare e agricoltura sostenibile. Prezzo equo per agricoltori e consumatori, stop trattati calati dall’alto come TTIP e CETA, via l’IMU per chi coltiva la terra."</string>
+    <string name="Movimento5Stelle_Ambiente">"\n* Oltre a diritti fondamentali, come il diritto alla salute e al lavoro, i cittadini hanno diritto all’accesso alle informazioni ambientali. E’ anche così che evitiamo casi come la Terra dei Fuochi.
+\n* In Italia la Terra dei Fuochi non è solo in Campania. Servono bonifiche da Nord a Sud, controllo capillare dei territori, massicce campagne di indagini epidemiologiche e tavoli tecnici permanenti.
+\n* L’Italia spende 16 miliardi annui in sussidi ambientalmente dannosi. Spostiamo questa cifra su bonifiche, efficientamento, lotta al dissesto. Mobilità elettrica e raccolta differenziata di qualità.
+\n* Crediamo nell’economia circolare, in cui ridurre i rifiuti a monte e riciclare non solo gli imballaggi. E’ necessario cambiare il sistema dei Consorzi in sistemi autonomi."</string>
+    <string name="Movimento5Stelle_Cultura">"\n* Con la cultura “si mangia”. Il M5S ritiene fondamentale investire a medio-lungo termine nella Cultura. I beni culturali sono un elemento costitutivo e strategico per la crescita del Paese.
+\n* Valutiamo il reale fabbisogno di risorse umane per raggiungere livelli adeguati di gestione in Archivi e Biblioteche e valorizzare le figure professionali che operano nel settore, con requisiti minimi
+\n* Un’unica cabina di regia per semplificare la governance digitale. Internet, eGov e digitale non possono essere gestiti da una moltitudine di soggetti.
+\n* Gli investimenti nel patrimonio culturale meritano di superare almeno l’1% di PIL. Introduciamo i Distretti culturali e puntiamo al miglioramento degli itinerari storico-artistici.
+\n* Vogliamo semplificare le micro erogazioni liberali, con la possibilità di effettuare i versamenti direttamente sul portale Art Bonus. Prevediamo uno sgravio fiscale sulla base del tipo di elargizione."</string>
+    <string name="Movimento5Stelle_Diritti">"\n* Accorciamo i tempi e diamo ai genitori costi certi. Più controllo e snellimento sull'iter dell'adozione da parte della CAI. Accordi bilaterali con Stati di provenienza e più supporto alle famiglie.
+\n* Puntiamo all’effettiva realizzazione della Cittadinanza digitale, promuovendo la diffusione generalizzata del domicilio digitale delle persone fisiche.
+\n* Con il reddito di cittadinanza, misura di sostegno al reddito proattiva e non assistenziale, garantiamo un reddito minimo a un salario minimo di orario, a fronte di obblighi precisi."</string>
+    <string name="Movimento5Stelle_Estero">"\n* Sosteniamo un percorso di disarmo e chiediamo la piena attuazione della legge 185/90 che ci vieta di vendere armi a Paesi in conflitto e/o che violino i diritti umani.
+\n* Le relazioni internazionali devono essere improntate sul multilateralismo reale, il rispetto del diritto internazionale, la Carta dell’ONU, i diritti umani e sulla difesa della sovranità nazionale." </string>
+    <string name="Movimento5Stelle_Famiglia">"\n* Chi forma una famiglia merita un welfare serio, rimborsi per asili, pannolini e baby sitter. Indennità di maternità al 100% e aumento quota detraibile per colf/badanti. IVA agevolata per la terza età e infanzia.
+\n* Vogliamo aumentare la spesa per il welfare familiare portandola dall’attuale 1,5% al 2,5% del PIL, eguagliando il livello francese (l'Italia è il Paese con l’indice di natalità più basso in UE).
+\n* Diamo 150 €/mese per 3 anni dalla fine della maternità per le donne che rientrano al lavoro e sgravi per 3 anni per le imprese che mantengono al lavoro le lavoratrici dopo la nascita del figlio."</string>
+    <string name="Movimento5Stelle_Economia">"\n* Evitiamo che i cittadini siano sottoposti alla presunzione del reddito con gli indici sintetici di affidabilità fiscale. Chi è più trasparente, meno paga.
+\n* Le imprese che più onestamente dichiarano, meno pagano: introduciamo un regime fiscale che premia il reddito marginale prodotto rispetto all’ultima dichiarazione dei redditi.
+\n* La flat tax è una bufala, è incostituzionale e bisognerebbe chiamarla “flop tax”. La vera proposta seria è l’introduzione delle 3 aliquote IRPEF con forte aiuto alle famiglie.
+\n* Bisogna invertire l'onere della prova. I cittadini sono innocenti finché lo Stato non dimostra il contrario. Tutti devono pagare il dovuto, ma bisogna partire dalla grande evasione.
+\n* Riduciamo le aliquote IRPEF. E’ il fisco che ha l’onere della prova, non i contribuente.
+\n* Eliminiamo finalmente Equitalia dalla faccia della terra. La responsabilità dei suoi disastri è di chi l’ha creata e sostenuta."</string>
+    <string name="Movimento5Stelle_Banche">"\n* Il capitale della BPI può arrivare a 20 miliardi. Il credito verrà concesso per abitazione, adeguamento sismico degli edifici, mobilità sostenibile, cultura, ambiente ed energia, nuove filiere.
+\n* Basta salvataggi delle banche sulla pelle dei cittadini. Vogliamo risarcire i truffati, separare banche di credito e banche d’affari, creare la Procura Nazionale per i reati finanziari."</string>
+    <string name="Movimento5Stelle_Giustizia">"\n* Processi in fumo, milioni buttati e responsabili impuniti: la riforma della prescrizione è priorità. La prescrizione deve interrompersi dal rinvio a giudizio o al massimo dalla condanna di I grado.
+\n* Stop a indulti, amnistie, svuota carceri, depenalizzazioni, leggi ad personam. Bisogna aumentare le pene per molti reati, tra cui quello di stalking; class action contro le frodi ai cittadini.
+\n* Riduzioni di tempi e tipi di processo civile, dagli oltre 10 attuali a 3. Certezza della pena: chi sbaglia deve pagare. Una giustizia efficiente per i cittadini attira investimenti."</string>
+    <string name="Movimento5Stelle_Governo">"\n* Introduciamo una norma anti-voltagabbana: ogni volta che un politico lascia un gruppo parlamentare per passare ad un altro perde la dotazione economica delle camere.
+\n* Vogliamo referendum propositivi e senza quorum. I cittadini devono poter proporre e decidere delle grandi questioni senza sottostare al ricatto di chi non va a votare, rendendo nulli i referendum.
+\n* Conflitto d’interessi: vogliamo estendere l'incompatibilità a chi esercita una funzione pubblica e può avere interferenze con interessi, privati o pubblici, anche a prescindere dai vantaggi economici
+\n* Modifichiamo la procedura di nomina del consiglio di amministrazione RAI, per prevenire l'influenza di partiti e Governo. Prevediamo un modello con avviso pubblico, sorteggio e parere parlamentare."</string>
+    <string name="Movimento5Stelle_Immigrazione">"\n* Chiediamo la piena attuazione della legge 185/90 che ci vieta di vendere armi a Paesi in conflitto e/o che violino i diritti umani, così da ridurre anche i flussi migratori.
+\n* Stop al business dell’immigrazione per scardinare la rete di scafisti e corrotti e azzerare sbarchi e morti nel Mediterraneo. Le domande di protezione siano valutate nei Paesi di origine o transito.
+\n* Vogliamo favorire accordi bilaterali per velocizzare le procedure di rimpatrio, in condizioni di sicurezza e rispetto dei diritti fondamentali. Promuoviamo anche il ritorno volontario assistito.
+\n* Priorità al finanziamento trasparente, alla cooperazione internazionale, ai programmi di sostegno allo sviluppo rurale, agricoltura sostenibile, sicurezza alimentare, l’istruzione e la formazione prole.
+\n* Vogliamo che la gestione dei fondi destinati al sistema di accoglienza sia trasparente, controllata e tracciata, per evitare che le risorse pubbliche siano usate per speculare."</string>
+    <string name="Movimento5Stelle_Infrastrutture">"\n* Investiamo 1,2 miliardi in rete elettrica per far fronte alla dispersione di energia con smart grid, sistema che redistribuisce l’elettricità secondo il fabbisogno, evitando sovraccarichi o carenze.
+\n* La ristrutturazione della rete idrica, oltre a far risparmiare i soldi per le emergenze, (circa 2,3 miliardi/anno) fa aumentare l’occupazione: si calcolano 20.000 posti di lavoro all’anno."</string>
+    <string name="Movimento5Stelle_Impresa">"\n* Investimenti ad alto moltiplicatore occupazionale contro quelli a basso moltiplicatore fatti finora e dimezzamento IRAP per realizzare un modello produttivo circolare.
+\n* Puntare su Internet delle Cose e quarta rivoluzione industriale per mettere a frutto il patrimonio culturale, artistico e artigiano del Made in Italy, sfruttando l’intelligenza artificiale."</string>
+    <string name="Movimento5Stelle_Istruzione">"\n* Abbiamo proposto la no TAX area e ora vogliamo estenderla a 26.000 euro di reddito annuo. Andare all’università è un diritto e bisogna dare un buon orientamento per accompagnare gli studenti.
+\n* Vogliamo superare la “buona scuola” e assumere i docenti in base al vero fabbisogno. Mettiamo il limite di max 22 alunni per classe. Investiamo risorse per un piano serio per l’edilizia scolastica.
+\n* Metà delle scuole italiane ha 40 anni. Occorre un piano decennale per la messa a norma e in sicurezza, riqualificazione e rinnovamento delle scuole italiane e degli ambienti di apprendimento.
+\n* Abroghiamo chiamata diretta dei docenti e super-poteri ai dirigenti, retribuiamo la formazione in servizio; tempo pieno e compresenze nella primaria. Più ore alle materie tagliate e nuove materie."</string>
+    <string name="Movimento5Stelle_Lavoro">"\n* Introduciamo un’indennità per i lavoratori a tempo determinato. Sosteniamo i cheque per acquistare prestazioni di lavoro per servizi alla persona/famiglia.
+\n* Destiniamo oltre 2 miliardi per la riforma dei centri per l’impiego. Facciamo incontrare davvero domanda e offerta di lavoro e garantiamo formazione continua a chi perde l’occupazione.
+\n* Per creare lavoro la svolta è negli investimenti strategici, tra cui rinnovabili, turismo, riqualificazione urbanistica. Vogliamo riformare i centri per l’impiego e salario minimo a 9 € orari.
+\n* La giungla di leggi fa perdere tempo e soldi. Le imprese possono risparmiare migliaia di Euro con la semplificazione. Le norme devono essere stabili e non retroattive. IRAP diventa addizionale Ires.
+\n* Investimenti ad alto moltiplicatore occupazionale contro quelli a basso moltiplicatore fatti finora e dimezzamento IRAP per realizzare un modello produttivo circolare.
+\n* Puntare su Internet delle Cose e quarta rivoluzione industriale per mettere a frutto il patrimonio culturale, artistico e artigiano del Made in Italy, sfruttando l’intelligenza artificiale.
+\n* Se vogliamo rilanciare il turismo e battere tutti in Europa, abbiamo bisogno di un ministero del Turismo. Dobbiamo andare all’estero e trovare pubblicità dell’Italia, non di un singolo comune Italiano.
+\n* Il sito Italia.it, per cui abbiamo speso milioni, deve diventare il più grande portale di e-commerce, in modo che un turista possa acquistare le nostre eccellenze del made in Italy prima di arrivare."</string>
+    <string name="Movimento5Stelle_Previdenza">"\n* Istituiamo Quota 100: si va in pensione quando la somma tra età anagrafica ed età contributiva equivale a 100. Potenziamo la staffetta generazionale.
+\n* Vogliamo la pensione di cittadinanza perché nessun pensionato deve vivere con meno di 780 euro netti/mese. Superamento della Legge Fornero; in pensione con 41 anni di contributi senza se e senza ma."</string>
+    <string name="Movimento5Stelle_Protezione_Sociale">"\n* Con la flexsecurity le imprese sono più competitive e le persone tutelate. La riforma delle politiche attive del lavoro garantisce percorsi formativi, riqualificazione e reinserimento
+\n* Il reddito di cittadinanza permette di formarsi, riqualificarsi e reinserirsi nel mondo del lavoro, con il supporto dei nuovi Centri per l’impiego. Nessuno deve rimanere indietro."</string>
+    <string name="Movimento5Stelle_Sanita">"\n* Stop tagli alla sanità. 11 milioni di persone nel 2016 hanno rinunciato a curarsi, tagli per oltre 25 miliardi a partire dal 2012 e meno prestazioni gratuite: invertiamo questa tendenza.
+\n* Nomine ASL slegate dal controllo politico. Aumentiamo il rapporto spesa per il fondo sanitario/PIL; sblocco dei turn over e 10 mila nuove risorse per il personale. Aumentiamo il fondo non autosufficienze.
+\n* Occorre intervenire sulla formazione e sulla ricerca scientifica, contrastare la corruzione e gli sprechi e ripristinare adeguato rapporto pazienti/numero di infermieri."</string>
+    <string name="Movimento5Stelle_Sicurezza">"\n* Per la sicurezza servono 10.000 nuovi agenti nelle forze dell’ordine, 2 nuove carceri per dire stop agli indulti. Mezzi e strumenti per i vigili del fuoco e investimenti per cyber security e intelligence.
+\n* È necessario riorganizzare la Polizia Locale e le sue funzioni e incrementare le risorse per le “specialità” di polizia. Intendiamo fare una revisione contrattuale periodica del comparto sicurezza."</string>
+    <string name="Movimento5Stelle_Tecnologia">"\n* Big data, intelligenza artificiale e robotica: innovazione e rete digitale, per permettere a tutti i cittadini, le imprese e la PA di usare le nuove tecnologie.
+\n* Italia Smart Nation: investiamo 1,2 miliardi per banda ultra larga e Internet delle cose. Dalle 16mila banche dati oggi esistenti a dieci con la digitalizzazione della Pubblica amministrazione."</string>
+    <string name="Movimento5Stelle_Europa">"\n* Vogliamo rivedere Patto di Stabilità, Fiscal compact, MES e altre norme sui bilanci pubblici. Priorità alla tutela del Made in Italy e seria revisione del Regolamento di Dublino sui migranti."</string>
 
     <string name="CasaPound_Ambiente">"\n* Sviluppo di tutte le culture biologiche.\n
 * Riqualificazione delle coste marittime e dei corsi fluviali (con contestuale divieto di privatizzazione del demanio).\n
@@ -930,13 +979,20 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
 * Cessazione dei finanziamenti statali alla sanità privata e obbligo di scelta per i medici tra esercizio della professione nel pubblico oppure nel privato.\n
 * Abolizione del direttore amministrativo e sanitario delle ASP e degli Ospedali e la nomina con concorso pubblico."</string>
 
-    <string name="Maie_Cultura"> TODO cultura</string>
-    <string name="Maie_Estero"> TODO estero</string>
-    <string name="Maie_Famiglia"> TODO famiglia</string>
-    <string name="Maie_Governo"> TODO governo</string>
-    <string name="Maie_Immigrazione"> TODO immigrazione</string>
-    <string name="Maie_Istruzione"> TODO istruzione</string>
-    <string name="Maie_Sanità"> TODO sanità</string>
+    <string name="Maie_Cultura">"\n* Assegnare più fondi a questo settore, lungi dall'essere un costo per la collettività, è un investimento che si trasformerà in benefici concreti per l'Italia.\n
+* È necessario realizzare maggiore coordinamento tra i diversi attori del sistema, attraverso un'agenzia ufficiale per la promozione della lingua e attraverso la formazione degli insegnanti all'estero, e l'istituzione nei principali consolati della figura del Promotore Culturale, che interagisca con associazioni e organizzazioni di volontariato della comunità italiana all'estero.\n
+* È inoltre fondamentale promuovere lo studio della lingua italiana anche nelle scuole pubbliche estere."</string>
+    <string name="Maie_Estero">"\n* È necessario trovare una soluzione allo stato di catastrofe della Rete consolare, garantendo a ciascun consolato un numero di dipendenti adeguato a garantirne l’efficienza.\n
+* È necessario un progressivo aumento a 97 milioni di euro l'anno dei fondi che lo Stato stanzia per pagare alle persone che lavorano nei consolati.\n
+* Valorizzare e rafforzare le Camere di commercio italiane all'estero, attraverso l'aumento dei fondi e la riforma dei regolamenti che regolano il sistema.\n
+* Gli italiani che vivono all'estero, oggi pagano la tassa IMU sulla loro casa in Italia, per il fatto che non è considerata "prima abitazione", una discriminazione ingiusta che deve essere rimediata.\n
+* In merito alla necessità di rafforzare la rete consolare, è necessario riaprire i consolati che sono stati chiusi negli ultimi anni."</string>
+    <string name="Maie_Governo">"\n* Eliminare la tassa sulla cittadinanza: la legge italiana stabilisce che è cittadino per nascita il figlio di un cittadino italiano.\n
+* Parità di genere:eliminare la discriminazione ingiusta che pesa ancora sulle donne. Molti figli di madri italiane, nati prima del 1948 (e quindi tutti i loro discendenti) non possono accedere alla cittadinanza italiana oggi, a causa di una legge antiquata e discriminatoria delle donne che deve essere modificata."</string>
+    <string name="Maie_Immigrazione">"\n* La politica migratoria italiana deve dare la priorità all'ingresso di famiglie italiane o di persone di origine italiana dall'estero e, dall'altra parte, contrariamente a quanto è stato fatto negli ultimi anni, controllare e respingere l'immigrazione clandestina.\n
+* La globalizzazione comporta mobilità: lavoratori, ricercatori, studenti, professionisti cercano in altri paesi opportunità di lavoro non sempre di tipo definitivo, così tanti giovani italiani vanno all'estero, o gli italiani nati all'estero spostano temporaneamente la loro residenza in altri paesi."</string>
+    <string name="Maie_Istruzione">"\n* L'Italia deve promuovere ulteriormente la sua eccellente offerta universitaria, promuovere un sistema di borse di studio per giovani di origine italiana da formare in Italia e promuovere la cooperazione scientifica con ricercatori di origine italiana."</string>
+    <string name="Maie_Sanita">"\n* Garantire ai residenti italiani all'estero cure mediche quando rientrano temporaneamente in Italia. I cittadini italiani devono avere libero accesso al sistema sanitario in Italia anche se la loro residenza è all'estero."</string>
 
     <string name="Rinascimento_Cultura"> TODO cultura</string>
     <string name="Rinascimento_Governo"> TODO governo</string>
@@ -1326,6 +1382,25 @@ Promozione dell’economia circolare e sostegno alle imprese che adottano il pri
     <string name="FronteFriuliano_Sanita">"\n* Vogliamo riorganizzare il sistema sanitario attraverso una costante collaborazione con i primi operatori del territorio, i primari ospedalieri e i medici di base.\n
 * Particolare interesse e aiuto concreto ai disabili e anziani in difficoltà economica.\n
 * Ogni cittadino è libero di accettare o rifiutare qualsiasi cura medica alla propria persona ed a quelle di cui è tutore."</string>
+
+    <string name="Mic_Economia">"\n* Riduzione della pressione fiscale.
+\n* Sburocratizzazione, riduzione e taglio dei costi delle amministrazioni pubbliche."</string>
+    <string name="Mic_Europa">"\n* Uscita dall’Europa.
+\n* Ritorno alla Lira e alla Sovranità.</string>
+    <string name="Mic_Giustizia">"\n* Pene certe e sicure contro la corruzione.
+\n* Esproprio dei beni ai corrotti ed invalidazione degli atti effettuati al fine di spogliarsi degli stessi beni (con efficacia retroattiva).
+\n* Riforma della Giustizia da attuarsi attraverso un confronto costruttivo con Magistratura e Avvocatura.
+\n*  Veto nell’utilizzo del ruolo istituzionale per fini e interessi personali.
+\n* Abolizione dei vitalizi e delle pensioni d’oro."</string>
+    <string name="Mic_Immigrazione">"\n* Introduzione di regole sull’immigrazione e sull’ integrazione.
+\n* Espulsione dall’Italia dei delinquenti stranieri.
+\n* Espulsione dei delinquenti stranieri presenti nelle carceri italiane affinché scontino la pena nei loro paesi."</string>
+    <string name="Mic_Lavoro">"\n* Crescita economica e sviluppo occupazionale.
+\n* Sostegno economico alle aziende Italiane del “made in Italy”.
+\n* Tutela delle aziende Italiane e del “made in Italy”.
+\n* Sostegno all’occupazione giovanile."</string>
+    <string name="Mic_Previdenza">"\n* Riforma delle pensioni mediante l’introduzione di una soglia minima che garantisca ai cittadini di vivere in condizioni umane."</string>
+    <string name="Mic_Sicurezza">"\n* Maggiore potere alle forze dell’ordine per combattere corruzione e delinquenza."</string>
 
     <string name="NoTema">
 "\nProgramma non disponibile sul sito del ministero degli interni.\n Per maggiori informazioni si rimanda al sito ufficiale."</string>

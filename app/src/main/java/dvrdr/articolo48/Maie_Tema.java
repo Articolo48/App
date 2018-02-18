@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -64,7 +65,34 @@ public class Maie_Tema extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_maie__tema, container, false);
+        View view = inflater.inflate(R.layout.fragment_maie__tema, container, false);
+
+        Bundle args = getArguments();
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.Maie_Tema);
+
+        if (tema.equals("Maie_Cultura"))
+            testo_tema.setText(R.string.Maie_Cultura);
+        else if (tema.equals("Maie_Estero"))
+            testo_tema.setText(R.string.Maie_Estero);
+        else if (tema.equals("Maie_Immigrazione"))
+            testo_tema.setText(R.string.Maie_Immigrazione);
+        else if (tema.equals("Maie_Istruzione"))
+            testo_tema.setText(R.string.Maie_Istruzione);
+        else if (tema.equals("Maie_Sanita"))
+            testo_tema.setText(R.string.Maie_Sanita);
+        else if (tema.equals("Maie_Governo"))
+            testo_tema.setText(R.string.Maie_Governo);
+        else if (tema.equals("Maie_Immigrazione"))
+            testo_tema.setText(R.string.Maie_Immigrazione);
+        else
+            testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

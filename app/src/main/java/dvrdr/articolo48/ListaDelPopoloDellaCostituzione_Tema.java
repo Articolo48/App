@@ -73,7 +73,7 @@ public class ListaDelPopoloDellaCostituzione_Tema extends Fragment {
 
         getActivity().setTitle(titolo.toString());
 
-        final TextView testo_tema = (TextView) view.findViewById(R.id.LIstaDelPopoloDellaCostituzione_Tema);
+        final TextView testo_tema = (TextView) view.findViewById(R.id.ListaDelPopoloDellaCostituzione_Tema);
 
         if (tema.equals("ListaDelPopoloDellaCostituzione_Ambiente"))
             testo_tema.setText(R.string.ListaDelPopoloDellaCostituzione_Ambiente);

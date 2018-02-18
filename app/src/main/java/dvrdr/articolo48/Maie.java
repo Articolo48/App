@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -65,8 +67,86 @@ public class Maie extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         getActivity().setTitle("MAIE - Movimento Associativo Italiani All'Estero");
+        View view = inflater.inflate(R.layout.fragment_maie, container, false);
 
-        return inflater.inflate(R.layout.fragment_maie, container, false);
+        final Button cultura      = (Button) view.findViewById(R.id.But_Cultura);
+        final Button estero       = (Button) view.findViewById(R.id.But_Estero);
+        final Button governo      = (Button) view.findViewById(R.id.But_Governo);
+        final Button immigrazione = (Button) view.findViewById(R.id.But_Immigrazione);
+        final Button istruzione   = (Button) view.findViewById(R.id.But_Istruzione);
+        final Button sanita       = (Button) view.findViewById(R.id.But_Sanita);
+        final Fragment frag       = new Maie_Tema();
+        final Bundle args         = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        cultura.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Maie_Cultura");
+                args.putString("titolo", "Cultura");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        estero.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Maie_Estero");
+                args.putString("titolo", "Estero");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+
+        governo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Maie_Governo");
+                args.putString("titolo", "Governo");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        immigrazione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Maie_Immigrazione");
+                args.putString("titolo", "Immigrazione");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        istruzione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Maie_Istruzione");
+                args.putString("titolo", "Istruzione");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sanita.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Maie_Sanita");
+                args.putString("titolo", "Sanità");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
