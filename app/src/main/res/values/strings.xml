@@ -547,24 +547,143 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
 * Un’Europa nella quale la Bce assuma, come la Fed, l'obiettivo di contenere la disoccupazione assieme all'inflazione e il ruolo di prestatore di ultima istanza.\n
 * Il Fiscal Compact è un fallimento. Cambiare l'articolo 81 della Costituzione introducendo il principio della Golden rule (via dai parametri europei le spese per investimenti e crescita)."</string>
 
-    <string name="PartitoComunista_Agroalimentare"> TODO </string>
-    <string name="PartitoComunista_Ambiente"> TODO </string>
-    <string name="PartitoComunista_Cultura"> TODO </string>
-    <string name="PartitoComunista_Donne"> TODO donne </string>
-    <string name="PartitoComunista_Estero"> TODO </string>
-    <string name="PartitoComunista_Energia"> TODO energia </string>
-    <string name="PartitoComunista_Economia"> TODO </string>
-    <string name="PartitoComunista_Giustizia"> TODO </string>
-    <string name="PartitoComunista_Giovani"> TODO </string>
-    <string name="PartitoComunista_Immigrazione"> TODO </string>
-    <string name="PartitoComunista_Infrastrutture"> TODO </string>
-    <string name="PartitoComunista_Istruzione"> TODO </string>
-    <string name="PartitoComunista_Lavoro"> TODO </string>
-    <string name="PartitoComunista_Previdenza"> TODO </string>
-    <string name="PartitoComunista_Protezione_Sociale"> TODO </string>
-    <string name="PartitoComunista_Sanita"> TODO </string>
-    <string name="PartitoComunista_Sud"> TODO sud </string>
-    <string name="PartitoComunista_Europa"> TODO </string>
+    <string name="PartitoComunista_Agroalimentare">"\n* Restituire all’agricoltura il ruolo di cerniera tra città e campagna.
+\n* Ristabilire la vocazione produttiva del territorio agricolo, per una agricoltura “multifunzionale” con al centro l'agricoltura biologica e biodinamica come strumento di gestione del territorio e delle sue risorse.
+\n* Ridefinizione del ruolo dell'agricoltore, inteso come operatore/gestore del territorio capace di garantire la salvaguardia delle risorse agricole e la salute dei consumatori.
+\n* Assegnazione di terre incolte e abbandonate (a giovani contadini, cooperative agricole, piccoli imprenditori) per la creazione di nuove opportunità produttive e/o lavorative.
+\n* Favorire modelli di gestione ecocompatibili per il governo delle acque, la riduzione del rischio idrogeologico ed il ripristino degli habitat naturali.
+\n* Diniego alla coltivazione e alla commercializzazione, degli OGM (organismi geneticamente modificati), verificandone gli aspetti bioetici e di biosicurezza."</string>
+    <string name="PartitoComunista_Ambiente">"\n* TERREMOTO E DISSESTO IDROGEOLOGICO Piano nazionale di prevenzione, riassetto e salvaguardia del territorio e messa in sicurezza dei centri storici e degli edifici pubblici.
+\n* CONSUMO DI SUOLO Stop al consumo di nuovo suolo agricolo da parte di opere infrastrutturali, di grande distribuzione organizzata, di ampliamenti di Piani Regolatori Comunali, di impianti fotovoltaici e centrali a biomasse. Rigenerazione urbana nell’ottica della sostenibilità geologica ed ambientale, come strumento per contrastare lo “spreco di suolo” e migliorare le condizioni di vita della popolazione.
+\n* INFRASTRUTTURE DI TRASPORTO No alla realizzazione di progetti faraonici, inutili e dannosi, come TAV, Ponte sullo Stretto, Autostrada Roma-Latina,etc. Adeguamento e messa in sicurezza della rete stradale nazionale, regionale e locale; Potenziamento di reti e linee ferroviarie e realizzazione delle autostrade del mare.
+\n* ACQUA Attuazione dell’esito referendario del 2011 e Inserimento in Costituzione del Diritto all’acqua pubblica.
+\n* MARE Piano nazionale per la difesa del mare e delle coste, attraverso il recupero delle tipicità naturali, storiche e culturali; No alla realizzazione di nuovi porti e villaggi turistici, favorendo attività economiche locali come la pesca, rilanciando l’attività agricola e i prodotti tipici tradizionali.
+\n* INQUINAMENTO ELETTROMAGNETICO E TECNOLOGICO No alla proliferazione di elettrodotti e di antenne per la comunicazione; Smantellamento del MUOS e della base NRTF, per la salvaguardia della salute dei cittadini della Sicilia, e per un Mediterraneo di pace.
+\n* RIFIUTI E BONIFICA Piano nazionale per la riduzione della quantità di rifiuti prodotti; Realizzazione di diverso ciclo industriale dei rifiuti senza combustione, Recupero degli inerti provenienti dall’edilizia.
+\n* No alla proliferazione di depositi temporanei di rifiuti nucleari.
+\n* Bonifica di discariche ‘abusive e non’ e di siti inquinati e/o industriali dismessi.
+\n* Revisione della Legge 27 marzo 1992 n. 257 (“bonifica amianto”) con un emendamento che preveda l’obbligatorietà di rimozione dell’amianto.
+\n* AREE PROTETTE, BIODIVERSITA’ E PAESAGGIO Rinnovamento del sistema delle aree protette per la tutela della biodiversità e per lo sviluppo sostenibile;Tutela e difesa di specie animali dall’abbattimento e dall’estinzione; Riduzione del prelievo di materiale delle aree di cava e dell’impatto ambientale delle cave sul paesaggio; Recupero delle aree di cava dismesse a fini turistico/ricreativo.
+\n* Privilegiare una politica energetica che favorisca lo sviluppo di energie pulite; Reintroduzione del “Piano delle Aree”, strumento di programmazione e razionalizzazione delle aree da destinare alle attività “petrolifere” (trivelle), per nuova strategia energetica nazionale; Disinnescare la corsa alla realizzazione di centrali nucleari, a turbogas, a biomasse, di termovalorizzatori e di gassificatori e/o rigassificatori; No alla realizzazione dei gasdotti TAP (Trans -Adriatic Pipeline) e RAS (Rete Adriatica Snam) in aree agricole, ambientali/naturalistiche e geologicamente attive."</string>
+    <string name="PartitoComunista_Cultura">"\n* Un piano nazionale per la valorizzazione del patrimonio artistico e culturale del Paese, con un relativo piano di assunzioni nel settore dei beni culturali;
+\n* L’accesso gratuito alle strutture culturali e ricreative, museali, alle accademie e ai centri di studio e di ricerca, per tutti i giovani in età scolare e comunque fino al ventiseiesimo anno, al fine di contribuire alla formazione laica e democratica dei cittadini. Tale principio dovrà comunque essere applicato alle fasce meno abbienti, mantenendo le agevolazioni già in essere per i cittadini che hanno raggiunto i 60 o i 65 anni.
+\n* L’abbattimento del regime Iva dal 22% al 4% sull’intera produzione editoriale (libri, quotidiani e riviste), audiovisiva e musicale, al fine di incentivare -sostenendole in concreto -le opportunità di lettura, di educazione al linguaggio visivo e multimediale della popolazione, di tutti i cittadini e le cittadine, di tutti gli uomini e le donne presenti a vario titolo in Italia.
+\n* Un maggiore impegno dello Stato a sostegno delle strutture impegnate nel lavoro culturale (centri di ricerca, fondazioni, università popolari, case della cultura, biblioteche, teatri, cineclub), garantendone la funzione pubblica e la trasparenza della gestione, e incentivandone la nascita in particolare nelle zone periferiche delle grandi città e nei piccoli centri."</string>
+    <string name="PartitoComunista_Donne">"\n* L’abolizione dei differenziali retributivi tra donne e uomini a parità di qualifica e di mansione a tutti i livelli e la soppressione degli elementi retributivi legati alla mera presenza.
+\n* L’estensione delle tutele giuridiche ed economiche per la maternità a tutte le lavoratrici dipendenti e per l’emancipazione delle donne.
+\n* Garanzia che a una lavoratrice che rientra dalla maternità sia riassegnata effettivamente la mansione precedente a tutti i livelli;
+\n* Congedi obbligatori di paternità in alternanza con quelli di maternità per una cura paritaria del nucleo familiare comunque costituito;
+\n* Nella normativa per la salute nei luoghi di lavoro riconoscere la specificità del corpo femminile e la sua differente reazione ai fattori di rischio fisici, chimici, di organizzazione del lavoro e di orario, anche in vista della funzione riproduttiva e della tutela dei nuovi nati;
+\n* Nel settore privato tutela del lavoro a tempo parziale, ricomposizione dell’orario e freno alla flessibilità dell’orario;
+\n* Consultori pubblici a pieno regime, uno ogni 20.000 abitanti nelle aree urbane e ogni 10.000 nelle aree rurali, per la salute delle donne, non solo riproduttiva, e per quella dei nuovi nati;
+\n* Abolizione dell’art. 9 della legge 194/1978 sulla obiezione di coscienza all’interruzione volontaria di gravidanza.
+\n* Corsi di educazione sessuale e affettiva, ed al rispetto delle differenze, nelle scuole di ogni ordine e grado;
+\n* Norme contro tutte le forme di discriminazione basate sull’identità di genere e sull’orientamento sessuale;
+\n* Finanziamenti adeguati per i centri antiviolenza."</string>
+    <string name="PartitoComunista_Estero">"\n* Il PCI propone e si batte per l’uscita dell’Italia dalla NATO, per la chiusura delle basi militari USA e NATO presenti in Italia, per il ritiro dell’Italia dalle missioni militari all’estero ed è favorevole alla messa al bando delle armi nucleari.
+\n* Il PCI si batte contro la costituzione dell’esercito europeo."</string>
+    <string name="PartitoComunista_Economia">"\n* Il ripristino dell’art. 81 della Costituzione nella sua formulazione originaria, dunque eliminando l’obbligo del pareggio di bilancio.
+\n* Potenziamento della lotta all’evasione ed all’elusione fiscale ( anche attraverso il meccanismo del contrasto di interessi).
+\n* Una “ imposta patrimoniale”, con imposizione progressiva a partire dall’1% sui patrimoni immobiliari e finanziari oltre il milione di euro.
+\n* Un prelievo fiscale progressivo, che incrementi le aliquote dei redditi più alti e alleggerisca quelle dei redditi bassi, fino all’esenzione per il primo scaglione, in termini funzionali a una ripresa della domanda e dei consumi interni.
+\n* Restituzione del fiscal drag (drenaggio fiscale); allargamento delle provvidenze fiscali (detrazioni, esenzioni) in controtendenza rispetto ai tagli operati con le ultime manovre finanziarie.
+\n* L’eliminazione dei trasferimenti “a pioggia” alle imprese.
+\n* La fissazione di un tetto agli stipendi ed alle liquidazioni dei manager pubblici.
+\n* Forti penalizzazioni per le aziende che delocalizzano i loro impianti, con vincolo sull’utilizzo del suolo da queste occupato ed eventuale ritorno di esso alla pubblica utilità.
+\n* Blocco delle cosiddette “grandi opere”, non solo inutili e costose, ma anche distruttrici del territorio e dell’agricoltura, come ad esempio la TAV in Val di Susa ed il ponte sullo stretto di Messina.
+\n* Creazione di un Polo finanziario pubblico per il credito a partire dalla ripubblicizzazione della Cassa Depositi e Prestiti, che ricominci a sostenere gli enti locali in opere e progetti di pubblica utilità.
+\n* Rinazionalizzazione di banche e compagnie di assicurazione giudicate di rilievo strategico.
+\n* Rispetto della separazione tra istituti di credito e banche d’investimento, che vieti alle prime di impegnarsi in attività di compravendita ed operazioni speculative.
+\n* Divieto agli istituti di credito di volgersi al mercato dei derivati.
+\n* Politiche di contrasto dei rapporti con i cosiddetti “paradisi fiscali” da parte di aziende italiane.
+\n* Stop alla privatizzazione delle Poste e delle Ferrovie, alle speculazioni di FS Sistemi Urbani, partecipata al 100% dalle Ferrovie dello Stato e cioè dal Ministero delle Infrastrutture e dei Trasporti."</string>
+    <string name="PartitoComunista_Giustizia">"\n* Riapertura delle Sezioni Staccate e dei Tribunali minori soppressi affidati Giudici Monocratici, quale organo di primo grado, con riallocazione nei territori di presidi di legalità;
+\n* Riduzione dei costi delle cause, civili, amministrative e tributarie; completa gratuità per i processi previdenziali e di lavoro; eliminazione dei meccanismi disincentivanti quali il raddoppio del contributo per la parte soccombente;
+\n* Aumento di 1 punto percentuale degli investimenti sul dicastero della Giustizia;
+\n* Ritorno alla Magistratura attiva di tutti i Magistrati che oggi sono distaccati presso il Ministero di Grazia e Giustizia;
+\n* Aumento degli Organici dei Magistrati e di tutto il Personale di Giustizia con un max concorso;
+\n* Rivalutazione del ruolo del Giudice delle Indagini Preliminari;
+\n* Eliminazione degli istituti esterni (Mediazione civile);
+\n* Ripristino di una giustizia che consenta a tutti di difendere i propri diritti;
+\n* Rendere effettivo il patrocinio a spese dello Stato, elevando i limiti di reddito."</string>
+    <string name="PartitoComunista_Giovani">"\n* Redistribuzione del lavoro, occupazione stabile, tutele adeguate, universalità ed effettività del diritto all'Istruzione
+\n* Investire nelle nuove generazioni, significa investire sul futuro del Paese: a cominciare dalla ricerca, dallo sviluppo tecnologico, dalla sostenibilità ecologica dell'economia e dalla produzione.
+\n* Rilanciare la cooperazione giovanile, come modello alternativo di lavoro e di società.
+\n* È altrettanto fondamentale promuovere le esperienze di sport popolare, fermando la mercificazione dello sport,attraverso la messa a disposizione di palestre ed, in generale, di luoghi idonei e non utilizzati senza oneri per i giovani.
+\n* In ogni città devono esserci strutture adeguate per la promozione dello sport popolare, libere da logiche di mercato, a cominciare dalle palestre all'interno delle Scuole, che devono essere aperte e messe a disposizione dei quartieri.
+\n* La fruizione della cultura da parte dei giovani deve essere libera e gratuita.
+\n* Serve una forte riqualificazione dei luoghi della cultura esistenti, a partire dalle biblioteche comunali, le quali devono divenire luoghi accoglienti, di incontro, di elaborazione e discussione, queste dovranno essere sempre fornite e aggiornate.
+\n* Riconquista dei diritti sociali e lotta per i diritti civili camminano insieme: siamo per il diritto al matrimonio e alle adozioni per le coppie dello stesso sesso, contro omofobia e discriminazioni assicurando pari diritti per tutti.
+\n* È necessario bloccare l'attacco alla libertà e ai diritti democratici contro i giovani
+\n* Chiediamo l'applicazione di quanto previsto nella Costituzione italiana quindi lo scioglimento di tutte le organizzazioni neofasciste oggi esistenti, come garanzia per i diritti democratici collettivi, e la requisizione da parte dello Stato dei loro beni."</string>
+    <string name="PartitoComunista_Immigrazione">"\n* Cancellare tutte le forme di neo schiavismo (dallo sfruttamento selvaggio della manodopera immigrata nell’edilizia e nelle imprese fino al caporalato);
+\n* Rifiutare la Carta Costituzionale dell’Ue, che rimuove l’universalità dei diritti a favore delle leggi di mercato e di una visione solamente securitaria dell’immigrazione;
+\n* Abrogare la Legge Bossi-Fini e modificare profondamente la Turco –Napolitano;
+\n* Superare lo spirito e la pratica attuali della politica dei flussi e degli accordi bilaterali con i Paesi d’origine dei migranti, che hanno alimentato a dismisura il traffico di essere umani e la corruzione, costringendo centinaia di migliaia di persone alla irregolarità, giungendo ad un nuovo rapporto di collaborazione con i Paesi d’origine della immigrazione.
+\n* Superare la logica della sanatorie ricorrenti, fonte di nuovi clandestini, regolarizzazione degli immigrati di fatto già inseriti nella società italiana.
+\n* Definizione di corsi obbligatori e gratuiti per l’apprendimento della lingua italiana rivolti agli immigrati ed alle loro famiglie, rivolgendo loro anche programmi radiofonici e televisivi mirati all’integrazione.
+\n* Giungere ad un visto, almeno annuale, di ingresso e di soggiorno che eviti di vincolare l’immigrato alla surreale dinamica “domanda di lavoro e offerta immediata”.
+\n* Cancellare il vincolo dello “ jus sanguinis”.
+\n* Concedere la cittadinanza a chi risiede regolarmente in Italia da almeno cinque anni;
+\n* Sulla base dell’universalità dei diritti per ogni essere umano, gli immigrati devono poter godere del diritto ai servizi abitativi, socio-sanitari, assistenziali;
+\n* Sottrarre le competenze sull’immigrazione al Ministero dell’Interno che, nel tempo, ha costruito un’azione in gran parte di natura repressiva e volta ad affidare la vita degli immigrati solamente alle Questure ed alle Prefetture;
+\n* Battersi contro il “pacchetto Minniti” del governo Gentiloni."</string>
+    <string name="PartitoComunista_Infrastrutture">"\n* Ripristinare e accrescere le risorse alle Regioni per l’esercizio del Trasporto Pubblico Locale e per il trasporto ferroviario regionale, soprattutto per i milioni di pendolari che percorrono giornalmente lo stesso tratto casa lavoro/studio.
+\n* Prevedere per l’utenza “debole”, lavoratori e studenti, bassi costi del trasporto pubblico (abbonamenti a prezzo calmierato).
+\n* Incentivare con risorse aggiuntive le Regioni che riescono a fare gare per l’esercizio di trasporto pubblico con alti gradi di integrazione delle varie modalità di trasporto e interscambio gomma/rotaia e che attuano l’integrazione tariffaria in ambito metropolitano e/o regionale.
+\n* Prevedere risorse adeguate per Regioni e comuni che favoriscono e incentivano la mobilità lenta (pedonale e ciclabile) per raggiungere i luoghi di lavoro, studio, etc.
+\n* Incentivare i comuni (dotati di trasporto urbano) che si dotano di parcheggi scambiatori e navette gratuite per liberare i centri urbani dal traffico veicolare privato;
+\n* Prevedere progetti di cofinanziamento pubblico/privato per il trasporto collettivo dei dipendenti, laddove non esiste trasporto pubblico locale adeguato (vedi aree industriali/aree depresse);
+\n* Incentivazione diretta o tramite altre forme del car sharing tra dipendenti."</string>
+    <string name="PartitoComunista_Istruzione">"\n* Abrogazione della legge 107 (la cosiddetta buona scuola) in particolare per ciò che concerne poteri dei presidi, chiamata diretta, valutazione, school- bonus. Ritiro dei decreti attuativi;
+\n* Contro la selezione di classe: gratuità degli studi, obbligo scolastico a 18 anni, biennio unitario delle scuole superiori;
+\n* Piano straordinario di edilizia scolastica con particolare riferimento alla sicurezza antisismica;
+\n* Fine delle classi pollaio, con limite di 22 alunni per classe;
+\n* Estensione del tempo pieno e del tempo prolungato, in particolare al Sud;
+\n* Tempo scuola adeguato(revisione dei tagli curriculari, stop alle sperimentazioni delle superiori a quattro anni).
+\n* Difesa del carattere pubblico e laico dell’istruzione, abolizione di ogni finanziamento (diretto e indiretto) alle scuole private;
+\n* Risoluzione del dramma del precariato del personale docente ed ATA.
+\n* Sistema di autovalutazione, basato su regole certe e condivise dalla comunità scientifica;
+\n* Effettivo sostegno al diritto allo studio, con adeguati interventi economici ed infrastrutturali;
+\n* Intervento diretto dello statonella produzione di beni ad alta tecnologia;
+\n* No al numero chiuso all’università."</string>
+    <string name="PartitoComunista_Lavoro">"\n* riscrittura del diritto del lavoro, attraverso una legge di sistematico rovesciamento della disciplina e dei contenuti normativi che qualificano il Jobs Act, a cominciare dal fondamentale ripristino dell’articolo 18 e dalla sua estensione a tutti i lavoratori.
+\n* Abolizione del lavoro precario e di ogni forma di caporalato, rivedendo e sfoltendo al massimo le tipologie dei rapporti cosiddetti atipici e soprattutto rendendo nuovamente causali i contratti a tempo determinato, oltre a fornire garanzie giuridiche e continuità retributiva, a carico della finanza pubblica, dei lavori intermittenti e stagionali.
+\n* Valorizzazione in tema di retribuzione della garanzia dell’articolo 36 della Costituzione,sotto il profilo della salvaguardia del potere d’acquisto reale e della adeguatezza alla qualità, oltre che alla quantità della prestazione; anche a tale riguardo si pone con forza la questione dell’aumento dei salari e degli stipendi.
+\n* Riduzione del tempo di lavoro, al duplice scopo di migliorare la qualità della vita con la contestuale assunzione di nuovi lavoratori.
+\n* La riduzione dell’orario di lavoro deve avvenire a parità di retribuzione; rafforzare la sicurezza sul lavoro, (intesa non solo in relazione agli infortuni ma anche alle malattie professionali.
+\n* Revisione della disciplina degli appalti, eliminando o riducendo al minimo la legittimità degli appalti dei servizi consistenti in fornitura di sola manodopera, ancorché diretta dall’appaltatore, e forte limitazione, qualitativa e quantitativa, della possibilità di ricorso ai subappalti.
+\n* Messa a punto di nuovi strumenti di lotta al lavoro nero con l’introduzione di sanzioni progressive per la mancata regolarizzazione anche su disposizione degli organi ispettivi.
+\n* Revisione e ricostruzione di un sistema di ammortizzatori sociali che favorisca il mantenimento dell’occupazione, anche nelle fasi di possibile subentro di nuove iniziative di nuovi imprenditori ed in occasione di procedure concorsuali.
+\n* Introduzione di un reddito sociale garantito per chi è senza lavoro e/o in fasce d’età ormai espulse dal mercato del lavoro, da ordinare con la legislazione di allargamento dell’occupazione, attraverso la riduzione d’orario; in ogni caso estensione dell’assegno sociale nella fascia d’età 56/65 anni per i soggetti in possesso dei requisiti previsti dalla legislazione sull’assegno sociale.
+\n* Introduzione di una legge sulla rappresentanza sindacale.
+\n* Salvaguardia del contratto collettivo nazionale di lavoro come fonte principale di disciplina dei rapporti di lavoro."</string>
+    <string name="PartitoComunista_Previdenza">"\n* Portare le pensioni minime a 1000 euro mensili.
+\n* Separare nettamente la previdenza dall’assistenza, che deve essere pienamente ricondotta alla fiscalità generale.
+\n* Superare la frammentazione vigente delle casse pensioni, comunque ricondurle alla normativa applicata dagli istituti pubblici (INPS, ex INPDAP)."</string>
+    <string name="PartitoComunista_Protezione_Sociale">"\n* Moratoria degli sfratti per i nuclei morosi incolpevoli;
+\n* Sospensione dei mutui per i titolari incolpevoli
+\n* Censimento delle strutture pubbliche e/o private inutilizzate, al fine di recuperarle, anche con attività di autorecupero.
+\n* Rilancio dell’edilizia pubblica popolare, attraverso un piano di crescita percentuale.
+\n* Rafforzare gli interventi che favoriscono “l’autonomia abitativa” di giovani, anziani, nuclei separati, etc.
+\n* Recuperare il corrispettivo dei fondi Gescal per attivare un piano di manutenzione straordinaria delle case popolari non disponibili per le assegnazioni in carenza di agibilità.
+\n* Rendere omogenee le misure territoriali a favore dei nuclei in emergenza abitativa al fine di superare l’attuale situazione che provoca diseguaglianze.
+\n* Attivare azioni di esproprio temporaneo o definitive di alloggi inutilizzati di proprietà delle grandi imprese edili,bancarie, etc.
+\n* Ripristinare a livello nazionale il “canone equo e solidale”, attraverso l’utilizzo degli interventi previsti per la prevenzione agli sfratti (Fondo sociale e Fondo di sostegno alla locazione).
+\n* Blocco della vendita del patrimonio edilizio pubblico previsto dal decreto “Lupi” e acquisizione dal sistema bancario delle unità immobiliare sottoposte a pignoramento;
+\n* Basta con il controllo delle mafie sulle case popolari in molte aree del paese (dal nord al sud): ripristino delle condizioni di legalità per l’accesso per diritto nelle case popolari;
+\n* Rivisitazione dei requisiti di permanenza nelle case popolari;la gestione delle case popolari e delle assegnazioni deve tornare nelle mani dei Comuni: basta con i tentativi di privatizzazione degli alloggi sociali da parte degli enti gestori ex IACP, strumenti di potere sempre piu’ inefficienti."</string>
+    <string name="PartitoComunista_Sanita">"\n* Una sanità pubblica gratuita, universalistica, di qualità finanziata unicamente attraverso la fiscalità generale e, quindi, per l’abolizione dei ticket sanitari;
+\n* Il superamento dell’attuale processo di aziendalizzazione della sanità pubblica e per una riorganizzazione della sanità che garantisca una adeguata articolazione di strutture sul territorio;
+\n* Il superamento delle liste di attesa, non attraverso il ricorso alle prestazioni del privato, bensì con una diversa modalità di rapporto tra strutture di base, territoriali ed ospedaliere.
+\n* Il superamento della precarietà e per una maggiore tutela e valorizzazione del lavoro per tutto il personale della sanità.
+\n* La definizione legislativa di Livelli Essenziali di Assistenza Sociale (LEAS) da garantire sull’intero territorio nazionale;
+\n* Un adeguato e costante finanziamento del Fondo per la Non Autosufficienza, per una diffusa ed articolata rete di sostegni e servizi sociali e socio-sanitari ( domiciliari, semi residenziali) rivolta agli anziani, ai disabili e a tutti coloro che vivono in difficoltà;
+\n* Il ritorno alla gestione pubblica di tanti servizi esternalizzati, privatizzati in nome di ragioni che non hanno portato benefici né all’utenza né tantomeno ai lavoratori."</string>
+    <string name="PartitoComunista_Sud">"\n* Il futuro del sud è anche e soprattutto in una prospettiva euromediterranea, poiché esso può rappresentare la porta dell’Europa nel mediterraneo.
+\n* Occorre promuovere un grande piano di investimenti pubblici per potenziare ed ammodernare la rete trasportistica ( terra, cielo, mare) per favorire la mobilità e incentivare le attività economiche, per la difesa del suolo, per la messa in sicurezza del territorio, per la riqualificazione paesaggistica, ambientale e dei centri storici, per dare impulso ai beni culturali ed al patrimonio archeologico, per la valorizzazione delle produzioni agricole mediterranee, per rilanciare le imprese artigianali, per sviluppare la produzione di energia da fonti rinnovabili, per promuovere un turismo fondato sulla valorizzazione del territorio."</string>
+    <string name="PartitoComunista_Europa">"\n* Un patto europeo per una politica continentale di sviluppo e per l’occupazione.
+\n* Una tassa sulle transazioni finanziarie e valutarie."</string>
 
     <string name="PiuEuropa_Agroalimentare">"\n* Adottare misure che favoriscano l’accorpamento fondiario e riformulare il sistema di erogazione degli aiuti diretti della PAC secondo criteri che incentivino la piccola impresa agricola a innovarsi.
 \n* È indispensabile dare ascolto alle richieste degli agricoltori semplificando radicalmente tutti gli adempimenti e le procedure burocratiche gravanti sulle imprese agricole.
@@ -714,21 +833,6 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
 * Aggredire con decisione il dualismo Nord-Sud, poiché penalizza l'economia italiana. I nostri governi sono quelli che hanno investito al Sud più di tutti gli altri nella storia della Repubblica."</string>
     <string name="ForzaItalia_Europa">"\n* Attingere dai conti conti correnti, dalle azioni e dalle obbligazioni dei propri clienti è un vero e proprio prelievo forzoso contro le famiglie e contro le imprese.\n
 * No alle politiche di austerità - No alle regolamentazioni eccessive che ostacolano lo sviluppo - Revisione dei trattati europei"</string>
-
-    <string name="Noi_Ambiente"> TODO </string>
-    <string name="Noi_Cultura"> TODO </string>
-    <string name="Noi_Famiglia"> TODO </string>
-    <string name="Noi_Economia"> TODO </string>
-    <string name="Noi_Giustizia"> TODO </string>
-    <string name="Noi_Governo"> TODO </string>
-    <string name="Noi_Istruzione"> TODO </string>
-    <string name="Noi_Infrastrutture"> TODO </string>
-    <string name="Noi_Impresa"> TODO </string>
-    <string name="Noi_Lavoro"> TODO </string>
-    <string name="Noi_Previdenza"> TODO </string>
-    <string name="Noi_Sanita"> TODO </string>
-    <string name="Noi_Sicurezza"> TODO </string>
-    <string name="Noi_Europa"> TODO </string>
 
     <string name="DieciVolteMeglio_Ambiente">"\n* Fornitura energia - Accelerare la conversione già in atto dalla produzione di energia fossile a quella rinnovabile: idrico, fotovoltaico, eolico a terra e offshore, biomasse.\n
 * Utilizzo energia - Promuovere su qualsiasi fronte l'efficienza energetica essendo il modo meno costoso per ridurre l'inquinamento atmosferico da CO2. Per quanto riguarda le case, spingere su efficientamento energetico sia per quelle di nuova costruzione, ma anche per gli edifici già esistenti.\n
@@ -1328,25 +1432,95 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
 Lancio di un piano di risanamento decennale urbanistico e di edilizia sociale delle periferie urbane anche attraverso la “sostituzione edilizia”.
 Lotta alle ecomafie, controllo del territorio contro le discariche abusive e i siti contaminati, applicando il principio comunitario “chi inquina paga”.
 Misure premiali per gli enti locali che gestiscono in modo virtuoso la raccolta differenziata.
-Promozione dell’economia circolare e sostegno alle imprese che adottano il principio “rifiuti zero".
-"</string>
+Promozione dell’economia circolare e sostegno alle imprese che adottano il principio “rifiuti zero"."</string>
     <string name="NoiConLItalia_Cultura">"\n* Sviluppo e incentivazione di nuove forme di mobilità sostenibile (mobilità elettrica e car sharing) sia nel privato che nel pubblico.
 \n* Lancio di un piano di risanamento decennale urbanistico e di edilizia sociale delle periferie urbane anche attraverso la “sostituzione edilizia”.
 \n* Lotta alle ecomafie, controllo del territorio contro le discariche abusive e i siti contaminati, applicando il principio comunitario “chi inquina paga”.
 \n* Misure premiali per gli enti locali che gestiscono in modo virtuoso la raccolta differenziata.
-\n* Promozione dell’economia circolare e sostegno alle imprese che adottano il principio “rifiuti zero".
-"</string>
-    <string name="NoiConLItalia_Europa">"\n* "</string>
-    <string name="NoiConLItalia_Famiglia">"\n* "</string>
-    <string name="NoiConLItalia_Economia">"\n* "</string>
-    <string name="NoiConLItalia_Giustizia">"\n* "</string>
-    <string name="NoiConLItalia_Governo">"\n* "</string>
-    <string name="NoiConLItalia_Lavoro">"\n* "</string>
-    <string name="NoiConLItalia_Infrastrutture">"\n* "</string>
-    <string name="NoiConLItalia_Istruzione">"\n* "</string>
-    <string name="NoiConLItalia_Previdenza">"\n* "</string>
-    <string name="NoiConLItalia_Sanita">"\n* "</string>
-    <string name="NoiConLItalia_Sicurezza">"\n* "</string>
+\n* Promozione dell’economia circolare e sostegno alle imprese che adottano il principio “rifiuti zero"."</string>
+    <string name="NoiConLItalia_Europa">"\n* Tutela in ogni sede degli interessi italiani a partire dalla sicurezza del risparmio e della tutela del Made in Italy, con riguardo alle tipicità delle produzioni agricole e dell’agroalimentare.
+\n* Prevalenza della nostra Costituzione sul diritto comunitario, sul modello tedesco (recupero di sovranità).
+\n* No alle politiche di austerità - No alle regolamentazioni eccessive che ostacolano lo sviluppo - Revisione dei trattati europei - Più politica, meno burocrazia in Europa"</string>
+    <string name="NoiConLItalia_Economia">"\n* No all’imposta sulle donazioni, no all’imposta di successione, no alla tassa sulla prima casa, no al bollo sulla prima auto, no alle tasse sui risparmi.
+\n* Pace fiscale per tutti i piccoli contribuenti che si trovano in condizioni di difficoltà economica.
+\n* Chiusura di tutto il contenzioso e delle pendenze tributarie con contestuale riforma del sistema sanzionatorio tributario.
+\n* Introduzione del principio del divieto di tassazione in assenza di reddito (Irap, IMU, bollo auto, donazioni e successioni).
+\n* Pagamento immediato di tutti i debiti della Pubblica Amministrazione nei confronti di cittadini e imprese anche con lo strumento innovativo dei Titoli di Stato di piccolo taglio.
+\n* Facilitazione dell’accesso al credito per le piccole e medie imprese.
+\n* Modifica dello split payment rendendo neutra l’applicazione dell’IVA su tutta la filiera di produzione.
+\n* Chiusura effettiva di Equitalia e libertà per gli Enti locali di decidere i metodi di riscossione.
+\n* Abolizione del limite all'utilizzo del contante.
+\n* Profonda revisione del Codice degli appalti per rilanciare gli investimenti e l’occupazione.
+\n* Con le risorse liberate dalla Flat tax, stimolo agli investimenti pubblici e privati.
+\n* Riforma del sistema tributario con introduzione di un’unica aliquota fiscale (Flat tax) per famiglie e imprese con previsione di no tax area e deduzioni a esenzione totale dei redditi bassi."</string>
+    <string name="NoiConLItalia_Famiglia">"\n* Azzeramento della povertà assoluta con un grande Piano di sostegno ai cittadini italiani in condizione di estrema indigenza, allo scopo di ridare loro dignità economica.
+\n* Difesa delle pari opportunità e tutela delle donne con riconoscimento pensionistico a favore delle madri.
+\n* Reintroduzione del Ministero per la Famiglia.
+\n* Detrazione delle rette per scuole materne e asili nido paritari e delle spese per gli anziani a carico ricoverati nelle case di riposo private per gravi patologie.
+\n* Totale detassazione dei contratti di locazione per le famiglie con figli a carico.
+\n* Progressiva applicazione del “quoziente familiare” per una riduzione del fisco in proporzione alla composizione dei nuclei familiari, con priorità dei figli a carico e conseguente revisione dell’ISEE.
+\n* Piano straordinario per la natalità con asili nido gratuiti e consistenti assegni familiari più che proporzionali al numero dei figli."</string>
+    <string name="NoiConLItalia_Giustizia">"\n* Riforma della giustizia per assicurare il diritto a un giusto processo.
+\n* Pace fiscale per tutti i piccoli contribuenti che si trovano in condizioni di difficoltà economica.
+\n* Chiusura di tutto il contenzioso e delle pendenze tributarie con contestuale riforma del sistema sanzionatorio tributario.
+\n* Introduzione del principio del divieto di tassazione in assenza di reddito (Irap, IMU, bollo auto, donazioni e successioni).
+\n* Pagamento immediato di tutti i debiti della Pubblica Amministrazione nei confronti di cittadini e imprese anche con lo strumento innovativo dei Titoli di Stato di piccolo taglio.
+\n* Facilitazione dell’accesso al credito per le piccole e medie imprese.
+\n* Modifica dello split payment rendendo neutra l’applicazione dell’IVA su tutta la filiera di produzione.
+\n* Chiusura effettiva di Equitalia e libertà per gli Enti locali di decidere i metodi di riscossione.
+\n* Profonda revisione del Codice degli appalti per rilanciare gli investimenti e l’occupazione.
+\n* Con le risorse liberate dalla Flat tax, stimolo agli investimenti pubblici e privati."</string>
+    <string name="NoiConLItalia_Governo">"\n* Piano straordinario per l’adeguamento di Roma capitale agli standard delle principali capitali europee.
+\n* Una politica più responsabile e rispettosa del mandato degli elettori.
+\n* Modello di federalismo responsabile che armonizzi la maggiore autonomia prevista dal titolo V della Costituzione portando a conclusione le trattative attualmente aperte tra Stato e Regioni.
+\n* Rafforzamento delle autonomie locali.
+\n* Riduzione del numero di parlamentari.
+\n* Elezione diretta del Presidente della Repubblica.
+\n* Riorganizzazione della macchina dello Stato secondo il principio della pari dignità fra la Pubblica Amministrazione e il cittadino.
+\n* Taglio visibile agli sprechi mediante l’effettiva introduzione del principio dei fabbisogni e dei costi standard.
+\n* Digitalizzazione della Pubblica amministrazione.
+\n* Riduzione del debito pubblico di almeno il 20% in 5 anni attraverso la dismissione del patrimonio immobiliare pubblico e un’oculata spending review.
+\n* Riduzione dei tempi dei procedimenti amministrativi attraverso un sistema di sanzioni a carico della P.A.
+\n* Innovazione digitale nella PA per renderla più accessibile a cittadini e imprese.
+\n* Monitoraggio dell’efficacia delle politiche del Governo e pubblicità dei risultati.
+\n* Riforma della Costituzione per la riduzione del numero dei Parlamentari sia alla Camera che al Senato e semplificazioni del procedimento legislativo: stop alle navette.
+\n* Riforma del Titolo V della Costituzione, rafforzamento dei corpi intermedi e introduzione di nuove regole nei rapporti tra Regioni e Stato.
+\n* Effettiva attuazione del federalismo fiscale sulla base di costi e fabbisogni standard finalizzati anche al recupero del divario nord-sud.
+\n* Riorganizzazione dello Stato secondo il principio di parità tra Pubblica Amministrazione e cittadino.
+\n* Regionalismo differenziato: sostegno alla richiesta di maggiori competenze da parte delle Regioni virtuose.
+\n* Riordino delle competenze di Province e Città Metropolitane, modificando la Legge Delrio."</string>
+    <string name="NoiConLItalia_Lavoro">"\n* Tutela del lavoro delle giovani madri.
+\n* Sostegno alle start-up innovative, anche attraverso la semplificazione del crowdfunding.
+\n* Incentivi all’inserimento dei disabili nel mondo del lavoro."</string>
+    <string name="NoiConLItalia_Infrastrutture">"\n* Sviluppo infrastrutturale e industriale del Mezzogiorno, uso più efficiente dei fondi europei con l’obiettivo di azzerare il gap infrastrutturale e di crescita con il resto del Paese.
+\n* Risparmio energetico ed efficientamento della rete.
+\n* Rifinanziamento del programma “6.000 campanili” per la tutela infrastrutturale nei piccoli Comuni italiani.
+\n* Piano straordinario di riqualificazione delle periferie, restauro delle coste e dei siti di interesse monumentale anche attraverso la “sostituzione edilizia”."</string>
+    <string name="NoiConLItalia_Istruzione">"\n* Più libertà di scelta per le famiglie nell'offerta educativa.
+\n* Valutazione più efficace degli insegnanti, accessibile ai genitori, affinché essi possano scegliere la scuola migliore per i loro figli.
+\n* Introduzione della seconda lingua obbligatoria alle superiori. Favorire la digitalizzazione di scuole e università
+\n* Riforma del contratto nazionale collettivo degli insegnanti per differenziare i livelli di categorie; part time obbligatorio per coloro che affiancano libere professioni all’insegnamento.
+\n* Razionalizzazione della rete universitaria italiana attraverso la creazione poli di eccellenza che evitino sovrapposizioni tra atenei contigui.
+\n* Riforma meccanismo del diritto allo studio, attraverso prestiti d’onore e borse di studio più consistenti affinché i giovani capaci, meritevoli e privi di mezzi possano raggiungere i risultati ambiti.
+\n* Monitoraggio dell’efficacia della normativa sul cyber bullismo ed eventuali nuovi interventi.
+\n* Rilancio dell'Università italiana per farla tornare piattaforma primaria della formazione.
+\n* Centralità del rapporto docente-studente nel processo formativo.
+\n* Piano di edilizia scolastica.
+\n* Abolizione di anomalie e storture della legge impropriamente detta “Buona scuola".
+\n* Disciplina e monitoraggio del Fondo Educativo 06-65/17 per il sostegno delle scuole pubbliche e private dell’infanzia."</string>
+    <string name="NoiConLItalia_Previdenza">"\n* Azzeramento della legge Fornero e nuova riforma previdenziale economicamente e socialmente sostenibile.
+\n* Aumento delle pensioni minime e pensioni alle mamme.
+\n* Raddoppio dell’assegno minimo per le pensioni di invalidità e sostegno alla disabilità."</string>
+    <string name="NoiConLItalia_Sanita">"\n* Estensione delle prestazioni sanitarie."</string>
+    <string name="NoiConLItalia_Sicurezza">"\n* Piano straordinario per le zone terremotate.
+\n* Lotta al terrorismo attraverso una maggiore prevenzione e integrazione dei sistemi di intelligence dei Paesi UE.
+\n* Carabinieri e poliziotti di quartiere e estensione dell’esperimento “strade sicure” con impiego delle Forze Armate per la sicurezza delle città.
+\n* Tutela della dignità delle Forze dell’Ordine e delle Forze Armate con stipendi dignitosi, dotazioni adeguate di personale, mezzi e tecnologie adeguati al contrasto del crimine e del terrorismo.
+\n* Rimpatrio di tutti i clandestini.
+\n* Sistemi di protezione e videosorveglianza in scuole e case di riposo.
+\n* Messa in sicurezza del territorio attraverso l’adozione di più moderni ed efficaci criteri di microzonazione sismica che prevedano un monitoraggio maggiore del rischio sismico.
+\n* Abolizione dell’anomalia solo italiana della concessione indiscriminata della sedicente protezione umanitaria mantenendo soltanto gli status di rifugiato e di eventuale protezione sussidiaria.
+\n* Blocco degli sbarchi con respingimenti assistiti e stipula di trattati e accordi con i Paesi di origine dei migranti economici."</string>
 
     <string name="ItaliaAgliItaliani_Diritti">"\n* Tutte le risorse oggi bruciate a favore degli invasori extracomunitari e della costruzione di moschee vanno immediatamente reindirizzate verso le nostre classi popolari con la creazione di un ente statale totalmente pubblico che garantisca a ogni famiglia italiana il diritto alla casa, riconosciuto come primario e fondamentale.\n
 * Chiediamo la edificazione di nuovi quartieri a misura d’uomo (costruzioni con fondi pubblici, case rivendute a prezzo di costo, spazi e verde a misura di famiglie, bioarchitettura tradizionale e bassa densità abitativa) e l’istituzione del Mutuo Popolare, senza banche, interessi e usura.\n

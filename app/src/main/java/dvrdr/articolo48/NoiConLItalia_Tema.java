@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -64,7 +65,46 @@ public class NoiConLItalia_Tema extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_noi_con_litalia__tema, container, false);
+        View view = inflater.inflate(R.layout.fragment_noi_con_litalia__tema, container, false);
+
+        Bundle args = getArguments();
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.NoiConLItalia_Tema);
+
+        if (tema.equals("NoiConLItalia_Ambiente"))
+            testo_tema.setText(R.string.NoiConLItalia_Ambiente);
+        else if (tema.equals("NoiConLItalia_Cultura"))
+            testo_tema.setText(R.string.NoiConLItalia_Cultura);
+        else if (tema.equals("NoiConLItalia_Famiglia"))
+            testo_tema.setText(R.string.NoiConLItalia_Famiglia);
+        else if (tema.equals("NoiConLItalia_Economia"))
+            testo_tema.setText(R.string.NoiConLItalia_Economia);
+        else if (tema.equals("NoiConLItalia_Giustizia"))
+            testo_tema.setText(R.string.NoiConLItalia_Giustizia);
+        else if (tema.equals("NoiConLItalia_Governo"))
+            testo_tema.setText(R.string.NoiConLItalia_Governo);
+        else if (tema.equals("NoiConLItalia_Infrastrutture"))
+            testo_tema.setText(R.string.NoiConLItalia_Infrastrutture);
+        else if (tema.equals("NoiConLItalia_Istruzione"))
+            testo_tema.setText(R.string.NoiConLItalia_Istruzione);
+        else if (tema.equals("NoiConLItalia_Lavoro"))
+            testo_tema.setText(R.string.NoiConLItalia_Lavoro);
+        else if (tema.equals("NoiConLItalia_Previdenza"))
+            testo_tema.setText(R.string.NoiConLItalia_Previdenza);
+        else if (tema.equals("NoiConLItalia_Sanita"))
+            testo_tema.setText(R.string.NoiConLItalia_Sanita);
+        else if (tema.equals("NoiConLItalia_Sicurezza"))
+            testo_tema.setText(R.string.NoiConLItalia_Sicurezza);
+        else if (tema.equals("NoiConLItalia_Europa"))
+            testo_tema.setText(R.string.NoiConLItalia_Europa);
+        else
+            testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

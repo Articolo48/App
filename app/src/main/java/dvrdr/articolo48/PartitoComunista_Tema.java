@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -64,7 +65,54 @@ public class PartitoComunista_Tema extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_partito_comunista__tema, container, false);
+        View view = inflater.inflate(R.layout.fragment_partito_comunista__tema, container, false);
+
+        Bundle args = getArguments();
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.PartitoComunista_Tema);
+
+        if(tema.equals("PartitoComunista_Agroalimentare"))
+            testo_tema.setText(R.string.PartitoComunista_Agroalimentare);
+        else if (tema.equals("PartitoComunista_Ambiente"))
+            testo_tema.setText(R.string.PartitoComunista_Ambiente);
+        else if (tema.equals("PartitoComunista_Cultura"))
+            testo_tema.setText(R.string.PartitoComunista_Cultura);
+        else if (tema.equals("PartitoComunista_Donne"))
+            testo_tema.setText(R.string.PartitoComunista_Donne);
+        else if (tema.equals("PartitoComunista_Estero"))
+            testo_tema.setText(R.string.PartitoComunista_Estero);
+        else if (tema.equals("PartitoComunista_Economia"))
+            testo_tema.setText(R.string.PartitoComunista_Economia);
+        else if (tema.equals("PartitoComunista_Giustizia"))
+            testo_tema.setText(R.string.PartitoComunista_Giustizia);
+        else if (tema.equals("PartitoComunista_Giovani"))
+            testo_tema.setText(R.string.PartitoComunista_Giovani);
+        else if (tema.equals("PartitoComunista_Immigrazione"))
+            testo_tema.setText(R.string.PartitoComunista_Immigrazione);
+        else if (tema.equals("PartitoComunista_Infrastrutture"))
+            testo_tema.setText(R.string.PartitoComunista_Infrastrutture);
+        else if (tema.equals("PartitoComunista_Istruzione"))
+            testo_tema.setText(R.string.PartitoComunista_Istruzione);
+        else if (tema.equals("PartitoComunista_Lavoro"))
+            testo_tema.setText(R.string.PartitoComunista_Lavoro);
+        else if (tema.equals("PartitoComunista_Previdenza"))
+            testo_tema.setText(R.string.PartitoComunista_Previdenza);
+        else if (tema.equals("PartitoComunista_Protezione_Sociale"))
+            testo_tema.setText(R.string.PartitoComunista_Protezione_Sociale);
+        else if (tema.equals("PartitoComunista_Sanita"))
+            testo_tema.setText(R.string.PartitoComunista_Sanita);
+        else if (tema.equals("PartitoComunista_Sud"))
+            testo_tema.setText(R.string.PartitoComunista_Sud);
+        else if (tema.equals("PartitoComunista_Europa"))
+            testo_tema.setText(R.string.PartitoComunista_Europa);
+        else
+            testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
