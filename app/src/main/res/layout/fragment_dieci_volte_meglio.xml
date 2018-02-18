@@ -119,12 +119,12 @@
                             android:text="sud" />
 
                         <Button
-                            android:id="@+id/But_Salute"
+                            android:id="@+id/But_Sanita"
                             android:layout_width="96dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:drawableTop="@drawable/ic_button_salute"
-                            android:text="salute" />
+                            android:drawableTop="@drawable/ic_button_sanita"
+                            android:text="sanità" />
 
                     </TableRow>
                     <TableRow

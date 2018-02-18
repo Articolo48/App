@@ -87,8 +87,8 @@ public class ForzaItalia_Tema extends Fragment {
             testo_tema.setText(R.string.ForzaItalia_Estero);
         else if (tema.equals("ForzaItalia_Famiglia"))
             testo_tema.setText(R.string.ForzaItalia_Famiglia);
-        else if (tema.equals("ForzaItalia_Fisco"))
-            testo_tema.setText(R.string.ForzaItalia_Fisco);
+        else if (tema.equals("ForzaItalia_Economia"))
+            testo_tema.setText(R.string.ForzaItalia_Economia);
         else if (tema.equals("ForzaItalia_Giovani"))
             testo_tema.setText(R.string.ForzaItalia_Giovani);
         else if (tema.equals("ForzaItalia_Giustizia"))

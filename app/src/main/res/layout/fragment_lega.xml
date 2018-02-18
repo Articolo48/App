@@ -106,20 +106,20 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" >
                         <Button
-                            android:id="@+id/But_Fisco"
+                            android:id="@+id/But_Economia"
                             android:layout_width="96dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:drawableTop="@drawable/ic_button_fisco"
-                            android:text="fisco" />
+                            android:drawableTop="@drawable/ic_button_economia"
+                            android:text="economia" />
 
                         <Button
-                            android:id="@+id/But_Instrastruttura"
+                            android:id="@+id/But_Instrastrutture"
                             android:layout_width="96dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:drawableTop="@drawable/ic_button_infrastruttura"
-                            android:text="infrastruttura" />
+                            android:drawableTop="@drawable/ic_button_infrastrutture"
+                            android:text="infrastrutture" />
                     </TableRow>
                     <TableRow
                         android:layout_width="match_parent"
@@ -193,12 +193,12 @@
                             android:text="sicurezza" />
 
                         <Button
-                            android:id="@+id/But_Salute"
+                            android:id="@+id/But_Sanita"
                             android:layout_width="96dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:drawableTop="@drawable/ic_button_salute"
-                            android:text="salute" />
+                            android:drawableTop="@drawable/ic_button_sanita"
+                            android:text="sanità" />
 
                     </TableRow>
 

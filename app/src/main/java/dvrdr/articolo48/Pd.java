@@ -76,18 +76,18 @@ public class Pd extends Fragment {
         final Button diritti         = (Button) view.findViewById(R.id.But_Diritti);
         final Button donne           = (Button) view.findViewById(R.id.But_Donne);
         final Button famiglia        = (Button) view.findViewById(R.id.But_Famiglia);
-        final Button fisco           = (Button) view.findViewById(R.id.But_Fisco);
+        final Button economia        = (Button) view.findViewById(R.id.But_Economia);
         final Button giovani         = (Button) view.findViewById(R.id.But_Giovani);
         final Button giustizia       = (Button) view.findViewById(R.id.But_Giustizia);
         final Button governo         = (Button) view.findViewById(R.id.But_Governo);
         final Button immigrazione    = (Button) view.findViewById(R.id.But_Immigrazione);
         final Button impresa         = (Button) view.findViewById(R.id.But_Impresa);
-        final Button infrastruttura  = (Button) view.findViewById(R.id.But_Instrastruttura);
+        final Button infrastrutture  = (Button) view.findViewById(R.id.But_Instrastrutture);
         final Button istruzione      = (Button) view.findViewById(R.id.But_Istruzione);
         final Button lavoro          = (Button) view.findViewById(R.id.But_Lavoro);
         final Button previdenza      = (Button) view.findViewById(R.id.But_Previdenza);
         final Button societa         = (Button) view.findViewById(R.id.But_Sociale);
-        final Button salute          = (Button) view.findViewById(R.id.But_Salute);
+        final Button sanita          = (Button) view.findViewById(R.id.But_Sanita);
         final Button sicurezza       = (Button) view.findViewById(R.id.But_Sicurezza);
         final Button sud             = (Button) view.findViewById(R.id.But_Sud);
         final Button tecnologia      = (Button) view.findViewById(R.id.But_Tecnologia);
@@ -157,11 +157,11 @@ public class Pd extends Fragment {
             }
         });
 
-        fisco.setOnClickListener(new View.OnClickListener() {
+        economia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "Pd_Fisco");
-                args.putString("titolo", "Fisco");
+                args.putString("tema", "Pd_Economia");
+                args.putString("titolo", "Economia");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
@@ -217,11 +217,11 @@ public class Pd extends Fragment {
             }
         });
 
-        infrastruttura.setOnClickListener(new View.OnClickListener() {
+        infrastrutture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "Pd_Infrastruttura");
-                args.putString("titolo", "Infrastruttura");
+                args.putString("tema", "Pd_Infrastrutture");
+                args.putString("titolo", "Infrastrutture");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
@@ -267,11 +267,11 @@ public class Pd extends Fragment {
             }
         });
 
-        salute.setOnClickListener(new View.OnClickListener() {
+        sanita.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "Pd_Salute");
-                args.putString("titolo", "Salute");
+                args.putString("tema", "Pd_Sanita");
+                args.putString("titolo", "Sanita");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }

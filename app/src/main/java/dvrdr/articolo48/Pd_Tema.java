@@ -86,8 +86,8 @@ public class Pd_Tema extends Fragment {
             testo_tema.setText(R.string.Pd_Donne);
         else if (tema.equals("Pd_Famiglia"))
             testo_tema.setText(R.string.Pd_Famiglia);
-        else if (tema.equals("Pd_Fisco"))
-            testo_tema.setText(R.string.Pd_Fisco);
+        else if (tema.equals("Pd_Economia"))
+            testo_tema.setText(R.string.Pd_Economia);
         else if (tema.equals("Pd_Giovani"))
             testo_tema.setText(R.string.Pd_Giovani);
         else if (tema.equals("Pd_Giustizia"))
@@ -98,8 +98,8 @@ public class Pd_Tema extends Fragment {
             testo_tema.setText(R.string.Pd_Immigrazione);
         else if (tema.equals("Pd_Impresa"))
             testo_tema.setText(R.string.Pd_Impresa);
-        else if (tema.equals("Pd_Infrastruttura"))
-            testo_tema.setText(R.string.Pd_Infrastruttura);
+        else if (tema.equals("Pd_Infrastrutture"))
+            testo_tema.setText(R.string.Pd_Infrastrutture);
         else if (tema.equals("Pd_Istruzione"))
             testo_tema.setText(R.string.Pd_Istruzione);
         else if (tema.equals("Pd_Lavoro"))
@@ -108,8 +108,8 @@ public class Pd_Tema extends Fragment {
             testo_tema.setText(R.string.Pd_Previdenza);
         else if (tema.equals("Pd_Protezione_Sociale"))
             testo_tema.setText(R.string.Pd_Protezione_Sociale);
-        else if (tema.equals("Pd_Salute"))
-            testo_tema.setText(R.string.Pd_Salute);
+        else if (tema.equals("Pd_Sanita"))
+            testo_tema.setText(R.string.Pd_Sanita);
         else if (tema.equals("Pd_Sicurezza"))
             testo_tema.setText(R.string.Pd_Sicurezza);
         else if (tema.equals("Pd_Sud"))

@@ -83,8 +83,8 @@ public class DieciVolteMeglio_Tema extends Fragment {
             testo_tema.setText(R.string.DieciVolteMeglio_Istruzione);
         else if (tema.equals("DieciVolteMeglio_Lavoro"))
             testo_tema.setText(R.string.DieciVolteMeglio_Lavoro);
-        else if (tema.equals("DieciVolteMeglio_Salute"))
-            testo_tema.setText(R.string.DieciVolteMeglio_Salute);
+        else if (tema.equals("DieciVolteMeglio_Sanita"))
+            testo_tema.setText(R.string.DieciVolteMeglio_Sanita);
         else if (tema.equals("DieciVolteMeglio_Sud"))
             testo_tema.setText(R.string.DieciVolteMeglio_Sud);
         else if (tema.equals("DieciVolteMeglio_Tecnologia"))

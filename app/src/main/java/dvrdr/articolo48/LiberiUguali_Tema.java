@@ -80,8 +80,8 @@ public class LiberiUguali_Tema extends Fragment {
             testo_tema.setText(R.string.LiberiUguali_Ambiente);
         else if (tema.equals("LiberiUguali_Diritti"))
             testo_tema.setText(R.string.LiberiUguali_Diritti);
-        else if (tema.equals("LiberiUguali_Fisco"))
-            testo_tema.setText(R.string.LiberiUguali_Fisco);
+        else if (tema.equals("LiberiUguali_Economia"))
+            testo_tema.setText(R.string.LiberiUguali_Economia);
         else if (tema.equals("LiberiUguali_Immigrazione"))
             testo_tema.setText(R.string.LiberiUguali_Immigrazione);
         else if (tema.equals("LiberiUguali_Istruzione"))
@@ -94,8 +94,8 @@ public class LiberiUguali_Tema extends Fragment {
             testo_tema.setText(R.string.LiberiUguali_Protezione_Sociale);
         else if (tema.equals("LiberiUguali_Sicurezza"))
             testo_tema.setText(R.string.LiberiUguali_Sicurezza);
-        else if (tema.equals("LiberiUguali_Salute"))
-            testo_tema.setText(R.string.LiberiUguali_Salute);
+        else if (tema.equals("LiberiUguali_Sanita"))
+            testo_tema.setText(R.string.LiberiUguali_Sanita);
         else if (tema.equals("LiberiUguali_Europa"))
             testo_tema.setText(R.string.LiberiUguali_Europa);
         else

@@ -75,27 +75,19 @@ public class CasaPound extends Fragment {
         final Button diritti         = (Button) view.findViewById(R.id.But_Diritti);
         final Button energia         = (Button) view.findViewById(R.id.But_Energia);
         final Button famiglia        = (Button) view.findViewById(R.id.But_Famiglia);
-        final Button fisco           = (Button) view.findViewById(R.id.But_Fisco);
+        final Button economia        = (Button) view.findViewById(R.id.But_Economia);
         final Button giustizia       = (Button) view.findViewById(R.id.But_Giustizia);
         final Button sicurezza       = (Button) view.findViewById(R.id.But_Sicurezza);
         final Button immigrazione    = (Button) view.findViewById(R.id.But_Immigrazione);
         final Button istruzione      = (Button) view.findViewById(R.id.But_Istruzione);
         final Button lavoro          = (Button) view.findViewById(R.id.But_Lavoro);
-        final Button salute          = (Button) view.findViewById(R.id.But_Salute);
+        final Button sanita          = (Button) view.findViewById(R.id.But_Sanita);
         final Button europa          = (Button) view.findViewById(R.id.But_Europa);
         final Fragment frag          = new CasaPound_Tema();
         final Bundle args            = new Bundle();
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
 
-        ambiente.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                args.putString("tema", "CasaPound_Ambiente");
-                args.putString("titolo", "Ambiente");
-                frag.setArguments(args);
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
+
 
         cultura.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -137,11 +129,11 @@ public class CasaPound extends Fragment {
             }
         });
 
-        fisco.setOnClickListener(new View.OnClickListener() {
+        economia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "CasaPound_Fisco");
-                args.putString("titolo", "Fisco");
+                args.putString("tema", "CasaPound_Economia");
+                args.putString("titolo", "Economia");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
@@ -187,11 +179,11 @@ public class CasaPound extends Fragment {
             }
         });
 
-        salute.setOnClickListener(new View.OnClickListener() {
+        sanita.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "CasaPound_Salute");
-                args.putString("titolo", "Salute");
+                args.putString("tema", "CasaPound_Sanita");
+                args.putString("titolo", "Sanita");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }

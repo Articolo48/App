@@ -83,8 +83,8 @@ public class Lega_Tema extends Fragment {
             testo_tema.setText(R.string.Lega_Cultura);
         else if (tema.equals("Lega_Diritti"))
             testo_tema.setText(R.string.Lega_Diritti);
-        else if (tema.equals("Lega_Fisco"))
-            testo_tema.setText(R.string.Lega_Fisco);
+        else if (tema.equals("Lega_Economia"))
+            testo_tema.setText(R.string.Lega_Economia);
         else if (tema.equals("Lega_Giustizia"))
             testo_tema.setText(R.string.Lega_Giustizia);
         else if (tema.equals("Lega_Governo"))
@@ -93,8 +93,8 @@ public class Lega_Tema extends Fragment {
             testo_tema.setText(R.string.Lega_Immigrazione);
         else if (tema.equals("Lega_Impresa"))
             testo_tema.setText(R.string.Lega_Impresa);
-        else if (tema.equals("Lega_Infrastruttura"))
-            testo_tema.setText(R.string.Lega_Infrastruttura);
+        else if (tema.equals("Lega_Infrastrutture"))
+            testo_tema.setText(R.string.Lega_Infrastrutture);
         else if (tema.equals("Lega_Istruzione"))
             testo_tema.setText(R.string.Lega_Istruzione);
         else if (tema.equals("Lega_Lavoro"))
@@ -103,8 +103,8 @@ public class Lega_Tema extends Fragment {
             testo_tema.setText(R.string.Lega_Previdenza);
         else if (tema.equals("Lega_Sicurezza"))
             testo_tema.setText(R.string.Lega_Sicurezza);
-        else if (tema.equals("Lega_Salute"))
-            testo_tema.setText(R.string.Lega_Salute);
+        else if (tema.equals("Lega_Sanita"))
+            testo_tema.setText(R.string.Lega_Sanita);
         else if (tema.equals("Lega_Tecnologia"))
             testo_tema.setText(R.string.Lega_Tecnologia);
         else if (tema.equals("Lega_Europa"))

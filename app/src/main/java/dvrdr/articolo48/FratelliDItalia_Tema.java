@@ -87,8 +87,8 @@ public class FratelliDItalia_Tema extends Fragment {
             testo_tema.setText(R.string.FratelliDItalia_Estero);
         else if (tema.equals("FratelliDItalia_Famiglia"))
             testo_tema.setText(R.string.FratelliDItalia_Famiglia);
-        else if (tema.equals("FratelliDItalia_Fisco"))
-            testo_tema.setText(R.string.FratelliDItalia_Fisco);
+        else if (tema.equals("FratelliDItalia_Economia"))
+            testo_tema.setText(R.string.FratelliDItalia_Economia);
         else if (tema.equals("FratelliDItalia_Giustizia"))
             testo_tema.setText(R.string.FratelliDItalia_Giustizia);
         else if (tema.equals("FratelliDItalia_Governo"))
@@ -97,12 +97,16 @@ public class FratelliDItalia_Tema extends Fragment {
             testo_tema.setText(R.string.FratelliDItalia_Immigrazione);
         else if (tema.equals("FratelliDItalia_Impresa"))
             testo_tema.setText(R.string.FratelliDItalia_Impresa);
+        else if (tema.equals("FratelliDItalia_Infrastrutture"))
+            testo_tema.setText(R.string.FratelliDItalia_Infrastrutture);
         else if (tema.equals("FratelliDItalia_Lavoro"))
             testo_tema.setText(R.string.FratelliDItalia_Lavoro);
         else if (tema.equals("FratelliDItalia_Previdenza"))
             testo_tema.setText(R.string.FratelliDItalia_Previdenza);
         else if (tema.equals("FratelliDItalia_Protezione_Sociale"))
             testo_tema.setText(R.string.FratelliDItalia_Protezione_Sociale);
+        else if (tema.equals("FratelliDItalia_Sanita"))
+            testo_tema.setText(R.string.FratelliDItalia_Sanita);
         else if (tema.equals("FratelliDItalia_Sicurezza"))
             testo_tema.setText(R.string.FratelliDItalia_Sicurezza);
         else if (tema.equals("FratelliDItalia_Tecnologia"))

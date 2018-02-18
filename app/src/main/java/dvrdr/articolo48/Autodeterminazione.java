@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -65,8 +67,106 @@ public class Autodeterminazione extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         getActivity().setTitle("Autodeterminazione");
+        View view = inflater.inflate(R.layout.fragment_autodeterminazione, container, false);
 
-        return inflater.inflate(R.layout.fragment_autodeterminazione, container, false);
+        final Button ambiente       = (Button) view.findViewById(R.id.But_Ambiente);
+        final Button cultura        = (Button) view.findViewById(R.id.But_Cultura);
+        final Button diritti        = (Button) view.findViewById(R.id.But_Diritti);
+        final Button governo        = (Button) view.findViewById(R.id.But_Governo);
+        final Button istruzione     = (Button) view.findViewById(R.id.But_Istruzione);
+        final Button infrastrutture = (Button) view.findViewById(R.id.But_Instrastrutture);
+        final Button sanita         = (Button) view.findViewById(R.id.But_Sanita);
+        final Button sicurezza      = (Button) view.findViewById(R.id.But_Sicurezza);
+        final Fragment frag         = new Autodeterminazione_Tema();
+        final Bundle args           = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        ambiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Autodeterminazione_Ambiente");
+                args.putString("titolo", "Ambiente");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        cultura.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Autodeterminazione_Cultura");
+                args.putString("titolo", "Cultura");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        diritti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Autodeterminazione_Diritti");
+                args.putString("titolo", "Diritti");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        governo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Autodeterminazione_Governo");
+                args.putString("titolo", "Governo");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        istruzione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Autodeterminazione_Istruzione");
+                args.putString("titolo", "Istruzione");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        infrastrutture.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Autodeterminazione_Infrastrutture");
+                args.putString("titolo", "Infrastruttre");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sanita.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Autodeterminazione_Sanita");
+                args.putString("titolo", "Sanità");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sicurezza.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Autodeterminazione_Sicurezza");
+                args.putString("titolo", "Sicurezza");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+
+
+
+
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

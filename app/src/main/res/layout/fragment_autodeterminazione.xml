@@ -109,12 +109,12 @@
                         android:layout_height="match_parent" >
 
                         <Button
-                            android:id="@+id/But_Instrastruttura"
+                            android:id="@+id/But_Instrastrutture"
                             android:layout_width="96dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:drawableTop="@drawable/ic_button_infrastruttura"
-                            android:text="infrastruttura" />
+                            android:drawableTop="@drawable/ic_button_infrastrutture"
+                            android:text="infrastrutture" />
 
                         <Button
                             android:id="@+id/But_Istruzione"
@@ -134,7 +134,7 @@
                             android:layout_width="96dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:drawableTop="@drawable/ic_button_salute"
+                            android:drawableTop="@drawable/ic_button_sanita"
                             android:text="sanità" />
 
                         <Button

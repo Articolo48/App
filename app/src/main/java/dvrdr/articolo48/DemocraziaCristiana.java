@@ -71,12 +71,12 @@ public class DemocraziaCristiana extends Fragment {
 
         final Button ambiente   = (Button) view.findViewById(R.id.But_Ambiente);
         final Button famiglia   = (Button) view.findViewById(R.id.But_Famiglia);
-        final Button fisco      = (Button) view.findViewById(R.id.But_Fisco);
+        final Button economia   = (Button) view.findViewById(R.id.But_Economia);
         final Button giustizia  = (Button) view.findViewById(R.id.But_Giustizia);
         final Button governo    = (Button) view.findViewById(R.id.But_Governo);
         final Button lavoro     = (Button) view.findViewById(R.id.But_Lavoro);
         final Button previdenza = (Button) view.findViewById(R.id.But_Previdenza);
-        final Button salute     = (Button) view.findViewById(R.id.But_Salute);
+        final Button sanita     = (Button) view.findViewById(R.id.But_Sanita);
         final Button sicurezza  = (Button) view.findViewById(R.id.But_Sicurezza);
         final Fragment frag     = new DemocraziaCristiana_Tema();
         final Bundle args       = new Bundle();
@@ -102,11 +102,11 @@ public class DemocraziaCristiana extends Fragment {
             }
         });
 
-        fisco.setOnClickListener(new View.OnClickListener() {
+        economia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "DemocraziaCristiana_Fisco");
-                args.putString("titolo", "Fisco");
+                args.putString("tema", "DemocraziaCristiana_Economia");
+                args.putString("titolo", "Economia");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
@@ -152,11 +152,11 @@ public class DemocraziaCristiana extends Fragment {
             }
         });
 
-        salute.setOnClickListener(new View.OnClickListener() {
+        sanita.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "DemocraziaCristiana_Salute");
-                args.putString("titolo", "Salute");
+                args.putString("tema", "DemocraziaCristiana_Sanita");
+                args.putString("titolo", "Sanita");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }

@@ -76,22 +76,22 @@ public class FratelliDItalia extends Fragment {
         final Button diritti        = (Button) view.findViewById(R.id.But_Diritti);
         final Button estero         = (Button) view.findViewById(R.id.But_Estero);
         final Button famiglia       = (Button) view.findViewById(R.id.But_Famiglia);
-        final Button fisco          = (Button) view.findViewById(R.id.But_Fisco);
+        final Button economia       = (Button) view.findViewById(R.id.But_Economia);
         final Button giustizia      = (Button) view.findViewById(R.id.But_Giustizia);
         final Button governo        = (Button) view.findViewById(R.id.But_Governo);
         final Button immigrazione   = (Button) view.findViewById(R.id.But_Immigrazione);
         final Button impresa        = (Button) view.findViewById(R.id.But_Impresa);
-        final Button infrastruttura = (Button) view.findViewById(R.id.But_Instrastruttura);
+        final Button infrastrutture = (Button) view.findViewById(R.id.But_Instrastrutture);
         final Button istruzione     = (Button) view.findViewById(R.id.But_Istruzione);
         final Button lavoro         = (Button) view.findViewById(R.id.But_Lavoro);
         final Button previdenza     = (Button) view.findViewById(R.id.But_Previdenza);
         final Button sociale        = (Button) view.findViewById(R.id.But_Sociale);
-        final Button salute         = (Button) view.findViewById(R.id.But_Salute);
+        final Button sanita         = (Button) view.findViewById(R.id.But_Sanita);
         final Button sicurezza      = (Button) view.findViewById(R.id.But_Sicurezza);
         final Button tecnologia     = (Button) view.findViewById(R.id.But_Tecnologia);
         final Button europa         = (Button) view.findViewById(R.id.But_Europa);
-        final Fragment frag          = new FratelliDItalia_Tema();
-        final Bundle args            = new Bundle();
+        final Fragment frag         = new FratelliDItalia_Tema();
+        final Bundle args           = new Bundle();
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
 
         agroalimentare.setOnClickListener(new View.OnClickListener() {
@@ -160,11 +160,11 @@ public class FratelliDItalia extends Fragment {
             }
         });
 
-        fisco.setOnClickListener(new View.OnClickListener() {
+        economia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "FratelliDItalia_Fisco");
-                args.putString("titolo", "Fisco");
+                args.putString("tema", "FratelliDItalia_Economia");
+                args.putString("titolo", "Economia");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -215,11 +215,11 @@ public class FratelliDItalia extends Fragment {
             }
         });
 
-        infrastruttura.setOnClickListener(new View.OnClickListener() {
+        infrastrutture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "FratelliDItalia_Infrastruttura");
-                args.putString("titolo", "Infrastruttura");
+                args.putString("tema", "FratelliDItalia_Infrastrutture");
+                args.putString("titolo", "Infrastrutture");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -270,11 +270,11 @@ public class FratelliDItalia extends Fragment {
             }
         });
 
-        salute.setOnClickListener(new View.OnClickListener() {
+        sanita.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "FratelliDItalia_Salute");
-                args.putString("titolo", "Salute");
+                args.putString("tema", "FratelliDItalia_Sanita");
+                args.putString("titolo", "Sanita");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();

@@ -74,12 +74,12 @@ public class CivicaPopolareLorenzin extends Fragment {
         final Button ambiente     = (Button) view.findViewById(R.id.But_Ambiente);
         final Button cultura      = (Button) view.findViewById(R.id.But_Cultura);
         final Button famiglia     = (Button) view.findViewById(R.id.But_Famiglia);
-        final Button fisco        = (Button) view.findViewById(R.id.But_Fisco);
+        final Button economia     = (Button) view.findViewById(R.id.But_Economia);
         final Button immigrazione = (Button) view.findViewById(R.id.But_Immigrazione);
         final Button impresa      = (Button) view.findViewById(R.id.But_Impresa);
         final Button istruzione   = (Button) view.findViewById(R.id.But_Istruzione);
         final Button lavoro       = (Button) view.findViewById(R.id.But_Lavoro);
-        final Button salute       = (Button) view.findViewById(R.id.But_Salute);
+        final Button sanita       = (Button) view.findViewById(R.id.But_Sanita);
         final Button sicurezza    = (Button) view.findViewById(R.id.But_Sicurezza);
         final Button sud          = (Button) view.findViewById(R.id.But_Sud);
         final Button europa       = (Button) view.findViewById(R.id.But_Europa);
@@ -131,7 +131,7 @@ public class CivicaPopolareLorenzin extends Fragment {
             }
         });
 
-        fisco.setOnClickListener(new View.OnClickListener() {
+        economia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 args.putString("tema", "CivicaPopolareLorenzin_Fisco");
@@ -186,10 +186,10 @@ public class CivicaPopolareLorenzin extends Fragment {
             }
         });
 
-        salute.setOnClickListener(new View.OnClickListener() {
+        sanita.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "CivicaPopolareLorenzin_Salute");
+                args.putString("tema", "CivicaPopolareLorenzin_Sanita");
                 args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 

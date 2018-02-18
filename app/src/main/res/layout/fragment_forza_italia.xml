@@ -127,12 +127,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" >
                         <Button
-                            android:id="@+id/But_Fisco"
+                            android:id="@+id/But_Economia"
                             android:layout_width="96dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:drawableTop="@drawable/ic_button_fisco"
-                            android:text="fisco" />
+                            android:drawableTop="@drawable/ic_button_economia"
+                            android:text="economia" />
 
                         <Button
                             android:id="@+id/But_Giovani"

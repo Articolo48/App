@@ -82,8 +82,8 @@ public class CivicaPopolareLorenzin_Tema extends Fragment {
             testo_tema.setText(R.string.CivicaPopolareLorenzin_Cultura);
         else if (tema.equals("CivicaPopolareLorenzin_Famiglia"))
             testo_tema.setText(R.string.CivicaPopolareLorenzin_Famiglia);
-        else if (tema.equals("CivicaPopolareLorenzin_Fisco"))
-            testo_tema.setText(R.string.CivicaPopolareLorenzin_Fisco);
+        else if (tema.equals("CivicaPopolareLorenzin_Economia"))
+            testo_tema.setText(R.string.CivicaPopolareLorenzin_Economia);
         else if (tema.equals("CivicaPopolareLorenzin_Sicurezza"))
             testo_tema.setText(R.string.CivicaPopolareLorenzin_Sicurezza);
         else if (tema.equals("CivicaPopolareLorenzin_Immigrazione"))
@@ -94,8 +94,8 @@ public class CivicaPopolareLorenzin_Tema extends Fragment {
             testo_tema.setText(R.string.CivicaPopolareLorenzin_Istruzione);
         else if (tema.equals("CivicaPopolareLorenzin_Lavoro"))
             testo_tema.setText(R.string.CivicaPopolareLorenzin_Lavoro);
-        else if (tema.equals("CivicaPopolareLorenzin_Salute"))
-            testo_tema.setText(R.string.CivicaPopolareLorenzin_Salute);
+        else if (tema.equals("CivicaPopolareLorenzin_Sanita"))
+            testo_tema.setText(R.string.CivicaPopolareLorenzin_Sanita);
         else if (tema.equals("CivicaPopolareLorenzin_Sud"))
             testo_tema.setText(R.string.CivicaPopolareLorenzin_Sud);
         else if (tema.equals("CivicaPopolareLorenzin_Europa"))

@@ -76,7 +76,7 @@ public class ForzaItalia extends Fragment {
         final Button cultura        = (Button) view.findViewById(R.id.But_Cultura);
         final Button diritti        = (Button) view.findViewById(R.id.But_Diritti);
         final Button famiglia       = (Button) view.findViewById(R.id.But_Famiglia);
-        final Button fisco          = (Button) view.findViewById(R.id.But_Fisco);
+        final Button economia       = (Button) view.findViewById(R.id.But_Economia);
         final Button giovani        = (Button) view.findViewById(R.id.But_Giovani);
         final Button giustizia      = (Button) view.findViewById(R.id.But_Giustizia);
         final Button governo        = (Button) view.findViewById(R.id.But_Governo);
@@ -158,11 +158,11 @@ public class ForzaItalia extends Fragment {
             }
         });
 
-        fisco.setOnClickListener(new View.OnClickListener() {
+        economia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "ForzaItalia_Fisco");
-                args.putString("titolo", "Fisco");
+                args.putString("tema", "ForzaItalia_Economia");
+                args.putString("titolo", "Economia");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();

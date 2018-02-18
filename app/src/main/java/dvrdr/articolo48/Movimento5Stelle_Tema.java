@@ -88,8 +88,8 @@ public class Movimento5Stelle_Tema extends Fragment {
             testo_tema.setText(R.string.Movimento5Stelle_Estero);
         else if (tema.equals("Movimento5Stelle_Famiglia"))
             testo_tema.setText(R.string.Movimento5Stelle_Famiglia);
-        else if (tema.equals("Movimento5Stelle_Fisco"))
-            testo_tema.setText(R.string.Movimento5Stelle_Fisco);
+        else if (tema.equals("Movimento5Stelle_Economia"))
+            testo_tema.setText(R.string.Movimento5Stelle_Economia);
         else if (tema.equals("Movimento5Stelle_Giustizia"))
             testo_tema.setText(R.string.Movimento5Stelle_Giustizia);
         else if (tema.equals("Movimento5Stelle_Governo"))
@@ -98,8 +98,8 @@ public class Movimento5Stelle_Tema extends Fragment {
             testo_tema.setText(R.string.Movimento5Stelle_Immigrazione);
         else if (tema.equals("Movimento5Stelle_Impresa"))
             testo_tema.setText(R.string.Movimento5Stelle_Impresa);
-        else if (tema.equals("Movimento5Stelle_Infrastruttura"))
-            testo_tema.setText(R.string.Movimento5Stelle_Infrastruttura);
+        else if (tema.equals("Movimento5Stelle_Infrastrutture"))
+            testo_tema.setText(R.string.Movimento5Stelle_Infrastrutture);
         else if (tema.equals("Movimento5Stelle_Istruzione"))
             testo_tema.setText(R.string.Movimento5Stelle_Istruzione);
         else if (tema.equals("Movimento5Stelle_Lavoro"))
@@ -108,8 +108,8 @@ public class Movimento5Stelle_Tema extends Fragment {
             testo_tema.setText(R.string.Movimento5Stelle_Previdenza);
         else if (tema.equals("Movimento5Stelle_Protezione_Sociale"))
             testo_tema.setText(R.string.Movimento5Stelle_Protezione_Sociale);
-        else if (tema.equals("Movimento5Stelle_Salute"))
-            testo_tema.setText(R.string.Movimento5Stelle_Salute);
+        else if (tema.equals("Movimento5Stelle_Sanita"))
+            testo_tema.setText(R.string.Movimento5Stelle_Sanita);
         else if (tema.equals("Movimento5Stelle_Sicurezza"))
             testo_tema.setText(R.string.Movimento5Stelle_Sicurezza);
         else if (tema.equals("Movimento5Stelle_Tecnologia"))

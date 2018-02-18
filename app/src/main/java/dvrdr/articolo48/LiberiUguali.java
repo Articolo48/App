@@ -72,17 +72,17 @@ public class LiberiUguali extends Fragment {
         final Button agroalimentare = (Button) view.findViewById(R.id.But_Agroalimentare);
         final Button ambiente       = (Button) view.findViewById(R.id.But_Ambiente);
         final Button diritti        = (Button) view.findViewById(R.id.But_Diritti);
-        final Button fisco          = (Button) view.findViewById(R.id.But_Fisco);
+        final Button economia       = (Button) view.findViewById(R.id.But_Economia);
         final Button immigrazione   = (Button) view.findViewById(R.id.But_Immigrazione);
         final Button istruzione     = (Button) view.findViewById(R.id.But_Istruzione);
         final Button lavoro         = (Button) view.findViewById(R.id.But_Lavoro);
         final Button previdenza     = (Button) view.findViewById(R.id.But_Previdenza);
         final Button sociale        = (Button) view.findViewById(R.id.But_Sociale);
-        final Button salute         = (Button) view.findViewById(R.id.But_Salute);
+        final Button sanita         = (Button) view.findViewById(R.id.But_Sanita);
         final Button sicurezza      = (Button) view.findViewById(R.id.But_Sicurezza);
         final Button europa         = (Button) view.findViewById(R.id.But_Europa);
-        final Fragment frag          = new LiberiUguali_Tema();
-        final Bundle args            = new Bundle();
+        final Fragment frag         = new LiberiUguali_Tema();
+        final Bundle args           = new Bundle();
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
 
         agroalimentare.setOnClickListener(new View.OnClickListener() {
@@ -118,11 +118,11 @@ public class LiberiUguali extends Fragment {
             }
         });
 
-        fisco.setOnClickListener(new View.OnClickListener() {
+        economia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "LiberiUguali_Fisco");
-                args.putString("titolo", "Fisco");
+                args.putString("tema", "LiberiUguali_Economia");
+                args.putString("titolo", "Economia");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -184,11 +184,11 @@ public class LiberiUguali extends Fragment {
             }
         });
 
-        salute.setOnClickListener(new View.OnClickListener() {
+        sanita.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "LiberiUguali_Salute");
-                args.putString("titolo", "Salute");
+                args.putString("tema", "LiberiUguali_Sanita");
+                args.putString("titolo", "Sanita");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();

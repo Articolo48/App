@@ -79,8 +79,8 @@ public class BloccoNazionale_Tema extends Fragment {
             testo_tema.setText(R.string.BloccoNazionale_Diritti);
         else if (tema.equals("BloccoNazionale_Famiglia"))
             testo_tema.setText(R.string.BloccoNazionale_Famiglia);
-        else if (tema.equals("BloccoNazionale_Fisco"))
-            testo_tema.setText(R.string.BloccoNazionale_Fisco);
+        else if (tema.equals("BloccoNazionale_Economia"))
+            testo_tema.setText(R.string.BloccoNazionale_Economia);
         else if (tema.equals("BloccoNazionale_Governo"))
             testo_tema.setText(R.string.BloccoNazionale_Governo);
         else if (tema.equals("BloccoNazionale_Lavoro"))

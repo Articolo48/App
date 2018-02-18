@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -64,7 +65,36 @@ public class Autodeterminazione_Tema extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_autodeterminazione__tema, container, false);
+        View view = inflater.inflate(R.layout.fragment_autodeterminazione__tema, container, false);
+
+        Bundle args = getArguments();
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.Autodeterminazione_Tema);
+
+        if (tema.equals("Autodeterminazione_Ambiente"))
+            testo_tema.setText(R.string.Autodeterminazione_Ambiente);
+        else if (tema.equals("Autodeterminazione_Cultura"))
+            testo_tema.setText(R.string.Autodeterminazione_Cultura);
+        else if (tema.equals("Autodeterminazione_Diritti"))
+            testo_tema.setText(R.string.Autodeterminazione_Diritti);
+        else if (tema.equals("Autodeterminazione_Governo"))
+            testo_tema.setText(R.string.Autodeterminazione_Governo);
+        else if (tema.equals("Autodeterminazione_Istruzione"))
+            testo_tema.setText(R.string.Autodeterminazione_Istruzione);
+        else if (tema.equals("Autodeterminazione_Infrastrutture"))
+            testo_tema.setText(R.string.Autodeterminazione_Infrastrutture);
+        else if (tema.equals("Autodeterminazione_Sanita"))
+            testo_tema.setText(R.string.Autodeterminazione_Sanita);
+        else if (tema.equals("Autodeterminazione_Sicurezza"))
+            testo_tema.setText(R.string.Autodeterminazione_Sicurezza);
+        else
+            testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

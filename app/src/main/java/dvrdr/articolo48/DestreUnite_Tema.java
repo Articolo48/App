@@ -85,8 +85,8 @@ public class DestreUnite_Tema extends Fragment {
             testo_tema.setText(R.string.DestreUnite_Previdenza);
         else if (tema.equals("DestreUnite_Turismo"))
             testo_tema.setText(R.string.DestreUnite_Turismo);
-        else if (tema.equals("DestreUnite_Salute"))
-            testo_tema.setText(R.string.DestreUnite_Salute);
+        else if (tema.equals("DestreUnite_Sanita"))
+            testo_tema.setText(R.string.DestreUnite_Sanita);
         else if (tema.equals("DestreUnite_Europa"))
             testo_tema.setText(R.string.DestreUnite_Europa);
         else

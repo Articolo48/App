@@ -75,7 +75,7 @@ public class DieciVolteMeglio extends Fragment {
         final Button lavoro     = (Button) view.findViewById(R.id.But_Lavoro);
         final Button istruzione = (Button) view.findViewById(R.id.But_Istruzione);
         final Button sud        = (Button) view.findViewById(R.id.But_Sud);
-        final Button salute     = (Button) view.findViewById(R.id.But_Salute);
+        final Button sanita     = (Button) view.findViewById(R.id.But_Sanita);
         final Button tecnologia = (Button) view.findViewById(R.id.But_Tecnologia);
         final Button turismo    = (Button) view.findViewById(R.id.But_Turismo);
         final Button europa     = (Button) view.findViewById(R.id.But_Europa);
@@ -138,11 +138,11 @@ public class DieciVolteMeglio extends Fragment {
             }
         });
 
-        salute.setOnClickListener(new View.OnClickListener() {
+        sanita.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "DieciVolteMeglio_Salute");
-                args.putString("titolo", "Salute");
+                args.putString("tema", "DieciVolteMeglio_Sanita");
+                args.putString("titolo", "Sanita");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();

@@ -79,8 +79,8 @@ public class DemocraziaCristiana_Tema extends Fragment {
             testo_tema.setText(R.string.DemocraziaCristiana_Ambiente);
         else if (tema.equals("DemocraziaCristiana_Famiglia"))
             testo_tema.setText(R.string.DemocraziaCristiana_Famiglia);
-        else if (tema.equals("DemocraziaCristiana_Fisco"))
-            testo_tema.setText(R.string.DemocraziaCristiana_Fisco);
+        else if (tema.equals("DemocraziaCristiana_Economia"))
+            testo_tema.setText(R.string.DemocraziaCristiana_Economia);
         else if (tema.equals("DemocraziaCristiana_Giustizia"))
             testo_tema.setText(R.string.DemocraziaCristiana_Giustizia);
         else if (tema.equals("DemocraziaCristiana_Governo"))
@@ -89,8 +89,8 @@ public class DemocraziaCristiana_Tema extends Fragment {
             testo_tema.setText(R.string.DemocraziaCristiana_Lavoro);
         else if (tema.equals("DemocraziaCristiana_Previdenza"))
             testo_tema.setText(R.string.DemocraziaCristiana_Previdenza);
-        else if (tema.equals("DemocraziaCristiana_Salute"))
-            testo_tema.setText(R.string.DemocraziaCristiana_Salute);
+        else if (tema.equals("DemocraziaCristiana_Sanita"))
+            testo_tema.setText(R.string.DemocraziaCristiana_Sanita);
         else if (tema.equals("DemocraziaCristiana_Sicurezza"))
             testo_tema.setText(R.string.DemocraziaCristiana_Sicurezza);
         else

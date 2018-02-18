@@ -74,7 +74,7 @@ public class DestreUnite extends Fragment {
         final Button istruzione = (Button) view.findViewById(R.id.But_Istruzione);
         final Button previdenza = (Button) view.findViewById(R.id.But_Previdenza);
         final Button turismo    = (Button) view.findViewById(R.id.But_Turismo);
-        final Button salute     = (Button) view.findViewById(R.id.But_Salute);
+        final Button sanita     = (Button) view.findViewById(R.id.But_Sanita);
         final Button europa     = (Button) view.findViewById(R.id.But_Europa);
         final Fragment frag     = new DestreUnite_Tema();
         final Bundle args       = new Bundle();
@@ -130,11 +130,11 @@ public class DestreUnite extends Fragment {
             }
         });
 
-        salute.setOnClickListener(new View.OnClickListener() {
+        sanita.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "DestreUnite_Salute");
-                args.putString("titolo", "Salute");
+                args.putString("tema", "DestreUnite_Sanita");
+                args.putString("titolo", "Sanita");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
