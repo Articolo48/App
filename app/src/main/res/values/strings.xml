@@ -15,7 +15,6 @@
 * Ci impegniamo per la riforma dei reati agroalimentari e l’introduzione del reato di agropirateria. Proseguiremo con la lotta al falso cibo italiano e la tutela delle nostre indicazioni geografiche\n
 * Puntiamo sul ricambio generazionale col potenziamento dei mutui a tasso zero per i giovani imprenditori agricoli e attraverso una corsia preferenziale per riportare all’agricoltura terre pubbliche."
     </string>
-
     <string name="Pd_Ambiente">"\n* Vogliamo ridurre le emissioni inquinanti e l'inquinamento da plastiche, ponendo l’Italia in anticipo sugli altri Paesi nella lotta contro i rischi del cambiamento climatico.\n\n
 * Sono stati sbloccati finanziamenti sul dissesto idrogeologico per 9 miliardi di euro. Ora ci metteremo al lavoro per concludere i cantieri aperti, a cominciare da quelli del Bisogno.\n
 * Negli ultimi 5 anni abbiamo ampliato l'ecobonus per le abitazioni private, nei prossimi 5 installeremo 33 milioni di contatori digitali per migliorare l’efficienza energetica in ogni edificio.\n
@@ -24,7 +23,6 @@
 * L’impegno per la prossima legislatura è quello di dimezzare il conferimento in discarica e di arrivare al 65% di riciclo, promuovendo i principi dell’economia circolare.\n
 * Lo sviluppo della produzione di energia rinnovabile (55% del fabbisogno totale entro il 2030) andrà di pari passo con la cessazione della produzione di energia elettrica da carbone entro il 2025."
     </string>
-
     <string name="Pd_Cultura">"\n* Promuoveremo una nuova legge sull’editoria, come abbiamo fatto con cinema e spettacolo, con misure di sostegno per tutte le filiere del libro.\n+
 * Un fondo strutturale sarà destinato alla rigenerazione delle aree dismesse, sottoutilizzate, periferiche, segnalate da enti locali, reti locali di operatori, artisti o semplici cittadini.\n
 * Il contributo da 500 euro per i 18enni per l’acquisto di prodotti culturali diventerà stabile nel tempo.\n
@@ -34,23 +32,19 @@
 * Vogliamo promuovere la tutela e la valorizzazione dei beni culturali sul territorio, potenziando ArtBonus con nuovi meccanismi, incentivando e semplificando micro-donazioni di cittadini e turisti. \n
 * Proponiamo un Piano cultura 4.0 per le imprese culturali e creative che investono in innovazione tecnologica, con particolare attenzione alle aree ad alto tasso di abbandono scolastico e al Sud."
     </string>
-
     <string name="Pd_Diritti">"\n* Vogliamo sostenere forme di aiuto concreto per i padri separati, in particolare per garantire il diritto alla casa.\n
 * Contrasto a discriminazioni omofobiche e transfobiche e alla violenza di genere: nella valutazione di reati sarà tenuto conto dell’orientamento sessuale o dell’identità di genere della vittima.\n
 * Occorre modificare la legge sulle adozioni ferma al 1983. Tutti i bambini sono uguali, hanno pari diritti dinanzi alla legge a prescindere dalle famiglie nelle quali sono nati.\n
 * Ius culturae: i bambini nati in Italia da genitori stranieri possono ottenere la cittadinanza dopo aver completato un ciclo di studi di cinque anni."
     </string>
-
     <string name="Pd_Donne">"\n* Rifinanzieremo i centri antiviolenza. Sosterremo il reinserimento nel mondo del lavoro delle donne vittime e la formazione delle Forze dell’Ordine e del personale sanitario sulla violenza di genere.\n
 * Le mamme che tornano al lavoro dopo la fine della maternità obbligatoria riceveranno un 30% in più di stipendio per i primi sei mesi, sotto forma di bonus da destinare alle spese di cura.\n
 * Sosterremo una legge sulla parità di genere nelle retribuzioni a parità di mansione lavorativa: troppo spesso esiste ancora un divario ingiustificato tra uomini e donne che vogliamo colmare."
     </string>
-
     <string name="Pd_Famiglia">"\n* Vogliamo introdurre un assegno universale da 400 euro al mese per ogni figlio (fino ai 3 anni) che può essere speso per la retta dell’asilo nido o per il rimborso delle spese di baby sitter.\n
 * Negli scorsi cinque anni abbiamo esteso il congedo di paternità da 2 a 4 giorni. Ora vogliamo estenderlo a 10 giorni, per sempre. Vogliamo aiutare i genitori a condividere insieme le gioie e le sfide.\n
 * Finanzieremo un piano nazionale da 100 milioni di euro l’anno, per tutta la legislatura, per aumentare le possibilità di accesso agli asili nido."
     </string>
-
     <string name="Pd_Economia">"\n* È giusto far pagare le tasse alle aziende online che lavorano in Italia, con le condizioni delle aziende offline: stesse condizioni, uguali tasse.\n
 * Più forte deducibilità fiscale a chi investe nel sociale, nella ricerca, nell’associazionismo.\n
 * Il canone RAI sarà ulteriormente ridotto, e sarà azzerato per le categorie meno abbienti, garantendo la qualità del servizio pubblico.\n
@@ -58,18 +52,15 @@
 * Introdurremo una “patente fiscale” a punti con una serie di vantaggi, tributari e non, per i contribuenti che pagano correttamente le tasse. Chi è leale con la comunità va premiato.\n
 * La nostra proposta principale è semplice e riguarda milioni di famiglie italiane: 80 euro in più al mese per ogni figlio, fino all'età di 18 anni. Diamo più soldi a chi ne ha bisogno, non ai ricchi."
     </string>
-
     <string name="Pd_Giovani">"\n* Amplieremo il riconoscimento ufficiale di titoli, lauree, master, dottorati, specializzazioni post-laurea, abilitazioni e specializzazioni mediche per gli italiani all'estero.\n
 * Nei prossimi 5 anni si verificherà un picco di pensionamenti nella Pubblica Amministrazione, circa 450 mila persone. Sarà così possibile assumere centinaia di migliaia di giovani con nuove competenze.\n
 * Proponiamo una detrazione fiscale di 150 euro al mese per chi ha meno di 30 anni e firma un contratto d’affitto. Vogliamo dare una mano a chi vuole essere autonomo, e alle loro famiglie."
     </string>
-
     <string name="Pd_Giustizia">"\n* Inaspriremo le pene e le sanzioni per i manager e gli amministratori colpevoli dei dissesti bancari e per i responsabili di omessa vigilanza.\n
 * In prima linea nella lotta alla mafia: metteremo in campo meccanismi sempre più efficaci per prevenire le infiltrazioni, individuare le zone grigie di corruzione e pressione su privati e PA.\n
 * Siamo gli unici in Europa ad aver digitalizzato integralmente il processo civile. Ora vogliamo digitalizzare il processo penale. In parallelo renderemo più convenienti le risoluzioni stragiudiziali.\n
 * Dopo 20 anni abbiamo bandito un concorso per l'assunzione di personale nel comparto. Nuove competenze, processi più rapidi, meno multe, più efficienza anche agli occhi degli investitori internazionali."
     </string>
-
     <string name="Pd_Governo">"\n* La co-programmazione tra le istituzioni pubbliche e il privato sociale deve diventare la modalità ordinaria di attuazione delle iniziative nelle aree di interesse generale, come nel resto d'Europa.\n
 * Meno tasse per tutte le nuove assunzioni e per le stabilizzazioni anche per tutti gli enti del Terzo settore regolarmente iscritti nel registro unico nazionale (come per lo sport dilettantistico).\n
 * Proponiamo un mese di Servizio civile obbligatorio in sinergia tra scuola e Terzo settore, a fianco dell'attuazione del Servizio civile universale. Un mese di vita al servizio.\n
@@ -79,71 +70,58 @@
 * Proponiamo di trasferire la gestione della fiscalità sui temi della mobilità alle Città Metropolitane, che godrebbero così di un'autonomia coerente ai reali bisogni della propria comunità.\n
 * Il nostro obiettivo è ridurre gradualmente ma stabilmente il rapporto tra debito pubblico e Pil: vogliamo ridurlo del 32% in 10 anni. Per ottenere questo risultato basta mantenere la crescita attuale."
     </string>
-
     <string name="Pd_Immigrazione">"\n* Più risorse da dare ai paesi di origine dei migranti, per permettere loro di battere la povertà: i fondi per la cooperazione cresceranno fino allo 0.3% del PIL entro il 2020 e allo 0.7% entro il 2030.\n
 * Proponiamo la creazione di un Fondo europeo della difesa che possa gradualmente portare all’istituzione di una guardia costiera e di frontiera comune, e anche un'unica regia europea per l'inteligence.\n
 * Vogliamo condizionare i fondi europei della prossima programmazione al principio di solidarietà: chi non aiuta gli altri Stati nella gestione dell’immigrazione deve rinunciare ai nostri fondi europei.\n
 * Superiamo gli accordi di Dublino, approvati dal Governo Berlusconi nel 2003, che prevedono l'accoglienza per i Paesi di prima assistenza. La gestione dell'immigrazione va fatta dall’Europa."
     </string>
-
-    <string name="Pd_Impresa">"\n* Garantiremo il diritto dei lavoratori a ricevere formazione gratuita e di qualità per tutta la vita. Per questo proponiamo un conto personale di formazione: 150 ore a 18 anni, che crescono con l'età."
-    </string>
-
+    <string name="Pd_Impresa">"\n* Garantiremo il diritto dei lavoratori a ricevere formazione gratuita e di qualità per tutta la vita. Per questo proponiamo un conto personale di formazione: 150 ore a 18 anni, che crescono con l'età."</string>
     <string name="Pd_Infrastrutture">"\n* Finanzieremo l'acquisto di nuovo materiale rotabile e bus per dimezzare l’età media della flotta entro la fine della legislatura.\n
 * Realizzeremo quattro ciclovie nazionali: la Veneto/Torino (Vento), il Grande Raccordo Anulare delle Bici a Roma (Grab), la ciclovia del Sole e quella Pugliese.\n
 * Abbiamo inaugurato Variante di Valico, Salerno-Reggio e Quadrilatero. Nei prossimi 5 anni completeremo la 106 Ionica, i cantieri siciliani, la Tirrenica, la Cispadana, la Asti-Cuneo, la Gronda.\n
 * Occorre continuare l’investimento già fatto per 1.500 km di piste ciclabili prevedendo bandi di finanziamento di percorsi ciclabili casa-scuola in ambito urbano e di collegamenti tra paesi e città.\n
 * Potenziando le linee esistenti, completando quelle in esecuzione ed estendendo la rete di trasporto. In particolare, vogliamo completare l’alta velocità ferroviaria."
     </string>
-
     <string name="Pd_Istruzione">"\n* Negli ultimi 5 abbiamo stanziato 10 miliardi di euro sull'edilizia scolastica (più sicurezza), per complessivi 11mila interventi. Intendiamo stanziare una cifra analoga per la prossima legislatura.\n
 * Porteremo a centomila gli studenti degli ITS (istituti tecnici superiori): nel tempo dell’intelligenza artificiale e della robotica, il futuro dell’Italia parte dalla formazione e dalle competenze.\n
 * Vogliamo potenziare l’offerta di tempo pieno nelle scuole elementari, portando in particolare i livelli del Mezzogiorno a quelli medi del Centro-Nord.\n
 * Vogliamo liberare la scuola e i dirigenti scolastici da compiti e funzioni non strettamente connessi al “fare scuola”, in modo che possano concentrarsi sulle attività didattiche e formative.\n
 * Proponiamo l'assunzione di 10 mila ricercatori nei prossimi 5 anni. Una misura che è fondamentale per affrontare i punti di crisi dell’università (divari territoriali e offerta formativa)."
     </string>
-
     <string name="Pd_Lavoro">"\n* Proponiamo una legge sulla rappresentanza sindacale per evitare che microsigle sindacali condizionino la vita di tutti i cittadini con scioperi selvaggi.\n
 * I lavoratori precari per lungo tempo e che non sono stabilizzati da chi li assume avranno diritto a una buonuscita proporzionale alla durata dei loro contratti.\n
 * Meno tasse a chi assume a tempo indeterminato: i contributi per le imprese caleranno dal 33% al 29% nei prossimi quattro anni, l’IRES scende al 22% Il lavoro che vale di più deve costare di meno.\n
 * Salario minimo garantito: nessun lavoratore potrà guadagnare meno di 9 euro all’ora, nessun contratto a tempo pieno potrà più comportare stipendi da fame. Per legge, senza eccezione, per tutti."
     </string>
-
     <string name="Pd_Previdenza">"\n* Proponiamo una pensione di garanzia con un livello di reddito pensionistico minimo di 750 euro mensili, garantito alle persone che sono nel sistema contributivo al compimento dell’età di vecchiaia.\n
 * Ridurremo drasticamente tutte le forme di privilegio ingiustificate nei trattamenti finanziati dallo Stato.\n
 * Vogliamo che chi ha compiuto 63 anni di età e vuole anticipare l’uscita dal mercato del lavoro possa farlo, con soluzioni adeguate alle proprie esigenze (anticipi pensionistici o redditi-ponte)."
     </string>
-
     <string name="Pd_Protezione_Sociale">"\n* Introdurremo incentivi fiscali alle famiglie che necessitano del sostegno di badanti o di ricovero in case di cura per migliorare la qualità della vita.\n
 * Investiremo in tutti i nuovi strumenti tecnologici e informatici che possono consentire il potenziamento della partecipazione scolastica e l'inserimento professionale ai disabili.\n
 * Aumenteremo l’indennità in base ai bisogni delle persone non autosufficienti, dando libertà di scelta tra un assegno di cura e un budget e favorendo così il riconoscimento degli assistenti familiari.\n
 * Con la legge sul reddito d'inclusione abbiamo introdotto il primo strumento per la lotta alla povertà. Nei prossimi cinque anni raddoppieremo i fondi per raggiungere il 100% delle famiglie bisognose."
     </string>
-
     <string name="Pd_Sanita">"\n* Aumentare i fondi nazionali per i farmaci innovativi, specie nel settore oncologico e nella ricerca contro le malattie rare, agevolando gli investimenti sulla ricerca farmaceutica in Italia.\n
 * Dopo aver voluto una indispensabile legge sull'obbligatorietà sui vaccini, ci impegneremo in una costante campagna contro le false notizie, antiscientifiche, che generano terrore e disinformazione.\n
 * Puntiamo sulla medicina territoriale per ridurre ospedalizzazioni evitabili e abbassare i costi per il sistema sanitario. Investiremo nell’utilizzo di nuove tecnologie per monitoraggio e prevenzione.\n
 * Liste d'attesa: promuoveremo in tutta Italia le migliori esperienze di alcune regioni in questi anni, al fine di garantire ai cittadini il pieno accesso ai servizi in tempi certi e ragionevoli."
     </string>
-
     <string name="Pd_Sicurezza">"\n* Valorizzeremo l’Agenzia per i Beni Confiscati per permettere una migliore gestione dei beni strappati alla mafia.\n
 * Stanzieremo fondi su nuove carceri e su ristrutturazione delle carceri esistenti, valorizzando la funzione rieducativa e garantendo la certezza della pena.\n
 * Investiremo nella cybersecurity, adottando tecnologie per proteggere chi naviga online. La sfida dei prossimi anni è rendere la Rete un luogo sempre più sicuro.\n
 * Finanzieremo l'installazione di 50.000 nuove videocamere per la sorveglianza su tutto il territorio nazionale, in modo da scoraggiare alcuni reati (a partire da furti ed estorsioni).\n
 * 10mila assunzioni l'anno di carabinieri, poliziotti, finanzieri, agenti penitenziari e vigili del fuoco per aumentare la presenza capillare sul territorio e la percezione effettiva della sicurezza."
     </string>
-
     <string name="Pd_Sud">"\n* Nascita delle Zone Economiche Speciali in porti e retroporti: facilitazioni fiscali e semplificazioni amministrative per attrarre investimenti, anche internazionali.\n
 * Progetto Resto al Sud: finanziamenti agevolati fino a 200mila euro per chi crea impresa innovativa al Sud, con il 30% dell'investimento a fondo perduto.\n
 * Nei prossimi anni saranno evidenti i risultati dei Patti per il Sud: oltre un terzo degli interventi sono già in esecuzione (8,8 miliardi di euro) o in corso di affidamento (5,2 miliardi)."
     </string>
-
     <string name="Pd_Tecnologia">"\n* Proponiamo regole più chiare e al contempo garantiamo incentivi alla creazione di piattaforme per bike sharing, car sharing e scooter sharing: tenere insieme innovazione, ambiente e mobilità si può.\n
 * Vogliamo accelerare il piano Banda ultra larga sulle cosiddette aree bianche e grigie dove ancora il 70% delle nostre imprese non trova un'adeguata copertura di rete ad alta velocità di connessione.\n
 * Rafforzeremo il Piano Industria 4.0 (30 miliardi di investimenti su innovazione e digitalizzazione negli ultimi tre anni) rendendo stabile e strutturale il credito di imposta alla ricerca e sviluppo.\n
 * Vogliamo incentivare i canali alternativi al finanziamento bancario: accesso alla Borsa, ricorso ai mini bond, piattaforme di crowdfunding, prestito tra privati attraverso piattaforme fintech."
     </string>
-
     <string name="Pd_Europa">"\n* L'Europa dovrà regolare la globalizzazione, punendo chi fa concorrenza sleale e sfrutta i lavoratori. Crediamo nel rispetto delle regole e non dei dazi che penalizzerebbero le esportazioni italiane.\n
 * Proponiamo finanziamenti europei (Eurobond) per finanziare progetti su capitale umano, ricerca e infrastrutture. È possibile investire il 5% del PIL dell'Eurozona per complessivi 540 miliardi di Euro.\n
 * Vogliamo l’elezione diretta del Presidente della Commissione Europea. È giusto che chi prende le decisioni a Bruxelles per conto di tutti gli europei sia scelto democraticamente dai cittadini."
@@ -367,36 +345,158 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
     <string name="FratelliDItalia_Tecnologia">"\n* Investire nell’ ammodernamento della Nazione e sulla capacità digitale. Favorevoli a utilizzo degli strumenti tecnologici ultima generazione."</string>
     <string name="FratelliDItalia_Europa">"\n* Difesa della nostra sovranità nazionale. Ridiscussione di tutti i trattati UE a partire dal fiscal compact e dall’euro. Più politica e meno burocrazia in Europa. Tutelare l’italianità nel mondo"</string>
 
-    <string name="Lega_Agroalimentare"> TODO agroalimentare </string>
-    <string name="Lega_Ambiente"> TODO ambiente </string>
-    <string name="Lega_Cultura"> TODO cultura</string>
-    <string name="Lega_Diritti"> TODO diritti</string>
-    <string name="Lega_Economia"> TODO Economia</string>
-    <string name="Lega_Giustizia"> TODO giustizia</string>
-    <string name="Lega_Governo"> TODO governo</string>
-    <string name="Lega_Immigrazione"> TODO immigrazione</string>
-    <string name="Lega_Impresa"> TODO impresa </string>
-    <string name="Lega_Infrastrutture"> TODO infrastrutture </string>
-    <string name="Lega_Istruzione"> TODO istruzione </string>
-    <string name="Lega_Lavoro"> TODO lavoro</string>
-    <string name="Lega_Previdenza"> TODO previdenza</string>
-    <string name="Lega_Sanita"> TODO sanità </string>
-    <string name="Lega_Sicurezza"> TODO sicurezza</string>
-    <string name="Lega_Tecnologia"> TODO tecnologia</string>
-    <string name="Lega_Europa"> TODO europa</string>
+    <string name="Lega_Agroalimentare">"\n* TUTELIAMO IL NOSTRO PATRIMONIO CULINARIO!
+\n* No all'olio tunisino, alle arance marocchine e al grano canadese imposti dalla UE: consumiamo italiano e proteggiamo i nostri produttori!"
+</string>
+    <string name="Lega_Ambiente">"\n* OTTIMIZZAZIONE DELLA GESTIONE DEI RIFIUTI
+\n* Riduzione della tassa sui rifiuti del 50% entro il 2020 rivedendo l’intero processo di riciclo e smaltimento dei rifiuti."
+</string>
+    <string name="Lega_Cultura">"\n* MANAGEMENT DELL'ARTE
+\n* Dotazione per i grandi e autonomi musei italiani di un Manager da affiancare al direttore che di solito è uno storico dell’arte a cui spesso mancano le competenze manageriali.
+\n* UN RITARDO DIGITALE DA COLMARE
+\n* In Italia, il 50% dei musei non ha un sito Web e solo il 2,5% accetta le prenotazioni online. Il turismo passa anche dalla digitalizzazione dei musei.
+\n* RIFORMA DEL MINISTERO
+\n* Trasformare il Ministero dei Beni culturali in Ministero del Tesoro dei beni culturali."
+</string>
+    <string name="Lega_Diritti">"\n* ACCESSIBILITÀ DELLE ADOZIONI
+\n* Non è possibile spendere 50mila euro per un'adozione: bisogna renderle più veloci e meno costose.
+\n* ESSERE GENITORI È UN DIRITTO!
+\n* Azzeramento dell’Iva (oggi al 22%) sui prodotti della prima infanzia come culle, passeggini, pannolini e omogenizzati.
+\n* SOSTEGNO ALLA NATALITÀ E ASILI NIDO GRATUITI
+\n* La vera emergenza in Italia oggi è quella demografica: un Paese che non fa figli non ha futuro. 
+\n* LA FAMIGLIA È UNA RISORSA
+\n* Riconoscimento di 400 euro al mese ai genitori per ogni nascituro, destinato ai cittadini italiani residenti in Italia da almeno 20 anni e fino al compimento del 18esimo anno"
+</string>
+    <string name="Lega_Economia">"\n* STATO, LASCIAMI LAVORARE!
+\n* Abolizione di tutti gli studi di settore come lo spesometro ed il redditometro: sono delle torture per i lavoratori autonomi.
+\n* ABOLIZIONE DELL’INVERSIONE DELL’ONERE DELLA PROVA IN MATERIA TRIBUTARIA
+\n* È lo Stato a dover dimostrare la colpevolezza del contribuente, non il contrario!
+\n* TASSA UNICA AL 15% PER CITTADINI E IMPRESE
+\n* Pagare meno per pagare tutti e l'Italia riparte!"
+</string>
+    <string name="Lega_Giustizia">"\n* PIÙ GIUSTIZIA, MENO BUONISMO!
+\n* Chi sbaglia paga: certezza della pena e processi più veloci per un'Italia più giusta.
+\n* UNA GIUSTIZIA PIÙ... GIUSTA!
+\n* Separazione netta delle carriere dei magistrati per garantire l’impossibilità di passare da una funzione requirente alla inquirente e viceversa.
+\n* LEGITTIMA DIFESA SEMPRE!
+\n* Basta con una "giustizia" che sta dalla parte degli aggressori e non degli aggrediti. Chi si difende in casa propria ha sempre ragione!"
+</string>
+    <string name="Lega_Governo">"\n* AUTONOMIA È RESPONSABILITÀ
+\n* Politica "a chilometro zero": la strada per avere più efficienza, meno costi, più responsabilità della spesa e degli amministratori passa dall'autonomia di regioni e comuni
+\n* LIBERTÀ È PARTECIPAZIONE
+\n* Eliminazione del quorum per la validità̀ dei referendum popolari, rendendone così più facile l’esercizio.
+\n* BASTA CON I TRADIMENTI!
+\n* Introduzione del vincolo di mandato dei parlamentari: chi si impegna politicamente ha il dovere di rispettare il voto dei suoi elettori."
+</string>
+    <string name="Lega_Immigrazione">"\n* VINCOLO DI BILANCIO PER RIFUGIATI
+\n* Un rifugiato non potrà ricevere un assegno superiore a quanto riceve un cittadino italiano invalido al 100%.
+\n* RIORGANIZZAZIONE DELL’ACCOGLIENZA:
+\n* - Gestione pubblica dell’accoglienza con responsabilità regionali;
+\n* - Trasparenza dei centri d’accoglienza;
+\n* - Accordi bilaterali con i paesi d’origine per rimpatri.
+\n* STOP INVASIONE!
+\n* Controllo dei confini, lotta all'immigrazione clandestina, espulsione di chi si trova irregolarmente sul territorio nazionale: riportiamo legalità e sicurezza nelle nostre città! 
+\n* VIA I DELINQUENTI!
+\n* Perdita del diritto alla domanda di protezione internazionale per reati come terrorismo o spaccio di droga."
+</string>
+    <string name="Lega_Impresa">"\n* PAGARE MENO PER PAGARE TUTTI
+\n* Introduzione della Flat Tax al 15% per le imprese. 
+\n* MENO REGOLE PIÙ LIBERTÀ D'IMPRESA
+\n* Meno vincoli e maggiore semplificazione burocratica per permettere all'imprenditore di lavorare tranquillamente."
+</string>
+    <string name="Lega_Infrastrutture">"\n* TORNIAMO PROTAGONISTI NEL MEDITTERRANEO
+\n* Potenziamento dei porti commerciali per sdoganamento e trasporto merci e sviluppo del trasporto ferroviario ad Alta Velocità. 
+\n* VALORIZZIAMO IL TURISMO
+\n* Sviluppo degli aeroporti del Sud e delle Isole per favorire il turismo, risorsa primaria dell’Italia."
+</string>
+    <string name="Lega_Istruzione">"\n* RIVOLUZIONE DEL CICLO SCOLASTICO
+\n* Ripensamento del percorso didattico dall'asilo nido alla scuola superiore per favorire il naturale sviluppo formativo dell’individuo.
+\n* UNA VERA ALTERNANZA SCUOLA-LAVORO
+\n* L’alternanza non può essere scuola-sfruttamento ma deve garantire una reale esperienza formativa per lo studente.
+\n* CONCORSI SU BASE REGIONALE
+\n* Basta con i trasferimenti in giro per l’Italia! Un professore deve poter scegliere d’insegnare nella propria regione, garantendo una continuità d’insegnamento agli studenti."
+</string>
+    <string name="Lega_Lavoro">"\n* LA DOMENICA È RIPOSO
+\n* Lavorare di domenica non deve essere un obbligo ma una libera scelta del lavoratore.
+\n* 3 EURO ALL'ORA È SCHIAVISMO!
+\n* Introduzione di un salario minimo orario sotto al quale un lavoratore non può essere pagato.
+\n* MODELLO UNICO DEI PAGAMENTI
+\n* Introduzione di un’unica imposizione di pagamento per semplificare burocraticamente il costo del lavoro per le imprese."
+</string>
+    <string name="Lega_Previdenza">"\n* STOP FORNERO!
+\n* Dopo 41 anni di contributi la pensione è un diritto non negoziabile: restituiamo vita e dignità a chi merita riposo, offriamo un futuro ai giovani senza lavoro.
+\n* LA SOLUZIONE POST-FORNERO
+\n* - Reintroduzione delle pensioni di anzianità
+\n* - Quota 100 senza penalizzazioni + Quota 41
+\n* - Ritorno alle pensioni di vecchiaia ante Fornero"
+</string>
+    <string name="Lega_Sanita">"\n* RIDIAMO DIGNITÀ AI NOSTRI DISABILI
+\n* Raddoppiare l'assegno d'invalidità da 283 a 566 euro.
+\n* DIAMO VOCE ALLA DISABILITÀ
+\n* Introduzione del Sottosegretario alla Presidenza del Consiglio con delega alla disabilità come punto di raccordo fra i vari Ministeri per coordinamenti sulla disabilità
+\n* NO AI TAGLI ALLA SANITÀ!
+\n* Preservazione e ottimizzazione dell’attuale modello di gestione del Servizio Sanitario Nazionale italiano, uno dei più efficienti al mondo.
+"</string>
+    <string name="Lega_Sicurezza">"\n* PROTEGGIAMO I NOSTRI CARI!
+\n* Introdurre telecamere in tutti gli asili e le case di riposo per proteggere bambini ed anziani non è  solo una priorità, ma un dovere morale.
+\n* BASTA OCCUPAZIONI ABUSIVE!
+\n* Agevolazione della rimozione degli inquilini abusivi
+\n* LOTTA AL TERRORISMO
+\n* Potenziamento delle misure di sicurezza, di detenzione dei terroristi e di controllo delle attività nelle moschee.
+\n* CAMPI ROM? BASTA!
+\n* Chiusura di tutti i campi nomadi e obbligo di frequenza scolastica dei minori."
+</string>
+    <string name="Lega_Tecnologia">"\n* TRASPORTO AD IMPATTO ZERO
+\n* Favorire la progressiva introduzione di auto elettriche con politiche di sviluppo sia nel trasporto privato che pubblico."
+</string>
+    <string name="Lega_Europa">"\n* LA COSTITUZIONE COME GARANZIA DI SOVRANITÀ
+\n* I Trattati Europei non possono scavalcare i Principi Fondamentali del nostro Paese."
+</string>
 
-    <string name="LiberiUguali_Agroalimentare"> TODO agroalimentare </string>
-    <string name="LiberiUguali_Ambiente"> TODO ambiente </string>
-    <string name="LiberiUguali_Diritti"> TODO diritti</string>
-    <string name="LiberiUguali_Economia"> TODO Economia</string>
-    <string name="LiberiUguali_Immigrazione"> TODO immigrazione</string>
-    <string name="LiberiUguali_Istruzione"> TODO istruzione </string>
-    <string name="LiberiUguali_Lavoro"> TODO lavoro</string>
-    <string name="LiberiUguali_Previdenza"> TODO previdenza</string>
-    <string name="LiberiUguali_Protezione_Sociale"> TODO protezione sociale</string>
-    <string name="LiberiUguali_Sanita"> TODO sanità </string>
-    <string name="LiberiUguali_Sicurezza"> TODO sicurezza</string>
-    <string name="LiberiUguali_Europa"> TODO europa</string>
+    <string name="LiberiUguali_Agroalimentare">"\n* Va affrontato con decisione il tema dello sfruttamento e dell’illegalità presenti nella filiera agroalimentare. Basta schiavi italiani e straneiri nei campi.\n
+* L’agricoltura pulita ed in particolare quella biologica devono diventare attività di interesse economico centrale per la loro valenza sociale di sviluppo dei territorio, per la creazione di lavoro.\n
+* Dobbiamo creare presso il Ministero dell’Agricoltura una banca di sementi libere e di qualità, disponibili per gli agricoltori del nostro paese."</string>
+    <string name="LiberiUguali_Ambiente">"\n* Più trasporto su rotaie in città, investimento nell'infrastruttura ferroviaria per i pendolari (che sono sempre di più), incentivi per le auto elettriche, grandi incentivi per chi rinuncia all'auto.\n
+* Passare dall’economia lineare a quella circolare: strategia “rifiuti zero”, riduzione dei consumi e in particolare di quelli energetici, radicale efficientamento di casa, mobilità e trasporti.\n
+* Proponiamo un Grande Piano Verde, di piccole opere di cura del territorio, investimenti in energie rinnovabili, conversione ecologica dell'economia. Non sono temi secondari, è il futuro di tutti."</string>
+    <string name="LiberiUguali_Diritti">"\n* Serve un intervento sul sistema carcerario e una riforma dell’ordinamento penitenziario per garantire il rispetto della dignità della persona, anche quando detenuta.Troppi i suicidi in carcere.\n
+* Il matrimonio deve essere un istituto unico, con il pieno ed eguale riconoscimento di tutti i legami affettivi compresi quelli delle coppie LGBT, una parità dei diritti anche sulla genitorialità.\n
+* Va modificata la normativa, pur approvata dal nostro Parlamento di recente, sul delitto di tortura secondo le indicazioni che ci provengono dall’ONU e dagli organismi europei.\n
+* La legge che garantisce stessi diritti ai ragazzi nati in Italia va approvata subito. Chi ci sta?"</string>
+    <string name="LiberiUguali_Economia">"\n* Vogliamo mettere in atto un riordino del sistema dei controlli sull’attività bancaria e finanziaria, in un quadro più certo di responsabilità e poteri di Banca d’Italia, Banca Centrale Europea, Consob.\n
+* Alzare l'aliquota sulle transazioni finanziarie (serve una tassa europea): se ne fanno milioni al giorno, un cifra minima genererebbe un gettito molto alto.\n
+* Va introdotta una vera web tax sui beni e servizi commercializzati via web da imprese multinazionali non residenti in Italia.\n
+* La nominano in molti, nessuno la fa abbastanza: pagare tutti, significa pagare tutti meno. Primo passo, abbassare la cifra sopra la quale non si può usare il contante.\n
+* Un’imposta unificata con aliquota progressiva e minimi imponibili adeguati, che lasci esenti i patrimoni inferiori alla media, su redditi da capitale e patrimoni mobilliari e immobiliari.\n
+* Le tasse in Italia le pagano lavoratori e pensionati (80% del gettito). Bisogna alleggerire il peso dell'Irpef partendo dalla riduzione dell’aliquota dello scaglione di reddito più basso."</string>
+    <string name="LiberiUguali_Immigrazione">"\n* La non approvazione della legge sullo ius soli è una ferita aperta. Tutti coloro che nascono in Italia devono avere gli stessi diritti. Il prossimo Parlamento approvi subito la legge.\n
+* Per evitare le stragi in mare, colpire il traffico di esseri umani e rendere più ordinati i flussi di persone in fuga dalle guerre dobbiamo lavorare alla creazione di corridoi umanitari.\n
+* Dobbiamo rendere l'accoglienza dei migranti e rifugiati diffusa e decentrata in maniera che ciascun Comune abbia numeri piccoli da gestire.\n
+* Quando ci sono guerre o crisi internazionali e ondate di profughi e richiedenti asilo l'Europa deve gestirli assieme. L'Italia (o qualsiasi altro Paese) non può sostenere la crisi da sola.\n
+* Vogliamo abolire la Bossi-Fini, una legge restrittiva che rende quasi impossibile entrare in Italia se non clandestinamente e che non ha fermato in nessun modo l'immigrazione."</string>
+    <string name="LiberiUguali_Istruzione">"\n* 150mila nuovi posti negli asili pubblici per garantire la crescita e la socialità dei bambini e consentire alle famiglie di gestire i tempi di vita e lavoro.\n
+* Obbligo scolastico dall’ultimo anno della materna fino all’ultimo delle superiori e lotta alla dispersione.\n
+* Un piano straordinario: nuove scuole e messa in sicurezza di tutti gli edifici scolastici.\n
+* Stabilizzare i precari dell’università e della ricerca e riformare l’accesso alla docenza e alla ricerca.\n
+* Finanziare la ricerca.\n
+* Vanno abolite le tasse universitarie per gli studenti in corso, moltiplicate le borse di studio per i redditi medio-bassi, aumentate le residenze."</string>
+    <string name="LiberiUguali_Lavoro">"\n* Introdurre una normativa per cui le società che appaltano e subappaltano lavori garantiscano gli stessi diritti e retribuzioni per i lavoratori che svolgono le stesse mansioni.\n
+* Vogliamo tornare a investire sul lavoro pubblico: sblocco del turnover nella pubblica amministrazione, a partire dai comparti di sanità, scuola, università, servizi sociali e sicurezza.\n
+* Vogliamo un contratto unico a tutele crescenti e il ritorno all'articolo 18. Nell'ultimo anno 9 contratti di lavoro su 10 sono a termine. Così non si può progettare un futuro."</string>
+    <string name="LiberiUguali_Previdenza">"\n* Occorre rivedere in profondità la riforma Fornero, riarticolando il sistema delle uscite anticipate o ritardate per tipologie di attività, in base al carico di gravosità del lavoro svolto."</string>
+    <string name="LiberiUguali_Protezione_Sociale">"\n* La crisi ha lasciato in eredità un enorme patrimonio immobiliare abbandonato che pesa sui bilanci delle banche. Dalla sua acquisizione, può venire una risposta importante all’emergenza casa.\n
+* Il Reddito di inclusione è sotto finanziato e non arriva a tutti coloro che ne avrebebro bisogno. Occorre finanziarlo in maniera adeguata.+"</string>
+    <string name="LiberiUguali_Sanita">"\n* Un Piano di azione per la salute mentale, per la riqualificazione dei luoghi e degli ambienti in cui sono accolte le persone e in cui operano i professionisti.\n
+* L'Italia spende 2400€ per abitante in assistenza sanitaria. Germania, GB e Francia circa 4mila. Riallineare la spesa sanitaria pubblica alla media di quei Paesi e investire in edilizia sanitaria.\n
+* Perché 12 milioni di italiani l'anno scorso hanno rinunciato a curarsi per via dei costi. Non è facendo pagare i cittadini che si fanno quadrare i conti, la salute è un diritto.\n
+* Assumere 40mila medici e operatori sanitari per garantire il turn-over negli ospedali pubblici.\n
+* Investire in nuove tecnologie e macchinari diagnostici.</string>
+    <string name="LiberiUguali_Sicurezza">"\n* Il regime del carcere duro per i mafiosi che mantengano un rapporto con i propri territori d’influenza.\n
+* Educare i giovani alla legalità deve essere un impegno prioritario.\n
+* La abbiamo chiamata Mafia Tax, la paghiamo tutti senza accorgercene. La lotta alle mafie deve essere una priorità e va continuamente alimentata."</string>
+    <string name="LiberiUguali_Europa">"\n* Dobbiamo imporre all'Ue di rivedere il regolamento di Dublino, l'Italia deve accogliere ma non può farsi carico da sola della pressione migratoria proveniente dal Mediterraneo.\n
+* Un’Europa nella quale la Bce assuma, come la Fed, l'obiettivo di contenere la disoccupazione assieme all'inflazione e il ruolo di prestatore di ultima istanza.\n
+* Il Fiscal Compact è un fallimento. Cambiare l'articolo 81 della Costituzione introducendo il principio della Golden rule (via dai parametri europei le spese per investimenti e crescita)."</string>
 
     <string name="PartitoComunista_Agroalimentare"> TODO </string>
     <string name="PartitoComunista_Ambiente"> TODO </string>
@@ -417,24 +517,80 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
     <string name="PartitoComunista_Sud"> TODO sud </string>
     <string name="PartitoComunista_Europa"> TODO </string>
 
-    <string name="PiuEuropa_Agroalimentare"> TODO </string>
-    <string name="PiuEuropa_Ambiente"> TODO </string>
-    <string name="PiuEuropa_Cultura"> TODO </string>
-    <string name="PiuEuropa_Diritti"> TODO </string>
-    <string name="PiuEuropa_Estero"> TODO </string>
-    <string name="PiuEuropa_Famiglia"> TODO </string>
-    <string name="PiuEuropa_Economia"> TODO </string>
-    <string name="PiuEuropa_Giustizia"> TODO </string>
-    <string name="PiuEuropa_Governo"> TODO </string>
-    <string name="PiuEuropa_Immigrazione"> TODO </string>
-    <string name="PiuEuropa_Impresa"> TODO </string>
-    <string name="PiuEuropa_Lavoro"> TODO </string>
-    <string name="PiuEuropa_Previdenza"> TODO </string>
-    <string name="PiuEuropa_Protezione_Sociale"> TODO </string>
-    <string name="PiuEuropa_Sanita"> TODO </string>
-    <string name="PiuEuropa_Sicurezza"> TODO </string>
-    <string name="PiuEuropa_Tecnologia"> TODO </string>
-    <string name="PiuEuropa_Europa"> TODO </string>
+    <string name="PiuEuropa_Agroalimentare">"\n* Adottare misure che favoriscano l’accorpamento fondiario e riformulare il sistema di erogazione degli aiuti diretti della PAC secondo criteri che incentivino la piccola impresa agricola a innovarsi.
+\n* È indispensabile dare ascolto alle richieste degli agricoltori semplificando radicalmente tutti gli adempimenti e le procedure burocratiche gravanti sulle imprese agricole.
+\n* Agli agricoltori va consentito l’accesso alle più moderne tecnologie, che migliorano le rese riducendo l’impatto ambientale. Va rimosso il bando alla ricerca in campo aperto sulle biotecnologie.
+"</string>
+    <string name="PiuEuropa_Ambiente">"\n* Maggiore diffusione del car sharing e del bike sharing, eliminando i vincoli allo sviluppo di forme di share economy nella mobilità.
+\n* Introduzione di principi di fiscalità ambientale più rigidi volti a disincentivare il consumo di risorse finite, con eliminazione da subito dei sussidi pubblici alle fonti fossili di energia. 
+\n* Salvaguardia politica seria e coerente dei parchi naturali e delle altre zone protette, anche con la prospettiva di ampliarne l’estensione.
+\n* Decarbonizzazione: è necessario che la transizione sia graduale ma inesorabile, con un apporto sempre maggiore di energie rinnovabili e l’uso del gas naturale come fonte di transizione.
+\n* E' necessario proseguire con le politiche per l’efficienza energetica degli edifici pubblici e privati: si tratta di investimenti con ricadute sia ambientali che economiche molto favorevoli 
+\n* I più urgenti obiettivi ambientali sono la riduzione delle emissioni-serra, responsabili dei cambiamenti climatici in atto, e la riduzione dell’inquinamento dell’aria.
+"</string>
+    <string name="PiuEuropa_Cultura">"\n* Estendere il sistema di erogazioni liberali con deducibilità dall'imponibile Irpef del finanziatore per tutte le associazioni culturali, musei ed enti attivi in questo settore.
+\n* Promuovere una gestione manageriale di musei e siti archeologici, favorendo la promozione internazionale e la creazione di canali di autofinanziamento. Sì ad assumere i migliori manager stranieri.
+"</string>
+    <string name="PiuEuropa_Diritti">"\n* Ius culturae come modello di riferimento per la riforma della legge sulla cittadinanza, per offrire a tutti i giovani le stesse opportunità in un Paese laico, democratico e aperto al mondo. 
+\n* Legalizzazione e regolamentazione dell’uso delle droghe in un’ottica di riduzione del danno sul consumo personale, nel nome della libertà personale, della lotta alla criminalità, accesso alle cure.
+\n* Superare le discriminazioni in materia di matrimonio (matrimonio egualitario), unione civile, adozione, riconoscimento automatico dei figli alla nascita e opportunità dei figli dei genitori separati.
+"</string>
+    <string name="PiuEuropa_Estero">"\n* I trattati internazionali di libero scambio negoziati dalla UE (es. CETA) sono un aiuto concreto alla crescita delle piccole e medie imprese esportatrici italiane. No al dumping ambientale e sociale.
+\n* Vogliamo un'Europa che in sede ONU sappia far fronte alle derive autoritarie di molti paesi nel mondo.
+\n* Vogliamo gli Stati Uniti d'Europa per essere noi Europei protagonisti della pace, della stabilità del mondo, promozione dei diritti umani e dell’affermazione dello Stato di Diritto.
+"</string>
+    <string name="PiuEuropa_Famiglia">"\n* Promuovere il ritorno al lavoro delle donne dopo la maternità, con strumenti che garantiscano sotto il profilo della retribuzione e dell’inquadramento professionale. 
+\n* Superamento del congedo di maternità in favore del congedo parentale, di cui possono usufruire sia uomini che donne. 
+\n* Maggiori investimenti pubblici e promozione fiscale degli asili nido aziendali. Assicurare funzionamento anche in orari che consentano alle donne il pieno svolgimento della loro attività lavorativa.
+"</string>
+    <string name="PiuEuropa_Economia">"\n* La lotta all’evasione fiscale deve proseguire, con il vincolo di destinare i proventi alla riduzione delle imposte e non all’alimentazione di nuova spesa corrente.
+\n* Gli studi di settore e il redditometro devono essere usati come strumento indicativo, senza che sia ribaltato sul contribuente l’onere della prova in caso di non congruità.
+\n* Va ristabilito il diritto a pagare le tasse sui redditi conseguiti sull’anno, superando progressivamente l’obbligo degli acconti per i lavoratori autonomi.
+\n* Semplificazione dell’IRPEF in tre aliquote: 20% fino a 40mila euro; 30% fino a 60mila euro e 40% oltre i 60mila euro, mentre l’Ires al 20%.
+\n* Il debito pubblico italiano (132% Pil) è una zavorra insostenibile: affrontare il problema proponiamo il congelamento della spesa pubblica in termini nominali per la durata della prossima legislatura.
+"</string>
+    <string name="PiuEuropa_Giustizia">"\n* Bisogna superare o quanto meno ripensare profondamente la giurisdizione speciale tributaria, che non assicura pienamente ai cittadini il diritto di difesa. 
+\n* Vogliamo la fine dell’abuso della custodia cautelare, favorendo un uso più ampio delle misure alternative al carcere, già previste dal nostro Codice
+\n* Va evitato l’abuso di provvedimenti emergenziali e di stampo securitario, soprattutto nella gestione di fenomeni complessi quali l’immigrazione e l’esclusione sociale.
+\n* È necessario arrivare alla separazione delle carriere tra magistratura inquirente (pubblico ministero) e magistratura giudicante.
+"</string>
+    <string name="PiuEuropa_Governo">"\n* Introduzione dei referendum propositivi, anche in materia fiscale locale. Snellimento procedure per gli strumenti di democrazia diretta, anzitutto con l’introduzione della firma digitale. 
+\n* Superamento del bicameralismo perfetto. Riforma del Titolo V della Costituzione (riportare a livello centrale competenze come energia, politiche del lavoro, infrastrutture). Vero federalismo fiscale.
+"</string>
+    <string name="PiuEuropa_Immigrazione">"\n* Miglioramento sistema di accoglienza: adozione esclusiva del modello SPRAR e aumento della qualità dei servizi attraverso meccanismi di monitoraggio. Programmi di reinserimento e corridoi umanitari.
+\n* Superamento della Bossi-Fini e introduzione di canali legali e sicuri d’ingresso al lavoro degli stranieri, attraverso la proposta di legge di iniziativa popolare “Ero Straniero”.
+"</string>
+    <string name="PiuEuropa_Impresa">"\n* Implementazione del piano Industria 4.0 realizzato dal Ministero dello Sviluppo Economico. Attuazione del cosiddetto piano Calenda-Bentivogli su imprese, innovazione, formazione professionale.
+\n* Eliminare ostacoli burocratici e di sistema che ostacolano la crescita dimensionale delle imprese italiane. Favorire riduzione esposizione bancaria imprese, favorendo forme di finanziamento innovative.
+"</string>
+    <string name="PiuEuropa_Lavoro">"\n* Revisione del sistema degli ordini professionali, separando le funzioni di governo e disciplina da quelle di rappresentanza delle categorie. Superamento delle casse previdenziali obbligatorie.
+\n* Equiparazione dei valori retributivi tra uomini e donne per le medesime tipologie di impiego o di mansioni svolte. 
+\n* Introduzione di una forma di sussidio di disoccupazione europeo.
+\n* Estensione delle attuali agevolazioni burocratiche vigenti per i regimi dei minimi a tutti i titolari di partita Iva fino a 60mila euro di fatturato. 
+\n* Costruzione di un vero mercato del lavoro europeo, interdipendente e integrato, con mobilità formativa a livello continentale .
+\n* Formazione continua che coinvolga tutti i lavoratori, investendo in politiche attive per non lasciare soli i lavoratori spiazzati dalla rivoluzione tecnologica.
+"</string>
+    <string name="PiuEuropa_Previdenza">"\n* A favore dei giovani neoassunti fino a 35 anni: possibilità di destinare parte dei contributi obbligatori alla previdenza integrativa, così da garantire una pensione futura più robusta. 
+\n* Non bisogna smontare le riforme pensionistiche degli ultimi anni, perché questo rappresenterebbe un danno per i più giovani e per la sostenibilità del sistema previdenziale e di welfare.
+"</string>
+    <string name="PiuEuropa_Protezione_Sociale">"\n* Aumentare la quota del Fondo Sociale Europeo destinato all’accesso al lavoro e all’inclusione sociale. Italia destina solo 48,7 € pro capite, media europea è 77,1 €.
+\n* Strumenti di sostegno al reddito per chi è in povertà assoluta. Trasferimenti monetari, offerta di servizi ma anche politiche di inclusione per responsabilizzare all’ingresso nel mondo del lavoro.
+"</string>
+    <string name="PiuEuropa_Sanita">"\n* Piena informatizzazione del Sistema Sanitario Nazionale, ricette digitali, dematerializzazione referti e cartelle cliniche. 
+\n* Garantire medesime cure a tutti i cittadini, indipendentemente dalla loro residenza, anche attraverso una diversa allocazione di poteri e risorse tra Stato e Regioni. 
+\n* Rimuovere gli ostacoli alla ricerca scientifica su malattie rare, procreazione medicalmente assistita, embrioni e biotecnologie. Recepire la disciplina europea sulla sperimentazione animale.
+"</string>
+    <string name="PiuEuropa_Sicurezza">"\n* Promuovere attività sociali e commerciali anche di notte perché le città sono sicure se la notte sono vissute. Trasporto pubblico urbano in funzione anche la notte. 
+\n* Limitare il possesso di armi da fuoco e reintrodurre la detraibilità parziale delle spese per impianti di videosorveglianza e di antifurto delle abitazioni.
+\n* Promuovere la nascita di un'intelligence europea per contrastare il terrorismo e la criminalità organizzata partendo dalla condivisione delle banche dati.
+"</string>
+    <string name="PiuEuropa_Tecnologia">"\n* Vogliamo difendere e promuovere il “diritto alla scienza” e la massima diffusione del metodo scientifico, sia come valore culturale che come principio che informa il processo legislativo."</string>
+    <string name="PiuEuropa_Europa">"\n* Potenziamento del Mercato Comune, premessa fondamentale per l’Unione politica. Conclusione positiva degli accordi di libero scambio con le altre economie del pianeta.
+\n* Trasformazione del Fondo Salva-Stati (MES) in un vero e proprio Fondo Monetario Europeo che fornisca liquidità ai Paesi sotto attacco speculativo. 
+\n* Forze armate dell’Unione addestrate ed equipaggiate al meglio, dotate di elevata prontezza operativa e capacità di proiezione.
+\n* Creazione dell’Unione bancaria, con il pilastro mancante dell’assicurazione dei depositi, e Unione del mercato dei capitali. 
+\n* L’Europa che vogliamo è una federazione leggera. Bisogna spostare al centro federale funzioni di governo oggi svolte dagli al centro federale funzioni di governo oggi svolte dagli Stati membri.
+"</string>
 
     <string name="Autodeterminazione_Ambiente">"\n* Analisi e mappatura delle emergenze ambientali provocate da presenze militari, da iniziative imprenditoriali, da produzioni di energia talmente inquinanti che compromettono la salute.\n
 * Elaborazione di un intervento a breve termine che ponga fine a tali emergenze, riconvertendo i posti di lavoro e attuando le necessarie misure di bonifica e ripristino delle caratteristiche ambientali originarie dei luoghi.\n
@@ -609,33 +765,170 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
     <string name="GrandeNord_Immigrazione">"\n* Stop immigrazione irregolare: contratto di lavoro o accompagnamento alla frontiera; visto semplificato ma reato immigrazione."</string>
     <string name="GrandeNord_Lavoro">"\n* Lavoro: un solo contratto, con incentivi per impresa al tempo indeterminato e al part-time, soprattutto per genitori."</string>
 
-    <string name="IlPopoloDellaFamiglia_Diritti"> TODO diritti</string>
-    <string name="IlPopoloDellaFamiglia_Europa"> TODO europa</string>
-    <string name="IlPopoloDellaFamiglia_Famiglia"> TODO famiglia</string>
-    <string name="IlPopoloDellaFamiglia_Economia"> TODO Economia</string>
-    <string name="IlPopoloDellaFamiglia_Giovani"> TODO giovani</string>
-    <string name="IlPopoloDellaFamiglia_Immigrazione"> TODO immigrazione</string>
-    <string name="IlPopoloDellaFamiglia_Istruzione"> TODO istruzione</string>
-    <string name="IlPopoloDellaFamiglia_Lavoro"> TODO lavoro</string>
-    <string name="IlPopoloDellaFamiglia_Sanita"> TODO sanità</string>
-    <string name="IlPopoloDellaFamiglia_Sicurezza"> TODO sicurezza</string>
+    <string name="IlPopoloDellaFamiglia_Diritti">"\n* Abrogazione della Legge Cirinnà.\n
+* No adozioni gay.\n
+* No utero in affitto.\n
+* No ai matrimoni egualitari.\n
+* Abrogazione della legge sul Testamento biologico (Dat).\n
+* Riconoscimento della capacità giuridica del concepito.\n
+* Riconoscimento del “Comfort Care”, da parte del Servizio Sanitario Nazionale, in alternativa al cosiddetto aborto terapeutico.\n
+* Riconoscimento pubblico della Funzione sociale dei centri e servizi di aiuto alla vita.\n
+* Investimento sulle cure palliative e sulla terapia del dolore.\n
+* Seppellimento dei bambini non nati"</string>
+    <string name="IlPopoloDellaFamiglia_Europa">"\n* Unione Europea come Nuova Libera Associazione di Stati indipendenti e sovrani.\n
+* Reintroduzione nel preambolo della Costituzione europea delle radici cristiane.\n
+* Ius europeo.\n
+* Sovranità nazionale ed economica.\n
+* Rifondazione della nuova Europa a partire dal diritto universale a nascere.\n
+* Valorizzazione nel prossimo Accordo di partenariato 2021-2027 (che potrà valere complessivamente circa 45 mld) di obiettivi e priorità che sostengano la famiglia, per la realizzazione di concreti interventi a favore del territorio e dei cittadini (infrastrutture, ma anche istruzione, formazione, occupabilità).\n
+* Promozione e diffusione della progettazione europea, incentivando il partenariato tra tutte le espressioni della società civile, associazioni familiari comprese;.\n
+* Politica ambientale europea.\n
+* Istituzione delle zone franche della Sardegna previste dal decreto legislativo n.75/1998, in adempimento all’articolo 243 del codice doganale europeo."</string>
+    <string name="IlPopoloDellaFamiglia_Famiglia">"\n* Diritto universale a nascere, diritto ad avere una mamma e un papà, diritto al sostegno dei più deboli."</string>
+    <string name="IlPopoloDellaFamiglia_Economia">"\n* Istituzione di una Commissione interministeriale permanente sulla famiglia.\n
+* Abrogazione dell’Unar con dirottamento dei fondi al Reddito di Maternità.\n
+* Reddito di Maternità (1000 euro al mese per le donne italiane che si dedicano in via esclusiva alla vita familiare e alla crescita dei figli).\n
+* Reddito Complessivo Familiare, diviso per quoziente.\n
+* Partita-Iva per la Famiglia (scarico dei costi).\n
+* Defiscalizzazione degli oneri familiari solo per Famiglie con persone non autosufficienti a carico.\n
+* Tutela fiscale e finanziaria delle Piccole e medie imprese famigliari.\n
+* Tutela del Made in Italy, etichetta “Total Made in Italy”.\n
+* Prestito d’onore per la Costituzione di nuove imprese da parte di under 35.\n
+* Defiscalizzazione delle imprese che formano e assumono nelle aree disagiate o soggette a calamità naturali.\n
+* Tutela dei risparmiatori, inasprimento delle pene per reati di usura e bancari.\n
+* Lotta all’evasione fiscale per recuperare i 132 miliardi annui sottratti all’erario.\n
+* Tutela del commercio.\n
+* Tutela dei consumatori."</string>
+    <string name="IlPopoloDellaFamiglia_Giovani">"\n* Lotta alle dipendenze. Contrasto alla ludopatia e al gioco d’azzardo.\n
+* Contrasto alla pornografia, alla pedo-pornografia e obbligo di registrazione con documento, per l’accesso ai siti pornografici.\n
+* Lotta a tutte le droghe: abolizione del concetto di lieve entità e di droghe leggere.\n
+* Pene civiche non più discrezionali per i reati di bullismo, teppismo o legati all’uso di alcol e di droghe."</string>
+    <string name="IlPopoloDellaFamiglia_Immigrazione">"\n* Accordi bilaterali con i Paesi di provenienza dei migranti.\n
+* Accoglienza sostenibile, no Ius soli.\n
+* Riduzione drastica dei flussi migratori.\n
+* Chiusura immediata dei Centri di Assistenza Rifugiati.\n
+* Nuova Cittadinanza e integrazione di qualità."</string>
+    <string name="IlPopoloDellaFamiglia_Istruzione">"\n* Contrasto all’ideologia gender in qualsiasi forma venga introdotta nei programmi scolastici.\n
+* Reale parificazione delle scuole non statali con applicazione del costo standard e dei buoni scuola.\n
+* Rivalutazione economica e professionale degli insegnanti, in primis quelli di sostegno.\n
+* Reintroduzione dell’Educazione civica come disciplina obbligatoria negli istituti medi superiori."</string>
+    <string name="IlPopoloDellaFamiglia_Lavoro">"\n* Revisione integrale del Jobs Act (Riduzione dei casi di licenziabilità).\n
+* Contrasto alle forme di precarizzazione del lavoro.\n
+* Aumento degli importi erogati e dei limiti di reddito relativi a pensioni di invalidità, accompagnamento, indennità e assegni.\n
+* Chiusura notturna e festiva degli esercizi commerciali."</string>
+    <string name="IlPopoloDellaFamiglia_Sanita">"\n* Libertà di cura e abrogazione della Legge Lorenzin.\n
+* Costi standard.\n
+* Investimenti per una Sanità di qualità.\n
+* Risorse a favore di anziani e disabili.\n
+* Assistenza e cura dei malati terminali.\n
+* Potenziamento dei fondi pubblici destinati alla ricerca scientifica delle malattie rare e patologie tumorali."</string>
+    <string name="IlPopoloDellaFamiglia_Sicurezza">"\n* Riqualificazione del Comparto Sicurezza e Difesa Nazionale con aumento dei salari dei componenti delle Forze dell’Ordine.\n
+* Contrasto severo alle attività della criminalità organizzata, non solo nel Meridione d’Italia.\n
+* Riconoscimento pieno della legittima difesa presunta, in caso di attacco all’abitazione familiare.\n
+* Istituzione delle Volanti fisse nei quartieri a più alta densità criminale."</string>
 
-    <string name="Insieme_Agroalimentare"> TODO agroalimentare</string>
-    <string name="Insieme_Ambiente"> TODO ambiente</string>
-    <string name="Insieme_Donne"> TODO donne</string>
-    <string name="Insieme_Europa"> TODO europa</string>
-    <string name="Insieme_Famiglia"> TODO famiglia</string>
-    <string name="Insieme_Istruzione"> TODO istruzione</string>
-    <string name="Insieme_Lavoro"> TODO lavoro</string>
-    <string name="Insieme_Sud"> TODO sud</string>
+    <string name="Insieme_Agroalimentare">"\n * Valorizzare l’agricoltura biologica e biodinamica e introdurre una legislazione più severa sui reati agroalimentari e sull’agropirateria.\n
+* Adozione di una Legge che tuteli la destinazione agricola dei terreni.\n
+* Combattere il consumo di suolo attraverso l’approvazione di una Legge che tuteli la destinazione agricola dei terreni.\n
+* Estendere l’obbligo di indicazione nell’etichetta dell’origine delle materie prime agricole trasformate a tutti i prodotti alimentari.\n
+* L’inserimento aggiuntivo nell’art. 9 della Costituzione della tutela dell’eco-sistema e del benessere animale, oltre alla definizione di un Codice dei Diritti degli Animali, allo sviluppo di programmi di prevenzione del randagismo con adeguati programmi di sterilizzazione degli animali randagi e di promozione della loro adozione.\n
+* Dare attuazione all’iniziativa dei cittadini “Stop Vivisection”, tramite una nuova norma che cambi la Direttiva 2010/63/EU, sostituendo l’utilizzo di animali con metodi alternativi e prevedendo fra l’altro lo sviluppo di strumenti di innovazione tecnologica nelle future legislazioni europee e finanziamenti associati ai soli metodi sostitutivi.\n
+* Dare attuazione al Programma Quadro del Settore delle Foreste (PQSF)."</string>
+    <string name="Insieme_Ambiente">"\n* La definizione di un Piano Clima Energia che metta l’Italia in linea con gli accordi sul clima di Parigi e che assicuri la revisione della posizione attuale dell’Italia nei negoziati legislativi in corso in sede europea verso obiettivi ambiziosi su rinnovabili, efficienza energetica, direttiva edifici e che chiarisca le misure concrete di adattamento e mitigazione dai cambiamenti climatici e di riduzione della dipendenza dalle fonti fossili.\n
+* Realizzare un programma e un calendario verso la rottamazione del motore a scoppio, così come indicato dalla risoluzione del Senato approvata dalla commissione ambiente e un programma capillare per la collocazione di colonnine elettriche.\n
+* Puntare sull’industria dell’auto elettrica, creando la filiera dell’auto pulita e conseguenti politiche di incentivazione graduate in base al reddito, sul retrofit, con incentivi e detrazioni fiscali.\n
+* Il divieto di circolazione dei motori diesel e benzina a partire dal 2035.\n
+* Misure per mitigare le emissioni in agricoltura e quelle industriali e domestiche ed eliminare progressivamente i sussidi e gli investimenti pubblici per i carburanti fossili, che sono oggi maggiori degli incentivi dati alle rinnovabili.\n
+* Incentivi agli investimenti nel settore dell’energie pulite e rinnovabili.\n
+* Incentivi per la realizzazione di depuratori e investimenti per la raccolta delle acque reflue e il loro riutilizzo in impieghi irrigui (dove è richiesta una minore qualità dell’ acqua).\n
+* Investimenti per avviare un processo virtuoso basato sulle 4 R partendo dalla riduzione degli imballaggi e delle plastiche,  incentivare il riuso e riciclo dei materiali e rendere effettivo in tutto il territorio il sistema della raccolta differenziata attraverso il sistema “porta a porta”."</string>
+    <string name="Insieme_Donne">"\n* l’utilizzo degli appalti pubblici per contribuire allo sviluppo dell’imprenditoria femminile.\n
+* L’introduzione di sgravi fiscali totali rispetto alle spese di cura sia per i figli che per gli anziani e i disabili a carico di uno o entrambi i coniugi quando lavorano entrambi.\n
+* L’introduzione di incentivi per il rientro al lavoro dopo la maternità. Le donne che tornano al lavoro dopo la maternità obbligatoria dovrebbero ricevere almeno tanto quanto quelle che prolungano il congedo, e cioè il 30% del proprio stipendio, per esempio sotto forma di bonus o di voucher per le spese di cura.\n
+* Il mantenimento dei cinque mesi obbligatori del congedo di maternità ma legandone solo tre al momento del parto, lasciando la fruizione degli altri due secondo accordo tra lavoratrice e datore di lavoro entro il primo anno di vita del bambino.\n
+* L’introduzione di un mese di congedo di paternità obbligatorio, retribuito allo stesso livello di quello materno, da fruirsi entro il primo anno di vita del bambino, con l’obiettivo di coinvolgere i padri nella cura dei bambini.\n
+* L’inserimento nel bilancio annuale del dato relativo alla percentuale di presenza femminile in rapporto alla forza lavoro complessiva e un’informativa esplicita sulle dinamiche e i compensi del personale divisi per genere."</string>
+    <string name="Insieme_Europa">"\n* Un piano di investimenti con una possibile interazione tra pubblico e privato inclusi fondi pensione e assicurazioni per il rilancio dell’Europa sociale nel rispetto del “principio di sussidiarietà”.\n
+* L’attuazione di tutte le direttive non ancora recepite. L’Italia non ha fatto sempre il suo dovere per rendere l’Unione una presenza reale nella vita degli italiani. Molte, troppe sono le direttive europee non applicate e troppe le procedure di infrazione a nostro carico.\n
+* La promozione dell’elezione diretta a suffragio universale del Presidente della Commissione europea.\n
+* L’impegno a promuovere la trasformazione del Fondo salva stati in un Fondo Monetario Europeo.\n
+* L’impegno a richiamare con fermezza l’Unione europea e la comunità internazionale ad una azione più efficace per la stabilizzazione del governo libico, nonché per appropriate forme di cooperazione allo sviluppo dei paesi africani.\n
+* La creazione delle condizioni per un più rapido svolgimento delle pratiche di identificazione degli immigrati e per la valutazione delle richieste d’asilo.\n
+* Investimenti, anche eventualmente attraverso il Servizio civile, nell’integrazione culturale dei migranti.\n
+* L’impegno per un maggiore coordinamento dell’intelligence a livello europeo.\n
+* La rivisitazione dell’accordo di Dublino."</string>
+    <string name="Insieme_Famiglia">"\n* Accesso gratuito agli asili pubblici e sussidi veri alle famiglie con prole.
+* Approvazione della legge sullo Ius Soli.\n
+* Inserimento del codice “rosa” in tutti gli ospedali e aumento del Fondo per i centri antiviolenza contro il femminicidio.\n
+* Investimenti immediati per l’abbattimento delle barriere architettoniche e sostegni concreti alle persone disabili.\n
+* Attivare un nuovo Piano casa senza consumo del suolo che metta sul mercato alloggi in affitto calmierato e vendita calmierata.\n
+* Creare un Fondo permanente destinato agli inquilini morosi  incolpevoli, cioè a quelle persone che hanno sempre pagato l’affitto e non riescono più a pagarlo o perché hanno perso il lavoro e per difficoltà economiche familiari dovute ad esempio a una grave malattia."</string>
+    <string name="Insieme_Istruzione">"\n* L’inserimento in Costituzione del principio della sostenibilità dello sviluppo.\n
+* Un Piano triennale che porti i fondi da destinare all’Università e alla ricerca ai livelli di Germania e Francia.\n
+* L’incremento dei fondi e l’estensione delle aree di esenzione dalle tasse universitarie.\n
+* L’incremento degli stipendi agli insegnanti in funzione delle reali ore di lavoro.\n
+* L’istituzione di un servizio civile obbligatorio e remunerato.\n
+* La costituzione di un fondo per la formazione tecnico-scientifica per l’attribuzione di assegni di studio, utilizzando i fondi del bonus studenti.\n
+* Il contrasto alla dispersione scolastica."</string>
+    <string name="Insieme_Lavoro">"\n* Lo stimolo ad investimenti che generino nuove occasioni di occupazione.\n
+* Lo sviluppo e la diffusione di conoscenze e competenze in termini di innovazione nella produzione e nei servizi alle imprese, alla persona ed alla comunità.\n
+* Il contrasto alle varie forme di irregolarità del lavoro e il potenziamento della capacità ispettiva.\n
+* La riduzione del cuneo fiscale sui redditi da lavoro, destinando a questo scopo parte dei 75 miliardi di spese fiscali (detrazioni o deduzioni).\n
+* Un “Green New deal”: un modello economico e sociale in grado di rompere la tradizionale contraddizione tra ecologia, economia, salute e lotta alla povertà e che possa creare maggiori opportunità di lavoro in tutti i settori, dall’industria, all’agricoltura, all’edilizia, al turismo.\n"</string>
+    <string name="Insieme_Sud">"\n* Destinare una quota del Fondo di finanziamento ordinario  per costruire un Politecnico di rango europeo attraverso la collaborazione tra le grandi Università del Mezzogiorno.\n
+* Delegare al nuovo Polo universitario attività strategiche per il Paese quali in una prima fase, l’implementazione degli obiettivi dell’Agenzia per l’Italia Digitale, il supporto scientifico del Piano strategico per il Turismo o gli indirizzi dell’Agenzia per la coesione.\n
+* Estendere il piano “Industria 4.0” alle regioni del meridione e a tutte le università del sud che non sono state coinvolte nel progetto."</string>
 
-    <string name="ListaDelPopoloDellaCostituzione_Ambiente"> TODO ambiente</string>
-    <string name="ListaDelPopoloDellaCostituzione_Europa"> TODO europa</string>
-    <string name="ListaDelPopoloDellaCostituzione_Economia"> TODO Economia</string>
-    <string name="ListaDelPopoloDellaCostituzione_Immigrazione"> TODO immigrazione</string>
-    <string name="ListaDelPopoloDellaCostituzione_Istruzione"> TODO istruzione</string>
-    <string name="ListaDelPopoloDellaCostituzione_Lavoro"> TODO lavoro</string>
-    <string name="ListaDelPopoloDellaCostituzione_Sanita"> TODO sanità</string>
+    <string name="ListaDelPopoloDellaCostituzione_Ambiente">"\n* Investimento di cospicue risorse pubbliche nell’utilizzo di tecnologie che consentano di raggiungere, nel tempo, l’equilibrio energetico con fonti rinnovabili, l’abolizione dell’uso di pesticidi, fertilizzanti e conservanti chimici, l’attuazione di una efficace politica di consumo di prodotti agricoli stagionali.\n
+* Politica energetica di sviluppo delle fonti energetiche rinnovabili (solare, eolica, idroelettrica, geotermica), revisione delle concessioni alle multinazionali di perforazioni inquinanti e distruttive dell’ecosistema.\n
+* Riconversione biologica dell’agricoltura agro-chimica e indipendenza dalle Multinazionali agro-alimentari e dei mangimi (carichi di pesticidi e OGM), in coordinamento con politiche di sostegno dei produttori biologici italiani."</string>
+    <string name="ListaDelPopoloDellaCostituzione_Europa">"\n* Rinegoziazione e – se impraticabile – recesso unilaterale dai Trattati europei che violano la Costituzione.\n
+* Trasformazione dell’Italia in paese neutrale, al di fuori di ogni blocco militare e al servizio della pace, all’interno delle norme della Carta dell’ONU.\n
+* Difesa del principio di autodeterminazione dei popoli, contro ogni deriva mondialista.\n
+* Occorre una nuova Costituzione europea"</string>
+    <string name="ListaDelPopoloDellaCostituzione_Economia">"\n* Cancellazione e ridenominazione del debito pubblico come “emissione di moneta”, per un importo pari a € 1.150 miliardi, corrispondenti ai titoli del Tesoro attualmente detenuti dalle istituzioni finanziarie dell’Eurosistema.\n
+* Riassorbimento prioritario dei titoli di stato italiani detenuti da soggetti non-residenti ed a carattere speculativo.\n
+* Piena trasformazione della Cassa Depositi e Prestiti (CDP) in banca pubblica.\n
+* Espansione della funzione di credito alle imprese.\n
+* Emissione da parte di CDP di Certificati di Credito Fiscali (CCF) da distribuire primariamente attraverso la spesa della pubblica amministrazione per il pagamento dei fornitori e l’integrazione dei redditi e delle pensioni.\n
+* Nazionalizzazione delle principali banche operanti nel paese.\n
+* Riforma del sistema bancario e finanziario.\n
+* Rilancio del principio di razionalizzazione della spesa pubblica e conseguente finalizzazione dei risparmi ad un piano delle opere pubbliche.\n
+* Abolizione del vincolo del pareggio in bilancio.\n
+* Stop ai processi di privatizzazione (e talvolta progressivo smantellamento) dei servizi pubblici essenziali come trasporti, strade, servizi postali, energia, scuola, salute, che devono essere svolti con criteri di efficienza ed economicità proprio in ambito pubblico, per garantire una eguale fruizione da parte di tutti i cittadini.
+* Riforma del sistema fiscale in base al criterio dell’effettiva capacità contributiva.\n
+* Piano di riduzione significativa di tutte le aliquote fiscali per le imposte dirette ed indirette, nonché di espansione della base di reddito non imponibile, con conseguente abbassamento della pressione fiscale dall’attuale 47% del PIL al 26% in 10 anni.\n
+* Inasprimento della tassazione degli utili d’impresa conseguiti da filiali, succursali e società partecipate da gruppi aziendali multinazionali.\n
+* Lotta efficace all’evasione fiscale.\n
+* Azzeramento della tassazione sugli immobili di proprietà con scopi funzionali, quali la casa di abitazione, i capannoni, i locali commerciali e i terreni utilizzati per scopi d’impresa e non generatori di rendite da locazione.\n
+* Tassazione delle speculazioni finanziarie."</string>
+    <string name="ListaDelPopoloDellaCostituzione_Immigrazione">"\n* Aumento della quota di bilancio italiano dedicata ai programmi di “Aiuto allo Sviluppo”.\n
+* Sostegno politico, culturale ed anche economico verso i movimenti di liberazione nazionali e di autodeterminazione, soprattutto panafricani.\n
+* Contrasto alle attività illecite legate ai flussi migratori.\n
+* Forte azione diplomatica da parte dell’EU per assicurare la equa ripartizione delle quote stranieri riconosciuti quali “perseguitati politici”."</string>
+    <string name="ListaDelPopoloDellaCostituzione_Istruzione">"\n* Ridenominazione del Ministero competente in “Ministero della Pubblica Istruzione”.\n
+* Attivazione di strumenti e fondi tesi alla realizzazione della gratuità effettiva della scuola, per lo meno nel periodo dell’obbligo scolastico; libri e materiale scolastico di base gratuito; Abolizione delle tasse scolastiche.\n
+* Inserimento del concetto di “nuova alfabetizzazione” nei programmi scolastici del Ministero della Pubblica Istruzione, prevedendo lo studio delle “materie digitali”.\n
+* Aumento delle retribuzioni degli insegnanti italiani.\n
+* Abolizione del numero programmato nei corsi di laurea.\n
+* Abolizione della Legge 107/2015, propagandata come “La buona scuola”."</string>
+    <string name="ListaDelPopoloDellaCostituzione_Lavoro">"\n* Attuazione di un piano di investimenti pubblici e di incentivo alle imprese private quinquennale in grado di riassorbire tutti i disoccupati.\n
+* Assegnazione di un servizio di pubblica utilità ai lavoratori in temporanea mobilità.\n
+* Cancellazione delle leggi che hanno determinato la precarietà sociale, quali l’art. 8 della legge Sacconi, la legge Fornero, il Job Act, con la reintroduzione dell’art. 18 dello Statuto dei Lavoratori a tutto vantaggio della stabilità aziendale.\n
+* Investimenti pubblici sulle start-up e sull’incentivo all’imprenditoria giovanile.\n
+* Assegnazione di buoni fiscali sotto forma di CCF alle aziende che facilitano l’avviamento e la formazione del lavoro giovanile in tutte le sue forme.\n
+* Favorire l’accesso dei lavoratori alla proprietà dell’azienda, in modo da poter prendere parte alle decisioni che li riguardano.\n
+* Fissazione di un compenso orario minimo inviolabile di €9,00 lorde.\n
+* Consolidamento dei controlli in materia di salute e sicurezza sul lavoro ed inasprimento delle sanzioni nei confronti dei responsabili dei servizi che risultino inadempienti.\n
+* Fissazione dell’età pensionabile a 65 anni, facoltà di richiedere la pensione anticipata dopo 41 anni di servizio."</string>
+    <string name="ListaDelPopoloDellaCostituzione_Sanita">"\n* Arrestare le politiche di taglio economico volte esclusivamente alla privatizzazione della sanità.\n
+* Idefinire e reintegrare da subito il Decreto n. 70/2015 in riferimento alle Aree Particolarmente Disagiate (zone montane e insulari) e ai servizi che in esse devono essere garantiti in materia di emergenza /urgenza, pronto soccorso, punti nascite.\n
+* Inclusione delle nozioni di base riguardo alla prevenzione e all’educazione sanitaria nei programmi scolastici delle scuole dell’obbligo e nella scuola superiore.\n
+* Attivazione di forme di prevenzione attraverso programmi di educazione nutrizionale dei cittadini.\n
+* Abolizione di tutti i ticket (partecipazioni al costo) per le prestazioni sanitarie.\n
+* Verifica del costo dei prodotti farmaceutici su scala internazionale con istituzione di una agenzia/sistema di controllo del costo dei farmaci rispetto allo standard internazionale.\n
+* Cessazione dei finanziamenti statali alla sanità privata e obbligo di scelta per i medici tra esercizio della professione nel pubblico oppure nel privato.\n
+* Abolizione del direttore amministrativo e sanitario delle ASP e degli Ospedali e la nomina con concorso pubblico."</string>
 
     <string name="Maie_Cultura"> TODO cultura</string>
     <string name="Maie_Estero"> TODO estero</string>
@@ -660,75 +953,344 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
     <string name="PartitoRepubblicano_Sanita"> TODO sanità</string>
     <string name="PartitoRepubblicano_Previdenza"> TODO previdenza</string>
 
-    <string name="PartitoValoreUmano_Agroalimentare"> TODO agroalimentare</string>
-    <string name="PartitoValoreUmano_Europa"> TODO europa</string>
-    <string name="PartitoValoreUmano_Governo"> TODO governo</string>
-    <string name="PartitoValoreUmano_Lavoro"> TODO lavoro</string>
-    <string name="PartitoValoreUmano_Sanita"> TODO sanità</string>
+    <string name="PartitoValoreUmano_Agroalimentare">"\n* Agricoltura sostenibile ed ecologica in equilibrio e nel rispetto della natura e valorizzazione del patrimonio storico-culturale, ambientale e turistico;"
+    </string>
+    <string name="PartitoValoreUmano_Europa">"\n* Nuova visione della globa-localizzazione e rapporti etici d’avanguardia diplomatica con le altrui Popolazioni e Stati. Partendo dai valori storici di una Italia che detta buoni esempi da sempre."
+    </string>
+    <string name="PartitoValoreUmano_Governo">"\n* Stato solidale ed etico per abbattere le povertà, le disuguaglianze sociali assicurando un medesimo punto di partenza a tutti i cittadini affinché si possa far emergere il talento di tutti.
+\n* Rispetto della sovranità e specificità culturale degli stati membri salvaguardando la sovranità politica e monetaria: a credito per infrastrutture e servizi strategici.
+\n* Comunicazione trasparente, partecipata, libera, contro abusi e conflitto di interessi; abolizione dei segreti di Stato e di tutti gli ordini professionali, riportando le competenze ai relativi ministeri;
+\n* Riorganizzazione delle competenze e funzioni statali con semplificazione legislativa: una sola Camera ed un Senato dei saggi di solo indirizzo; abolizione delle Regioni e rivalutazione delle 110 province italiane, con l’aggiunta ad istituzione parificata delle 100 grandi città.
+\n* Magistratura libera e responsabile con divisione delle carriere ed incompatibilità di esercizio delle funzioni nei territori di origine.
+\n* Pubbliche Amministrazioni a servizio dei cittadini, manager con programmi, risultati e controlli oggettivi, controllo pubblico con gratuità dei servizi essenziali e strategici, scuola pubblica gratuita, sicura, omogenea con programmi e metodi didattici aggiornati;
+"</string>
+    <string name="PartitoValoreUmano_Lavoro">"\n* Riforma del lavoro, rimodulazione dell’orario a 4 ore per ogni turno (a parità di stipendio), secondo un piano di riforma che incentiva l’Impresa del modello micro/piccolo/medio e dell’età pensionabile.
+\n* Sviluppo della ricerca, delle tecnologie innovative e implementazione delle nanotecnologie. Rilancio delle piccole e medie imprese escludendo la globalizzazione e potenziando il global-local;
+"</string>
+    <string name="PartitoValoreUmano_Sanita">"\n* Sanità pubblica gratuita con revisione dei protocolli esistenti, apertura alla medicina naturale e quantistica, libertà di scelta della cura con potenziamento della politica della prevenzione."
+    </string>
 
-    <string name="PattoPerLAutonomia_Governo"> TODO governo</string>
-    <string name="PattoPerLAutonomia_Europa"> TODO europa</string>
+    <string name="PattoPerLAutonomia_Governo">"\n* Gli accordi capestro Tondo-Tremonti e Serracchiani-Padoan vanno aboliti;
+\n* Va finanziato da parte dello Stato un piano straordinario regionale di interventi sul territori.
+\n* Va avviata la ridefinizione dello Statuto di autonomia sia in funzione di una revisione di quanto non più corrispondente all’evoluzione del significato delle materie di competenza sia di presa d’atto della necessità di riequilibrare su nuove basi paritarie i rapporti tra Stato e Regio.
+\n* Va data poi una valenza di priorità alla organica applicazione delle Leggi 482/99 e 38/2001 nella direzione di un diffuso plurilinguismo quale elemento caratterizzante l’intero territorio del Friuli -Venezia Giulia, a partire dal sistema scolastico e di istruzione ad ogni livello, per operare compiutamente anche nei campi della cultura e dei media.
+\n* Piena attuazione delle previsioni dell’attuale Titolo V della Costituzione italiana per quanto riguarda il significato e le potestà delle autonomie regionali e territoriali."
+</string>
+    <string name="PattoPerLAutonomia_Europa">"\n* Superamento della concezione della Unione Europea come luogo di confronto tra sovranità statali nazionali incapaci di affrontare i temi di fondo che oggi affliggono le diverse realtà."</string>
 
-    <string name="Ppa_Banche"> TODO banche</string>
-    <string name="Ppa_Economia"> TODO Economia</string>
-    <string name="Ppa_Governo"> TODO governo</string>
+    <string name="Ppa_Banche">"\n* Nessuna immunità parlamentare.
+\n* L’eletto al Parlamento non potrà godere di privilegi specifici , in quanto la sua scelta di mettere a disposizione della collettività, le sue conoscenze non dovrà essere la causa di un divario sociale per l’acquisizione di benefit personali
+\n* Nessun finanziamento pubblico ai partiti ed ai giornali.
+\n* Istituzione di una commissione d’inchiesta per definire il chi e il come del debito pubblico italiano con conseguente esproprio di tutti i beni per i colpevoli.
+\n* L’individuo cittadino è libero di autodeterminarsi secondo i propri convincimenti e la propria coscienza e si assume la piena responsabilità delle azioni od omissioni compiute nell’esercizio di tale prerogativa.
+\n* Ogni scelta dell’individuo che non sia in contrasto con la libertà altrui è personale e non può essere materia di competenza dello Stato.
+"</string>
+    <string name="Ppa_Economia">"\n* Introduzione chip card per tutti i cittadini sopra i 14 anni, da utilizzare per gli acquisti
+\n* IAl fine della gestione dei versamenti tributari , sarà istituita la Banca dello Stato , pertanto non saranno più le banche private a incassare il denaro dei contribuenti . 
+\n* IIl consumatore non ha nessun obbligo di conservazione dei documenti fiscali emessi nei suoi confronti, che saranno inviati dall’esercente e accessibili on-line in ogni momento.
+"</string>
+    <string name="Ppa_Governo">"\n* Responsabilità in solido delle banche di tutti gli strumenti onerosi finanziari per il pagamento delle transizioni (assegni bancari, carte di credito, ecc.).
+\n* Facilitazioni per l’accesso al credito per le pmi sane, con snellimento di tempi e procedure.
+\n* Obbligo di assicurare i titolari di mutui anche per i casi di premorienza e grave invalidità, a costi accettabili.
+\n* Rc auto, abbassamento delle tariffe per i meritevoli (prima classe) e innalzamento per i disattenti, adeguamento in base all’effettivo chilometraggio percorso.
+\n* Le polizze pensionistiche e fondi pensioni dovranno obbligatoriamente essere investiti in titoli di stato assicurando un capitale minimo garantito. Ogni minusvalenza sarà coperta dalla compagnia e non dall’assicurato.
+\n* Certezza e velocità nei risarcimenti. Severe sanzioni per truffe con sospensione della patente fino a un anno su falsi incidenti accertati.
+"</string>
 
-    <string name="PotereAlPopolo_Ambiente"> TODO ambiente</string>
-    <string name="PotereAlPopolo_Cultura"> TODO cultura</string>
-    <string name="PotereAlPopolo_Donne"> TODO donne</string>
-    <string name="PotereAlPopolo_Europa"> TODO europa</string>
-    <string name="PotereAlPopolo_FiscoEconomaia"> TODO Economia</string>
-    <string name="PotereAlPopolo_Giustizia"> TODO giustizia</string>
-    <string name="PotereAlPopolo_Lavoro"> TODO lavoro</string>
-    <string name="PotereAlPopolo_Immigrazione"> TODO immigrazione</string>
-    <string name="PotereAlPopolo_Infrastrutture"> TODO infrastrutture</string>
-    <string name="PotereAlPopolo_Istruzione"> TODO istruzione</string>
-    <string name="PotereAlPopolo_Previdenza"> TODO previdenza</string>
-    <string name="PotereAlPopolo_Sanità"> TODO sanità</string>
-    <string name="PotereAlPopolo_Sicurezza"> TODO sicurezza</string>
-    <string name="PotereAlPopolo_Sud"> TODO sud</string>
+    <string name="PotereAlPopolo_Ambiente">"\n* La messa in sicurezza e salvaguardia preventiva dei territori, la tutela del paesaggio e dei beni comuni, del patrimonio storico e architettonico, programmazione, pianificazione e gestione partecipate e trasparenti fondate su obiettivi di interesse collettivo in alternativa al business dell’emergenza ambientale e a quello della cosiddetta green economy;
+\n* Lo stop alle cd. “Grandi Opere”, a partire dalla TAV in Val di Susa, alla TAP in Salento, al MOSE, all’eolico selvaggio, col riorientamento degli investimenti verso un grande piano per la messa in sicurezza idrogeologica e sismica del Paese;
+\n* Una nuova politica energetica che parta dal calcolo del fabbisogno reale e dalla radicale messa in discussione della Strategia Energetica Nazionale, raccogliendo le rivendicazioni dei movimenti NO TRIV e dei comitati per il NO EOLICO SELVAGGIO e la richiesta di democrazia dei territori contro un modello centralizzato orientato da interessi multinazionali
+\n* La moratoria sui nuovi progetti estrattivi riguardanti combustibili fossili e lo stop a ogni progetto di estrazione non convenzionale, l’ eliminazione dei sussidi pubblici alle fonti fossili o ambientalmente dannose (16 miliardi annui) da utilizzare per la creazione diretta di posti di lavoro nell’efficienza energetica, nelle energie rinnovabili, in ricerca e innovazione tecnologica
+\n* L’uscita totale dal carbone come fonte di produzione energetica entro il prossimo decennio, l’uso delle biomasse solo da scarti, la pianificazione degli impianti eolici con criteri di tutela paesaggistica e faunistica, lo stop a infrastrutture energetiche come il TAP e Poseidon;
+\n* Una legge seria per lo stop al consumo di suolo che obblighi i comuni a localizzare i nuovi interventi nel territorio urbanizzato e non in quello non urbanizzato una legge urbanistica che ponga fine alla stagione della deregulation a favore dei privati, l’aumento delle dotazioni pubbliche (verde, servizi, trasporti non inquinanti), lo stop alla cementificazione delle coste e il recupero ambientale delle spiagge (il 75,4% della fascia entro 200 m. dalla costa è edificato);
+\n* Un piano nazionale per la bonifica dei siti inquinati fondato sul principio “chi inquina paga” e il monitoraggio e la tutela delle condizioni di salute delle popolazioni delle aree interessate;
+\n* Un piano di investimenti per la mobilità sostenibile e il trasporto pubblico (dalle ferrovie al trasporto urbano) fondato sui reali bisogni delle classi popolari e sul rispetto dell’ambiente, che superi la prevalenza dei sistemi di trasporto su gomma, potenziando il traffico merci su ferro e via mare;
+\n* Un radicale potenziamento della ciclabilità, con una politica di investimenti pubblici
+\n* Lo stop all’ingresso delle navi da crociera nella Laguna di Venezia, sostenendo le proposte alternative del comitato NOGrandiNavi
+\n* Una nuova politica dei rifiuti, che indirizzi la produzione delle merci verso la recuperabilità, disincentivando i prodotti non riciclabili e usa e getta;
+\n* La gestione pubblica dell’impiantistica e del ciclo di smaltimento, la messa al bando dell’incenerimento attraverso l’eliminazione degli incentivi, investimenti su raccolta differenziata, recupero, riuso, riciclo, riduzione, realizzando la strategia elaborata dal Movimento “Legge Rifiuti Zero”
+\n* La ripubblicizzazione dell’acqua bene comune, e più in generale dei servizi pubblici, cancellando il modello di gestione attraverso soggetti di diritto privato come le SPA, nel rispetto della volontà popolare espressa nel Referendum del 2011.
+"</string>
+    <string name="PotereAlPopolo_Cultura">"\n* Portare l’investimento nella cultura almeno all’1% del Pil;
+\n* Leggi che garantiscano risorse pubbliche certe a sostegno della produzione e distribuzione indipendente, dell’associazionismo culturale, dei luoghi della fruizione;
+\n* Riforme di tutte le istituzioni culturali pubbliche la cui gestione deve essere affidata alle forze sociali, culturali e professionali del settore;
+\n* Costruzione in tutti i quartieri delle nostre città di una rete di spazi pubblici della cultura: luoghi di incontro, partecipazione, fruizione culturale, produzione, sperimentazione e formazione gestiti dal territorio;
+\n* Assicurare ai lavoratori della cultura i diritti di tutti i lavoratori, fermare i processi di precarizzazione. Garantire continuità di reddito e tutele, riconoscendo, nei settori in cui è fisiologico, il carattere “intermittente” del lavoro culturale: dietro il lavoro che “emerge” c’è un lungo lavoro sommerso che è “lavoro” e come va tale retribuito e tutelato;
+\n* Leggi di tutela, conservazione e valorizzazione dei beni culturali ed artistici da parte dello Stato; un piano straordinario di manutenzione del paesaggio e del nostro patrimonio storico ed artistico, bibliotecario e archivistico; il riconoscimento di tutte le professionalità del settore del restauro e dell’archeologia;
+\n* Nuove norme sul diritto d’autore che, difendendo il compenso economico e la possibilità per gli autori di decidere dell’integrità e del destino della propria opera, consentano contemporaneamente di scaricare e condividere opere d’ingegno sulla rete per uso esclusivamente personale; le norme attuali sono inutilmente vessatorie o addirittura d’ostacolo allo svolgimento di servizi pubblici quali, ad esempio, il prestito bibliotecario di opere su supporto digitale;
+\n* La difesa della neutralità della Rete e un controllo pubblico sui big data, i loro detentori e l’utilizzo che ne fanno;
+\n* Una vera legge sul conflitto di interessi e legge antitrust;
+\n* Una riforma che ribadisca la centralità del servizio pubblico radiotelevisivo e che ne garantisca una gestione democratica e partecipata, pluralista e decentrata;
+\n* Il sostegno pubblico alle testate indipendenti, alle cooperative, alle pubblicazioni culturali e scientifiche.
+"</string>
+    <string name="PotereAlPopolo_Donne">"\n* La parità di diritti, di salari, di accesso al mondo del lavoro a tutti i livelli e mansioni a prescindere dall’identità di genere e dall’orientamento sessuale;
+\n* La radicale rimessa in discussione dei ruoli maschile e femminile nella riproduzione sociale ed un sistema di welfare che liberi tempo di vita per tutte e tutti;
+\n* La rottura del carattere monosessuato dello spazio pubblico e della politica;
+\n* Soluzioni che inibiscano ogni forma di violenza (fisica, ma anche sociale, culturale, normativa) e discriminazione delle donne e delle persone LGBTI (attraverso una legge contro l’omotransfobia);
+\n* Una formazione che fornisca strumenti per decostruire il sessismo e educhi al riconoscimento della molteplicità delle differenze;
+\n* La piena e reale libertà di scelta sulle proprie vite e i propri corpi, il pieno diritto alla salute sessuale e riproduttiva, negata in tante strutture pubbliche dalla presenza di medici obiettori. Va garantito a tutte l’accesso alla fecondazione assistita, anche eterologa, a prescindere dallo stato di famiglia. Va combattuta la diffusione dell’HIV attraverso la promozione della contraccezione rendendo disponibili a tutte e tutti le nuove tecniche di prevenzione. Vanno vietate le mutilazioni genitali su* bambin* intersessuali prima che possano capire e sviluppare la loro identità di genere;
+\n* La cancellazione di ogni pacchetto sicurezza. La sicurezza delle donne è nella loro autodeterminazione;
+\n* I diritti e le aspirazioni di gay, lesbiche e trans, sia come individui che nella loro vita di coppia, con l’introduzione del matrimonio egualitario, del riconoscimento pieno dell’omogenitorialità a tutela dei genitori, dei figli e delle famiglie e con la ridefinizione dei criteri relativi all’adozione, consentendola anche a single e persone omosessuali, per riconoscere il desiderio di maternità e paternità di tutte e tutti.
+"</string>
+    <string name="PotereAlPopolo_Europa">"\n* Rompere l’Unione Europea dei trattati;
+\n* Costruire un’altra Europa fondata sulla solidarietà tra lavoratrici e lavoratori, sui diritti sociali, che promuova pace e politiche condivise con i popoli della sponda sud del Mediterraneo;
+\n* Rifiutare l’ossessione della “governabilità”, lo svuotamento di potere del Parlamento, il rafforzamento degli esecutivi, l’imposizione di decisioni dall’alto perché “ce lo chiede l’Europa”;
+\n* Il diritto dei popoli ad essere chiamati ad esprimersi su tutte le decisioni prese sulle loro teste a qualunque livello– comunale, regionale, statale, europeo – pregresse o future, con il ricorso al referendum.
+"</string>
+    <string name="PotereAlPopolo_FiscoEconomaia">"\n* Un’imposta sui grandi patrimoni: l’1% più ricco degli italiani detiene il 25% della ricchezza nazionale, 415 volte quello che è posseduto dal 20% più povero della popolazione;
+\n* Il ripristino della progressività del sistema fiscale secondo il dettato costituzionale (art. 53), diminuendo le tasse sui redditi bassi e aumentandole su quelli più alti: l’Irpef, quando fu introdotta, prevedeva 32 scaglioni di reddito, con l’aliquota più bassa al 10% e la più alta al 72%, mentre ora gli scaglioni sono 5 con la prima aliquota al 23% e l’ultima al 43%;
+\n* Una lotta seria alla grande evasione ed elusione fiscale, a partire da quella delle grandi multinazionali (Google, Amazon, Apple..);
+\n* La fine dei trasferimenti a pioggia alle imprese e della continua riduzione delle tasse sui profitti;
+\n* Il recupero dei capitali e delle rendite nascoste;
+\n* Politiche di contrasto dei rapporti con i cosiddetti “paradisi fiscali” da parte delle aziende italiane;
+\n* La fine delle privatizzazioni e delle esternalizzazioni, il blocco della svendita del patrimonio manifatturiero, la ripubblicizzazione delle industrie e delle infrastrutture strategiche privatizzate negli anni passati;
+\n* La fissazione di un tetto per gli stipendi e le liquidazioni dei grandi manager;
+\n* La nazionalizzazione della Banca d’Italia e la creazione di un Polo finanziario pubblico per il credito a partire dalla ripubblicizzazione di Cassa Depositi e Prestiti – per sostenere gli Enti locali in progetti di pubblica utilità – e delle principali banche;
+\n* Il ripristino della separazione tra banche di risparmio e di affari;
+\n* L’istituzione di una commissione per l’audit sul debito pubblico, in funzione della sua rinegoziazione e ristrutturazione, andando a colpire la quota del debito detenuta dal grande capitale speculativo e per una conferenza internazionale sul debito. Il debito pubblico italiano non dipende dall’aver vissuto “al di sopra delle nostre possibilità”: il rapporto tra entrate e uscite dello stato è in attivo, al netto degli interessi, da circa 25 anni (per 672 miliardi dal 1980 al 2012), ma ci siamo indebitati ulteriormente per pagare alla finanza privata 2.230 miliardi di interessi a tassi di usura.
+"</string>
+    <string name="PotereAlPopolo_Giustizia">"\n* L’amnistia per i reati legati alle lotte sociali, sindacali e ambientali;
+\n* La depenalizzazione di una serie di reati, ereditati dall’ordinamento fascista del Codice Rocco e da sempre nuove leggi speciali;
+\n* La riforma di alcune misure sanzionatorie e di regole procedurali (fogli di via, sorveglianze speciali, avvisi orali);
+\n* L’abrogazione delle norme che hanno aumentato il potere dei sindaci in materia di sicurezza e decoro urbano (es. cosiddetto Daspo Urbano previsto dalla legge Minniti);
+\n* L’abrogazione della legislazione speciale di natura emergenziale risalente agli anni 70 e 80 (legge Reale);
+\n* La legalizzazione delle droghe leggere e la depenalizzazione del consumo di sostanze;
+\n* Il contrasto dei fenomeni corruttivi diffusi e della reimmissione di capitali di provenienza mafiosa, inasprendo le pene e allungando i termini di prescrizione per riciclaggio e autoriciclaggio;
+\n* L’educazione all’antimafia, chiedendo ai Comuni di ottemperare all’obbligo di informare la cittadinanza sui beni confiscati, e favorendo le amministrazioni che risocializzino questi beni;
+\n* La smilitarizzazione della guardia di finanza e la trasformazione in polizia specializzata in contrasto alla corruzione, all’evasione ed elusione fiscale e tributaria;
+\n* L’introduzione dei codici identificativi per gli agenti di polizia in servizio di ordine pubblico;
+\n* La modifica della insufficiente legge sul reato di tortura, approvata dal parlamento a luglio 2017;
+\n* Contrastare fortemente la libera disponibilità di armi;
+\n* L’abolizione dell’ergastolo, sia condizionale che ostativo: l’assenza di ogni possibilità di uscita è incompatibile con la finalità rieducativa della pena, prevista dall’art. 27 della Costituzione;
+\n* L’abolizione del 41 bis, riconosciuto quale forma di tortura dall’ONU e da altre istituzioni internazionali, adottando al suo posto misure di controllo, per i reati di stampo mafioso, allo stesso tempo efficaci ed umane, che non permettano la continuità di rapporto con l’esterno
+\n* L’emanazione di un provvedimento di amnistia e indulto che risolva il problema del sovraffollamento carcerario;
+\n* Una riforma della vita carceraria, soprattutto attraverso un più ampio utilizzo delle misure alternative e di validi percorsi per il reinserimento dei detenuti;
+\n* L’abbattimento dei costi di accesso alla Giustizia al fine di  consentire la tutela dei propri diritti anche alle  fasce economicamente più deboli della popolazione.
+"</string>
+    <string name="PotereAlPopolo_Lavoro">"\n* "La cancellazione del Jobs Act, della legge Fornero sul lavoro, e di tutte le leggi che negano il diritto ad un lavoro stabile e sicuro;
+\n* La cancellazione delle principali forme di lavoro diverse dal contratto a tempo indeterminato, a partire dal contratto a termine “acausale” e dai voucher;
+\n* La messa fuori legge del lavoro gratuito, a qualsiasi titolo prestato;
+\n* Il contrasto effettivo al caporalato, alle moderne forme di schiavismo, al lavoro nero o “grigio”;
+\n* La cancellazione dell’articolo 8 della legge 148/2011 – che dà alla contrattazione aziendale la possibilità di derogare in senso peggiorativo rispetto al contratto nazionale e alle leggi – e del cosiddetto Collegato Lavoro;
+\n* L’abolizione degli Ordini professionali, l’introduzione di un compenso equo ed esigibile per le lavoratrici e i lavoratori autonomi, e l’estensione ad essi degli ammortizzatori sociali previsti per il lavoro dipendente;
+\n* Il ripristino dell’originario articolo 18 e la sua estensione alle imprese con meno di 15 dipendenti;
+\n* Il ripristino della scala mobile;
+\n* La fine delle discriminazioni di genere e della disparità salariale;
+\n* Misure incisive per la sicurezza sul lavoro, aumentando fondi e risorse per i controlli;
+\n* La difesa e il recupero di un reale diritto di sciopero, attraverso la modifica della l. 146/90;
+\n* Una legge sulla democrazia nei luoghi di lavoro che garantisca a tutte e tutti il diritto di scegliere liberamente la propria rappresentanza sindacale: tutte/i elettori e tutte/i eleggibili senza il vincolo della sottoscrizione degli accordi.
+\n* La riduzione dell’orario di lavoro a 32 ore settimanali, tanto più necessaria a fronte dei processi in atto di automazione delle produzioni;
+\n* Investimenti pubblici in politiche industriali e nella riconversione ecologica delle economia;
+\n* Assunzioni pubbliche per potenziare e riqualificare il welfare (i dipendenti pubblici in Italia in rapporto alla popolazione sono ai livelli più bassi d’Europa: 5,2% contro l’8,5 della Francia, il 7,9 della Gran Bretagna, il 6,4 della Spagna, il 5,7 della Germania);
+\n* La riduzione dell’orario di lavoro nell’arco della vita, cancellando la controriforma Fornero.
+</string>
+    <string name="PotereAlPopolo_Immigrazione">"\n* Il superamento della gestione emergenziale, militarizzata e “straordinaria” dell’accoglienza, proponendo – a partire dal modello SPRAR – centri di piccole dimensioni, gestite dal pubblico e che permettano a chi arriva percorsi autonomi di inserimento, abitativo, sociale, lavorativo, indipendentemente dal loro status giuridico;
+\n* La valorizzazione delle professionalità coinvolte nell’accoglienza, persone oggi costrette a contratti precari e a supersfruttamento;
+\n* L’abolizione del regolamento di Dublino III, delle leggi Minniti-Orlando e di tutte le leggi razziste che lo hanno preceduto;
+\n* L’abrogazione degli accordi bilaterali che permettono il rimpatrio forzato e di quelli che servono ad esternalizzare le frontiere, per l’attivazione di canali legali e protetti d’ingresso in Europa;
+\n* L’abrogazione del T.U. in materia di immigrazione (Bossi–Fini) frutto di emendamenti della Turco–Napolitano, la rottura del vincolo tra permesso di soggiorno e contratto di lavoro, la chiusura di tutte le forme di detenzione amministrativa, il passaggio di competenze ai Comuni per il rilascio e rinnovo dei titoli di soggiorno, meccanismi di regolarizzazione permanente;
+\n* L’approvazione dello ius soli e la sua estensione a chi è comunque cresciuto in Italia, una revisione estensiva della legge sulla cittadinanza, il diritto di voto a partire dalle elezioni amministrative per chi risiede stabilmente nel nostro paese."</string>
+    <string name="PotereAlPopolo_Infrastrutture">"\n* Un piano straordinario per la messa a disposizione di 1.000.000 di alloggi sociali in 10 anni, attraverso il prioritario riutilizzo del patrimonio esistente;
+\n* L’introduzione di un’imposta fortemente progressiva sugli immobili sfitti, l’abolizione della cedolare secca e la possibilità per i sindaci di requisire lo sfitto in situazioni di emergenza abitativa;
+\n* Una politica di controllo degli affitti, stabilendo canoni rapportati alla rendita catastale;
+\n* L’abolizione dell’articolo 5 della legge Lupi, che nega a chi occupa la possibilità di allacciarsi alle reti elettriche, idriche e del gas;
+\n* Un controllo delle tariffe per i servizi pubblici essenziali e la loro garanzia per tutte e tutti, in particolare per chi è in condizioni di disagio socio-economico;
+\n* Una moratoria sulla “morosità incolpevole”;
+\n* Un piano di riqualificazione delle periferie, in cui vivono 14 milioni di persone;
+\n* Un sistema di trasporto pubblico potenziato, e alla portata di tutti, con il contrasto ai processi di privatizzazione e la riaffermazione del carattere pubblico dei servizi e delle aziende, con particolare attenzione ai bisogni dei pendolari e al trasporto locale.
+"</string>
+    <string name="PotereAlPopolo_Istruzione">"\n* A cancellazione della legge 107/15 e di tutte le altre riforme che hanno immiserito la scuola, l’università e la ricerca e le hanno messe al servizio delle esigenze delle imprese;
+\n* La copertura totale del fabbisogno di posti negli asili nido e nella scuola dell’infanzia pubblica;
+\n* Il rilancio della collegialità e della vita democratica nelle scuole, con l’abolizione della figura del “dirigente-manager”;
+\n* L’introduzione di un limite massimo di 20 alunni per classe e la generalizzazione del tempo pieno per il primo ciclo d’istruzione, l’elevamento dell’obbligo scolastico (e non formativo ) a 18 anni;
+\n* L’eliminazione dell’alternanza scuola-lavoro;
+\n* L’abolizione dei test INVALSI;
+\n* La difesa del carattere pubblico dell’istruzione, con l’abolizione di ogni finanziamento alle scuole private;
+\n* Un serio adeguamento salariale per il personale docente e non docente di ogni ordine e grado, l’assunzione di tutti i precari con 36 mesi di servizio e la cancellazione del precariato per il futuro;
+\n* La gratuità degli studi universitari e postuniversitari pubblici;
+\n* L’obbligo della remunerazione dei dottorati e di ogni tipologia di collaborazione con i dipartimenti universitari;
+\n* L’abolizione dell’ANVUR;
+\n* Un aumento consistente della quota di PIL destinata all’istruzione, il potenziamento dei fondi d’Istituto, l’aumento del Fondo di Finanziamento Ordinario per gli Atenei sulla base del numero degli iscritti e non di criteri premiali;
+\n* Una seria politica pubblica di sostegno alla ricerca, la gratuità dei libri di testo e la certezza del diritto allo studio fino ai più alti gradi, con pari condizioni in tutto il territorio nazionale;
+\n* Un piano straordinario di edilizia scolastica con particolare riferimento alla sicurezza antisismica.
+"</string>
+    <string name="PotereAlPopolo_Previdenza">"\n* l’abolizione della “riforma” Fornero;
+\n* Un trattamento pensionistico dignitoso, proporzionato all’ultimo salario percepito;
+\n* Il diritto alla pensione a 60 anni di età o a 35 anni di contributi per tutti;
+\n* L’adeguamento delle pensioni minime al reale costo della vita, per una vecchiaia dignitosa;
+\n* L’introduzione di un minimo di pensione, con 15 anni di contributi, compresi i contributi figurativi, per non condannare alla miseria chi ha avuto una vita lavorativa discontinua
+\n* L’introduzione per le pensioni future di un massimo di pensione e di cumulo dei trattamenti pensionistici a 5000 euro lordi mensili;
+\n* La soppressione delle Casse previdenziali private e riconduzione nella gestione INPS della previdenza dei lavoratori ordinisti;
+\n* La separazione tra previdenza e assistenza.
+"</string>
+    <string name="PotereAlPopolo_Sanità">"\n* L’istituzione del reddito minimo garantito, contro l’esclusione sociale e la precarietà della vita, per persone disoccupate e precarie: un reddito che consenta di superare la soglia di povertà relativa, che sia a carattere personale ed erogato fino al superamento della condizione di disagio;
+\n* La garanzia dei livelli essenziali di assistenza erogati dal SSN e la loro omogeneità su tutto il territorio nazionale;
+\n* L’eliminazione dei ticket sulle prestazioni sanitarie;
+\n* Il taglio drastico dei tempi di attesa, anche attraverso la modifica delle norme che regolano l’intra moenia;
+\n* Un nuovo programma di assunzioni per sanità e servizi socio-assistenziali, che elimini il precariato, con l’immediato sblocco del turn-over lavorativo;
+\n* L’uscita del privato dal business dell’assistenza sanitaria;
+\n* Il potenziamento dei servizi sanitari esistenti, con il blocco dei processi di ridimensionamento e chiusura degli ospedali e lo sviluppo di una rete capillare di centri di assistenza sanitaria e sociale di prossimità;
+\n* La definizione di un piano nazionale per la non autosufficienza, centrato sull’assistenza domiciliare integrata;
+\n* Dare attuazione all’inclusione delle persone con disabilità e dei soggetti fragili nella scuola, nel lavoro, nella società, per il diritto ad una vita piena, cancellando gli ultimi provvedimenti che vanno in senso contrario.
+"</string>
+    <string name="PotereAlPopolo_Sicurezza">"\n* La rottura del vincolo di subalternità che ci lega alla NATO e la rescissione di tutti i trattati militari;
+\n* La ratifica da parte dell’Italia del “Trattato ONU di interdizione delle armi nucleari” del 7 luglio 2017, in coerenza con l’art. 11 della Costituzione;
+\n* Il ritiro delle missioni militari all’estero;
+\n* La cancellazione del programma F35 e degli altri programmi militari e la riconversione civile dell’industria bellica;
+\n* La cancellazione del MUOS in Sicilia, lo smantellamento delle basi militari in tutto il paese,la rimozione delle bombe nucleari presenti sul territorio e la restituzione a fini civili dell’uso del territorio, problema particolarmente grave in realtà come la Sardegna.
+"</string>
+    <string name="PotereAlPopolo_Sud">"\n* Una politica di investimenti pubblici in settori produttivi mirati allo sviluppo dei territori più svantaggiati, contrastando il ricatto inaccettabile che vorrebbe barattare il lavoro con la salute e la tutela dell’ambiente, e perché le ragazze e i ragazzi del Sud abbiamo il pieno diritto di studiare e lavorare nella propria terra;
+\n* Livelli sanitari realmente equiparati a quelli del resto del paese;
+\n* Una rete di infrastrutture e trasporti pubblici radicalmente potenziata;
+\n* Un forte investimento in istruzione e formazione orientato al Sud;
+\n* La fine di una strategia che vede nel meridione una mega discarica, o una mega centrale elettrica per il paese;
+\n* La difesa dei territori dagli appetiti speculativi di imprenditori nostrani e grandi multinazionali.
+\n* L’affermazione di un modello di economia alternativo, che accanto a produzioni qualificate valorizzi la bellezza, la storia, la terra, le nuove tecnologie, la cultura di città che sono da sempre luoghi di pace, crocevia di popoli e culture.
+"</string>
 
-    <string name="Siamo_Agroalimentare"> TODO agroalimentare</string>
-    <string name="Siamo_Ambiente"> TODO ambiente</string>
-    <string name="Siamo_Diritti"> TODO diritti</string>
-    <string name="Siamo_Donne"> TODO donne</string>
-    <string name="Siamo_Famiglia"> TODO famiglia</string>
-    <string name="Siamo_Giustizia"> TODO giustizia</string>
-    <string name="Siamo_Governo"> TODO governo</string>
-    <string name="Siamo_Lavoro"> TODO lavoro</string>
-    <string name="Siamo_Infrastrutture"> TODO infrastrutture</string>
-    <string name="Siamo_Istruzione"> TODO istruzione</string>
-    <string name="Siamo_Sanita"> TODO sanità</string>
+    <string name="Siamo_Agroalimentare">"\n* Riacquisizione della sovranità alimentare attraverso il sostegno all’agricoltura biologica e naturale."</string>
+    <string name="Siamo_Ambiente">"\n* Messa in sicurezza idrogeologica del territorio e bonifica dell’inquinamento territoriale e ambientale.
+\n* Ricostruzione integrale dei territori sinistrati con valorizzazione del patrimonio paesaggistico e architettonico.
+"</string>
+    <string name="Siamo_Diritti">"\n* Riaffermazione dell’esercizio delle libertà fondamentali (parola, istruzione e formazione).
+\n* Diritto alla casa.
+"</string>
+    <string name="Siamo_Donne">"\n* Tutela e riconoscimento delle donne a partire dalla parità di salario ed equo trattamento post-maternità.
+\n* Nascita non violenta, allattamento naturale, accesso al nido gratuito.
+\n* Riconoscimento del salario di cittadinanza alle donne per il lavoro casalingo e l’assistenza a bambini e anziani.
+"</string>
+    <string name="Siamo_Famiglia">"\n* Inserimento nel PIL del valore immateriale della procreazione, dell’educazione dei figli, dell’attività di assistenza e cura nelle famiglie e nella comunità.
+\n* Valorizzazione della terza età attraverso percorsi di integrazione.
+"</string>
+    <string name="Siamo_Giustizia">"\n* Restituzione della sovranità del popolo attraverso forme di partecipazione strutturata ai processi decisionali e legislativi."</string>
+    <string name="Siamo_Governo">"\n* Nuova legge elettorale
+\n* Denuncia del debito illegittimo.
+"</string>
+    <string name="Siamo_Lavoro">"\n* Politiche di lavoro puntate alla valorizzazione dei talenti individuali, creatività e innovazione.
+\n* Puntando all’obiettivo di piena occupazione, lotta al precariato
+"</string>
+    <string name="Siamo_Infrastrutture">"\n* Rinazionalizzazione degli asset strategici: energia, acqua, telecomunicazioni, trasporti."</string>
+    <string name="Siamo_Istruzione">"\n* Abrogazione legge 107 e aumento delle risorse da destinare alla scuola."</string>
+    <string name="Siamo_Sanita">"\n* Abrograzione L.119/2017 sull’obbligatorietà vaccinale
+\n* Sostegno al riassetto del SSN attraverso una politica sanitaria di valorizzazione delle risorse, integrazione del personale sanitario mancante, formazione innovativa.
+\n* Politiche sanitarie puntate alla prevenzione primaria (ambiente, lavoro, stile di vita), case di maternità e case di salute.
+"</string>
 
-    <string name="SinistraRivoluzionaria_Ambiente"> TODO ambiente</string>
-    <string name="SinistraRivoluzionaria_Banche"> TODO banche</string>
-    <string name="SinistraRivoluzionaria_Diritti"> TODO diritti</string>
-    <string name="SinistraRivoluzionaria_Donne"> TODO donne</string>
-    <string name="SinistraRivoluzionaria_Economia"> TODO Economia</string>
-    <string name="SinistraRivoluzionaria_Governo"> TODO governo</string>
-    <string name="SinistraRivoluzionaria_Lavoro"> TODO lavoro</string>
-    <string name="SinistraRivoluzionaria_Immigrazione"> TODO immigrazione</string>
-    <string name="SinistraRivoluzionaria_Istruzione"> TODO istruzione</string>
-    <string name="SinistraRivoluzionaria_Previdenza"> TODO previdenza</string>
-    <string name="SinistraRivoluzionaria_Sanita"> TODO sanità</string>
-    <string name="SinistraRivoluzionaria_Sicurezza"> TODO sicurezza</string>
-    <string name="SinistraRivoluzionaria_Sud"> TODO sud</string>
+    <string name="SinistraRivoluzionaria_Ambiente">"\n* Per un piano nazionale di riassetto idro-geologico del territorio.
+\n* Abbattimento degli eco-mostri e riqualificazione delle aree degradate.
+\n* Esproprio e riconversione delle aziende che inquinano.
+\n* No alle grandi opere inutili, per un trasporto pubblico efficiente e gratuito.
+"</string>
+    <string name="SinistraRivoluzionaria_Banche">"\n* Nazionalizzazione del sistema bancario, senza indennizzo per i grandi azionisti e con garanzia pubblica per i depositi dei piccoli risparmiatori.
+\n* Creazione di un’unica grande banca pubblica nazionale, in grado di mettere in campo gli investimenti necessari a rilanciare l’economia.
+"</string>
+    <string name="SinistraRivoluzionaria_Diritti">"\n* Estensione del matrimonio anche alle coppie dello stesso sesso.
+\n* La possibilità di adozione deve essere indipendente dalla composizione del nucleo famigliare.
+\n* Abolizione delle leggi repressive del consumo di stupefacenti e di tutte le misure liberticide sia legali che amministrative (daspo, coprifuoco ecc.) rivolte in particolare contro le forme di socialità libere e non commerciali.
+\n* Censimento e riutilizzo di tutte le case sfitte.
+\n* Esproprio del patrimonio delle grandi immobiliari.
+\n* Per un piano nazionale di edilizia popolare.
+"</string>
+    <string name="SinistraRivoluzionaria_Donne">"\n* Applicazione del pieno diritto all’aborto. Abolizione dell’obiezione di coscienza del personale medico.
+\n* Ripristino e potenziamento dei consultori pubblici.
+\n* Rete capillare di asili nido e scuole materne, pubblici e gratuiti, che coprano l’effettivo orario lavorativo.
+\n* Rete di strutture pubbliche per il sostegno ai parenti anziani.
+"</string>
+    <string name="SinistraRivoluzionaria_Economia">"\n* Esproprio di tutte le aziende che chiudono, licenziano e delocalizzano.
+\n* Nazionalizzazione di tutte le aziende privatizzate.
+\n* Nazionalizzazione dei grandi gruppi industriali, senza indennizzo eccetto che per i piccoli azionisti.
+\n* Nazionalizzazione delle reti di trasporti, telecomunicazioni, energia, acqua e ciclo dei rifiuti.
+\n* Tutte le azienda nazionalizzate siano poste sotto il controllo e la gestione dei lavoratori.
+\n* Abolizione delle imposte indirette.
+\n* Tassazione fortemente progressiva, che vada a colpire soprattutto i grandi patrimoni.
+\n* Esproprio del patrimonio dei grandi evasori fiscali.
+"</string>
+    <string name="SinistraRivoluzionaria_Governo">"\n* Abolizione del pareggio di bilancio nella Costituzione.
+\n* Rifiuto del pagamento del debito, tranne che ai piccoli risparmiatori.
+\n* Rottura unilaterale dei trattati europei, NO all’Unione europea capitalista.
+\n* Eleggibilità e revocabilità di tutte le cariche pubbliche.
+\n* Un tetto alla retribuzione delle cariche pubbliche, che corrisponda allo stipendio medio di un lavoratore qualificato.
+\n* Controllo dei lavoratori a tutti i livelli della pubblica amministrazione.
+"</string>
+    <string name="SinistraRivoluzionaria_Lavoro">"\n* Abolizione del Jobs Act, ripristino dell’art. 18 e sua estensione a tutti i lavoratori dipendenti. Nessuno deve essere licenziato senza giusta causa.
+\n* Trasformazione dei contratti precari in contratti a tempo indeterminato.
+\n* Salario minimo intercategoriale fissato per legge, non inferiore ai 1.400 euro mensili.
+\n* Una nuova scala mobile che indicizzi tutti i salari all’inflazione reale.
+\n* Salario garantito ai disoccupati pari all’80% del salario minimo.
+\n* Riduzione dell’orario di lavoro a un massimo di 32 ore settimanali a parità di salario.
+\n* Abolizione delle agenzie interinali e ritorno al collocamento pubblico.
+\n* Contrasto frontale al lavoro nero, le aziende che ne fanno uso devono essere espropriate.
+\n* Abolizione di tutte le leggi anti-sciopero.
+\n* Rappresentanze sindacali democratiche, con i soli delegati eletti dai lavoratori.
+\n* Piena agibilità per tutte le organizzazioni sindacali
+\n* I rappresentanti sindacali devono essere revocabili in qualsiasi momento dell’assemblea che li ha eletti.
+\n* Salario operaio per i funzionari sindacali.
+"</string>
+    <string name="SinistraRivoluzionaria_Immigrazione">"\n* Abolizione del decreto Minniti, della Bossi-Fini e di tutte le leggi che discriminano gli immigrati.
+\n* Abolizione del reato di immigrazione clandestina.
+\n* Diritto di voto per chi risiede in Italia da un anno.
+\n* Cittadinanza dopo 3 anni per chi ne faccia richiesta.
+\n* Cittadinanza italiana per tutti i nati in Italia.
+"</string>
+    <string name="SinistraRivoluzionaria_Istruzione">"\n* Abolizione della Buona Scuola e dell’alternanza scuola-lavoro
+\n* Raddoppio dei fondi destinati alla pubblica istruzione. No a qualsiasi finanziamento alle scuole private.
+\n* Per un piano nazionale di edilizia scolastica.
+\n* No al numero chiuso e ai test d’ingresso nelle università e nelle scuole.
+\n* No ai contributi delle famiglie alle spese scolastiche. La scuola pubblica deve essere gratuita.
+\n* Per una scuola pubblica, laica e gratuita per tutti.
+"</string>
+    <string name="SinistraRivoluzionaria_Previdenza">"\n* Abolizione della legge Fornero.
+\n* In pensione con 35 anni di lavoro o 60 anni di età.
+\n* Pensione pari all’80% dell’ultimo salario e comunque non inferiore al salario minimo.
+"</string>
+    <string name="SinistraRivoluzionaria_Sanita">"\n* Raddoppio immediato dei fondi destinati alla sanità.
+\n* Abolizione di ogni finanziamento alla sanità privata e della pratica privata all’interno delle strutture pubbliche. Per un unico sistema sanitario pubblico e gratuito.
+\n* Abolizione dei ticket sui medicinali e sulle prestazioni specialistiche.
+\n* Nazionalizzazione sotto controllo dei lavoratori dell’industria farmaceutica.
+\n* Difesa dei piccoli presidi ospedalieri.
+"</string>
+    <string name="SinistraRivoluzionaria_Sicurezza">"\n* Drastica riduzione delle spese militari.
+\n* Ritiro delle missioni militari all’estero.
+\n* Fuori l’Italia dalla Nato. Chiusura delle basi Nato e americane sul territorio italiano.
+"</string>
+    <string name="SinistraRivoluzionaria_Sud">"\n* Piano di investimenti pubblici per il potenziamento dell’industria, delle infrastrutture e dei servizi al Sud.
+\n* Bonifica immediata dei territori inquinati da rifiuti tossici.
+\n* Esproprio delle aziende legate alla criminalità organizzata e confisca dei beni dei mafiosi.
+"</string>
 
-    <string name="SVP_Governo"> TODO governo</string>
+    <string name="SVP_Governo">"\n* Trasferimento in capo alle province autonome dei poteri legislativi primari nei seguenti settori: Ambiente, regolamento comunale alla Provincia personale,tutela e sicurezza sul lavoro.\n
+* Revisione delle norme sull’ordinamento finanziario (entrate accise e gioco d’azzardo).\n
+* attribuzione delle competenze nel campo dell’ordine pubblico e della sicurezza, oggi esercitate dal Commissario del Governo, al Presidente della Provincia.\n
+* Emanazione delle norme di attuazione nei seguenti settori: toponomastica, trasferimento dei poteri amministrativi del Ministero dell’Ambiente alle province autonome per la gestione di orso e lupo, trasferimento delle competenze amministrative e del personale amministrativo di INPS e INAIL,assunzione delle funzioni amministrative delle agenzie fiscali da parte della Provincia Autonoma di Bolzano, in particolare di quella delle entrate e dell’Agenzia delle dogane e dei monopoli.\n
+* Rinnovo della convenzioneconcessione dell’autostrada del Brennero (A22).\n
+* Rafforzamento delle specificità e considerazione delle peculiarità esclusive dell’Alto Adige in ordine all’attività di volontariato.\n
+* Particolare riguardo per l’impegno volto a garantire, nell’attività legislativa e governativa, le specificità delle autonomie speciali delle province di Bolzano e Trento.\n
+* Modifica dello Statuto di Autonomia dell’Alto Adige alla luce delle riforme costituzionali sopravvenute e delle esigenze di aggiornamento delle autonomie speciali, tenendo conto dei risultati della Convenzione sull’Autonomia di Bolzano e della Consulta per lo Statuto di Trento, fermo restando l’obbligo di concordare con l’Austria ogni modifica allo Statuto di Autonomia.\n
+"</string>
 
-    <string name="NoiConLItalia_Ambiente"> TODO ambiente</string>
-    <string name="NoiConLItalia_Cultura"> TODO cultura</string>
-    <string name="NoiConLItalia_Europa"> TODO europa</string>
-    <string name="NoiConLItalia_Famiglia"> TODO famiglia</string>
-    <string name="NoiConLItalia_Economia"> TODO Economia</string>
-    <string name="NoiConLItalia_Giustizia"> TODO giustizia</string>
-    <string name="NoiConLItalia_Governo"> TODO governo</string>
-    <string name="NoiConLItalia_Lavoro"> TODO lavoro</string>
-    <string name="NoiConLItalia_Infrastrutture"> TODO infrastrutture</string>
-    <string name="NoiConLItalia_Istruzione"> TODO istruzione</string>
-    <string name="NoiConLItalia_Previdenza"> TODO previdenza</string>
-    <string name="NoiConLItalia_Sanita"> TODO sanità</string>
-    <string name="NoiConLItalia_Sicurezza"> TODO sicurezza</string>
+    <string name="NoiConLItalia_Ambiente">"\n* Sviluppo e incentivazione di nuove forme di mobilità sostenibile (mobilità elettrica e car sharing) sia nel privato che nel pubblico.
+Lancio di un piano di risanamento decennale urbanistico e di edilizia sociale delle periferie urbane anche attraverso la “sostituzione edilizia”.
+Lotta alle ecomafie, controllo del territorio contro le discariche abusive e i siti contaminati, applicando il principio comunitario “chi inquina paga”.
+Misure premiali per gli enti locali che gestiscono in modo virtuoso la raccolta differenziata.
+Promozione dell’economia circolare e sostegno alle imprese che adottano il principio “rifiuti zero".
+"</string>
+    <string name="NoiConLItalia_Cultura">"\n* Sviluppo e incentivazione di nuove forme di mobilità sostenibile (mobilità elettrica e car sharing) sia nel privato che nel pubblico.
+\n* Lancio di un piano di risanamento decennale urbanistico e di edilizia sociale delle periferie urbane anche attraverso la “sostituzione edilizia”.
+\n* Lotta alle ecomafie, controllo del territorio contro le discariche abusive e i siti contaminati, applicando il principio comunitario “chi inquina paga”.
+\n* Misure premiali per gli enti locali che gestiscono in modo virtuoso la raccolta differenziata.
+\n* Promozione dell’economia circolare e sostegno alle imprese che adottano il principio “rifiuti zero".
+"</string>
+    <string name="NoiConLItalia_Europa">"\n* "</string>
+    <string name="NoiConLItalia_Famiglia">"\n* "</string>
+    <string name="NoiConLItalia_Economia">"\n* "</string>
+    <string name="NoiConLItalia_Giustizia">"\n* "</string>
+    <string name="NoiConLItalia_Governo">"\n* "</string>
+    <string name="NoiConLItalia_Lavoro">"\n* "</string>
+    <string name="NoiConLItalia_Infrastrutture">"\n* "</string>
+    <string name="NoiConLItalia_Istruzione">"\n* "</string>
+    <string name="NoiConLItalia_Previdenza">"\n* "</string>
+    <string name="NoiConLItalia_Sanita">"\n* "</string>
+    <string name="NoiConLItalia_Sicurezza">"\n* "</string>
 
     <string name="ItaliaAgliItaliani_Diritti">"\n* Tutte le risorse oggi bruciate a favore degli invasori extracomunitari e della costruzione di moschee vanno immediatamente reindirizzate verso le nostre classi popolari con la creazione di un ente statale totalmente pubblico che garantisca a ogni famiglia italiana il diritto alla casa, riconosciuto come primario e fondamentale.\n
 * Chiediamo la edificazione di nuovi quartieri a misura d’uomo (costruzioni con fondi pubblici, case rivendute a prezzo di costo, spazi e verde a misura di famiglie, bioarchitettura tradizionale e bassa densità abitativa) e l’istituzione del Mutuo Popolare, senza banche, interessi e usura.\n
@@ -738,7 +1300,32 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
 * Chiediamo il sostegno alla maternità fino alla maggiore età del figlio, bonus per la nascita di figli di entrambi genitori italiani, asili nido gratuiti per madri a basso reddito, la concessione di libri e materiale didattico gratuiti agli studenti della scuola dell’obbligo."</string>
     <string name="ItaliaAgliItaliani_Sanita">"\n* Respingiamo l’attuale politica statale che impone ai figli una raffica di vaccini – anche non necessari e pericolosi, indipendentemente dalla libera scelta dei genitori."</string>
 
-
+    <string name="FronteFriuliano_Agroalimentare">"\n* Si devono ritrattare con l’Europa i vincoli che frenano lo sviluppo incentivando le iniziative consortili  o cooperativistiche tra allevatori od agricoltori.\n
+* Monitoraggio programmato annualmente in piena collaborazione tra realtà produttive e le scuole superiori con il fine di orientare l’insegnamento in funzione della futura possibilità di lavoro dell’alunno.\n
+* Valorizzare il nostro patrimonio boschivo attraverso l’utilizzo e il reinpianto delle essenze legnose, di cui molte pregiate, garentendo materiale naturale autoctono per le realtà abitative di nuova concezione."</string>
+    <string name="FronteFriuliano_Ambiente">"\n* Recupero del territorio delle zone inquinate, riqualificazione delle infrastrutture commerciali e industriali, evitando l’ulteriore consumo del territorio.\n
+* Sfruttamento, compatibile con il territorio, di energie rinnovabili.\n
+* Mantenimento delle risorse idriche di proprietà pubblica escludendone la privatizzazione.\n
+* Incentivi per nuove forme ecologiche per motocicli e veicoli a trazione elettrica o gpl."</string>
+    <string name="FronteFriuliano_Cultura">"\n* Vogliamo salvaguardare le nostre radici storiche, linguistiche, culturali e territoriali valorizzando il nostro patrimonio monumentale e artistico."</string>
+    <string name="FronteFriuliano_Europa">"\n* Nel rispetto della Costituzione vogliamo trasformare l’Europa agglomerato economico/bancario, in Europa dei popoli, nel rispetto delle diverse culture e peculiarità economico-sociali.\n
+* Definire i confini ora europei, e creare una griglia di protezione finalizzata al consumo dei nostri prodotti alimentari."</string>
+    <string name="FronteFriuliano_Giustizia">"\n* Certezza della pena completa per i criminali italiani e stranieri, per rispetto di chi è stato vittima del sopruso."</string>
+    <string name="FronteFriuliano_Governo">"\n* Trasformazione istituzionale dell’attuale amministrazione regionale Friuli-Venezia Giulia attraverso i vari passi istituzionali, attualmente è gestita dai comuni e dalle UTI.\n
+* Proponiamo due realtà territoriali gestite economicamente ed autonomamente, il territorio del Friuli e quello di Trieste-Giuliano.\n
+* Revisione degli stipendi dei politici e dei dipendenti pubblici portandoli a quella che è la media europea."</string>
+    <string name="FronteFriuliano_Immigrazione">"\n* Stabilire, ritrattando gli accordi europei, un giusto equilibrio e rispetto nell’affrontare l’onere di un’ospitalità, attualmente indiscriminata, di profughi che cercano un’opportunità economica nel nostro paese."</string>
+    <string name="FronteFriuliano_Istruzione">"\n* Nelle scuole riassetto del sistema scolastico, con una netta rivisitazione delle regole della designazione del corpo insegnante.\n
+* Continuare con l’istruzione plurilingue riconoscendo però pari dignità istituzionale alle lingue italiana, friulana, tedesca, slovena, sarda e a tutte le lingue parlate storicamente nella Repubblica Italiana.\n
+* Creare il massimo di collaborazione tra scuole e realtà produttive, con particolare attenzione alle scuole professionali.\n
+* Riprendere ad insegnare l’educazione Civica nelle scuole dell’obbligo."</string>
+    <string name="FronteFriuliano_Lavoro">"\n* Ristabilire le regole pensionistiche, liberando risorse da privilegi nel settore pubblico.\n
+* Interrompere le autorizzazioni dei grandi centri commerciali che spengono di fatto le piccole attività ancora attive nei paesi.\n
+* Soppressione programmata di leggi che frenano e ostacolano lo sviluppo e la creazione di aziende che vanno a garantire l’indotto fiscale e posti di lavoro.\n
+* Per le aziende che assumono giovani a tempo indeterminato creare un fondo per garantire le contribuzioni INPS e INAIL caricando all’azienda solo il costo dello stipendio netto mensile del/della giovane assunto/a."</string>
+    <string name="FronteFriuliano_Sanita">"\n* Vogliamo riorganizzare il sistema sanitario attraverso una costante collaborazione con i primi operatori del territorio, i primari ospedalieri e i medici di base.\n
+* Particolare interesse e aiuto concreto ai disabili e anziani in difficoltà economica.\n
+* Ogni cittadino è libero di accettare o rifiutare qualsiasi cura medica alla propria persona ed a quelle di cui è tutore."</string>
 
     <string name="NoTema">
 "\nProgramma non disponibile sul sito del ministero degli interni.\n Per maggiori informazioni si rimanda al sito ufficiale."</string>

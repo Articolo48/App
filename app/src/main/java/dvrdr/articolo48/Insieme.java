@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -65,8 +67,108 @@ public class Insieme extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         getActivity().setTitle("Italia Europa Insieme");
+        View view = inflater.inflate(R.layout.fragment_insieme, container, false);
+        final Button agroalimentare = (Button) view.findViewById(R.id.But_Agroalimentare);
+        final Button ambiente       = (Button) view.findViewById(R.id.But_Ambiente);
+        final Button donne          = (Button) view.findViewById(R.id.But_Donne);
+        final Button europa         = (Button) view.findViewById(R.id.But_Europa);
+        final Button famiglia       = (Button) view.findViewById(R.id.But_Famiglia);
+        final Button istruzione     = (Button) view.findViewById(R.id.But_Istruzione);
+        final Button lavoro         = (Button) view.findViewById(R.id.But_Lavoro);
+        final Button sud            = (Button) view.findViewById(R.id.But_Sud);
+        final Fragment frag         = new Insieme_Tema();
+        final Bundle args           = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
 
-        return inflater.inflate(R.layout.fragment_insieme, container, false);
+        agroalimentare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Insieme_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        ambiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Insieme_Ambiente");
+                args.putString("titolo", "Ambiente");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        donne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Insieme_Donne");
+                args.putString("titolo", "Donne");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        europa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Insieme_Europa");
+                args.putString("titolo", "Europa");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        famiglia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Insieme_Famiglia");
+                args.putString("titolo", "Famiglia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        istruzione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Insieme_Istruzione");
+                args.putString("titolo", "Istruzione");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        lavoro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Insieme_Lavoro");
+                args.putString("titolo", "Lavoro");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sud.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Insieme_Sud");
+                args.putString("titolo", "Sud");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return  view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

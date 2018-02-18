@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -65,8 +67,97 @@ public class ListaDelPopoloDellaCostituzione extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         getActivity().setTitle("Lista Del Popolo Per La Costituzione");
+        View view = inflater.inflate(R.layout.fragment_lista_del_popolo_della_costituzione, container, false);
 
-        return inflater.inflate(R.layout.fragment_lista_del_popolo_della_costituzione, container, false);
+        final Button ambiente     = (Button) view.findViewById(R.id.But_Ambiente);
+        final Button europa       = (Button) view.findViewById(R.id.But_Europa);
+        final Button economia     = (Button) view.findViewById(R.id.But_Economia);
+        final Button lavoro       = (Button) view.findViewById(R.id.But_Lavoro);
+        final Button immigrazione = (Button) view.findViewById(R.id.But_Immigrazione);
+        final Button istruzione   = (Button) view.findViewById(R.id.But_Istruzione);
+        final Button sanita       = (Button) view.findViewById(R.id.But_Sanita);
+        final Fragment frag       = new ListaDelPopoloDellaCostituzione_Tema();
+        final Bundle args         = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        ambiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ListaDelPopoloDellaCostituzione_Ambiente");
+                args.putString("titolo", "Ambiente");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        europa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ListaDelPopoloDellaCostituzione_Europa");
+                args.putString("titolo", "Europa");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        economia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ListaDelPopoloDellaCostituzione_Economia");
+                args.putString("titolo", "Economia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        lavoro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ListaDelPopoloDellaCostituzione_Lavoro");
+                args.putString("titolo", "Lavoro");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        immigrazione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ListaDelPopoloDellaCostituzione_Immigrazione");
+                args.putString("titolo", "Immigrazione");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        istruzione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ListaDelPopoloDellaCostituzione_Istruzione");
+                args.putString("titolo", "Istruzione");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sanita.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "ListaDelPopoloDellaCostituzione_Sanita");
+                args.putString("titolo", "Sanità");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return  view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

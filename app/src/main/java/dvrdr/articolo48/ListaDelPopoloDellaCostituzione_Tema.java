@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -64,7 +65,34 @@ public class ListaDelPopoloDellaCostituzione_Tema extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_lista_del_popolo_della_costituzione__tema, container, false);
+        View view = inflater.inflate(R.layout.fragment_lista_del_popolo_della_costituzione__tema, container, false);
+
+        Bundle args = getArguments();
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.LIstaDelPopoloDellaCostituzione_Tema);
+
+        if (tema.equals("ListaDelPopoloDellaCostituzione_Ambiente"))
+            testo_tema.setText(R.string.ListaDelPopoloDellaCostituzione_Ambiente);
+        else if (tema.equals("ListaDelPopoloDellaCostituzione_Economia"))
+            testo_tema.setText(R.string.ListaDelPopoloDellaCostituzione_Economia);
+        else if (tema.equals("ListaDelPopoloDellaCostituzione_Immigrazione"))
+            testo_tema.setText(R.string.ListaDelPopoloDellaCostituzione_Immigrazione);
+        else if (tema.equals("ListaDelPopoloDellaCostituzione_Istruzione"))
+            testo_tema.setText(R.string.ListaDelPopoloDellaCostituzione_Istruzione);
+        else if (tema.equals("ListaDelPopoloDellaCostituzione_Lavoro"))
+            testo_tema.setText(R.string.ListaDelPopoloDellaCostituzione_Lavoro);
+        else if (tema.equals("ListaDelPopoloDellaCostituzione_Sanita"))
+            testo_tema.setText(R.string.ListaDelPopoloDellaCostituzione_Sanita);
+        else if (tema.equals("ListaDelPopoloDellaCostituzione_Europa"))
+            testo_tema.setText(R.string.ListaDelPopoloDellaCostituzione_Europa);
+        else
+            testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

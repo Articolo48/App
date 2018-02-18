@@ -69,32 +69,70 @@ public class FronteFriuliano extends Fragment {
         getActivity().setTitle("Fronte Friuliano");
         View view = inflater.inflate(R.layout.fragment_fronte_friuliano, container, false);
 
-        final Button banche         = (Button) view.findViewById(R.id.But_Banche);
-        final Button economia       = (Button) view.findViewById(R.id.But_Economia);
+        final Button agroalimentare = (Button) view.findViewById(R.id.But_Agroalimentare);
+        final Button ambiente       = (Button) view.findViewById(R.id.But_Ambiente);
+        final Button cultura        = (Button) view.findViewById(R.id.But_Cultura);
+        final Button europa         = (Button) view.findViewById(R.id.But_Europa);
+        final Button giustizia      = (Button) view.findViewById(R.id.But_Giustizia);
         final Button governo        = (Button) view.findViewById(R.id.But_Governo);
-        final Button immmigrazione  = (Button) view.findViewById(R.id.But_Immigrazione);
+        final Button immigrazione   = (Button) view.findViewById(R.id.But_Immigrazione);
+        final Button istruzione     = (Button) view.findViewById(R.id.But_Istruzione);
         final Button lavoro         = (Button) view.findViewById(R.id.But_Lavoro);
+        final Button sanita         = (Button) view.findViewById(R.id.But_Sanita);
         final Fragment frag         = new FronteFriuliano_Tema();
         final Bundle args           = new Bundle();
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
 
 
-        banche.setOnClickListener(new View.OnClickListener() {
+        agroalimentare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "FronteFriuliano_Banche");
-                args.putString("titolo", "Banche");
+                args.putString("tema", "FronteFriuliano_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
 
-        economia.setOnClickListener(new View.OnClickListener() {
+        ambiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "FronteFriuliano_Economia");
-                args.putString("titolo", "Economia");
+                args.putString("tema", "FronteFriuliano_Ambiente");
+                args.putString("titolo", "Ambiente");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        cultura.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "FronteFriuliano_Cultura");
+                args.putString("titolo", "Cultura");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        europa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "FronteFriuliano_Europa");
+                args.putString("titolo", "Europa");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        giustizia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "FronteFriuliano_Giustizia");
+                args.putString("titolo", "Giustizia");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -112,11 +150,22 @@ public class FronteFriuliano extends Fragment {
             }
         });
 
-        immmigrazione.setOnClickListener(new View.OnClickListener() {
+        immigrazione.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 args.putString("tema", "FronteFriuliano_Immigrazione");
                 args.putString("titolo", "Immigrazione");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        istruzione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "FronteFriuliano_Istruzione");
+                args.putString("titolo", "Istruzione");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -128,6 +177,17 @@ public class FronteFriuliano extends Fragment {
             public void onClick(View view) {
                 args.putString("tema", "FronteFriuliano_Lavoro");
                 args.putString("titolo", "Lavoro");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sanita.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "FronteFriuliano_Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();

@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -64,7 +65,35 @@ public class Insieme_Tema extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_insieme__tema, container, false);
+        View view = inflater.inflate(R.layout.fragment_insieme__tema, container, false);
+
+        Bundle args = getArguments();
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.Insieme_Tema);
+
+        if(tema.equals("Insieme_Agroalimentare"))
+            testo_tema.setText(R.string.Insieme_Agroalimentare);
+        else if (tema.equals("Insieme_Ambiente"))
+            testo_tema.setText(R.string.Insieme_Ambiente);
+        else if (tema.equals("Insieme_Donne"))
+            testo_tema.setText(R.string.Insieme_Donne);
+        else if (tema.equals("Insieme_Europa"))
+            testo_tema.setText(R.string.Insieme_Europa);
+        else if (tema.equals("Insieme_Famiglia"))
+            testo_tema.setText(R.string.Insieme_Famiglia);
+        else if (tema.equals("Insieme_Istruzione"))
+            testo_tema.setText(R.string.Insieme_Istruzione);
+        else if (tema.equals("Insieme_Lavoro"))
+            testo_tema.setText(R.string.Insieme_Lavoro);
+        else if (tema.equals("Insieme_Sud"))
+            testo_tema.setText(R.string.Insieme_Sud);
+        else
+            testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+        return  view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
