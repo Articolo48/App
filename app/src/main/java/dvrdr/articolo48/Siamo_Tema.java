@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -64,7 +65,42 @@ public class Siamo_Tema extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_siamo__tema, container, false);
+        View view = inflater.inflate(R.layout.fragment_siamo__tema, container, false);
+
+        Bundle args = getArguments();
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.Siamo_Tema);
+
+        if (tema.equals("Siamo_Agroalimentare"))
+            testo_tema.setText(R.string.Siamo_Agroalimentare);
+        else if (tema.equals("Siamo_Ambiente"))
+            testo_tema.setText(R.string.Siamo_Ambiente);
+        else if (tema.equals("Siamo_Diritti"))
+            testo_tema.setText(R.string.Siamo_Diritti);
+        else if (tema.equals("Siamo_Donne"))
+            testo_tema.setText(R.string.Siamo_Donne);
+        else if (tema.equals("Siamo_Famiglia"))
+            testo_tema.setText(R.string.Siamo_Famiglia);
+        else if (tema.equals("Siamo_Infrastrutture"))
+            testo_tema.setText(R.string.Siamo_Infrastrutture);
+        else if (tema.equals("Siamo_Istruzione"))
+            testo_tema.setText(R.string.Siamo_Istruzione);
+        else if (tema.equals("Siamo_Lavoro"))
+            testo_tema.setText(R.string.Siamo_Lavoro);
+        else if (tema.equals("Siamo_Giustizia"))
+            testo_tema.setText(R.string.Siamo_Giustizia);
+        else if (tema.equals("Siamo_Governo"))
+            testo_tema.setText(R.string.Siamo_Governo);
+        else if (tema.equals("Siamo_Sanita"))
+            testo_tema.setText(R.string.Siamo_Sanita);
+        else
+            testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

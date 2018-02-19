@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -65,8 +67,46 @@ public class Rinascimento extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         getActivity().setTitle("MIR Italia");
+        View view = inflater.inflate(R.layout.fragment_rinascimento, container, false);
 
-        return inflater.inflate(R.layout.fragment_rinascimento, container, false);
+        final Button cultura  = (Button) view.findViewById(R.id.But_Cultura);
+        final Button lavoro   = (Button) view.findViewById(R.id.But_Lavoro);
+        final Button governo  = (Button) view.findViewById(R.id.But_Governo);
+        final Fragment frag = new Rinascimento_Tema();
+        final Bundle args   = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        cultura.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Rinascimento_Cultura");
+                args.putString("titolo", "Cultura");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        lavoro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Rinascimento_Lavoro");
+                args.putString("titolo", "Lavoro");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        governo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Rinascimento_Governo");
+                args.putString("titolo", "Governo");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

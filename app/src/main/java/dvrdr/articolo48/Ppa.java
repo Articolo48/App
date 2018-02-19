@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -64,9 +66,47 @@ public class Ppa extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("PPA - Movimento Politico Pensiero Azione");
+        getActivity().setTitle("Popolo Partite Iva");
+        View view = inflater.inflate(R.layout.fragment_ppa, container, false);
 
-        return inflater.inflate(R.layout.fragment_ppa, container, false);
+        final Button banche   = (Button) view.findViewById(R.id.But_Banche);
+        final Button economia = (Button) view.findViewById(R.id.But_Economia);
+        final Button governo  = (Button) view.findViewById(R.id.But_Governo);
+        final Fragment frag = new Ppa_Tema();
+        final Bundle args   = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        banche.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Ppa_Banche");
+                args.putString("titolo", "Banche");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        economia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Ppa_Economia");
+                args.putString("titolo", "Economia");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        governo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Ppa_Governo");
+                args.putString("titolo", "Governo");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

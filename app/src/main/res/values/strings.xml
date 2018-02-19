@@ -1091,9 +1091,15 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
     <string name="Maie_Istruzione">"\n* L'Italia deve promuovere ulteriormente la sua eccellente offerta universitaria, promuovere un sistema di borse di studio per giovani di origine italiana da formare in Italia e promuovere la cooperazione scientifica con ricercatori di origine italiana."</string>
     <string name="Maie_Sanita">"\n* Garantire ai residenti italiani all'estero cure mediche quando rientrano temporaneamente in Italia. I cittadini italiani devono avere libero accesso al sistema sanitario in Italia anche se la loro residenza è all'estero."</string>
 
-    <string name="Rinascimento_Cultura"> TODO cultura</string>
-    <string name="Rinascimento_Governo"> TODO governo</string>
-    <string name="Rinascimento_Lavoro"> TODO lavoro</string>
+    <string name="Rinascimento_Cultura">"\n* Investire tutto il possibile in istruzione e cultura: per dare un futuro alle nuove generazioni per mantenere in Italia le menti eccellenti, per creare poli di avanguardia competitivi all’estero, per formare una nuova classe dirigente competente e autorevole perché siamo consapevoli che la cultura è la prima e indispensabile fonte di sviluppo e di crescita di un paese.
+\n* Ricominciare a credere e investire nella bellezza. Pertanto ci si propone di operare, attraverso iniziative politiche, sociali e culturali, per una rinascita del Paese, promuovendo i beni artistici, architettonici, ambientali e paesaggistici."</string>
+    <string name="Rinascimento_Governo">"\n* L’ abbattimento del debito pubblico, attraverso: una parziale dismissione del patrimonio immobiliare pubblico,un prelievo una tantum sui grandi patrimoni superiori ai 10 milionidi euro,l’impiego delle riserve auree valutarie della banca d’Italia per 250 miliardi.
+\n* L’acquisizione al patrimonio pubblico di quelle delle fondazioni bancarie e non, stimabile in oltre 250 miliardi di euro.
+\n* L’utilizzo di parte delle risorse sopra indicate per la riduzione della pressione fiscale, a favore delle famiglie, dei ceti medi e medio bassi, delle piccole e medie imprese, degli artigiani e dei commercianti così da favorire, da un lato, l’indispensabile ripresa dei consumi interni e, dall’altro, la riduzione dell’evasione fiscale.
+\n* L’utilizzo di parte delle risorse sopra indicate per aumentare la capacità di spesa dei consumatori attraverso l’aumento di stipendi e pensioni.
+\n* La riattivazione del credito bancario a favore delle piccole e medie imprese, degli artigiani, dei commercianti, delle famiglie.
+\n* La cancellazione di tutti i costi sovrastrutturali del funzionamento dello Stato."</string>
+    <string name="Rinascimento_Lavoro">"\n* Indirizzare l’industria interna verso il settore della riqualificazione ambientale per ripristinare un ambiente esteticamente attraente e qualitativamente ottimale in cui vivere e al contempo creare un’offerta turistica di altissimo livello in grado di divenire uno dei propulsori della nostra economia."</string>
 
     <string name="PartitoRepubblicano_Ambiente">"\n* La tutela dell’ambiente non come iter procedurale, esercizio ostativo all’esecuzione di opere, piani e progetti o appannaggio di un unico ministero. La diffusione e pervasione delle pratiche ambientali come attività ordinaria pubblica e privata e qualità di produzione, deve avere costi di produzione accessibili, anche esentati di iva."</string>
     <string name="PartitoRepubblicano_Diritti">"\n* Un sistema fragile, esposto alle troppe “esasperate” contrapposizioni sociali in grado di spiralizzare continui sentimenti di ribellismo fa emergere, indipendentemente dall’età, dal reddito, dalla localizzazione, nuove forme di marginalità.

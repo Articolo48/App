@@ -77,7 +77,7 @@ public class PotereAlPopolo extends Fragment {
         final Button economia        = (Button) view.findViewById(R.id.But_Economia);
         final Button giustizia       = (Button) view.findViewById(R.id.But_Giustizia);
         final Button immigrazione    = (Button) view.findViewById(R.id.But_Immigrazione);
-        final Button instratrutture  = (Button) view.findViewById(R.id.But_Infrastrutture);
+        final Button infrastrutture  = (Button) view.findViewById(R.id.But_Infrastrutture);
         final Button istruzione      = (Button) view.findViewById(R.id.But_Istruzione);
         final Button lavoro          = (Button) view.findViewById(R.id.But_Lavoro);
         final Button previdenza      = (Button) view.findViewById(R.id.But_Previdenza);
@@ -108,7 +108,7 @@ public class PotereAlPopolo extends Fragment {
             }
         });
 
-  /*      donne.setOnClickListener(new View.OnClickListener() {
+        donne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 args.putString("tema", "PotereAlPopolo_Donne");
@@ -117,7 +117,7 @@ public class PotereAlPopolo extends Fragment {
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
-*/
+
         economia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -148,6 +148,15 @@ public class PotereAlPopolo extends Fragment {
             }
         });
 
+        infrastrutture.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PotereAlPopolo_Infrastrutture");
+                args.putString("titolo", "Infrastrutture");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
 
         istruzione.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -79,6 +79,8 @@ public class PotereAlPopolo_Tema extends Fragment {
             testo_tema.setText(R.string.PotereAlPopolo_Ambiente);
         else if (tema.equals("PotereAlPopolo_Cultura"))
             testo_tema.setText(R.string.PotereAlPopolo_Cultura);
+        else if (tema.equals("PotereAlPopolo_Donne"))
+            testo_tema.setText(R.string.PotereAlPopolo_Donne);
          else if (tema.equals("PotereAlPopolo_Economia"))
             testo_tema.setText(R.string.PotereAlPopolo_Economia);
         else if (tema.equals("PotereAlPopolo_Giustizia"))
@@ -87,6 +89,8 @@ public class PotereAlPopolo_Tema extends Fragment {
             testo_tema.setText(R.string.PotereAlPopolo_Immigrazione);
         else if (tema.equals("PotereAlPopolo_Istruzione"))
             testo_tema.setText(R.string.PotereAlPopolo_Istruzione);
+        else if (tema.equals("PotereAlPopolo_Infrastrutture"))
+            testo_tema.setText(R.string.PotereAlPopolo_Infrastrutture);
         else if (tema.equals("PotereAlPopolo_Lavoro"))
             testo_tema.setText(R.string.PotereAlPopolo_Lavoro);
         else if (tema.equals("PotereAlPopolo_Previdenza"))
@@ -95,8 +99,6 @@ public class PotereAlPopolo_Tema extends Fragment {
             testo_tema.setText(R.string.PotereAlPopolo_Sanita);
         else if (tema.equals("PotereAlPopolo_Sicurezza"))
             testo_tema.setText(R.string.PotereAlPopolo_Sicurezza);
-        else if (tema.equals("PotereAlPopolo_Economia"))
-            testo_tema.setText(R.string.PotereAlPopolo_Economia);
         else if (tema.equals("PotereAlPopolo_Sud"))
             testo_tema.setText(R.string.PotereAlPopolo_Sud);
         else if (tema.equals("PotereAlPopolo_Europa"))
