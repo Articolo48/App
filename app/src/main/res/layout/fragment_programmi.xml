@@ -24,7 +24,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:drawableTop="@drawable/ic_button_agroalimentare"
-                    android:text="ambiente" />
+                    android:text="agroalimentare" />
 
                 <Button
                     android:id="@+id/But_Ambiente"

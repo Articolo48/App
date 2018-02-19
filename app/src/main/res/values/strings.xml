@@ -728,16 +728,14 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
     <string name="PiuEuropa_Immigrazione">"\n* Miglioramento sistema di accoglienza: adozione esclusiva del modello SPRAR e aumento della qualità dei servizi attraverso meccanismi di monitoraggio. Programmi di reinserimento e corridoi umanitari.
 \n* Superamento della Bossi-Fini e introduzione di canali legali e sicuri d’ingresso al lavoro degli stranieri, attraverso la proposta di legge di iniziativa popolare “Ero Straniero”.
 "</string>
-    <string name="PiuEuropa_Impresa">"\n* Implementazione del piano Industria 4.0 realizzato dal Ministero dello Sviluppo Economico. Attuazione del cosiddetto piano Calenda-Bentivogli su imprese, innovazione, formazione professionale.
-\n* Eliminare ostacoli burocratici e di sistema che ostacolano la crescita dimensionale delle imprese italiane. Favorire riduzione esposizione bancaria imprese, favorendo forme di finanziamento innovative.
-"</string>
-    <string name="PiuEuropa_Lavoro">"\n* Revisione del sistema degli ordini professionali, separando le funzioni di governo e disciplina da quelle di rappresentanza delle categorie. Superamento delle casse previdenziali obbligatorie.
-\n* Equiparazione dei valori retributivi tra uomini e donne per le medesime tipologie di impiego o di mansioni svolte. 
+    <string name="PiuEuropa_Lavoro">"\n* Implementazione del piano Industria 4.0 realizzato dal Ministero dello Sviluppo Economico. Attuazione del cosiddetto piano Calenda-Bentivogli su imprese, innovazione, formazione professionale.
+\n* Eliminare ostacoli burocratici e di sistema che ostacolano la crescita dimensionale delle imprese italiane. Favorire riduzione esposizione bancaria imprese, favorendo forme di finanziamento innovative
+\n* Revisione del sistema degli ordini professionali, separando le funzioni di governo e disciplina da quelle di rappresentanza delle categorie. Superamento delle casse previdenziali obbligatorie.
+\n* Equiparazione dei valori retributivi tra uomini e donne per le medesime tipologie di impiego o di mansioni svolte.
 \n* Introduzione di una forma di sussidio di disoccupazione europeo.
-\n* Estensione delle attuali agevolazioni burocratiche vigenti per i regimi dei minimi a tutti i titolari di partita Iva fino a 60mila euro di fatturato. 
-\n* Costruzione di un vero mercato del lavoro europeo, interdipendente e integrato, con mobilità formativa a livello continentale .
-\n* Formazione continua che coinvolga tutti i lavoratori, investendo in politiche attive per non lasciare soli i lavoratori spiazzati dalla rivoluzione tecnologica.
-"</string>
+\n* Estensione delle attuali agevolazioni burocratiche vigenti per i regimi dei minimi a tutti i titolari di partita Iva fino a 60mila euro di fatturato.
+\n* Costruzione di un vero mercato del lavoro europeo, interdipendente e integrato, con mobilità formativa a livello continentale
+\n* Formazione continua che coinvolga tutti i lavoratori, investendo in politiche attive per non lasciare soli i lavoratori spiazzati dalla rivoluzione tecnologica"</string>
     <string name="PiuEuropa_Previdenza">"\n* A favore dei giovani neoassunti fino a 35 anni: possibilità di destinare parte dei contributi obbligatori alla previdenza integrativa, così da garantire una pensione futura più robusta. 
 \n* Non bisogna smontare le riforme pensionistiche degli ultimi anni, perché questo rappresenterebbe un danno per i più giovani e per la sostenibilità del sistema previdenziale e di welfare.
 "</string>
@@ -1223,7 +1221,7 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
 \n* Rifiutare l’ossessione della “governabilità”, lo svuotamento di potere del Parlamento, il rafforzamento degli esecutivi, l’imposizione di decisioni dall’alto perché “ce lo chiede l’Europa”;
 \n* Il diritto dei popoli ad essere chiamati ad esprimersi su tutte le decisioni prese sulle loro teste a qualunque livello– comunale, regionale, statale, europeo – pregresse o future, con il ricorso al referendum.
 "</string>
-    <string name="PotereAlPopolo_FiscoEconomaia">"\n* Un’imposta sui grandi patrimoni: l’1% più ricco degli italiani detiene il 25% della ricchezza nazionale, 415 volte quello che è posseduto dal 20% più povero della popolazione;
+    <string name="PotereAlPopolo_Economia">"\n* Un’imposta sui grandi patrimoni: l’1% più ricco degli italiani detiene il 25% della ricchezza nazionale, 415 volte quello che è posseduto dal 20% più povero della popolazione;
 \n* Il ripristino della progressività del sistema fiscale secondo il dettato costituzionale (art. 53), diminuendo le tasse sui redditi bassi e aumentandole su quelli più alti: l’Irpef, quando fu introdotta, prevedeva 32 scaglioni di reddito, con l’aliquota più bassa al 10% e la più alta al 72%, mentre ora gli scaglioni sono 5 con la prima aliquota al 23% e l’ultima al 43%;
 \n* Una lotta seria alla grande evasione ed elusione fiscale, a partire da quella delle grandi multinazionali (Google, Amazon, Apple..);
 \n* La fine dei trasferimenti a pioggia alle imprese e della continua riduzione delle tasse sui profitti;
@@ -1309,7 +1307,7 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
 \n* La soppressione delle Casse previdenziali private e riconduzione nella gestione INPS della previdenza dei lavoratori ordinisti;
 \n* La separazione tra previdenza e assistenza.
 "</string>
-    <string name="PotereAlPopolo_Sanità">"\n* L’istituzione del reddito minimo garantito, contro l’esclusione sociale e la precarietà della vita, per persone disoccupate e precarie: un reddito che consenta di superare la soglia di povertà relativa, che sia a carattere personale ed erogato fino al superamento della condizione di disagio;
+    <string name="PotereAlPopolo_Sanita">"\n* L’istituzione del reddito minimo garantito, contro l’esclusione sociale e la precarietà della vita, per persone disoccupate e precarie: un reddito che consenta di superare la soglia di povertà relativa, che sia a carattere personale ed erogato fino al superamento della condizione di disagio;
 \n* La garanzia dei livelli essenziali di assistenza erogati dal SSN e la loro omogeneità su tutto il territorio nazionale;
 \n* L’eliminazione dei ticket sulle prestazioni sanitarie;
 \n* Il taglio drastico dei tempi di attesa, anche attraverso la modifica delle norme che regolano l’intra moenia;

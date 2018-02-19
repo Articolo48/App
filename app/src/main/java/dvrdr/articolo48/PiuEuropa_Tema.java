@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -64,7 +65,54 @@ public class PiuEuropa_Tema extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_piu_europa__tema, container, false);
+        View view = inflater.inflate(R.layout.fragment_piu_europa__tema, container, false);
+
+        Bundle args = getArguments();
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.PiuEuropa_Tema);
+
+        if(tema.equals("PiuEuropa_Agroalimentare"))
+            testo_tema.setText(R.string.PiuEuropa_Agroalimentare);
+        else if (tema.equals("PiuEuropa_Ambiente"))
+            testo_tema.setText(R.string.PiuEuropa_Ambiente);
+        else if (tema.equals("PiuEuropa_Cultura"))
+            testo_tema.setText(R.string.PiuEuropa_Cultura);
+        else if (tema.equals("PiuEuropa_Diritti"))
+            testo_tema.setText(R.string.PiuEuropa_Diritti);
+        else if (tema.equals("PiuEuropa_Famiglia"))
+            testo_tema.setText(R.string.PiuEuropa_Famiglia);
+        else if (tema.equals("PiuEuropa_Economia"))
+            testo_tema.setText(R.string.PiuEuropa_Economia);
+        else if (tema.equals("PiuEuropa_Giustizia"))
+            testo_tema.setText(R.string.PiuEuropa_Giustizia);
+        else if (tema.equals("PiuEuropa_Governo"))
+            testo_tema.setText(R.string.PiuEuropa_Governo);
+        else if (tema.equals("PiuEuropa_Immigrazione"))
+            testo_tema.setText(R.string.PiuEuropa_Immigrazione);
+        else if (tema.equals("PiuEuropa_Lavoro"))
+            testo_tema.setText(R.string.PiuEuropa_Lavoro);
+        else if (tema.equals("PiuEuropa_Previdenza"))
+            testo_tema.setText(R.string.PiuEuropa_Previdenza);
+        else if (tema.equals("PiuEuropa_Protezione_Sociale"))
+            testo_tema.setText(R.string.PiuEuropa_Protezione_Sociale);
+        else if (tema.equals("PiuEuropa_Sanita"))
+            testo_tema.setText(R.string.PiuEuropa_Sanita);
+        else if (tema.equals("PiuEuropa_Sicurezza"))
+            testo_tema.setText(R.string.PiuEuropa_Sicurezza);
+        else if (tema.equals("PiuEuropa_Estero"))
+            testo_tema.setText(R.string.PiuEuropa_Estero);
+        else if (tema.equals("PiuEuropa_Tecnologia"))
+            testo_tema.setText(R.string.PiuEuropa_Tecnologia);
+        else if (tema.equals("PiuEuropa_Europa"))
+            testo_tema.setText(R.string.PiuEuropa_Europa);
+        else
+            testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

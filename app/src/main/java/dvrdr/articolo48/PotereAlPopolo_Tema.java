@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -64,7 +65,46 @@ public class PotereAlPopolo_Tema extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_potere_al_popolo__tema, container, false);
+        View view = inflater.inflate(R.layout.fragment_potere_al_popolo__tema, container, false);
+
+        Bundle args = getArguments();
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.PotereAlPopolo_Tema);
+
+        if (tema.equals("PotereAlPopolo_Ambiente"))
+            testo_tema.setText(R.string.PotereAlPopolo_Ambiente);
+        else if (tema.equals("PotereAlPopolo_Cultura"))
+            testo_tema.setText(R.string.PotereAlPopolo_Cultura);
+         else if (tema.equals("PotereAlPopolo_Economia"))
+            testo_tema.setText(R.string.PotereAlPopolo_Economia);
+        else if (tema.equals("PotereAlPopolo_Giustizia"))
+            testo_tema.setText(R.string.PotereAlPopolo_Giustizia);
+        else if (tema.equals("PotereAlPopolo_Immigrazione"))
+            testo_tema.setText(R.string.PotereAlPopolo_Immigrazione);
+        else if (tema.equals("PotereAlPopolo_Istruzione"))
+            testo_tema.setText(R.string.PotereAlPopolo_Istruzione);
+        else if (tema.equals("PotereAlPopolo_Lavoro"))
+            testo_tema.setText(R.string.PotereAlPopolo_Lavoro);
+        else if (tema.equals("PotereAlPopolo_Previdenza"))
+            testo_tema.setText(R.string.PotereAlPopolo_Previdenza);
+        else if (tema.equals("PotereAlPopolo_Sanita"))
+            testo_tema.setText(R.string.PotereAlPopolo_Sanita);
+        else if (tema.equals("PotereAlPopolo_Sicurezza"))
+            testo_tema.setText(R.string.PotereAlPopolo_Sicurezza);
+        else if (tema.equals("PotereAlPopolo_Economia"))
+            testo_tema.setText(R.string.PotereAlPopolo_Economia);
+        else if (tema.equals("PotereAlPopolo_Sud"))
+            testo_tema.setText(R.string.PotereAlPopolo_Sud);
+        else if (tema.equals("PotereAlPopolo_Europa"))
+            testo_tema.setText(R.string.PotereAlPopolo_Europa);
+        else
+            testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
