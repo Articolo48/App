@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -64,7 +65,39 @@ public class PartitoRepubblicano_Tema extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_partito_repubblicano__tema, container, false);
+        View view = inflater.inflate(R.layout.fragment_partito_repubblicano__tema, container, false);
+
+        Bundle args = getArguments();
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.PartitoRepubblicano_Tema);
+
+        if (tema.equals("PartitoRepubblicano_Ambiente"))
+            testo_tema.setText(R.string.PartitoRepubblicano_Ambiente);
+        else if (tema.equals("PartitoRepubblicano_Diritti"))
+            testo_tema.setText(R.string.PartitoRepubblicano_Diritti);
+        else if (tema.equals("PartitoRepubblicano_Economia"))
+            testo_tema.setText(R.string.PartitoRepubblicano_Economia);
+        else if (tema.equals("PartitoRepubblicano_Giustizia"))
+            testo_tema.setText(R.string.PartitoRepubblicano_Giustizia);
+        else if (tema.equals("PartitoRepubblicano_Governo"))
+            testo_tema.setText(R.string.PartitoRepubblicano_Governo);
+        else if (tema.equals("PartitoRepubblicano_Infrastrutture"))
+            testo_tema.setText(R.string.PartitoRepubblicano_Infrastrutture);
+        else if (tema.equals("PartitoRepubblicano_Istruzione"))
+            testo_tema.setText(R.string.PartitoRepubblicano_Istruzione);
+        else if (tema.equals("PartitoRepubblicano_Lavoro"))
+            testo_tema.setText(R.string.PartitoRepubblicano_Lavoro);
+        else if (tema.equals("PartitoRepubblicano_Previdenza"))
+            testo_tema.setText(R.string.PartitoRepubblicano_Previdenza);
+        else if (tema.equals("PartitoRepubblicano_Sanita"))
+            testo_tema.setText(R.string.PartitoRepubblicano_Sanita);
+        else
+            testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

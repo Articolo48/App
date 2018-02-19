@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -65,8 +67,68 @@ public class PartitoValoreUmano extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         getActivity().setTitle("Partito Valore Umano");
+        View view = inflater.inflate(R.layout.fragment_partito_valore_umano, container, false);
 
-        return inflater.inflate(R.layout.fragment_partito_valore_umano, container, false);
+        final Button agroalimentare = (Button) view.findViewById(R.id.But_Agroalimentare);
+        final Button europa         = (Button) view.findViewById(R.id.But_Europa);
+        final Button governo        = (Button) view.findViewById(R.id.But_Governo);
+        final Button lavoro         = (Button) view.findViewById(R.id.But_Lavoro);
+        final Button sanita         = (Button) view.findViewById(R.id.But_Sanita);
+        final Fragment frag         = new PartitoValoreUmano_Tema();
+        final Bundle args           = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        agroalimentare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PartitoValoreUmano_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        europa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PartitoValoreUmano_Europa");
+                args.putString("titolo", "Europa");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        governo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PartitoValoreUmano_Governo");
+                args.putString("titolo", "Governo");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        lavoro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PartitoValoreUmano_Lavoro");
+                args.putString("titolo", "Lavoro");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sanita.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PartitoValoreUmano_Sanita");
+                args.putString("titolo", "Sanità");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -65,8 +67,124 @@ public class PartitoRepubblicanoItaliano extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         getActivity().setTitle("Partito Repubblicano Italiano - ALA");
+        View view = inflater.inflate(R.layout.fragment_partito_repubblicano_italiano, container, false);
 
-        return inflater.inflate(R.layout.fragment_partito_repubblicano_italiano, container, false);
+        final Button ambiente       = (Button) view.findViewById(R.id.But_Ambiente);
+        final Button diritti        = (Button) view.findViewById(R.id.But_Diritti);
+        final Button economia       = (Button) view.findViewById(R.id.But_Economia);
+        final Button giustizia      = (Button) view.findViewById(R.id.But_Giustizia);
+        final Button governo        = (Button) view.findViewById(R.id.But_Governo);
+        final Button istruzione     = (Button) view.findViewById(R.id.But_Istruzione);
+        final Button infrastrutture = (Button) view.findViewById(R.id.But_Instrastrutture);
+        final Button lavoro         = (Button) view.findViewById(R.id.But_Lavoro);
+        final Button previdenza     = (Button) view.findViewById(R.id.But_Previdenza);
+        final Button sanita         = (Button) view.findViewById(R.id.But_Sanita);
+        final Fragment frag         = new PartitoRepubblicano_Tema();
+        final Bundle args           = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        ambiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PartitoRepubblicano_Ambiente");
+                args.putString("titolo", "Ambiente");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        diritti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PartitoRepubblicano_Diritti");
+                args.putString("titolo", "Diritti");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        economia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PartitoRepubblicano_Economia");
+                args.putString("titolo", "Economia");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        giustizia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PartitoRepubblicano_Giustizia");
+                args.putString("titolo", "Giustizia");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        governo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PartitoRepubblicano_Governo");
+                args.putString("titolo", "Governo");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        istruzione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PartitoRepubblicano_Istruzione");
+                args.putString("titolo", "Istruzione");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        infrastrutture.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PartitoRepubblicano_Infrastrutture");
+                args.putString("titolo", "Infrastrutture");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        lavoro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PartitoRepubblicano_Lavoro");
+                args.putString("titolo", "Lavoro");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        previdenza.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PartitoRepubblicano_Previdenza");
+                args.putString("titolo", "Previdenza");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sanita.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PartitoRepubblicano_Sanita");
+                args.putString("titolo", "Sanità");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

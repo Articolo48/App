@@ -901,11 +901,6 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
     <string name="DestreUnite_Sanita">"\n* Bloccare immediatamente qualsiasi forma di taglio o riduzione dei servizi offerti, premiando comunque l’economicità e la funzionalità, e si ritiene determinante un rapido rilancio della ricerca e una curata promozione della prevenzione."</string>
     <string name="DestreUnite_Europa">"\n* Siamo profondamente contrari al Trattato di Lisbona e ne proponiamo un’immediata e profonda riscrittura, ridando centralità ai “Valori” e non alla “Valuta”, ripartendo dal disegno di una Carta Costituzionale che coltivi la diversità delle culture, delle tradizioni e delle lingue autoctone in un’Europa di nazioni libere, indipendenti e paritarie, nel quadro di una confederazione di Stati nazione sovrani."</string>
 
-    <string name="ForzaNuova_Diritti"> TODO diritti</string>
-    <string name="ForzaNuova_Europa"> TODO europa</string>
-    <string name="ForzaNuova_Famiglia"> TODO famiglia</string>
-    <string name="ForzaNuova_Sanita"> TODO sanità</string>
-
     <string name="GrandeNord_Banche">"\n* Banche più piccole: ritorno alle casse di risparmio con principio autotutela."</string>
     <string name="GrandeNord_Economia">"\n* Shock fiscale e semplificazione totale:\n
     1. Due sole aliquote – eliminazione selva detrazioni\n
@@ -1102,16 +1097,47 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
     <string name="Rinascimento_Governo"> TODO governo</string>
     <string name="Rinascimento_Lavoro"> TODO lavoro</string>
 
-    <string name="PartitoRepubblicano_Ambiente"> TODO ambiente</string>
-    <string name="PartitoRepubblicano_Diritti"> TODO diritti</string>
-    <string name="PartitoRepubblicano_Economia"> TODO fisco_economia</string>
-    <string name="PartitoRepubblicano_Giustizia"> TODO giustizia</string>
-    <string name="PartitoRepubblicano_Governo"> TODO governo</string>
-    <string name="PartitoRepubblicano_Lavoro"> TODO lavoro</string>
-    <string name="PartitoRepubblicano_Infrastrutture"> TODO infrastrutture</string>
-    <string name="PartitoRepubblicano_Istruzione"> TODO istruzione</string>
-    <string name="PartitoRepubblicano_Sanita"> TODO sanità</string>
-    <string name="PartitoRepubblicano_Previdenza"> TODO previdenza</string>
+    <string name="PartitoRepubblicano_Ambiente">"\n* La tutela dell’ambiente non come iter procedurale, esercizio ostativo all’esecuzione di opere, piani e progetti o appannaggio di un unico ministero. La diffusione e pervasione delle pratiche ambientali come attività ordinaria pubblica e privata e qualità di produzione, deve avere costi di produzione accessibili, anche esentati di iva."</string>
+    <string name="PartitoRepubblicano_Diritti">"\n* Un sistema fragile, esposto alle troppe “esasperate” contrapposizioni sociali in grado di spiralizzare continui sentimenti di ribellismo fa emergere, indipendentemente dall’età, dal reddito, dalla localizzazione, nuove forme di marginalità.
+\n* Una donna sola anziana e con una pensione di oltre mille euro non viene ascritta nel novero dei soggetti in difficoltà.
+\n* Un ragazzo di colore adottato da una famiglia agiata di professionisti può vivere con grossi problemi in una società razzista per carenze culturali ed in cui la scuola non svolge la sua funzione di educare tutti.
+\n* Una ragazza che segue programmi differenziati a causa di handicap nella scuola dell’obbligo ed al liceo non ha diritto a conseguire un titolo di studio con valore legale.
+\n* Tutto questo porta verso una società di contrapposizione; verso un mondo in cui il prossimo è un nemico, un essere del quale invidiare la condizione che è visto come il nemico da combattere e non un esempio da emulare, avendo perso l’aspirazione ad emulare i suoi successi.
+\n* Per i giovani, uomini e donne, servizio civile obbligatorio remunerato."</string>
+    <string name="PartitoRepubblicano_Economia">"\n* Profonda revisione del sistema amministrativo.
+\n* Compresenza di organismi eterogenei (vedi Ministeri ed Agenzie).
+\n* Incertezza tra le unità decisionali su temi di rilevanza nazionale (vedi caso ILVA).
+\n* Estensione Bonus 80 Euro dai 4,2 ai 5,7.
+\n* Riduzione IREP 13 Mld."</string>
+    <string name="PartitoRepubblicano_Giustizia">"\n* Oggi la giustizia non è più super partes ma appare in alcun casi giocatore in campo,pilota di squadre di attivisti a favore di una o altra parte.
+\n* Separazione delle carriere.
+\n* Processi brevi sia nel penale che nel civile."</string>
+    <string name="PartitoRepubblicano_Governo">"\n Il rinnovamento radicale dell’Italia quale paese europeo, occidentale, moderno, industriale, dinamico richiede un’azione di governo finalizzata al superamento dei vincoli e degli ostacoli oggi esistenti.
+\n* A questa azione con connotati fortemente strategici, va affiancato un intervento economico-finanziario di tipo congiunturale, chiaro e definito e limitato nel tempo,che possa consentire un immediato allineamento dei processi di competitività, di innovazione, di crescita dell’Italia con i suoi principali “competitors”a tutti i livelli.
+\n* Questa iniziativa congiunturale, pur restando in stretta correlazione con la linea strategica di rinnovamento, deve potersi svolgere in una cornice di regole che possono essere condivise dai mercati e dagli organismi finanziari internazionali.
+\n* L’attuazione tempestiva e contestuale di un significativo pacchetto di riforme di struttura in parallelo allo svolgimento dell’intervento congiunturale rappresenta il nodo di svolta per la credibilità della volontà politica dell’Italia di affrontare in modo innovativo e risolutivo il gap del paese.
+\n* Una forte politica di riduzione della spesa pubblica, tesa alla riduzione degli sprechi ed alla centralizzazione delle decisioni per evitare che localismi e clientelismi possano incidere negativamente sulle scelte da compiere.
+\n* Le risorse rese disponibili dovranno essere utilizzate per affrontare le esigenze dei più deboli, famiglie e anziani in primo luogo, ed a ridurre progressivamente il debito pubblico, mentre per i giovani saranno formulate più oltre alcune proposte concrete lontane della impraticabili mance elettorali proposte da partiti di destra o di sinistra e di ogni altro colore.
+\n* In questa ottica deve assumere particolare rilevanza la precisa volontà politica di confermare la moneta unica (euro)come la scelta strategica definitiva dell’Italia.
+\n* Intendiamo proporre di strutturare un’azione di prevenzione e contrasto calibrando lo sforzo proporzionalmente all’entità dei fenomeni rispetto ai singoli fatti. Applicare le stesse regole alle organizzazioni o al singolo delinquente non è la stessa cosa perché gli effetti sono drasticamente diversi."</string>
+    <string name="PartitoRepubblicano_Lavoro">"\n* I nuovi artigiani potranno avere un ruolo solo favorendo una politica di qualità, in tutti i settori; è questa la direzione che dovremo seguire e le auto nome scelte degli operatori più avveduti vanno in quel senso. Lo Stato deve aiutare con politiche ad hoc questa volontà e questo sforzo che dovrà tendere a recuperare i piccoli capitali perduti, le piccole rendite azzerate e creare le condizioni per permettere l’ingresso delle nuove professioni."</string>
+    <string name="PartitoRepubblicano_Infrastrutture">"\n* Ridiscussione dell’accordo ANAS-FS.
+\n* Completamento delle opere avviate.
+\n* Piano nazionale di manutenzione ordinaria e straordinaria.
+\n* Sicurezza.
+\n* Attuazione dei piani e programmi per la portualità.
+\n* Ricollocazione del Paese nel contesto mondiale con il rilancio del nostro ruolo nel Mediterraneo.
+\n* Rilancio del trasporto aereo.
+\n* Trasporto per condotta."</string>
+    <string name="PartitoRepubblicano_Istruzione">"\n* Revisione complessiva della scuola dell’obbligo. Non si contrappone la buona scuola al niente.
+\n* Scuola uguale per tutti fino ai 13 anni; dopo permettere di lasciare esprimere le inclinazioni, quindi no alla politica eugenetica di Paesi quali Giappone o Germania.
+\n* La proposta di eliminazione delle tasse universitarie costerebbe 1,6 miliardi servirebbe ad aumentare i giovani parcheggiati, lasciando le strutture universitarie senza le risorse necessarie per il funzionamento.
+\n* Revisione del sistema 3 + 2 che ha portato ad un decadimento culturale evidente. La scelta di incrementare il numero di pseudo laureati di primo livello ha avuto come conseguenza l’abbassamento della preparazione degli studenti.
+\n* Aumentare gli investimenti al fine di ricostruire il sistema della ricerca, dando la consapevolezza alle nuove generazioni di poter competere, nel proprio Paese, in maniera meritocratica, senza nepotismi e raccomandazioni."</string>
+    <string name="PartitoRepubblicano_Sanita">"\n* Garantire i livelli essenziali di assistenza e le prestazioni di qualità ai cittadini sull’intero territorio nazionale. La sciagurata politica della riduzione dei posti letto senza tener conto delle esigenze delle piccole comunità, esaspera i problemi di ritardi negli interventi.</string>
+    <string name="PartitoRepubblicano_Previdenza">"\n* Riforma Fornero non è una risposta sociale ma una soluzione tecnocratica per affrontare un problema finanziario.
+\n* La riforma del sistema pensionistico deve essere rivista considerando che al centro del problema ci sono sempre uomini e donne.
+\n* Eliminare la riforma Fornero costa 148 miliardi e appare assurdo farlo nelle attuali condizioni di bilancio."</string>
 
     <string name="PartitoValoreUmano_Agroalimentare">"\n* Agricoltura sostenibile ed ecologica in equilibrio e nel rispetto della natura e valorizzazione del patrimonio storico-culturale, ambientale e turistico;"
     </string>

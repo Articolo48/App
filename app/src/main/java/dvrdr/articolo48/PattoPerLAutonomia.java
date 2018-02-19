@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -64,9 +66,36 @@ public class PattoPerLAutonomia extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("Movimento Politico Patto Per L'Autonomia");
+        getActivity().setTitle("Patto Per L'Autonomia");
+        View view = inflater.inflate(R.layout.fragment_patto_per_lautonomia, container, false);
 
-        return inflater.inflate(R.layout.fragment_patto_per_lautonomia, container, false);
+        final Button europa         = (Button) view.findViewById(R.id.But_Europa);
+        final Button governo        = (Button) view.findViewById(R.id.But_Governo);
+        final Fragment frag         = new PattoPerLAutonomia_Tema();
+        final Bundle args           = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        europa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PattoPerLAutonomia_Europa");
+                args.putString("titolo", "Europa");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        governo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "PattoPerLAutonomia_Governo");
+                args.putString("titolo", "Governo");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

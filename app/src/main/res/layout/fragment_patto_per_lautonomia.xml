@@ -64,8 +64,23 @@
 
                     <TableRow
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center">
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/But_Governo"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_governo"
+                            android:text="governo" />
+
+                        <Button
+                            android:id="@+id/But_Europa"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_europa"
+                            android:text="europa" />
 
                     </TableRow>
 
@@ -75,5 +90,5 @@
         </TableRow>
 
     </TableLayout>
-
 </FrameLayout>
+
