@@ -1448,7 +1448,7 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
 \n* Esproprio delle aziende legate alla criminalità organizzata e confisca dei beni dei mafiosi.
 "</string>
 
-    <string name="SVP_Governo">"\n* Trasferimento in capo alle province autonome dei poteri legislativi primari nei seguenti settori: Ambiente, regolamento comunale alla Provincia personale,tutela e sicurezza sul lavoro.\n
+    <string name="Svp_Governo">"\n* Trasferimento in capo alle province autonome dei poteri legislativi primari nei seguenti settori: Ambiente, regolamento comunale alla Provincia personale,tutela e sicurezza sul lavoro.\n
 * Revisione delle norme sull’ordinamento finanziario (entrate accise e gioco d’azzardo).\n
 * attribuzione delle competenze nel campo dell’ordine pubblico e della sicurezza, oggi esercitate dal Commissario del Governo, al Presidente della Provincia.\n
 * Emanazione delle norme di attuazione nei seguenti settori: toponomastica, trasferimento dei poteri amministrativi del Ministero dell’Ambiente alle province autonome per la gestione di orso e lupo, trasferimento delle competenze amministrative e del personale amministrativo di INPS e INAIL,assunzione delle funzioni amministrative delle agenzie fiscali da parte della Provincia Autonoma di Bolzano, in particolare di quella delle entrate e dell’Agenzia delle dogane e dei monopoli.\n
@@ -1605,6 +1605,26 @@ Promozione dell’economia circolare e sostegno alle imprese che adottano il pri
 \n* Sostegno all’occupazione giovanile."</string>
     <string name="Mic_Previdenza">"\n* Riforma delle pensioni mediante l’introduzione di una soglia minima che garantisca ai cittadini di vivere in condizioni umane."</string>
     <string name="Mic_Sicurezza">"\n* Maggiore potere alle forze dell’ordine per combattere corruzione e delinquenza."</string>
+
+    <string name="Sms_Agroalimentare">"\n* Rimettere al centro i piccoli e medi agricoltori, incrementando le loro competenze per usare l’innovazione digitale che li assista sia nella tutela della qualità dei loro prodotti, ma soprattutto per favorire il “ciclo corto” e la distribuzione attraverso il commercio sostenibile."</string>
+    <string name="Sms_Ambiente">"\n* Formazione e sensibilizzazione degli amministratori e dei cittadini sul principio di precauzione e di quello che “chi inquina paga”.
+\n* Destinazione delle sanzioni pecuniarie dei danni ambientali alla Cassa speciale per la bonifica del territorio e la prevenzione della salute."</string>
+    <string name="Sms_Donne">"\n* Protagonismo delle donne nell’attuazione della funzione protettiva delle pubbliche autorità.
+\n* Annullamento del divario salariale di genere e adozione dell’indice chiamato global gender gap , realizzando la parità dei sessi quanto a condizioni materiali e quindi di accesso ad attività e servizi."</string>
+    <string name="Sms_Economia">"\n* Strategia di completamento delle missioni all’estero che risultano inutili.
+\n* Regolamento delle attività di organizzazioni non governative con revisione e monitoraggio della trasparenza dei bilanci e l’uso dei vantaggi fiscali.
+\n* Abolizione dei costi inerenti ai privilegi riservati ai membri del parlamento e del governo.
+\n* Semplificazione delle funzioni e dei servizi pubblici, utilizzando al meglio l’agenda digitale.
+\n* Riduzione dei costi inerenti alla sicurezza e alla salute dei lavoratori.
+\n* Ideazione e progettazione di un progetto pilota che mira a salvaguardare la salute dei futuri cittadini e ridurre i costi della sanità."</string>
+    <string name="Sms_Europa">"\n* Consolidare la posizione dell’Italia nell’UE.
+\n* Semplificazione e riduzione dei costi della burocrazia operante in ambito UE.
+\n* Ottenere il mantenimento dell’uso della lingua italiana nei documenti ufficiali delle istituzioni europee."</string>
+    <string name="Sms_Lavoro">"\n* Occorre costruire competenze professionali e mantenere un grado di riconversione sufficienti a garantire la stabilità dei livelli occupazionali.
+\n* Il reddito da lavoro non deve cumularsi con altri cespiti ai fini della dichiarazione dei redditi."</string>
+    <string name="Sms_Immigrazione">"\n* La protezione internazionale agli stranieri deve essere razionalizzata. Le procedure sulle loro richieste devono essere semplificate e risorse sufficienti devono essere assicurate per la rapida definizione dei relativi giudizi.
+\n* Misure per far cessare l’emergenza sono una priorità; accordi e altre forme di collaborazione con gli stati di provenienza degli immigrati e con quelli di prima accoglienza devono essere conclusi e attuati senza ritardo."</string>
+    <string name="Sms_Sociale">"\n* Determinazione delle condizioni per definire “persona vulnerabile” il cittadino e lo straniero residente nel territorio italiano e creazione di piani di assistenza da attuare a livello comunale con attribuzione delle risorse adeguate ai piani da definire al momento di formazione del budget iniziale."</string>
 
     <string name="NoTema">
 "\nProgramma non disponibile sul sito del ministero degli interni.\n Per maggiori informazioni si rimanda al sito ufficiale."</string>

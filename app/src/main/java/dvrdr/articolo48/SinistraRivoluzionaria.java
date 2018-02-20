@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -65,8 +67,156 @@ public class SinistraRivoluzionaria extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         getActivity().setTitle("Per Una Sinistra Rivoluzionaria");
+        View view = inflater.inflate(R.layout.fragment_sinistra_rivoluzionaria, container, false);
 
-        return inflater.inflate(R.layout.fragment_sinistra_rivoluzionaria, container, false);
+        final Button ambiente        = (Button) view.findViewById(R.id.But_Ambiente);
+        final Button banche          = (Button) view.findViewById(R.id.But_Banche);
+        final Button diritti         = (Button) view.findViewById(R.id.But_Diritti);
+        final Button donne           = (Button) view.findViewById(R.id.But_Donne);
+        final Button economia        = (Button) view.findViewById(R.id.But_Economia);
+        final Button governo         = (Button) view.findViewById(R.id.But_Governo);
+        final Button immigrazione    = (Button) view.findViewById(R.id.But_Immigrazione);
+        final Button istruzione      = (Button) view.findViewById(R.id.But_Istruzione);
+        final Button lavoro          = (Button) view.findViewById(R.id.But_Lavoro);
+        final Button previdenza      = (Button) view.findViewById(R.id.But_Previdenza);
+        final Button sanita          = (Button) view.findViewById(R.id.But_Sanita);
+        final Button sicurezza       = (Button) view.findViewById(R.id.But_Sicurezza);
+        final Button sud             = (Button) view.findViewById(R.id.But_Sud);
+        final Fragment frag          = new SinistraRivoluzionaria_Tema();
+        final Bundle args            = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        ambiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "SinistraRivoluzionaria_Ambiente");
+                args.putString("titolo", "Ambiente");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        banche.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "SinistraRivoluzionaria_Banche");
+                args.putString("titolo", "Banche");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        diritti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "SinistraRivoluzionaria_Diritti");
+                args.putString("titolo", "Diritti");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        donne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "SinistraRivoluzionaria_Donne");
+                args.putString("titolo", "Donne");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        economia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "SinistraRivoluzionaria_Economia");
+                args.putString("titolo", "Economia");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        governo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "SinistraRivoluzionaria_Governo");
+                args.putString("titolo", "Governo");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        immigrazione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "SinistraRivoluzionaria_Immigrazione");
+                args.putString("titolo", "Immigrazione");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        istruzione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "SinistraRivoluzionaria_Istruzione");
+                args.putString("titolo", "Istruzione");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        lavoro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "SinistraRivoluzionaria_Lavoro");
+                args.putString("titolo", "Lavoro");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        previdenza.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "SinistraRivoluzionaria_Previdenza");
+                args.putString("titolo", "Previdenza");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sanita.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "SinistraRivoluzionaria_Sanita");
+                args.putString("titolo", "Sanità");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sicurezza.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "SinistraRivoluzionaria_Sicurezza");
+                args.putString("titolo", "Sicurezza");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sud.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "SinistraRivoluzionaria_Sud");
+                args.putString("titolo", "Sud");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

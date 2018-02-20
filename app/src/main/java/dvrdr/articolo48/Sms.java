@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -65,8 +67,101 @@ public class Sms extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         getActivity().setTitle("SMS - Stato Moderno Solidale");
+        View view = inflater.inflate(R.layout.fragment_sms, container, false);
 
-        return inflater.inflate(R.layout.fragment_sms, container, false);
+        final Button agroalimentare  = (Button) view.findViewById(R.id.But_Agroalimentare);
+        final Button ambiente        = (Button) view.findViewById(R.id.But_Ambiente);
+        final Button donne           = (Button) view.findViewById(R.id.But_Donne);
+        final Button economia        = (Button) view.findViewById(R.id.But_Economia);
+        final Button europa          = (Button) view.findViewById(R.id.But_Europa);
+        final Button immigrazione    = (Button) view.findViewById(R.id.But_Immigrazione);
+        final Button lavoro          = (Button) view.findViewById(R.id.But_Lavoro);
+        final Button sociale         = (Button) view.findViewById(R.id.But_Sociale);
+        final Fragment frag          = new Sms_Tema();
+        final Bundle args            = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        agroalimentare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Sms_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        ambiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Sms_Ambiente");
+                args.putString("titolo", "Ambiente");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        donne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Sms_Donne");
+                args.putString("titolo", "Donne");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        economia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Sms_Economia");
+                args.putString("titolo", "Economia");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        europa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Sms_Europa");
+                args.putString("titolo", "Europa");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        immigrazione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Sms_Immigrazione");
+                args.putString("titolo", "Immigrazione");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        lavoro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Sms_Lavoro");
+                args.putString("titolo", "Lavoro");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sociale.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                args.putString("tema", "Sms_Sociale");
+                args.putString("titolo", "Protezione Sociale");
+                frag.setArguments(args);
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

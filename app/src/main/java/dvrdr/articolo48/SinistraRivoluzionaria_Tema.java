@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
@@ -64,7 +65,46 @@ public class SinistraRivoluzionaria_Tema extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sinistra_rivoluzionaria__tema, container, false);
+        View view = inflater.inflate(R.layout.fragment_sinistra_rivoluzionaria__tema, container, false);
+
+        Bundle args = getArguments();
+        String tema = args.getString("tema");
+        String titolo = args.getString("titolo");
+
+        getActivity().setTitle(titolo.toString());
+
+        final TextView testo_tema = (TextView) view.findViewById(R.id.SinistraRivoluzionaria_Tema);
+
+        if (tema.equals("SinistraRivoluzionaria_Ambiente"))
+            testo_tema.setText(R.string.SinistraRivoluzionaria_Ambiente);
+        else if (tema.equals("SinistraRivoluzionaria_Banche"))
+            testo_tema.setText(R.string.SinistraRivoluzionaria_Banche);
+        else if (tema.equals("SinistraRivoluzionaria_Diritti"))
+            testo_tema.setText(R.string.SinistraRivoluzionaria_Diritti);
+        else if (tema.equals("SinistraRivoluzionaria_Donne"))
+            testo_tema.setText(R.string.SinistraRivoluzionaria_Donne);
+        else if (tema.equals("SinistraRivoluzionaria_Economia"))
+            testo_tema.setText(R.string.SinistraRivoluzionaria_Economia);
+        else if (tema.equals("SinistraRivoluzionaria_Governo"))
+            testo_tema.setText(R.string.SinistraRivoluzionaria_Governo);
+        else if (tema.equals("SinistraRivoluzionaria_Immigrazione"))
+            testo_tema.setText(R.string.SinistraRivoluzionaria_Immigrazione);
+        else if (tema.equals("SinistraRivoluzionaria_Istruzione"))
+            testo_tema.setText(R.string.SinistraRivoluzionaria_Istruzione);
+        else if (tema.equals("SinistraRivoluzionaria_Lavoro"))
+            testo_tema.setText(R.string.SinistraRivoluzionaria_Lavoro);
+        else if (tema.equals("SinistraRivoluzionaria_Previdenza"))
+            testo_tema.setText(R.string.SinistraRivoluzionaria_Previdenza);
+        else if (tema.equals("SinistraRivoluzionaria_Sanita"))
+            testo_tema.setText(R.string.SinistraRivoluzionaria_Sanita);
+        else if (tema.equals("SinistraRivoluzionaria_Sicurezza"))
+            testo_tema.setText(R.string.SinistraRivoluzionaria_Sicurezza);
+        else if (tema.equals("SinistraRivoluzionaria_Sud"))
+            testo_tema.setText(R.string.SinistraRivoluzionaria_Sud);
+        else
+            testo_tema.setText("Tema non trovato. Ci scusiamo per l'errore.");
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

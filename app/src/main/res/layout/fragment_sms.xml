@@ -64,11 +64,89 @@
 
                     <TableRow
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center">
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/But_Agroalimentare"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_agroalimentare"
+                            android:text="agroalimentare" />
+
+                        <Button
+                            android:id="@+id/But_Ambiente"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_ambiente"
+                            android:text="ambiente" />
 
                     </TableRow>
 
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+                        <Button
+                            android:id="@+id/But_Donne"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_donne"
+                            android:text="donne" />
+
+                        <Button
+                            android:id="@+id/But_Economia"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_economia"
+                            android:text="economia" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/But_Europa"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_europa"
+                            android:text="europa" />
+
+                        <Button
+                            android:id="@+id/But_Immigrazione"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_immigrazione"
+                            android:text="immigrazione" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/But_Lavoro"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_lavoro"
+                            android:text="lavoro" />
+
+                        <Button
+                            android:id="@+id/But_Sociale"
+                            android:layout_width="96dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:drawableTop="@drawable/ic_button_protezione_sociale"
+                            android:text="protezione sociale" />
+
+                    </TableRow>
 
                 </TableLayout>
             </ScrollView>
