@@ -4,10 +4,75 @@
     android:layout_height="match_parent"
     tools:context="dvrdr.articolo48.Prog_Banche">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/grande_nord"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/grande_nord"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/movimento_5_stelle"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/movimento_5_stelle"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/ppa"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ppa"
+                    android:scaleType="fitCenter"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/sinistra_rivoluzionaria"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/sinistra_rivoluzionaria"
+                    android:scaleType="fitCenter"/>
+
+                <Button
+                    android:id="@+id/empty"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/empty2"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
 </FrameLayout>

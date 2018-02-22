@@ -37,11 +37,11 @@
                     android:scaleType="fitCenter"/>
 
                 <ImageButton
-                    android:id="@+id/free_flights_to_italy"
+                    android:id="@+id/fronte_friulano"
                     android:layout_width="96dp"
                     android:layout_height="96dp"
                     android:layout_weight="1"
-                    android:src="@drawable/free_flights_to_italy"
+                    android:src="@drawable/fronte_friulano"
                     android:scaleType="fitCenter"/>
 
             </TableRow>
@@ -50,15 +50,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center">
-
-
-                <ImageButton
-                    android:id="@+id/fronte_friulano"
-                    android:layout_width="96dp"
-                    android:layout_height="96dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/fronte_friulano"
-                    android:scaleType="fitCenter"/>
 
                 <ImageButton
                     android:id="@+id/insieme"
@@ -76,15 +67,6 @@
                     android:src="@drawable/lega"
                     android:scaleType="fitCenter"/>
 
-            </TableRow>
-
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
-
-
                 <ImageButton
                     android:id="@+id/liberi_uguali"
                     android:layout_width="96dp"
@@ -93,6 +75,14 @@
                     android:src="@drawable/liberi_uguali"
                     android:scaleType="fitCenter"/>
 
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
                 <ImageButton
                     android:id="@+id/movimento_5_stelle"
                     android:layout_width="96dp"
@@ -100,21 +90,6 @@
                     android:layout_weight="1"
                     android:src="@drawable/movimento_5_stelle"
                     android:scaleType="fitCenter"/>
-
-                <ImageButton
-                    android:id="@+id/movimento_della_liberta"
-                    android:layout_width="96dp"
-                    android:layout_height="96dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/movimento_della_liberta"
-                    android:scaleType="fitCenter"/>
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
 
                 <ImageButton
                     android:id="@+id/partito_comunista"
@@ -132,14 +107,6 @@
                     android:src="@drawable/partito_valore_umano"
                     android:scaleType="fitCenter"/>
 
-                <ImageButton
-                    android:id="@+id/pd"
-                    android:layout_width="96dp"
-                    android:layout_height="96dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/pd"
-                    android:scaleType="fitCenter"/>
-
             </TableRow>
 
             <TableRow
@@ -147,6 +114,13 @@
                 android:layout_height="match_parent"
                 android:gravity="center">
 
+                <ImageButton
+                    android:id="@+id/pd"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/pd"
+                    android:scaleType="fitCenter"/>
 
                 <ImageButton
                     android:id="@+id/piu_europa"
@@ -163,6 +137,12 @@
                     android:layout_weight="1"
                     android:src="@drawable/siamo"
                     android:scaleType="fitCenter"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
                 <ImageButton
                     android:id="@+id/sms"
@@ -172,31 +152,15 @@
                     android:src="@drawable/sms"
                     android:scaleType="fitCenter"/>
 
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
-
-                <ImageButton
-                    android:id="@+id/unital"
-                    android:layout_width="96dp"
-                    android:layout_height="96dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/unital"
-                    android:scaleType="fitCenter"/>
-
-                <ImageButton
-                    android:id="@+id/usei"
-                    android:layout_width="96dp"
-                    android:layout_height="96dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/usei"
-                    android:scaleType="fitCenter"/>
-
                 <Button
                     android:id="@+id/empty"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/empty2"
                     android:layout_width="96dp"
                     android:layout_height="96dp"
                     android:layout_weight="1"

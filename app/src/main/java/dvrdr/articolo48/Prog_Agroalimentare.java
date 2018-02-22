@@ -78,13 +78,10 @@ public class Prog_Agroalimentare extends Fragment {
         final ImageButton liberiuguali           = (ImageButton) view.findViewById(R.id.liberi_uguali);
         final ImageButton movimento5stelle       = (ImageButton) view.findViewById(R.id.movimento_5_stelle);
         final ImageButton partitocomunista       = (ImageButton) view.findViewById(R.id.partito_comunista);
-        final ImageButton partitorepubblicano    = (ImageButton) view.findViewById(R.id.partito_repubblicano_italiano);
+        final ImageButton partitovaloreumano     = (ImageButton) view.findViewById(R.id.partito_valore_umano);
         final ImageButton pd                     = (ImageButton) view.findViewById(R.id.pd);
         final ImageButton piueuropa              = (ImageButton) view.findViewById(R.id.piu_europa);
-        final ImageButton poterealpopolo         = (ImageButton) view.findViewById(R.id.potere_al_popolo);
-        final ImageButton autoderminazione       = (ImageButton) view.findViewById(R.id.autodeterminazione);
         final ImageButton siamo                  = (ImageButton) view.findViewById(R.id.siamo);
-        final ImageButton sinistrarivoluzionaria = (ImageButton) view.findViewById(R.id.sinistra_rivoluzionaria);
         final ImageButton sms                    = (ImageButton) view.findViewById(R.id.sms);
 
         final Bundle args   = new Bundle();
@@ -186,11 +183,11 @@ public class Prog_Agroalimentare extends Fragment {
             }
         });
 
-        partitorepubblicano.setOnClickListener(new View.OnClickListener() {
+        partitovaloreumano.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new PartitoRepubblicano_Tema();
-                args.putString("tema", "PartitoRepubblicano_Agroalimentare");
+                Fragment frag = new PartitoValoreUmano_Tema();
+                args.putString("tema", "PartitoValoreUmano_Agroalimentare");
                 args.putString("titolo", "Agroalimentare");
                 frag.setArguments(args);
 
@@ -222,47 +219,11 @@ public class Prog_Agroalimentare extends Fragment {
             }
         });
 
-        poterealpopolo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag = new PotereAlPopolo_Tema();
-                args.putString("tema", "PotereAlPopolo_Agroalimentare");
-                args.putString("titolo", "Agroalimentare");
-                frag.setArguments(args);
-
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
-
-        autoderminazione.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag = new Autodeterminazione_Tema();
-                args.putString("tema", "Autodeterminazione_Agroalimentare");
-                args.putString("titolo", "Agroalimentare");
-                frag.setArguments(args);
-
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
-
         siamo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Fragment frag = new Siamo_Tema();
                 args.putString("tema", "Siamo_Agroalimentare");
-                args.putString("titolo", "Agroalimentare");
-                frag.setArguments(args);
-
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
-
-        sinistrarivoluzionaria.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag = new SinistraRivoluzionaria_Tema();
-                args.putString("tema", "SinistraRivoluzionaria_Agroalimentare");
                 args.putString("titolo", "Agroalimentare");
                 frag.setArguments(args);
 

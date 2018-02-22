@@ -39,7 +39,7 @@
             android:drawableTop="@drawable/ic_menu_partiti"
             android:text="partiti" />
 
-   <!--     <Button
+        <Button
             android:id="@+id/but_programmi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,6 +53,6 @@
             android:layout_height="wrap_content"
             android:drawableTop="@drawable/ic_menu_comesivota"
             android:text="come si vota" />
--->
+
     </LinearLayout>
 </FrameLayout>

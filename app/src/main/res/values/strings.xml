@@ -1168,7 +1168,7 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
 </string>
     <string name="PattoPerLAutonomia_Europa">"\n* Superamento della concezione della Unione Europea come luogo di confronto tra sovranità statali nazionali incapaci di affrontare i temi di fondo che oggi affliggono le diverse realtà."</string>
 
-    <string name="Ppa_Banche">"\n* Nessuna immunità parlamentare.
+    <string name="Ppa_Governo">"\n* Nessuna immunità parlamentare.
 \n* L’eletto al Parlamento non potrà godere di privilegi specifici , in quanto la sua scelta di mettere a disposizione della collettività, le sue conoscenze non dovrà essere la causa di un divario sociale per l’acquisizione di benefit personali
 \n* Nessun finanziamento pubblico ai partiti ed ai giornali.
 \n* Istituzione di una commissione d’inchiesta per definire il chi e il come del debito pubblico italiano con conseguente esproprio di tutti i beni per i colpevoli.
@@ -1179,7 +1179,7 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
 \n* IAl fine della gestione dei versamenti tributari , sarà istituita la Banca dello Stato , pertanto non saranno più le banche private a incassare il denaro dei contribuenti . 
 \n* IIl consumatore non ha nessun obbligo di conservazione dei documenti fiscali emessi nei suoi confronti, che saranno inviati dall’esercente e accessibili on-line in ogni momento.
 "</string>
-    <string name="Ppa_Governo">"\n* Responsabilità in solido delle banche di tutti gli strumenti onerosi finanziari per il pagamento delle transizioni (assegni bancari, carte di credito, ecc.).
+    <string name="Ppa_Banche">"\n* Responsabilità in solido delle banche di tutti gli strumenti onerosi finanziari per il pagamento delle transizioni (assegni bancari, carte di credito, ecc.).
 \n* Facilitazioni per l’accesso al credito per le pmi sane, con snellimento di tempi e procedure.
 \n* Obbligo di assicurare i titolari di mutui anche per i casi di premorienza e grave invalidità, a costi accettabili.
 \n* Rc auto, abbassamento delle tariffe per i meritevoli (prima classe) e innalzamento per i disattenti, adeguamento in base all’effettivo chilometraggio percorso.

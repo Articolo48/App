@@ -108,7 +108,7 @@ public class Programmi extends Fragment {
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
-/*
+
         ambiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -119,6 +119,7 @@ public class Programmi extends Fragment {
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
+
 
         banche.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -142,7 +143,7 @@ public class Programmi extends Fragment {
             }
         });
 
-        diritti.setOnClickListener(new View.OnClickListener() {
+/*        diritti.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Fragment frag = new Prog_Diritti();
