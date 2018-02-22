@@ -17,7 +17,7 @@
             android:id="@+id/nav_partiti"
             android:icon="@drawable/ic_menu_partiti"
             android:title="Partiti" />
-        <item
+    <!--    <item
             android:id="@+id/nav_programmi"
             android:icon="@drawable/ic_menu_programmi"
             android:title="Programmi" />
@@ -25,7 +25,7 @@
         <item
             android:id="@+id/nav_comesivota"
             android:icon="@drawable/ic_menu_comesivota"
-            android:title="Come si vota" />
+            android:title="Come si vota" /> -->
     </group>
 
 </menu>

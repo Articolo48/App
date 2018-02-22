@@ -4,9 +4,12 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
 
 
 /**
@@ -64,7 +67,222 @@ public class Prog_Agroalimentare extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_prog__agroalimentare, container, false);
+        getActivity().setTitle("Agroalimentare");
+        View view = inflater.inflate(R.layout.fragment_prog__agroalimentare, container, false);
+
+        final ImageButton forzaitalia            = (ImageButton) view.findViewById(R.id.forzaitalia);
+        final ImageButton fratelliditalia        = (ImageButton) view.findViewById(R.id.fratelli_d_italia);
+        final ImageButton frontefriulano         = (ImageButton) view.findViewById(R.id.fronte_friulano);
+        final ImageButton insieme                = (ImageButton) view.findViewById(R.id.insieme);
+        final ImageButton lega                   = (ImageButton) view.findViewById(R.id.lega);
+        final ImageButton liberiuguali           = (ImageButton) view.findViewById(R.id.liberi_uguali);
+        final ImageButton movimento5stelle       = (ImageButton) view.findViewById(R.id.movimento_5_stelle);
+        final ImageButton partitocomunista       = (ImageButton) view.findViewById(R.id.partito_comunista);
+        final ImageButton partitorepubblicano    = (ImageButton) view.findViewById(R.id.partito_repubblicano_italiano);
+        final ImageButton pd                     = (ImageButton) view.findViewById(R.id.pd);
+        final ImageButton piueuropa              = (ImageButton) view.findViewById(R.id.piu_europa);
+        final ImageButton poterealpopolo         = (ImageButton) view.findViewById(R.id.potere_al_popolo);
+        final ImageButton autoderminazione       = (ImageButton) view.findViewById(R.id.autodeterminazione);
+        final ImageButton siamo                  = (ImageButton) view.findViewById(R.id.siamo);
+        final ImageButton sinistrarivoluzionaria = (ImageButton) view.findViewById(R.id.sinistra_rivoluzionaria);
+        final ImageButton sms                    = (ImageButton) view.findViewById(R.id.sms);
+
+        final Bundle args   = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        forzaitalia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new ForzaItalia_Tema();
+                args.putString("tema", "ForzaItalia_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        fratelliditalia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new FratelliDItalia_Tema();
+                args.putString("tema", "FratelliDItalia_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        frontefriulano.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new FronteFriuliano_Tema();
+                args.putString("tema", "FronteFriuliano_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        insieme.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Insieme_Tema();
+                args.putString("tema", "Insieme_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        lega.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Lega_Tema();
+                args.putString("tema", "Lega_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        liberiuguali.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new LiberiUguali_Tema();
+                args.putString("tema", "LiberiUguali_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        movimento5stelle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Movimento5Stelle_Tema();
+                args.putString("tema", "Movimento5Stelle_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        partitocomunista.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new PartitoComunista_Tema();
+                args.putString("tema", "PartitoComunista_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        partitorepubblicano.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new PartitoRepubblicano_Tema();
+                args.putString("tema", "PartitoRepubblicano_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        pd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Pd_Tema();
+                args.putString("tema", "Pd_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        piueuropa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new PiuEuropa_Tema();
+                args.putString("tema", "PiuEuropa_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        poterealpopolo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new PotereAlPopolo_Tema();
+                args.putString("tema", "PotereAlPopolo_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        autoderminazione.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Autodeterminazione_Tema();
+                args.putString("tema", "Autodeterminazione_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        siamo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Siamo_Tema();
+                args.putString("tema", "Siamo_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sinistrarivoluzionaria.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new SinistraRivoluzionaria_Tema();
+                args.putString("tema", "SinistraRivoluzionaria_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sms.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Sms_Tema();
+                args.putString("tema", "Sms_Agroalimentare");
+                args.putString("titolo", "Agroalimentare");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

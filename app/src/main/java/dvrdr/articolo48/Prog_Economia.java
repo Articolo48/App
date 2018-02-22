@@ -4,23 +4,20 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Home.OnFragmentInteractionListener} interface
+ * {@link Prog_Economia.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link Home#newInstance} factory method to
+ * Use the {@link Prog_Economia#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Home extends Fragment {
+public class Prog_Economia extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -32,7 +29,7 @@ public class Home extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public Home() {
+    public Prog_Economia() {
         // Required empty public constructor
     }
 
@@ -42,17 +39,16 @@ public class Home extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Home.
+     * @return A new instance of fragment Prog_Economia.
      */
     // TODO: Rename and change types and number of parameters
-    public static Home newInstance(String param1, String param2) {
-        Home fragment = new Home();
+    public static Prog_Economia newInstance(String param1, String param2) {
+        Prog_Economia fragment = new Prog_Economia();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
-
     }
 
     @Override
@@ -68,56 +64,7 @@ public class Home extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        getActivity().setTitle("Articolo48");
-
-        View view = inflater.inflate(R.layout.fragment_home, container, false);
-
-        final Button coalizioni = (Button) view.findViewById(R.id.but_coalizioni);
-        final Button partiti    = (Button) view.findViewById(R.id.but_partiti);
-    //    final Button programmi  = (Button) view.findViewById(R.id.but_programmi);
-    //    final Button comesivota = (Button) view.findViewById(R.id.but_comesivota);
-
-        coalizioni.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag_colazioni = new Coalizioni();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag_colazioni).addToBackStack(null) .commit();
-            }
-        });
-
-        partiti.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag_partiti = new Partiti();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag_partiti).addToBackStack(null).commit();
-            }
-        });
-
-        /*programmi.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag_programmi = new Programmi();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag_programmi).addToBackStack(null).commit();
-            }
-        });
-
-        comesivota.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag_comesivota = new ComeSiVota();
-
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag_comesivota).addToBackStack(null).commit();
-            }
-        });
-*/
-        return view;
+        return inflater.inflate(R.layout.fragment_prog__economia, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event

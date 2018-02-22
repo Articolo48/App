@@ -55,14 +55,14 @@ public class MainActivity extends AppCompatActivity
         Sms.OnFragmentInteractionListener, Sms_Tema.OnFragmentInteractionListener,
         Svp.OnFragmentInteractionListener, Svp_Tema.OnFragmentInteractionListener,
         Unital.OnFragmentInteractionListener,
-        Usei.OnFragmentInteractionListener,
-        Prog_Agroalimentare.OnFragmentInteractionListener, Prog_Ambiente.OnFragmentInteractionListener, Prog_Banche.OnFragmentInteractionListener, Prog_Cultura.OnFragmentInteractionListener,
+        Usei.OnFragmentInteractionListener
+        /*Prog_Agroalimentare.OnFragmentInteractionListener, Prog_Ambiente.OnFragmentInteractionListener, Prog_Banche.OnFragmentInteractionListener, Prog_Cultura.OnFragmentInteractionListener,
         Prog_Diritti.OnFragmentInteractionListener, Prog_Donne.OnFragmentInteractionListener, Prog_Energia.OnFragmentInteractionListener, Prog_Estero.OnFragmentInteractionListener,
         Prog_Europa.OnFragmentInteractionListener, Prog_Famiglia.OnFragmentInteractionListener, Prog_Fisco.OnFragmentInteractionListener, Prog_Giovani.OnFragmentInteractionListener,
         Prog_Giustizia.OnFragmentInteractionListener, Prog_Governo.OnFragmentInteractionListener, Prog_Immigrazione.OnFragmentInteractionListener, Prog_Impresa.OnFragmentInteractionListener,
         Prog_Infrastruttura.OnFragmentInteractionListener, Prog_Istruzione.OnFragmentInteractionListener, Prog_Lavoro.OnFragmentInteractionListener, Prog_Previdenza.OnFragmentInteractionListener,
-        Prog_Sociale.OnFragmentInteractionListener, Prog_Salute.OnFragmentInteractionListener, Prog_Sicurezza.OnFragmentInteractionListener, Prog_Sud.OnFragmentInteractionListener,
-        Prog_Tecnologia.OnFragmentInteractionListener,Prog_Turismo.OnFragmentInteractionListener
+        Prog_Sociale.OnFragmentInteractionListener, Prog_Sanita.OnFragmentInteractionListener, Prog_Sicurezza.OnFragmentInteractionListener, Prog_Sud.OnFragmentInteractionListener,
+        Prog_Tecnologia.OnFragmentInteractionListener,Prog_Turismo.OnFragmentInteractionListener*/
 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -147,12 +147,12 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_partiti:
                 fragmentClass = Partiti.class;
                 break;
-            case R.id.nav_programmi:
+        /*    case R.id.nav_programmi:
                 fragmentClass = Programmi.class;
                 break;
             case R.id.nav_comesivota:
                 fragmentClass = ComeSiVota.class;
-                break;
+                break;*/
             default:
                 fragmentClass = Home.class;
         }
