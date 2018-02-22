@@ -67,6 +67,7 @@ public class Prog_Cultura extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         getActivity().setTitle("Cultura");
+
         View view = inflater.inflate(R.layout.fragment_prog__cultura, container, false);
         final ImageButton autodeterminazione     = (ImageButton) view.findViewById(R.id.autodeterminazione);
         final ImageButton casapound              = (ImageButton) view.findViewById(R.id.casa_pound);
