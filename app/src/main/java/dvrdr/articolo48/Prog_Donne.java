@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 
 /**
@@ -64,7 +66,118 @@ public class Prog_Donne extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_prog__donne, container, false);
+        getActivity().setTitle("Donne");
+        View view = inflater.inflate(R.layout.fragment_prog__donne, container, false);
+
+        final ImageButton insieme                = (ImageButton) view.findViewById(R.id.insieme);
+        final ImageButton lega                   = (ImageButton) view.findViewById(R.id.lega);
+        final ImageButton partitocomunista       = (ImageButton) view.findViewById(R.id.partito_comunista);
+        final ImageButton pd                     = (ImageButton) view.findViewById(R.id.pd);
+        final ImageButton poterealpopolo         = (ImageButton) view.findViewById(R.id.potere_al_popolo);
+        final ImageButton siamo                  = (ImageButton) view.findViewById(R.id.siamo);
+        final ImageButton sinistrarivoluzionaria = (ImageButton) view.findViewById(R.id.sinistra_rivoluzionaria);
+        final ImageButton sms                    = (ImageButton) view.findViewById(R.id.sms);
+
+        final Bundle args   = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        insieme.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Insieme_Tema();
+                args.putString("tema", "Insieme_Donna");
+                args.putString("titolo", "Donna");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        lega.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Lega_Tema();
+                args.putString("tema", "Lega_Donna");
+                args.putString("titolo", "Donna");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        partitocomunista.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new PartitoComunista_Tema();
+                args.putString("tema", "PartitoComunista_Donna");
+                args.putString("titolo", "Donna");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        pd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Pd_Tema();
+                args.putString("tema", "Pd_Donna");
+                args.putString("titolo", "Donna");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        poterealpopolo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new PotereAlPopolo_Tema();
+                args.putString("tema", "PotereAlPopolo_Donna");
+                args.putString("titolo", "Donna");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        siamo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Siamo_Tema();
+                args.putString("tema", "Siamo_Donna");
+                args.putString("titolo", "Donna");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sinistrarivoluzionaria.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new SinistraRivoluzionaria_Tema();
+                args.putString("tema", "SinistraRivoluzionaria_Donna");
+                args.putString("titolo", "Donna");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sms.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Sms_Tema();
+                args.putString("tema", "Sms_Donna");
+                args.putString("titolo", "Donna");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

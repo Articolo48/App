@@ -153,7 +153,7 @@ public class Programmi extends Fragment {
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
-/*
+
         donne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -373,7 +373,7 @@ public class Programmi extends Fragment {
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
-        */
+
         return view;
     }
 
