@@ -4,10 +4,109 @@
     android:layout_height="match_parent"
     tools:context="dvrdr.articolo48.Prog_Estero">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/civica_popolare_lorenzin"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/civica_popolare_lorenzin"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/forza_italia"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/forza_italia"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/fratelli_d_italia"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/fratelli_d_italia"
+                    android:scaleType="fitCenter"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/maie"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/maie"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/movimento_5_stelle"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/movimento_5_stelle"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/partito_comunista"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/partito_comunista"
+                    android:scaleType="fitCenter"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <ImageButton
+                    android:id="@+id/piu_europa"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/piu_europa"
+                    android:scaleType="fitCenter"/>
+
+                <Button
+                    android:id="@+id/empty"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/empty2"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
 </FrameLayout>
+

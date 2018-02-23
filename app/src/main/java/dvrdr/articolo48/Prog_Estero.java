@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 
 /**
@@ -64,7 +66,104 @@ public class Prog_Estero extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_prog__estero, container, false);
+        getActivity().setTitle("Estero");
+        View view = inflater.inflate(R.layout.fragment_prog__estero, container, false);
+        final ImageButton civiapopolare    = (ImageButton) view.findViewById(R.id.civica_popolare_lorenzin);
+        final ImageButton forzaitalia      = (ImageButton) view.findViewById(R.id.forza_italia);
+        final ImageButton fratelliditalia  = (ImageButton) view.findViewById(R.id.fratelli_d_italia);
+        final ImageButton maie             = (ImageButton) view.findViewById(R.id.maie);
+        final ImageButton movimento5stelle = (ImageButton) view.findViewById(R.id.movimento_5_stelle);
+        final ImageButton partitocomunista = (ImageButton) view.findViewById(R.id.partito_comunista);
+        final ImageButton piueuropa        = (ImageButton) view.findViewById(R.id.piu_europa);
+        final Bundle args   = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        civiapopolare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new CivicaPopolareLorenzin_Tema();
+                args.putString("tema", "CivicaPopolareLorenzin_Estero");
+                args.putString("titolo", "Estero");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        forzaitalia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new ForzaItalia_Tema();
+                args.putString("tema", "ForzaItalia_Estero");
+                args.putString("titolo", "Estero");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        fratelliditalia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Fragment frag = new FratelliDItalia_Tema();
+                args.putString("tema", "FratelliDItalia_Estero");
+                args.putString("titolo", "Estero");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        maie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Maie_Tema();
+                args.putString("tema", "Maie_Estero");
+                args.putString("titolo", "Estero");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        movimento5stelle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Movimento5Stelle_Tema();
+                args.putString("tema", "Movimento5Stelle_Estero");
+                args.putString("titolo", "Estero");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        partitocomunista.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new PartitoComunista_Tema();
+                args.putString("tema", "PartitoComunista_Estero");
+                args.putString("titolo", "Estero");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        piueuropa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new PiuEuropa_Tema();
+                args.putString("tema", "PiuEuropa_Estero");
+                args.putString("titolo", "Estero");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
