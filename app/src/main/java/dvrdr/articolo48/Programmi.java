@@ -97,6 +97,19 @@ public class Programmi extends Fragment {
         final Bundle args            = new Bundle();
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
 
+
+        energia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Prog_Agroalimentare();
+                args.putString("tema", "Prog_Energia");
+                args.putString("titolo", "Energia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
         agroalimentare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

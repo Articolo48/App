@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 
 /**
@@ -64,7 +66,96 @@ public class Prog_Tecnologia extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_prog__tecnologia, container, false);
+        getActivity().setTitle("Tecnologia");
+        View view = inflater.inflate(R.layout.fragment_prog__tecnologia, container, false);
+
+        final ImageButton diecivoltemeglio  = (ImageButton) view.findViewById(R.id.dieci_volte_meglio);
+        final ImageButton fratelliditalia   = (ImageButton) view.findViewById(R.id.fratelli_d_italia);
+        final ImageButton lega              = (ImageButton) view.findViewById(R.id.lega);
+        final ImageButton movimento5stelle  = (ImageButton) view.findViewById(R.id.movimento_5_stelle);
+        final ImageButton pd                = (ImageButton) view.findViewById(R.id.pd);
+        final ImageButton piueuropa         = (ImageButton) view.findViewById(R.id.piu_europa);
+
+        final Bundle args   = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        lega.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Lega_Tema();
+                args.putString("tema", "Lega_Tecnologia");
+                args.putString("titolo", "Tecnologia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        movimento5stelle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Movimento5Stelle_Tema();
+                args.putString("tema", "Movimento5Stelle_Tecnologia");
+                args.putString("titolo", "Tecnologia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+
+        pd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Pd_Tema();
+                args.putString("tema", "Pd_Tecnologia");
+                args.putString("titolo", "Tecnologia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+
+
+        piueuropa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new PiuEuropa_Tema();
+                args.putString("tema", "PiuEuropa_Tecnologia");
+                args.putString("titolo", "Tecnologia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+
+        diecivoltemeglio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new DieciVolteMeglio_Tema();
+                args.putString("tema", "DieciVolteMeglio_Tecnologia");
+                args.putString("titolo", "Tecnologia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        fratelliditalia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new FratelliDItalia_Tema();
+                args.putString("tema", "FratelliDItalia_Tecnologia");
+                args.putString("titolo", "Tecnologia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

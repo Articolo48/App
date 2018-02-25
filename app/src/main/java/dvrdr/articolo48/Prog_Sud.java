@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 
 /**
@@ -64,7 +66,117 @@ public class Prog_Sud extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_prog__sud, container, false);
+        getActivity().setTitle("Sud");
+        View view = inflater.inflate(R.layout.fragment_prog__sud, container, false);
+        final ImageButton diecivoltemeglio       = (ImageButton) view.findViewById(R.id.dieci_volte_meglio);
+        final ImageButton civicapopolare         = (ImageButton) view.findViewById(R.id.civica_popolare_lorenzin);
+        final ImageButton forzaitalia            = (ImageButton) view.findViewById(R.id.forza_italia);
+        final ImageButton insieme                = (ImageButton) view.findViewById(R.id.insieme);
+        final ImageButton pd                     = (ImageButton) view.findViewById(R.id.pd);
+        final ImageButton partitocomunista       = (ImageButton) view.findViewById(R.id.partito_comunista);
+        final ImageButton poterealpopolo         = (ImageButton) view.findViewById(R.id.potere_al_popolo);
+        final ImageButton sinistrarivoluzionaria = (ImageButton) view.findViewById(R.id.sinistra_rivoluzionaria);
+
+        final Bundle args   = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        civicapopolare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new CivicaPopolareLorenzin_Tema();
+                args.putString("tema", "CivicaPopolareLorenzin_Sud");
+                args.putString("titolo", "Sud");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        forzaitalia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new ForzaItalia_Tema();
+                args.putString("tema", "ForzaItalia_Sud");
+                args.putString("titolo", "Sud");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        insieme.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Insieme_Tema();
+                args.putString("tema", "Insieme_Sud");
+                args.putString("titolo", "Sud");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        pd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new Pd_Tema();
+                args.putString("tema", "Pd_Sud");
+                args.putString("titolo", "Sud");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        partitocomunista.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new PartitoComunista_Tema();
+                args.putString("tema", "PartitoComunista_Sud");
+                args.putString("titolo", "Sud");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        poterealpopolo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new PotereAlPopolo_Tema();
+                args.putString("tema", "PotereAlPopolo_Sud");
+                args.putString("titolo", "Sud");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        sinistrarivoluzionaria.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new SinistraRivoluzionaria_Tema();
+                args.putString("tema", "SinistraRivoluzionaria_Sud");
+                args.putString("titolo", "Sud");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        diecivoltemeglio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new DieciVolteMeglio_Tema();
+                args.putString("tema", "DieciVolteMeglio_Sud");
+                args.putString("titolo", "Sud");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

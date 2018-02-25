@@ -16,7 +16,7 @@ import android.support.v4.app.FragmentManager;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, Home.OnFragmentInteractionListener,
-        Coalizioni.OnFragmentInteractionListener, Partiti.OnFragmentInteractionListener, Programmi.OnFragmentInteractionListener, ComeSiVota.OnFragmentInteractionListener,
+        Coalizioni.OnFragmentInteractionListener, Partiti.OnFragmentInteractionListener, Programmi.OnFragmentInteractionListener,
         Centro_Destra.OnFragmentInteractionListener, Centro_Sinistra.OnFragmentInteractionListener,
         Pd.OnFragmentInteractionListener, Pd_Tema.OnFragmentInteractionListener,
         PiuEuropa.OnFragmentInteractionListener, PiuEuropa_Tema.OnFragmentInteractionListener,
@@ -149,9 +149,6 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.nav_programmi:
                 fragmentClass = Programmi.class;
-                break;
-            case R.id.nav_comesivota:
-                fragmentClass = ComeSiVota.class;
                 break;
             default:
                 fragmentClass = Home.class;

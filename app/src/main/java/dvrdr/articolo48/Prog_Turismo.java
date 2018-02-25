@@ -4,9 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 
 /**
@@ -64,7 +66,40 @@ public class Prog_Turismo extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_prog__turismo, container, false);
+        getActivity().setTitle("Turismo");
+        View view = inflater.inflate(R.layout.fragment_prog__turismo, container, false);
+        final ImageButton diecivoltemeglio = (ImageButton) view.findViewById(R.id.dieci_volte_meglio);
+        final ImageButton destreunite      = (ImageButton) view.findViewById(R.id.destre_unite);
+
+        final Bundle args   = new Bundle();
+        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+
+        destreunite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new DestreUnite_Tema();
+                args.putString("tema", "DestreUnite_Turismo");
+                args.putString("titolo", "Turismo");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        diecivoltemeglio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new DieciVolteMeglio_Tema();
+                args.putString("tema", "DieciVolteMeglio_Turismo");
+                args.putString("titolo", "Turismo");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
