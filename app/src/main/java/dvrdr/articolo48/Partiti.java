@@ -78,7 +78,7 @@ public class Partiti extends Fragment {
         final ImageButton democraziacristiana    = (ImageButton) view.findViewById(R.id.democrazia_cristiana);
         final ImageButton destreunite            = (ImageButton) view.findViewById(R.id.destre_unite);
         final ImageButton diecivoltemeglio       = (ImageButton) view.findViewById(R.id.dieci_volte_meglio);
-        final ImageButton forzaitalia            = (ImageButton) view.findViewById(R.id.forzaitalia);
+        final ImageButton forzaitalia            = (ImageButton) view.findViewById(R.id.forza_italia);
         final ImageButton fratelliditalia        = (ImageButton) view.findViewById(R.id.fratelli_d_italia);
         final ImageButton freeflightstoitaliy    = (ImageButton) view.findViewById(R.id.free_flights_to_italy);
         final ImageButton frontefriulano         = (ImageButton) view.findViewById(R.id.fronte_friulano);

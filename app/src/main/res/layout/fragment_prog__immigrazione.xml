@@ -4,10 +4,236 @@
     android:layout_height="match_parent"
     tools:context="dvrdr.articolo48.Prog_Immigrazione">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/casa_pound"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/casa_pound"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/civica_popolare_lorenzin"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/civica_popolare_lorenzin"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/forza_italia"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/forza_italia"
+                    android:scaleType="fitCenter"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/fratelli_d_italia"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/fratelli_d_italia"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/fronte_friulano"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/fronte_friulano"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/grande_nord"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/grande_nord"
+                    android:scaleType="fitCenter"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/il_popolo_della_famiglia"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/il_popolo_della_famiglia"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/lega"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/lega"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/liberi_uguali"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/liberi_uguali"
+                    android:scaleType="fitCenter"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/lista_del_popolo_della_costituzione"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/lista_del_popolo_della_costituzione"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/maie"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/maie"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/mic"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/mic"
+                    android:scaleType="fitCenter"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/movimento_5_stelle"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/movimento_5_stelle"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/partito_comunista"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/partito_comunista"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/pd"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/pd"
+                    android:scaleType="fitCenter"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/piu_europa"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/piu_europa"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/potere_al_popolo"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/potere_al_popolo"
+                    android:scaleType="fitCenter"/>
+
+                <ImageButton
+                    android:id="@+id/sinistra_rivoluzionaria"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/sinistra_rivoluzionaria"
+                    android:scaleType="fitCenter"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+
+                <ImageButton
+                    android:id="@+id/sms"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/sms"
+                    android:scaleType="fitCenter"/>
+
+                <Button
+                    android:id="@+id/empty"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/empty2"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+
+    </ScrollView>
 </FrameLayout>
+
