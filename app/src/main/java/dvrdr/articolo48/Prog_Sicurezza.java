@@ -73,14 +73,13 @@ public class Prog_Sicurezza extends Fragment {
         final ImageButton blocconazionale        = (ImageButton) view.findViewById(R.id.blocco_nazionale_per_la_liberta);
         final ImageButton casapound              = (ImageButton) view.findViewById(R.id.casa_pound);
         final ImageButton civicapopolare         = (ImageButton) view.findViewById(R.id.civica_popolare_lorenzin);
-        final ImageButton forzaitalia            = (ImageButton) view.findViewById(R.id.forza_italia);
+        final ImageButton forzaitalia            = (ImageButton) view.findViewById(R.id.forzaitalia);
         final ImageButton fratelliditalia        = (ImageButton) view.findViewById(R.id.fratelli_d_italia);
         final ImageButton popolofamiglia         = (ImageButton) view.findViewById(R.id.il_popolo_della_famiglia);
         final ImageButton lega                   = (ImageButton) view.findViewById(R.id.lega);
         final ImageButton liberiuguali           = (ImageButton) view.findViewById(R.id.liberi_uguali);
         final ImageButton mic                    = (ImageButton) view.findViewById(R.id.mic);
         final ImageButton movimento5stelle       = (ImageButton) view.findViewById(R.id.movimento_5_stelle);
-        final ImageButton noiconlitalia          = (ImageButton) view.findViewById(R.id.noi_con_l_italia);
         final ImageButton pd                     = (ImageButton) view.findViewById(R.id.pd);
         final ImageButton piueuropa              = (ImageButton) view.findViewById(R.id.piu_europa);
         final ImageButton poterepopolo           = (ImageButton) view.findViewById(R.id.potere_al_popolo);
@@ -214,18 +213,6 @@ public class Prog_Sicurezza extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new Movimento5Stelle_Tema();
                 args.putString("tema", "Movimento5Stelle_Sicurezza");
-                args.putString("titolo", "Sicurezza");
-                frag.setArguments(args);
-
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
-
-        noiconlitalia.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag = new NoiConLItalia_Tema();
-                args.putString("tema", "NoiConLItalia_Sicurezza");
                 args.putString("titolo", "Sicurezza");
                 frag.setArguments(args);
 

@@ -58,27 +58,12 @@
                     android:scaleType="fitCenter"/>
 
                 <ImageButton
-                    android:id="@+id/italia_agli_italiani"
-                    android:layout_width="96dp"
-                    android:layout_height="96dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/italia_agli_italiani"
-                    android:scaleType="fitCenter"/>
-
-                <ImageButton
                     android:id="@+id/partito_comunista"
                     android:layout_width="96dp"
                     android:layout_height="96dp"
                     android:layout_weight="1"
                     android:src="@drawable/partito_comunista"
                     android:scaleType="fitCenter"/>
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
 
                 <ImageButton
                     android:id="@+id/potere_al_popolo"
@@ -88,7 +73,14 @@
                     android:src="@drawable/potere_al_popolo"
                     android:scaleType="fitCenter"/>
 
-                <ImageButton
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                 <ImageButton
                     android:id="@+id/sinistra_rivoluzionaria"
                     android:layout_width="96dp"
                     android:layout_height="96dp"
@@ -103,6 +95,13 @@
                     android:layout_weight="1"
                     android:src="@drawable/pd"
                     android:scaleType="fitCenter"/>
+
+                <Button
+                    android:id="@+id/empty"
+                    android:layout_width="96dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" />
 
             </TableRow>
 

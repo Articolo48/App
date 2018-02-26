@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity
         Unital.OnFragmentInteractionListener,
         Usei.OnFragmentInteractionListener,
         Prog_Agroalimentare.OnFragmentInteractionListener, Prog_Ambiente.OnFragmentInteractionListener, Prog_Banche.OnFragmentInteractionListener, Prog_Cultura.OnFragmentInteractionListener,
-        Prog_Diritti.OnFragmentInteractionListener, Prog_Donne.OnFragmentInteractionListener, Prog_Energia.OnFragmentInteractionListener, Prog_Estero.OnFragmentInteractionListener,
+        Prog_Diritti.OnFragmentInteractionListener, Prog_Donne.OnFragmentInteractionListener, Prog_Energia.OnFragmentInteractionListener, Prog_Estero.OnFragmentInteractionListener, Prog_Economia.OnFragmentInteractionListener,
         Prog_Europa.OnFragmentInteractionListener, Prog_Famiglia.OnFragmentInteractionListener, Prog_Giovani.OnFragmentInteractionListener,
         Prog_Giustizia.OnFragmentInteractionListener, Prog_Governo.OnFragmentInteractionListener, Prog_Immigrazione.OnFragmentInteractionListener, Prog_Impresa.OnFragmentInteractionListener,
         Prog_Infrastruttura.OnFragmentInteractionListener, Prog_Istruzione.OnFragmentInteractionListener, Prog_Lavoro.OnFragmentInteractionListener, Prog_Previdenza.OnFragmentInteractionListener,

@@ -101,7 +101,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new Siamo_Tema();
                 args.putString("tema", "Siamo_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -113,7 +113,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new PartitoValoreUmano_Tema();
                 args.putString("tema", "PartitoValoreUmano_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -125,7 +125,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new Maie_Tema();
                 args.putString("tema", "Maie_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -137,7 +137,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new ItaliaAgliItaliani_Tema();
                 args.putString("tema", "ItaliaAgliItaliani_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -149,7 +149,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new FronteFriuliano_Tema();
                 args.putString("tema", "FronteFriuliano_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -161,7 +161,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new Autodeterminazione_Tema();
                 args.putString("tema", "Autodeterminazione_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -173,7 +173,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new CasaPound_Tema();
                 args.putString("tema", "CasaPound_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -185,7 +185,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new CivicaPopolareLorenzin_Tema();
                 args.putString("tema", "CivicaPopolareLorenzin_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -197,7 +197,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new DemocraziaCristiana_Tema();
                 args.putString("tema", "DemocraziaCristiana_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -209,7 +209,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new DieciVolteMeglio_Tema();
                 args.putString("tema", "DieciVolteMeglio_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -221,7 +221,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new FratelliDItalia_Tema();
                 args.putString("tema", "FratelliDItalia_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -233,7 +233,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new IlPopoloDellaFamiglia_Tema();
                 args.putString("tema", "IlPopoloDellaFamiglia_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -245,7 +245,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new Lega_Tema();
                 args.putString("tema", "Lega_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -257,7 +257,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new LiberiUguali_Tema();
                 args.putString("tema", "LiberiUguali_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -269,7 +269,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new ListaDelPopoloDellaCostituzione_Tema();
                 args.putString("tema", "ListaDelPopoloDellaCostituzione_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -281,7 +281,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new Movimento5Stelle_Tema();
                 args.putString("tema", "Movimento5Stelle_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -293,7 +293,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new NoiConLItalia_Tema();
                 args.putString("tema", "NoiConLItalia_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -305,7 +305,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new PartitoComunista_Tema();
                 args.putString("tema", "PartitoComunista_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -317,7 +317,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new PartitoRepubblicano_Tema();
                 args.putString("tema", "PartitoRepubblicano_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -329,7 +329,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new Pd_Tema();
                 args.putString("tema", "Pd_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -341,7 +341,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new PiuEuropa_Tema();
                 args.putString("tema", "PiuEuropa_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -353,7 +353,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new PotereAlPopolo_Tema();
                 args.putString("tema", "PotereAlPopolo_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -365,7 +365,7 @@ public class Prog_Sanita extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new SinistraRivoluzionaria_Tema();
                 args.putString("tema", "SinistraRivoluzionaria_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();

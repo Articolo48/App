@@ -92,7 +92,7 @@ public class Prog_Banche extends Fragment {
             @Override
             public void onClick(View view) {
                 Fragment frag = new Movimento5Stelle_Tema();
-                args.putString("tema", "SinistraRivoluzionaria_Banche");
+                args.putString("tema", "Movimento5Stelle_Banche");
                 args.putString("titolo", "Banche");
                 frag.setArguments(args);
 
@@ -104,7 +104,7 @@ public class Prog_Banche extends Fragment {
             @Override
             public void onClick(View view) {
                 Fragment frag = new Ppa_Tema();
-                args.putString("tema", "ppa_Banche");
+                args.putString("tema", "Ppa_Banche");
                 args.putString("titolo", "Banche");
                 frag.setArguments(args);
 

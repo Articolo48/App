@@ -82,10 +82,23 @@ public class Prog_Famiglia extends Fragment {
         final ImageButton popolofamiglia       = (ImageButton) view.findViewById(R.id.il_popolo_della_famiglia);
         final ImageButton siamo                = (ImageButton) view.findViewById(R.id.siamo);
         final ImageButton noi                  = (ImageButton) view.findViewById(R.id.noi_con_l_italia);
+        final ImageButton italiagliitaliani    = (ImageButton) view.findViewById(R.id.italia_agli_italiani);
 
 
         final Bundle args   = new Bundle();
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        italiagliitaliani.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new ItaliaAgliItaliani_Tema();
+                args.putString("tema", "ItaliaAgliItaliani_Famiglia");
+                args.putString("titolo", "Famiglia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
 
         blocconazionale.setOnClickListener(new View.OnClickListener() {
             @Override

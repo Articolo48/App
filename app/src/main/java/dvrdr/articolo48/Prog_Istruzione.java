@@ -73,7 +73,7 @@ public class Prog_Istruzione extends Fragment {
         final ImageButton casapound              = (ImageButton) view.findViewById(R.id.casa_pound);
         final ImageButton civicapopolare         = (ImageButton) view.findViewById(R.id.civica_popolare_lorenzin);
         final ImageButton destreunite            = (ImageButton) view.findViewById(R.id.destre_unite);
-        final ImageButton fratelliditalia        = (ImageButton) view.findViewById(R.id.fratelli_d_italia);
+        final ImageButton diecivoltemeglio       = (ImageButton) view.findViewById(R.id.dieci_volte_meglio);
         final ImageButton frontefriulano         = (ImageButton) view.findViewById(R.id.fronte_friulano);
         final ImageButton popolofamiglia         = (ImageButton) view.findViewById(R.id.il_popolo_della_famiglia);
         final ImageButton insieme                = (ImageButton) view.findViewById(R.id.insieme);
@@ -89,9 +89,34 @@ public class Prog_Istruzione extends Fragment {
         final ImageButton poterepopolo           = (ImageButton) view.findViewById(R.id.potere_al_popolo);
         final ImageButton sinistrarivoluzionaria = (ImageButton) view.findViewById(R.id.sinistra_rivoluzionaria);
         final ImageButton siamo                  = (ImageButton) view.findViewById(R.id.siamo);
+        final ImageButton italiaagliitaliani     = (ImageButton) view.findViewById(R.id.italia_agli_italiani);
 
         final Bundle args   = new Bundle();
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        italiaagliitaliani.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new ItaliaAgliItaliani_Tema();
+                args.putString("tema", "ItaliaAgliItaliani_Istruzione");
+                args.putString("titolo", "Istruzione");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
+
+        diecivoltemeglio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new DieciVolteMeglio_Tema();
+                args.putString("tema", "DieciVolteMeglio_Istruzione");
+                args.putString("titolo", "Istruzione");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
 
         autodeterminazione.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -135,18 +160,6 @@ public class Prog_Istruzione extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new DestreUnite_Tema();
                 args.putString("tema", "DestreUnite_Istruzione");
-                args.putString("titolo", "Istruzione");
-                frag.setArguments(args);
-
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
-
-        fratelliditalia.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag = new FratelliDItalia_Tema();
-                args.putString("tema", "FratelliDItalia_Istruzione");
                 args.putString("titolo", "Istruzione");
                 frag.setArguments(args);
 

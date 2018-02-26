@@ -50,11 +50,11 @@
                 android:gravity="center">
 
                 <ImageButton
-                    android:id="@+id/liberi_uguali"
+                    android:id="@+id/civica_popolare_lorenzin"
                     android:layout_width="96dp"
                     android:layout_height="96dp"
                     android:layout_weight="1"
-                    android:src="@drawable/liberi_uguali"
+                    android:src="@drawable/civica_popolare_lorenzin"
                     android:scaleType="fitCenter"/>
 
                 <ImageButton
@@ -73,34 +73,6 @@
                     android:src="@drawable/pd"
                     android:scaleType="fitCenter"/>
 
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
-
-                <ImageButton
-                    android:id="@+id/piu_europa"
-                    android:layout_width="96dp"
-                    android:layout_height="96dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/piu_europa"
-                    android:scaleType="fitCenter"/>
-
-                <Button
-                    android:id="@+id/empty"
-                    android:layout_width="96dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="" />
-
-                <Button
-                    android:id="@+id/empty2"
-                    android:layout_width="96dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="" />
             </TableRow>
 
         </TableLayout>

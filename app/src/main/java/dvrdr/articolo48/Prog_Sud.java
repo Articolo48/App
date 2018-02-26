@@ -70,7 +70,7 @@ public class Prog_Sud extends Fragment {
         View view = inflater.inflate(R.layout.fragment_prog__sud, container, false);
         final ImageButton diecivoltemeglio       = (ImageButton) view.findViewById(R.id.dieci_volte_meglio);
         final ImageButton civicapopolare         = (ImageButton) view.findViewById(R.id.civica_popolare_lorenzin);
-        final ImageButton forzaitalia            = (ImageButton) view.findViewById(R.id.forza_italia);
+        final ImageButton forzaitalia            = (ImageButton) view.findViewById(R.id.forzaitalia);
         final ImageButton insieme                = (ImageButton) view.findViewById(R.id.insieme);
         final ImageButton pd                     = (ImageButton) view.findViewById(R.id.pd);
         final ImageButton partitocomunista       = (ImageButton) view.findViewById(R.id.partito_comunista);

@@ -101,7 +101,7 @@ public class Programmi extends Fragment {
         energia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Prog_Agroalimentare();
+                Fragment frag = new Prog_Energia();
                 args.putString("tema", "Prog_Energia");
                 args.putString("titolo", "Energia");
                 frag.setArguments(args);

@@ -85,7 +85,7 @@ public class Prog_Sociale extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new ForzaItalia_Tema();
                 args.putString("tema", "ForzaItalia_Sociale");
-                args.putString("titolo", "Sociale");
+                args.putString("titolo", "Protezione Sociale");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -96,8 +96,8 @@ public class Prog_Sociale extends Fragment {
             @Override
             public void onClick(View view) {
                 Fragment frag = new FratelliDItalia_Tema();
-                args.putString("tema", "FratelliDItalia_Sociale");
-                args.putString("titolo", "Sociale");
+                args.putString("tema", "FratelliDItalia_Protezione_Sociale");
+                args.putString("titolo", "Protezione Sociale");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -109,7 +109,7 @@ public class Prog_Sociale extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new LiberiUguali_Tema();
                 args.putString("tema", "LiberiUguali_Sociale");
-                args.putString("titolo", "Sociale");
+                args.putString("titolo", "Protezione Sociale");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -120,8 +120,8 @@ public class Prog_Sociale extends Fragment {
             @Override
             public void onClick(View view) {
                 Fragment frag = new Movimento5Stelle_Tema();
-                args.putString("tema", "Movimento5Stelle_Sociale");
-                args.putString("titolo", "Sociale");
+                args.putString("tema", "Movimento5Stelle_Protezione_Sociale");
+                args.putString("titolo", "Protezione Sociale");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -132,8 +132,8 @@ public class Prog_Sociale extends Fragment {
             @Override
             public void onClick(View view) {
                 Fragment frag = new PartitoComunista_Tema();
-                args.putString("tema", "PartitoComunista_Sociale");
-                args.putString("titolo", "Sociale");
+                args.putString("tema", "PartitoComunista_Protezione_Sociale");
+                args.putString("titolo", "Protezione Sociale");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -144,8 +144,8 @@ public class Prog_Sociale extends Fragment {
             @Override
             public void onClick(View view) {
                 Fragment frag = new Pd_Tema();
-                args.putString("tema", "Pd_Sociale");
-                args.putString("titolo", "Sociale");
+                args.putString("tema", "Pd_Protezione_Sociale");
+                args.putString("titolo", "Protezione Sociale");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -156,8 +156,8 @@ public class Prog_Sociale extends Fragment {
             @Override
             public void onClick(View view) {
                 Fragment frag = new PiuEuropa_Tema();
-                args.putString("tema", "PiuEuropa_Sociale");
-                args.putString("titolo", "Sociale");
+                args.putString("tema", "PiuEuropa_Protezione_Sociale");
+                args.putString("titolo", "Protezione Sociale");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
@@ -169,7 +169,7 @@ public class Prog_Sociale extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new Sms_Tema();
                 args.putString("tema", "Sms_Sociale");
-                args.putString("titolo", "Sociale");
+                args.putString("titolo", "Protezione Sociale");
                 frag.setArguments(args);
 
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();

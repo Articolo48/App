@@ -88,7 +88,6 @@ public class Prog_Immigrazione extends Fragment {
         final ImageButton poterepopolo           = (ImageButton) view.findViewById(R.id.potere_al_popolo);
         final ImageButton sinistrarivoluzionaria = (ImageButton) view.findViewById(R.id.sinistra_rivoluzionaria);
         final ImageButton sms                    = (ImageButton) view.findViewById(R.id.sms);
-        final ImageButton svp                    = (ImageButton) view.findViewById(R.id.svp);
 
         final Bundle args   = new Bundle();
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
@@ -315,18 +314,6 @@ public class Prog_Immigrazione extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new Sms_Tema();
                 args.putString("tema", "Sms_Immigrazione");
-                args.putString("titolo", "Immigrazione");
-                frag.setArguments(args);
-
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
-
-        svp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag = new Svp_Tema();
-                args.putString("tema", "Svp_Immigrazione");
                 args.putString("titolo", "Immigrazione");
                 frag.setArguments(args);
 

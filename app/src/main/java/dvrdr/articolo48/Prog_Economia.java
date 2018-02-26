@@ -143,7 +143,7 @@ public class Prog_Economia extends Fragment {
             }
         });
 
-        forzaitalia.setOnClickListener(new View.OnClickListener() {
+       forzaitalia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Fragment frag = new ForzaItalia_Tema();

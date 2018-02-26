@@ -115,7 +115,7 @@ public class Prog_Giovani extends Fragment {
         forzaitalia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new BloccoNazionale_Tema();
+                Fragment frag = new ForzaItalia_Tema();
                 args.putString("tema", "ForzaItalia_Giovani");
                 args.putString("titolo", "Giovani");
                 frag.setArguments(args);

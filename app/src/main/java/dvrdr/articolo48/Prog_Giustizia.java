@@ -80,14 +80,26 @@ public class Prog_Giustizia extends Fragment {
         final ImageButton noiconlitalia          = (ImageButton) view.findViewById(R.id.noi_con_l_italia);
         final ImageButton partitocomunista       = (ImageButton) view.findViewById(R.id.partito_comunista);
         final ImageButton partitorepubblicano    = (ImageButton) view.findViewById(R.id.partito_repubblicano_italiano);
+        final ImageButton piueruopa              = (ImageButton) view.findViewById(R.id.piu_europa);
         final ImageButton pd                     = (ImageButton) view.findViewById(R.id.pd);
         final ImageButton poterepopolo           = (ImageButton) view.findViewById(R.id.potere_al_popolo);
-        final ImageButton sinistrarivoluzionaria = (ImageButton) view.findViewById(R.id.sinistra_rivoluzionaria);
         final ImageButton siamo                  = (ImageButton) view.findViewById(R.id.siamo);
 
 
         final Bundle args   = new Bundle();
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        piueruopa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new PiuEuropa_Tema();
+                args.putString("tema", "PiuEuropa_Giustizia");
+                args.putString("titolo", "Giustizia");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
 
         casapound.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -246,22 +258,10 @@ public class Prog_Giustizia extends Fragment {
             }
         });
 
-        sinistrarivoluzionaria.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag = new SinistraRivoluzionaria_Tema();
-                args.putString("tema", "SinistraRivoluzionaria_Giustizia");
-                args.putString("titolo", "Giustizia");
-                frag.setArguments(args);
-
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
-
         siamo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment frag = new Pd_Tema();
+                Fragment frag = new Siamo_Tema();
                 args.putString("tema", "Siamo_Giustizia");
                 args.putString("titolo", "Giustizia");
                 frag.setArguments(args);

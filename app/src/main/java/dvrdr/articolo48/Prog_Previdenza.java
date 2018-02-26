@@ -70,9 +70,9 @@ public class Prog_Previdenza extends Fragment {
         View view = inflater.inflate(R.layout.fragment_prog__previdenza, container, false);
 
         final ImageButton democraziacristiana    = (ImageButton) view.findViewById(R.id.democrazia_cristiana);
-        final ImageButton forzaitalia            = (ImageButton) view.findViewById(R.id.forzaitalia);
+        final ImageButton destreunite            = (ImageButton) view.findViewById(R.id.destre_unite);
+        final ImageButton forzaitalia            = (ImageButton) view.findViewById(R.id.forza_italia);
         final ImageButton fratelliditalia        = (ImageButton) view.findViewById(R.id.fratelli_d_italia);
-        final ImageButton popolofamiglia         = (ImageButton) view.findViewById(R.id.il_popolo_della_famiglia);
         final ImageButton lega                   = (ImageButton) view.findViewById(R.id.lega);
         final ImageButton liberiuguali           = (ImageButton) view.findViewById(R.id.liberi_uguali);
         final ImageButton mic                    = (ImageButton) view.findViewById(R.id.mic);
@@ -87,6 +87,18 @@ public class Prog_Previdenza extends Fragment {
 
         final Bundle args   = new Bundle();
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+        destreunite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new DestreUnite_Tema();
+                args.putString("tema", "DestreUnite_Previdenza");
+                args.putString("titolo", "Previdenza");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
 
         democraziacristiana.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -117,18 +129,6 @@ public class Prog_Previdenza extends Fragment {
             public void onClick(View view) {
                 Fragment frag = new FratelliDItalia_Tema();
                 args.putString("tema", "FratelliDItalia_Previdenza");
-                args.putString("titolo", "Previdenza");
-                frag.setArguments(args);
-
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
-
-        popolofamiglia.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag = new IlPopoloDellaFamiglia_Tema();
-                args.putString("tema", "IlPopoloDellaFamiglia_Previdenza");
                 args.putString("titolo", "Previdenza");
                 frag.setArguments(args);
 

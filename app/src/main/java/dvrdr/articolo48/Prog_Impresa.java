@@ -71,13 +71,25 @@ public class Prog_Impresa extends Fragment {
         final ImageButton forzaitalia      = (ImageButton) view.findViewById(R.id.forza_italia);
         final ImageButton fratelliditalia  = (ImageButton) view.findViewById(R.id.fratelli_d_italia);
         final ImageButton lega             = (ImageButton) view.findViewById(R.id.lega);
-        final ImageButton liberiuguali     = (ImageButton) view.findViewById(R.id.liberi_uguali);
         final ImageButton movimento5stelle = (ImageButton) view.findViewById(R.id.movimento_5_stelle);
         final ImageButton pd               = (ImageButton) view.findViewById(R.id.pd);
-        final ImageButton piueuropa        = (ImageButton) view.findViewById(R.id.piu_europa);
+        final ImageButton civicapopolare   = (ImageButton) view.findViewById(R.id.civica_popolare_lorenzin);
 
         final Bundle args   = new Bundle();
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+
+
+        civicapopolare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment frag = new CivicaPopolareLorenzin_Tema();
+                args.putString("tema", "CivicaPopolareLorenzin_Impresa");
+                args.putString("titolo", "Impresa");
+                frag.setArguments(args);
+
+                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
+            }
+        });
 
         forzaitalia.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -116,18 +128,6 @@ public class Prog_Impresa extends Fragment {
             }
         });
 
-        liberiuguali.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag = new LiberiUguali_Tema();
-                args.putString("tema", "LiberiUguali_Impresa");
-                args.putString("titolo", "Impresa");
-                frag.setArguments(args);
-
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
-
         movimento5stelle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -151,19 +151,6 @@ public class Prog_Impresa extends Fragment {
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }
         });
-
-        piueuropa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag = new PiuEuropa_Tema();
-                args.putString("tema", "PiuEuropa_Impresa");
-                args.putString("titolo", "Impresa");
-                frag.setArguments(args);
-
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
-
 
         return view;
     }
