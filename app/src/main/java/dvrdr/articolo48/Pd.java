@@ -260,7 +260,7 @@ public class Pd extends Fragment {
         societa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                args.putString("tema", "Pd_Societa");
+                args.putString("tema", "Pd_Protezione_Sociale");
                 args.putString("titolo", "Protezione Sociale");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();

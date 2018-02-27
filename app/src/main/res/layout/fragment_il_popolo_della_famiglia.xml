@@ -155,7 +155,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:drawableTop="@drawable/ic_button_sanita"
-                            android:text="sanita" />
+                            android:text="sanità" />
 
                         <Button
                             android:id="@+id/But_Sicurezza"

@@ -23,7 +23,7 @@
 * L’impegno per la prossima legislatura è quello di dimezzare il conferimento in discarica e di arrivare al 65% di riciclo, promuovendo i principi dell’economia circolare.\n
 * Lo sviluppo della produzione di energia rinnovabile (55% del fabbisogno totale entro il 2030) andrà di pari passo con la cessazione della produzione di energia elettrica da carbone entro il 2025."
     </string>
-    <string name="Pd_Cultura">"\n* Promuoveremo una nuova legge sull’editoria, come abbiamo fatto con cinema e spettacolo, con misure di sostegno per tutte le filiere del libro.\n+
+    <string name="Pd_Cultura">"\n* Promuoveremo una nuova legge sull’editoria, come abbiamo fatto con cinema e spettacolo, con misure di sostegno per tutte le filiere del libro.\n
 * Un fondo strutturale sarà destinato alla rigenerazione delle aree dismesse, sottoutilizzate, periferiche, segnalate da enti locali, reti locali di operatori, artisti o semplici cittadini.\n
 * Il contributo da 500 euro per i 18enni per l’acquisto di prodotti culturali diventerà stabile nel tempo.\n
 * Cultura e turismo possono essere alleati. Per questo introdurremo incentivi fiscali sul modello dell’iper ammortamento per chi riqualifica alberghi e strutture ricettive.\n
@@ -390,7 +390,7 @@ Lotta all’evasione e all’elusione fiscale, soprattutto nei confronti delle g
     <string name="FratelliDItalia_Previdenza">"\n* Garantire il diritto alla salute con il miglioramento e l’estensione delle prestazioni sanitarie. Modifica del sistema pensionistico: superamento della legge Fornero e nuova riforma previdenziale..."</string>
     <string name="FratelliDItalia_Protezione_Sociale">"\n* Piano casa per affrontare l’emergenza abitativa con mutuo sociale e affitto a riscatto. Rafforzamento della sussidiarietà. Per un Terzo Settore qualificato. Stop al racket dei mendicanti."</string>
     <string name="FratelliDItalia_Sanita">"\n* Aiuto economico concreto a chi è impossibilitato a lavorare per ragioni oggettive: bambini, disabili, ultra sessantenni no reddito. Aumento delle pensioni minime e raddoppio dell’assegno di invalidità."</string>
-    <string name="FratelliDItalia_Sicurezza">"\n*Sostegno alle forze dell’ordine e alle forze armate: stipendi e straordinari dignitosi, dotazioni adeguate di personale, mezzi e tecnologie utili al contrasto del crimine e del terrorismo."</string>
+    <string name="FratelliDItalia_Sicurezza">"\n* Sostegno alle forze dell’ordine e alle forze armate: stipendi e straordinari dignitosi, dotazioni adeguate di personale, mezzi e tecnologie utili al contrasto del crimine e del terrorismo."</string>
     <string name="FratelliDItalia_Tecnologia">"\n* Investire nell’ ammodernamento della Nazione e sulla capacità digitale. Favorevoli a utilizzo degli strumenti tecnologici ultima generazione."</string>
     <string name="FratelliDItalia_Europa">"\n* Difesa della nostra sovranità nazionale. Ridiscussione di tutti i trattati UE a partire dal fiscal compact e dall’euro. Più politica e meno burocrazia in Europa. Tutelare l’italianità nel mondo"</string>
 

@@ -100,12 +100,13 @@
                     android:scaleType="fitCenter"/>
 
                 <ImageButton
-                    android:id="@+id/italia_agli_italiani"
+                    android:id="@+id/lega"
                     android:layout_width="96dp"
                     android:layout_height="96dp"
                     android:layout_weight="1"
-                    android:src="@drawable/italia_agli_italiani"
+                    android:src="@drawable/lega"
                     android:scaleType="fitCenter"/>
+
 
             </TableRow>
 
@@ -113,14 +114,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center">
-
-                <ImageButton
-                    android:id="@+id/lega"
-                    android:layout_width="96dp"
-                    android:layout_height="96dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/lega"
-                    android:scaleType="fitCenter"/>
 
                 <ImageButton
                     android:id="@+id/liberi_uguali"
@@ -138,13 +131,6 @@
                     android:src="@drawable/lista_del_popolo_della_costituzione"
                     android:scaleType="fitCenter"/>
 
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
-
                 <ImageButton
                     android:id="@+id/maie"
                     android:layout_width="96dp"
@@ -152,6 +138,13 @@
                     android:layout_weight="1"
                     android:src="@drawable/maie"
                     android:scaleType="fitCenter"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
                 <ImageButton
                     android:id="@+id/movimento_5_stelle"
@@ -169,15 +162,6 @@
                     android:src="@drawable/noi_con_l_italia"
                     android:scaleType="fitCenter"/>
 
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
-
-
-
                 <ImageButton
                     android:id="@+id/partito_comunista"
                     android:layout_width="96dp"
@@ -185,6 +169,13 @@
                     android:layout_weight="1"
                     android:src="@drawable/partito_comunista"
                     android:scaleType="fitCenter"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
                 <ImageButton
                     android:id="@+id/partito_repubblicano_italiano"
@@ -202,6 +193,13 @@
                     android:src="@drawable/pd"
                     android:scaleType="fitCenter"/>
 
+                <ImageButton
+                    android:id="@+id/potere_al_popolo"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/potere_al_popolo"
+                    android:scaleType="fitCenter"/>
 
             </TableRow>
 
@@ -210,13 +208,6 @@
                 android:layout_height="match_parent"
                 android:gravity="center">
 
-                <ImageButton
-                    android:id="@+id/potere_al_popolo"
-                    android:layout_width="96dp"
-                    android:layout_height="96dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/potere_al_popolo"
-                    android:scaleType="fitCenter"/>
                 <ImageButton
                     android:id="@+id/siamo"
                     android:layout_width="96dp"
@@ -232,6 +223,13 @@
                     android:layout_weight="1"
                     android:src="@drawable/sinistra_rivoluzionaria"
                     android:scaleType="fitCenter"/>
+
+                <Button
+                    android:id="@+id/empty"
+                    android:layout_width="96dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" />
 
             </TableRow>
 

@@ -89,22 +89,9 @@ public class Prog_Istruzione extends Fragment {
         final ImageButton poterepopolo           = (ImageButton) view.findViewById(R.id.potere_al_popolo);
         final ImageButton sinistrarivoluzionaria = (ImageButton) view.findViewById(R.id.sinistra_rivoluzionaria);
         final ImageButton siamo                  = (ImageButton) view.findViewById(R.id.siamo);
-        final ImageButton italiaagliitaliani     = (ImageButton) view.findViewById(R.id.italia_agli_italiani);
 
         final Bundle args   = new Bundle();
         final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-
-        italiaagliitaliani.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment frag = new ItaliaAgliItaliani_Tema();
-                args.putString("tema", "ItaliaAgliItaliani_Istruzione");
-                args.putString("titolo", "Istruzione");
-                frag.setArguments(args);
-
-                fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
-            }
-        });
 
         diecivoltemeglio.setOnClickListener(new View.OnClickListener() {
             @Override

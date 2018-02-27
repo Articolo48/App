@@ -134,7 +134,7 @@ public class DestreUnite extends Fragment {
             @Override
             public void onClick(View view) {
                 args.putString("tema", "DestreUnite_Sanita");
-                args.putString("titolo", "Sanita");
+                args.putString("titolo", "Sanità");
                 frag.setArguments(args);
                 fragmentManager.beginTransaction().replace(R.id.flContent, frag).addToBackStack(null) .commit();
             }

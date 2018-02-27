@@ -92,7 +92,7 @@ public class Prog_Sicurezza extends Fragment {
             @Override
             public void onClick(View view) {
                 Fragment frag = new Autodeterminazione_Tema();
-                args.putString("tema", "Autodeterminzazione_Sicurezza");
+                args.putString("tema", "Autodeterminazione_Sicurezza");
                 args.putString("titolo", "Sicurezza");
                 frag.setArguments(args);
 
